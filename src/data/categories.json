@@ -1,0 +1,200 @@
+[
+  {
+    "id": "wardrobes",
+    "slug": "wardrobes",
+    "title": {
+      "en": "Wardrobes"
+    },
+    "description": {
+      "en": "Wardrobes"
+    },
+    "isActive": true
+  },
+  {
+    "id": "desks",
+    "slug": "desks",
+    "title": {
+      "en": "Desks"
+    },
+    "description": {
+      "en": "Desks"
+    },
+    "isActive": true
+  },
+  {
+    "id": "desk-minibar",
+    "slug": "desk-minibar",
+    "title": {
+      "en": "Desk + Minibar"
+    },
+    "description": {
+      "en": "Desk + Minibar"
+    },
+    "isActive": true
+  },
+  {
+    "id": "minibars",
+    "slug": "minibars",
+    "title": {
+      "en": "Minibars"
+    },
+    "description": {
+      "en": "Minibars"
+    },
+    "isActive": true
+  },
+  {
+    "id": "shelving",
+    "slug": "shelving",
+    "title": {
+      "en": "Shelving"
+    },
+    "description": {
+      "en": "Shelving"
+    },
+    "isActive": true
+  },
+  {
+    "id": "media-walls",
+    "slug": "media-walls",
+    "title": {
+      "en": "Media Walls"
+    },
+    "description": {
+      "en": "Media Walls"
+    },
+    "isActive": true
+  },
+  {
+    "id": "sofas",
+    "slug": "sofas",
+    "title": {
+      "en": "Sofas"
+    },
+    "description": {
+      "en": "Sofas"
+    },
+    "isActive": true
+  },
+  {
+    "id": "armchairs",
+    "slug": "armchairs",
+    "title": {
+      "en": "Armchairs"
+    },
+    "description": {
+      "en": "Armchairs"
+    },
+    "isActive": true
+  },
+  {
+    "id": "occasional-tables-consoles",
+    "slug": "occasional-tables-consoles",
+    "title": {
+      "en": "Occasional Tables + Consoles"
+    },
+    "description": {
+      "en": "Occasional Tables + Consoles"
+    },
+    "isActive": true
+  },
+  {
+    "id": "dining-tables",
+    "slug": "dining-tables",
+    "title": {
+      "en": "Dining Tables"
+    },
+    "description": {
+      "en": "Dining Tables"
+    },
+    "isActive": true
+  },
+  {
+    "id": "dining-chairs",
+    "slug": "dining-chairs",
+    "title": {
+      "en": "Dining Chairs"
+    },
+    "description": {
+      "en": "Dining Chairs"
+    },
+    "isActive": true
+  },
+  {
+    "id": "sideboards",
+    "slug": "sideboards",
+    "title": {
+      "en": "Sideboards"
+    },
+    "description": {
+      "en": "Sideboards"
+    },
+    "isActive": true
+  },
+  {
+    "id": "vitrines",
+    "slug": "vitrines",
+    "title": {
+      "en": "Vitrines"
+    },
+    "description": {
+      "en": "Vitrines"
+    },
+    "isActive": true
+  },
+  {
+    "id": "bookcases",
+    "slug": "bookcases",
+    "title": {
+      "en": "Bookcases"
+    },
+    "description": {
+      "en": "Bookcases"
+    },
+    "isActive": true
+  },
+  {
+    "id": "beds",
+    "slug": "beds",
+    "title": {
+      "en": "Beds"
+    },
+    "description": {
+      "en": "Beds"
+    },
+    "isActive": true
+  },
+  {
+    "id": "nightstands",
+    "slug": "nightstands",
+    "title": {
+      "en": "Nightstands"
+    },
+    "description": {
+      "en": "Nightstands"
+    },
+    "isActive": true
+  },
+  {
+    "id": "dressers-chests",
+    "slug": "dressers-chests",
+    "title": {
+      "en": "Dressers + Chests"
+    },
+    "description": {
+      "en": "Dressers + Chests"
+    },
+    "isActive": true
+  },
+  {
+    "id": "vanities",
+    "slug": "vanities",
+    "title": {
+      "en": "Vanities"
+    },
+    "description": {
+      "en": "Vanities"
+    },
+    "isActive": true
+  }
+]

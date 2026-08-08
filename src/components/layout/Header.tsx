@@ -34,10 +34,11 @@ export default async function Header() {
           {/* Download Catalogue CTA */}
           <a 
             href="/docs/genesi-catalogue.pdf" 
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium bg-[#5B9C94] text-white px-5 py-2 hover:bg-[#488079] transition-colors"
           >
-            Download Catalogue
+            Open Catalogue
           </a>
           
           {/* Auth Block */}

@@ -34,7 +34,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 62 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-001.pdf"
   },
   {
     "id": "wrd-002",
@@ -71,7 +75,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "300 × 62 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-002.pdf"
   },
   {
     "id": "wrd-003",
@@ -108,7 +116,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "240 × 62 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-003.pdf"
   },
   {
     "id": "wrd-004",
@@ -145,7 +157,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 60 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-004.pdf"
   },
   {
     "id": "wrd-005",
@@ -182,7 +198,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "260 × 62 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-005.pdf"
   },
   {
     "id": "wrd-006",
@@ -219,7 +239,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 62 × 225"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-006.pdf"
   },
   {
     "id": "dsk-001",
@@ -256,7 +280,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 90 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-001.pdf"
   },
   {
     "id": "dsk-002",
@@ -293,7 +321,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "160 × 70 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-002.pdf"
   },
   {
     "id": "dsk-003",
@@ -330,7 +362,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 180 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-003.pdf"
   },
   {
     "id": "dsk-004",
@@ -367,7 +403,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 80 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-004.pdf"
   },
   {
     "id": "dmb-001",
@@ -404,7 +444,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 60 × 110 (desk 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-001.pdf"
   },
   {
     "id": "dmb-002",
@@ -441,7 +485,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 65 × 95 (desk 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-002.pdf"
   },
   {
     "id": "mnb-001",
@@ -478,7 +526,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "90 × 60 × 130"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-001.pdf"
   },
   {
     "id": "mnb-002",
@@ -515,7 +567,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 60 × 150"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-002.pdf"
   },
   {
     "id": "mnb-003",
@@ -552,7 +608,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 60 × 100"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-003.pdf"
   },
   {
     "id": "mnb-004",
@@ -589,7 +649,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "120 × 60 × 135"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-004.pdf"
   },
   {
     "id": "mnb-005",
@@ -626,7 +690,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 60 × 160"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-005.pdf"
   },
   {
     "id": "shf-001",
@@ -663,7 +731,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "120 × 40 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/shelving-unit-shf-001.pdf"
   },
   {
     "id": "tvw-001",
@@ -700,7 +772,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 50 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-001.pdf"
   },
   {
     "id": "tvw-002",
@@ -737,7 +813,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "320 × 50 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-002.pdf"
   },
   {
     "id": "tvw-003",
@@ -774,7 +854,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 50 × 200"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-003.pdf"
   },
   {
     "id": "tvw-004",
@@ -811,7 +895,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "320 × 55 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-004.pdf"
   },
   {
     "id": "sof-001",
@@ -848,7 +936,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 105 × 78; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/deck-sofa.pdf"
   },
   {
     "id": "sof-002",
@@ -885,7 +977,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "260 × 100 × 75; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/calm-sofa.pdf"
   },
   {
     "id": "sof-003",
@@ -922,7 +1018,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "300 × 105 × 80; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/axis-sofa.pdf"
   },
   {
     "id": "sof-004",
@@ -959,7 +1059,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "250 × 100 × 78; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/mona-sofa.pdf"
   },
   {
     "id": "sof-005",
@@ -996,7 +1100,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "240 × 95 × 78; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-005.pdf"
   },
   {
     "id": "sof-006",
@@ -1033,7 +1141,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "320 × 105 × 72; SH 40"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-006.pdf"
   },
   {
     "id": "arm-001",
@@ -1070,7 +1182,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 95 × 75; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/deck-armchair.pdf"
   },
   {
     "id": "arm-002",
@@ -1107,7 +1223,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "95 × 90 × 78; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/calm-armchair.pdf"
   },
   {
     "id": "arm-003",
@@ -1144,7 +1264,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "95 × 90 × 80; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/axis-armchair.pdf"
   },
   {
     "id": "arm-004",
@@ -1181,7 +1305,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 95 × 80; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/mona-armchair.pdf"
   },
   {
     "id": "arm-005",
@@ -1218,7 +1346,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "85 × 90 × 80; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-005.pdf"
   },
   {
     "id": "arm-006",
@@ -1255,7 +1387,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "110 × 95 × 78; SH 42"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-006.pdf"
   },
   {
     "id": "tbl-005",
@@ -1292,7 +1428,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 45 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-005.pdf"
   },
   {
     "id": "tbl-006",
@@ -1329,7 +1469,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "140 × 50 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-006.pdf"
   },
   {
     "id": "tbl-007",
@@ -1366,7 +1510,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 45 × 78"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-007.pdf"
   },
   {
     "id": "tbl-001",
@@ -1403,7 +1551,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "260 × 110 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-001.pdf"
   },
   {
     "id": "tbl-002",
@@ -1440,7 +1592,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 120 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-002.pdf"
   },
   {
     "id": "tbl-003",
@@ -1477,7 +1633,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "280 × 110 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-003.pdf"
   },
   {
     "id": "tbl-004",
@@ -1514,7 +1674,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "260 × 115 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-004.pdf"
   },
   {
     "id": "chr-001",
@@ -1551,7 +1715,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "50 × 55 × 88; SH 47"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-001.pdf"
   },
   {
     "id": "chr-002",
@@ -1588,7 +1756,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "52 × 56 × 86; SH 47"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-002.pdf"
   },
   {
     "id": "chr-003",
@@ -1625,7 +1797,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "55 × 60 × 88; SH 47"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-003.pdf"
   },
   {
     "id": "chr-004",
@@ -1662,7 +1838,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "50 × 58 × 90; SH 47"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-004.pdf"
   },
   {
     "id": "sdb-001",
@@ -1699,7 +1879,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "240 × 50 × 80"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-001.pdf"
   },
   {
     "id": "sdb-002",
@@ -1736,7 +1920,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 50 × 82"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-002.pdf"
   },
   {
     "id": "sdb-003",
@@ -1773,7 +1961,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "260 × 50 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-003.pdf"
   },
   {
     "id": "sdb-004",
@@ -1810,7 +2002,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 50 × 78"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-004.pdf"
   },
   {
     "id": "vtr-001",
@@ -1847,7 +2043,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "80 × 45 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-001.pdf"
   },
   {
     "id": "vtr-002",
@@ -1884,7 +2084,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "90 × 45 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-002.pdf"
   },
   {
     "id": "bkc-001",
@@ -1921,7 +2125,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "240 × 40 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-001.pdf"
   },
   {
     "id": "bkc-002",
@@ -1958,7 +2166,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "160 × 40 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-002.pdf"
   },
   {
     "id": "bkc-003",
@@ -1995,7 +2207,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 40 × 220"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-003.pdf"
   },
   {
     "id": "bkc-004",
@@ -2032,7 +2248,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 45 × 210"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-004.pdf"
   },
   {
     "id": "bed-001",
@@ -2069,7 +2289,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 225 × 120 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-001.pdf"
   },
   {
     "id": "bed-002",
@@ -2106,7 +2330,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 235 × 105 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-002.pdf"
   },
   {
     "id": "bed-003",
@@ -2143,7 +2371,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 225 × 125 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-003.pdf"
   },
   {
     "id": "bed-004",
@@ -2180,7 +2412,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "215 × 230 × 115 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-004.pdf"
   },
   {
     "id": "bed-005",
@@ -2217,7 +2453,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "210 × 225 × 110 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-005.pdf"
   },
   {
     "id": "bed-006",
@@ -2254,7 +2494,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "230 × 235 × 105 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-006.pdf"
   },
   {
     "id": "bed-007",
@@ -2291,7 +2535,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 230 × 140 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-007.pdf"
   },
   {
     "id": "bed-008",
@@ -2328,7 +2576,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "225 × 230 × 125 (mattress 180 × 200)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-008.pdf"
   },
   {
     "id": "nst-001",
@@ -2365,7 +2617,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "100 × 50 × 60"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-001.pdf"
   },
   {
     "id": "nst-002",
@@ -2402,7 +2658,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "65 × 50 × 60"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-002.pdf"
   },
   {
     "id": "nst-003",
@@ -2439,7 +2699,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "90 × 50 × 60"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-003.pdf"
   },
   {
     "id": "nst-004",
@@ -2476,7 +2740,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "80 × 48 × 60"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-004.pdf"
   },
   {
     "id": "nst-005",
@@ -2513,7 +2781,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "55 × 45 × 65"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-005.pdf"
   },
   {
     "id": "nst-006",
@@ -2550,7 +2822,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "55 × 55 × 110"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-006.pdf"
   },
   {
     "id": "drs-001",
@@ -2587,7 +2863,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "200 × 50 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-001.pdf"
   },
   {
     "id": "drs-002",
@@ -2624,7 +2904,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "200 × 50 × 75"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-002.pdf"
   },
   {
     "id": "drs-003",
@@ -2661,7 +2945,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "220 × 50 × 80"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-003.pdf"
   },
   {
     "id": "drs-004",
@@ -2698,7 +2986,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 50 × 80"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-004.pdf"
   },
   {
     "id": "drs-005",
@@ -2735,7 +3027,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 50 × 90"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-005.pdf"
   },
   {
     "id": "drs-006",
@@ -2772,7 +3068,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "75 × 50 × 140"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-006.pdf"
   },
   {
     "id": "van-001",
@@ -2809,7 +3109,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "160 × 55 × 145 (top 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-001.pdf"
   },
   {
     "id": "van-002",
@@ -2846,7 +3150,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "180 × 55 × 145 (top 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-002.pdf"
   },
   {
     "id": "van-003",
@@ -2883,7 +3191,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "160 × 55 × 145 (top 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-003.pdf"
   },
   {
     "id": "van-004",
@@ -2920,7 +3232,11 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "140 × 55 × 140 (top 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-004.pdf"
   },
   {
     "id": "van-005",
@@ -2957,6 +3273,10 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ]
+    ],
+    "dimensions": {
+      "en": "70 × 45 × 145 (top 75)"
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-005.pdf"
   }
 ]

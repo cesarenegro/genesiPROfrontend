@@ -1,0 +1,26 @@
+SESSION HANDOVER - GENESI FRONTEND
+
+Cosa è stato fatto in questa sessione:
+
+1. **Risoluzione Problemi di Autenticazione Git / Push:**
+   - Abbiamo identificato che Windows Credential Manager bloccava i push automatici con PAT (Personal Access Token). Abbiamo delegato il push finale al terminale locale per permettere l'inserimento corretto del token.
+
+2. **Risoluzione Crash Vercel (Errore 500 Middleware):**
+   - Dal log di Vercel abbiamo scoperto che l'errore `MIDDLEWARE_INVOCATION_FAILED` era causato da un `401 Unauthorized` lato server di Clerk.
+   - Diagnosi: Le chiavi Clerk (`CLERK_SECRET_KEY` e `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`) configurate su Vercel non corrispondevano tra loro o non erano valide per quell'ambiente. Abbiamo indicato come copiare e incollare le chiavi corrette dalla dashboard di Clerk per risolvere il crash.
+
+3. **Fix Visualizzazione PDF (Non si apriva nel browser):**
+   - Nei file `Header.tsx` e `trade/page.tsx` i link ai PDF usavano l'attributo HTML `download` (che forza il salvataggio su disco).
+   - È stato sostituito con `target="_blank"` e `rel="noopener noreferrer"` per far aprire i PDF direttamente in una nuova scheda.
+
+4. **Fix PDF corrotti su Vercel (pochi byte) e Rimozione Git LFS:**
+   - Vercel scaricava solo il "puntatore" testuale di Git LFS da pochi byte invece del file da 11.7 MB reale.
+   - Dato che i file pesano solo 12MB totali (ben al di sotto del limite di 100MB di GitHub), **abbiamo scollegato e rimosso Git LFS per i PDF**, inserendoli come normalissimi file Git per garantire che Vercel li ricevesse interi.
+
+5. **Fix Cache CDN di Vercel (Cache Busting):**
+   - Per impedire a Vercel e ai browser di continuare a mostrare la versione vecchia corrotta (memorizzata in cache), abbiamo applicato il "Cache Busting".
+   - I link ai PDF nel codice ora terminano con `?v=2`, costringendo il server a servire la nuova versione da 11MB garantita.
+
+Stato attuale:
+- Nessun server locale è attualmente in esecuzione (ho verificato e chiuso tutto).
+- Il codice è pronto e ottimizzato. L'ultimo push (quello per il cache busting) deve essere inviato dal terminale dell'utente.

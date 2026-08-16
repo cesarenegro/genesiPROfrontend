@@ -18,7 +18,7 @@ export default async function TradePage() {
           </p>
           
           <a 
-            href="/docs/genesi-price-list-2026.pdf" 
+            href="/docs/genesi-price-list-2026.pdf?v=2" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-foreground text-background px-8 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-foreground/90 transition-colors w-full sm:w-auto"

@@ -28,6 +28,8 @@ export interface Product {
   description?: LocalizedString;
   specifications?: LocalizedString;
   materials?: LocalizedString;
+  dimensions?: LocalizedString;
+  tearSheetUrl?: string;
   images: ProductImage[];
   isPublished: boolean;
 }

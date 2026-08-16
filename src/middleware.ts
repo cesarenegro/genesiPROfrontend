@@ -1,6 +1,7 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
+import { NextResponse } from 'next/server';
 
 const intlMiddleware = createMiddleware(routing);
 const isProtectedRoute = createRouteMatcher(['/(.*)/trade(.*)', '/(.*)/dashboard(.*)']);
@@ -14,6 +15,12 @@ export default clerkMiddleware(async (auth, req) => {
       return session.redirectToSignIn({ returnBackUrl: req.url });
     }
   }
+  
+  // Bypass next-intl middleware for API routes to prevent /api/ -> /en/api/ redirects
+  if (req.nextUrl.pathname.startsWith('/api/')) {
+    return NextResponse.next();
+  }
+  
   return intlMiddleware(req);
 }, { debug: true });
 

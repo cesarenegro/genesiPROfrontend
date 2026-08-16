@@ -33,7 +33,7 @@ export default async function Header() {
           
           {/* Download Catalogue CTA */}
           <a 
-            href="/docs/genesi-catalogue.pdf" 
+            href="/docs/genesi-catalogue.pdf?v=2" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium bg-[#5B9C94] text-white px-5 py-2 hover:bg-[#488079] transition-colors"

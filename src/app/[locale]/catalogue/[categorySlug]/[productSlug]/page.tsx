@@ -23,6 +23,7 @@ export default async function ProductDetailPage({ params }: Props) {
   const description = product.description?.[locale] || product.description?.en || '';
   const specifications = product.specifications?.[locale] || product.specifications?.en || '';
   const materials = product.materials?.[locale] || product.materials?.en || '';
+  const dimensions = product.dimensions?.[locale] || product.dimensions?.en || '';
 
   return (
     <div className="container mx-auto px-4 py-16 min-h-screen">
@@ -49,11 +50,17 @@ export default async function ProductDetailPage({ params }: Props) {
             </p>
           )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 border-y border-border py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 border-y border-border py-8">
             {materials && (
               <div>
                 <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">Materials & Finishes</h3>
                 <p className="text-sm text-muted-foreground">{materials}</p>
+              </div>
+            )}
+            {dimensions && (
+              <div>
+                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">Dimensions</h3>
+                <p className="text-sm text-muted-foreground">{dimensions}</p>
               </div>
             )}
             {specifications && (
@@ -68,10 +75,10 @@ export default async function ProductDetailPage({ params }: Props) {
             <button className="w-full bg-foreground text-background py-4 uppercase tracking-widest text-sm font-semibold hover:bg-foreground/90 transition-colors">
               Request a Quote
             </button>
-            <button className="w-full border border-border py-4 uppercase tracking-widest text-sm font-semibold hover:border-foreground transition-colors flex justify-center items-center gap-2">
+            <a href={`/api/pdf/${product.slug}?locale=${locale}`} download={`${product.sku}.pdf`} className="w-full border border-border py-4 uppercase tracking-widest text-sm font-semibold hover:border-foreground transition-colors flex justify-center items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
               Download Tear-sheet
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,9 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-export default function StudioPage() {
+export default async function StudioPage() {
+  const t = await getTranslations('Studio');
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero */}
@@ -15,9 +18,9 @@ export default function StudioPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30 z-10" />
         
         <div className="relative z-20 container mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight mb-6">Genesi Studio</h1>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight mb-6">{t('heroTitle')}</h1>
           <p className="text-lg md:text-xl text-white/80 font-light max-w-3xl mx-auto leading-relaxed">
-            Our internal creative hub where architecture, interior design, and product engineering converge.
+            {t('heroSubtitle')}
           </p>
         </div>
       </section>
@@ -39,25 +42,25 @@ export default function StudioPage() {
 
             {/* Content block */}
             <div className="space-y-8">
-              <h2 className="text-sm uppercase tracking-widest text-muted-foreground">The Hub of Innovation</h2>
+              <h2 className="text-sm uppercase tracking-widest text-muted-foreground">{t('hubTag')}</h2>
               <h3 className="text-3xl md:text-4xl font-light leading-tight">
-                Where Ideas Take Shape
+                {t('hubTitle')}
               </h3>
               <p className="text-lg text-muted-foreground font-light leading-relaxed">
-                GENESI Studio is the beating heart of our brand. Composed of architects, interior designers, and master engineers, the studio is responsible for the conception of our collections and the execution of our turnkey contract projects.
+                {t('hubP1')}
               </p>
               <p className="text-lg text-muted-foreground font-light leading-relaxed">
-                By maintaining a seamless dialogue between the drawing board and the production floor, we ensure that every design is not only conceptually striking but also structurally impeccable and perfectly tailored to the client's needs.
+                {t('hubP2')}
               </p>
               
               <div className="pt-8 grid grid-cols-2 gap-8 border-t border-border mt-12">
                 <div>
                   <div className="text-4xl font-light mb-2">15+</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-widest">In-house Designers</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-widest">{t('statDesigners')}</div>
                 </div>
                 <div>
                   <div className="text-4xl font-light mb-2">3D</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-widest">Advanced Rendering</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-widest">{t('statRendering')}</div>
                 </div>
               </div>
             </div>
@@ -70,10 +73,10 @@ export default function StudioPage() {
       <section className="py-32 bg-zinc-50 dark:bg-zinc-900 border-y border-border">
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="text-3xl md:text-5xl font-light leading-tight mb-8">
-            &quot;Design is not just what it looks like and feels like. Design is how it works within the space.&quot;
+            &quot;{t('quote')}&quot;
           </h2>
           <p className="text-sm uppercase tracking-widest text-muted-foreground font-semibold">
-            — The Genesi Studio Team
+            {t('quoteAuthor')}
           </p>
         </div>
       </section>

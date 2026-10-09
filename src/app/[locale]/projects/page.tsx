@@ -1,4 +1,5 @@
 import { Link } from '@/i18n/routing';
+import { getTranslations } from 'next-intl/server';
 
 const PROJECTS = [
   { id: 1, title: "The Grand Milano Hotel", location: "Milan, Italy", slug: "grand-milano", year: "2025" },
@@ -7,16 +8,17 @@ const PROJECTS = [
   { id: 4, title: "Fifth Avenue Penthouse", location: "New York, USA", slug: "fifth-avenue", year: "2023" },
 ];
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const t = await getTranslations('Projects');
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
       <section className="py-32 bg-background border-b border-border">
         <div className="container mx-auto px-4 text-center max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">Our Projects</h1>
+          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">{t('headerTitle')}</h1>
           <p className="text-lg text-muted-foreground font-light leading-relaxed">
-            A selection of our most prestigious contract and residential projects worldwide. 
-            GENESI partners with renowned architects to deliver uncompromising quality in every space.
+            {t('headerSubtitle')}
           </p>
         </div>
       </section>
@@ -34,7 +36,7 @@ export default function ProjectsPage() {
                 <div className={`relative overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-border mb-6 ${idx % 2 !== 0 ? 'aspect-[4/5] md:mt-24' : 'aspect-[4/3]'}`}>
                   {/* Placeholder for project image */}
                   <div className="absolute inset-0 flex items-center justify-center text-zinc-300 dark:text-zinc-800 font-light text-2xl uppercase tracking-widest group-hover:scale-105 transition-transform duration-1000 ease-out">
-                    View Project
+                    {t('viewProject')}
                   </div>
                 </div>
                 <div>

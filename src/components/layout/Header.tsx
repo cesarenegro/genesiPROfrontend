@@ -4,8 +4,11 @@ import Image from "next/image";
 import { SignInButton, UserButton } from '@clerk/nextjs';
 import { auth } from '@clerk/nextjs/server';
 
+import { getTranslations } from 'next-intl/server';
+
 export default async function Header() {
   const { userId } = await auth();
+  const t = await getTranslations('Navigation');
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
@@ -22,12 +25,12 @@ export default async function Header() {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-8 items-center text-sm font-medium">
-          <Link href="/about" className="hover:text-primary transition-colors">About</Link>
-          <Link href="/studio" className="hover:text-primary transition-colors">Studio</Link>
-          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
-          <Link href="/catalogue" className="hover:text-primary transition-colors">Catalogue</Link>
-          <Link href="/projects" className="hover:text-primary transition-colors">Projects</Link>
-          <Link href="/materials" className="hover:text-primary transition-colors">Materials</Link>
+          <Link href="/about" className="hover:text-primary transition-colors">{t('about')}</Link>
+          <Link href="/studio" className="hover:text-primary transition-colors">{t('studio')}</Link>
+          <Link href="/services" className="hover:text-primary transition-colors">{t('services')}</Link>
+          <Link href="/catalogue" className="hover:text-primary transition-colors">{t('catalogue')}</Link>
+          <Link href="/projects" className="hover:text-primary transition-colors">{t('projects')}</Link>
+          <Link href="/materials" className="hover:text-primary transition-colors">{t('materials')}</Link>
           
           <div className="w-px h-4 bg-border mx-2"></div>
           
@@ -38,17 +41,17 @@ export default async function Header() {
             rel="noopener noreferrer"
             className="text-sm font-medium bg-[#5B9C94] text-white px-5 py-2 hover:bg-[#488079] transition-colors"
           >
-            Open Catalogue
+            {t('openCatalogue')}
           </a>
           
           {/* Auth Block */}
           {!userId ? (
             <SignInButton mode="modal">
-              <button className="text-sm font-medium bg-[#8A9A86] text-white px-5 py-2 hover:bg-[#788764] transition-colors">Trade Login</button>
+              <button className="text-sm font-medium bg-[#8A9A86] text-white px-5 py-2 hover:bg-[#788764] transition-colors">{t('tradeLogin')}</button>
             </SignInButton>
           ) : (
             <>
-              <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors mr-2">Area Personale</Link>
+              <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors mr-2">{t('personalArea')}</Link>
               <UserButton />
             </>
           )}

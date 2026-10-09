@@ -2,16 +2,24 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { ProductImage } from '@/lib/catalogue';
+import { useTranslations } from 'next-intl';
 
 export default function ProductGallery({ images }: { images: ProductImage[] }) {
+  const t = useTranslations('Gallery');
   const [activeImg, setActiveImg] = useState<ProductImage>(
     images.find(img => img.isPrimary) || images[0]
   );
 
+  const getViewLabel = (viewType: string) => {
+    if (viewType === 'front') return t('frontView');
+    if (viewType === 'side') return t('sideView');
+    return t('galleryView');
+  };
+
   if (!images.length) {
     return (
-      <div className="aspect-square bg-zinc-100 flex items-center justify-center text-muted-foreground">
-        NO IMAGE AVAILABLE
+      <div className="aspect-square bg-zinc-100 flex items-center justify-center text-muted-foreground uppercase text-xs tracking-wider">
+        {t('noImage')}
       </div>
     );
   }
@@ -30,7 +38,7 @@ export default function ProductGallery({ images }: { images: ProductImage[] }) {
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute top-4 left-4 bg-background/80 backdrop-blur text-xs px-2 py-1 uppercase tracking-wider border border-border">
-          {activeImg.viewType} view
+          {getViewLabel(activeImg.viewType)}
         </div>
       </div>
 
@@ -51,7 +59,7 @@ export default function ProductGallery({ images }: { images: ProductImage[] }) {
                 src={img.url} 
                 alt={`${img.viewType} view thumbnail`} 
                 fill 
-                className="object-cover"
+                className="object-cover" 
                 sizes="80px"
               />
             </button>

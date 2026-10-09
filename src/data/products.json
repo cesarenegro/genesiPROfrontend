@@ -5,7 +5,13 @@
     "slug": "wardrobe-wrd-001",
     "sku": "WRD-001",
     "title": {
-      "en": "Wardrobe WRD-001"
+      "en": "Wardrobe WRD-001",
+      "it": "Armadio WRD-001",
+      "fr": "Armoire WRD-001",
+      "de": "Kleiderschrank WRD-001",
+      "ru": "Шкаф WRD-001",
+      "zh": "WRD-001 衣柜",
+      "id": "Lemari pakaian WRD-001"
     },
     "description": {
       "en": "The WRD-001 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -17,11 +23,33 @@
       "id": "Lemari pakaian WRD-001 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -34,11 +62,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 62 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-001.pdf"
+    ]
   },
   {
     "id": "wrd-002",
@@ -46,7 +70,13 @@
     "slug": "wardrobe-wrd-002",
     "sku": "WRD-002",
     "title": {
-      "en": "Wardrobe WRD-002"
+      "en": "Wardrobe WRD-002",
+      "it": "Armadio WRD-002",
+      "fr": "Armoire WRD-002",
+      "de": "Kleiderschrank WRD-002",
+      "ru": "Шкаф WRD-002",
+      "zh": "WRD-002 衣柜",
+      "id": "Lemari pakaian WRD-002"
     },
     "description": {
       "en": "The WRD-002 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -58,11 +88,33 @@
       "id": "Lemari pakaian WRD-002 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -75,11 +127,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "300 × 62 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-002.pdf"
+    ]
   },
   {
     "id": "wrd-003",
@@ -87,7 +135,13 @@
     "slug": "wardrobe-wrd-003",
     "sku": "WRD-003",
     "title": {
-      "en": "Wardrobe WRD-003"
+      "en": "Wardrobe WRD-003",
+      "it": "Armadio WRD-003",
+      "fr": "Armoire WRD-003",
+      "de": "Kleiderschrank WRD-003",
+      "ru": "Шкаф WRD-003",
+      "zh": "WRD-003 衣柜",
+      "id": "Lemari pakaian WRD-003"
     },
     "description": {
       "en": "The WRD-003 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -99,11 +153,33 @@
       "id": "Lemari pakaian WRD-003 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -116,11 +192,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "240 × 62 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-003.pdf"
+    ]
   },
   {
     "id": "wrd-004",
@@ -128,7 +200,13 @@
     "slug": "wardrobe-wrd-004",
     "sku": "WRD-004",
     "title": {
-      "en": "Wardrobe WRD-004"
+      "en": "Wardrobe WRD-004",
+      "it": "Armadio WRD-004",
+      "fr": "Armoire WRD-004",
+      "de": "Kleiderschrank WRD-004",
+      "ru": "Шкаф WRD-004",
+      "zh": "WRD-004 衣柜",
+      "id": "Lemari pakaian WRD-004"
     },
     "description": {
       "en": "The WRD-004 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -140,11 +218,33 @@
       "id": "Lemari pakaian WRD-004 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -157,11 +257,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 60 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-004.pdf"
+    ]
   },
   {
     "id": "wrd-005",
@@ -169,7 +265,13 @@
     "slug": "wardrobe-wrd-005",
     "sku": "WRD-005",
     "title": {
-      "en": "Wardrobe WRD-005"
+      "en": "Wardrobe WRD-005",
+      "it": "Armadio WRD-005",
+      "fr": "Armoire WRD-005",
+      "de": "Kleiderschrank WRD-005",
+      "ru": "Шкаф WRD-005",
+      "zh": "WRD-005 衣柜",
+      "id": "Lemari pakaian WRD-005"
     },
     "description": {
       "en": "The WRD-005 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -181,11 +283,33 @@
       "id": "Lemari pakaian WRD-005 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -198,11 +322,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "260 × 62 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-005.pdf"
+    ]
   },
   {
     "id": "wrd-006",
@@ -210,7 +330,13 @@
     "slug": "wardrobe-wrd-006",
     "sku": "WRD-006",
     "title": {
-      "en": "Wardrobe WRD-006"
+      "en": "Wardrobe WRD-006",
+      "it": "Armadio WRD-006",
+      "fr": "Armoire WRD-006",
+      "de": "Kleiderschrank WRD-006",
+      "ru": "Шкаф WRD-006",
+      "zh": "WRD-006 衣柜",
+      "id": "Lemari pakaian WRD-006"
     },
     "description": {
       "en": "The WRD-006 wardrobe represents the pinnacle of Italian craftsmanship. Featuring premium materials and a modular interior, it offers an elegant storage solution for luxury spaces.",
@@ -222,11 +348,33 @@
       "id": "Lemari pakaian WRD-006 mewakili puncak pengerjaan Italia. Menampilkan bahan premium dan interior modular, lemari ini menawarkan solusi penyimpanan elegan untuk ruang mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -239,11 +387,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 62 × 225"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/wardrobe-wrd-006.pdf"
+    ]
   },
   {
     "id": "dsk-001",
@@ -251,7 +395,13 @@
     "slug": "desk-dsk-001",
     "sku": "DSK-001",
     "title": {
-      "en": "Desk DSK-001"
+      "en": "Desk DSK-001",
+      "it": "Scrivania DSK-001",
+      "fr": "Bureau DSK-001",
+      "de": "Schreibtisch DSK-001",
+      "ru": "Письменный стол DSK-001",
+      "zh": "DSK-001 办公桌",
+      "id": "Meja DSK-001"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DSK-001 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -263,11 +413,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DSK-001 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -280,11 +452,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 90 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-001.pdf"
+    ]
   },
   {
     "id": "dsk-002",
@@ -292,7 +460,13 @@
     "slug": "desk-dsk-002",
     "sku": "DSK-002",
     "title": {
-      "en": "Desk DSK-002"
+      "en": "Desk DSK-002",
+      "it": "Scrivania DSK-002",
+      "fr": "Bureau DSK-002",
+      "de": "Schreibtisch DSK-002",
+      "ru": "Письменный стол DSK-002",
+      "zh": "DSK-002 办公桌",
+      "id": "Meja DSK-002"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DSK-002 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -304,11 +478,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DSK-002 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -321,11 +517,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "160 × 70 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-002.pdf"
+    ]
   },
   {
     "id": "dsk-003",
@@ -333,7 +525,13 @@
     "slug": "desk-dsk-003",
     "sku": "DSK-003",
     "title": {
-      "en": "Desk DSK-003"
+      "en": "Desk DSK-003",
+      "it": "Scrivania DSK-003",
+      "fr": "Bureau DSK-003",
+      "de": "Schreibtisch DSK-003",
+      "ru": "Письменный стол DSK-003",
+      "zh": "DSK-003 办公桌",
+      "id": "Meja DSK-003"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DSK-003 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -345,11 +543,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DSK-003 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -362,11 +582,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 180 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-003.pdf"
+    ]
   },
   {
     "id": "dsk-004",
@@ -374,7 +590,13 @@
     "slug": "desk-dsk-004",
     "sku": "DSK-004",
     "title": {
-      "en": "Desk DSK-004"
+      "en": "Desk DSK-004",
+      "it": "Scrivania DSK-004",
+      "fr": "Bureau DSK-004",
+      "de": "Schreibtisch DSK-004",
+      "ru": "Письменный стол DSK-004",
+      "zh": "DSK-004 办公桌",
+      "id": "Meja DSK-004"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DSK-004 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -386,11 +608,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DSK-004 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -403,11 +647,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 80 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-dsk-004.pdf"
+    ]
   },
   {
     "id": "dmb-001",
@@ -415,7 +655,13 @@
     "slug": "desk-minibar-dmb-001",
     "sku": "DMB-001",
     "title": {
-      "en": "Desk / Minibar DMB-001"
+      "en": "Desk / Minibar DMB-001",
+      "it": "Scrivania / Minibar DMB-001",
+      "fr": "Bureau / Minibar DMB-001",
+      "de": "Schreibtisch / Minibar DMB-001",
+      "ru": "Письменный стол / Мини-бар DMB-001",
+      "zh": "DMB-001 办公桌 / 迷你吧",
+      "id": "Meja / Minibar DMB-001"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DMB-001 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -427,11 +673,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DMB-001 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -444,11 +712,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 60 × 110 (desk 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-001.pdf"
+    ]
   },
   {
     "id": "dmb-002",
@@ -456,7 +720,13 @@
     "slug": "desk-minibar-dmb-002",
     "sku": "DMB-002",
     "title": {
-      "en": "Desk / Minibar DMB-002"
+      "en": "Desk / Minibar DMB-002",
+      "it": "Scrivania / Minibar DMB-002",
+      "fr": "Bureau / Minibar DMB-002",
+      "de": "Schreibtisch / Minibar DMB-002",
+      "ru": "Письменный стол / Мини-бар DMB-002",
+      "zh": "DMB-002 办公桌 / 迷你吧",
+      "id": "Meja / Minibar DMB-002"
     },
     "description": {
       "en": "Designed for executive suites and home offices, the DMB-002 desk combines sleek lines with unparalleled functionality and premium finishes.",
@@ -468,11 +738,33 @@
       "id": "Dirancang untuk suite eksekutif dan kantor rumah, meja DMB-002 menggabungkan garis-garis ramping dengan fungsionalitas tak tertandingi dan hasil akhir premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -485,11 +777,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 65 × 95 (desk 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/desk-minibar-dmb-002.pdf"
+    ]
   },
   {
     "id": "mnb-001",
@@ -497,7 +785,13 @@
     "slug": "minibar-mnb-001",
     "sku": "MNB-001",
     "title": {
-      "en": "Minibar MNB-001"
+      "en": "Minibar MNB-001",
+      "it": "Minibar MNB-001",
+      "fr": "Minibar MNB-001",
+      "de": "Minibar MNB-001",
+      "ru": "Мини-бар MNB-001",
+      "zh": "MNB-001 迷你吧",
+      "id": "Minibar MNB-001"
     },
     "description": {
       "en": "The MNB-001 minibar cabinet seamlessly conceals state-of-the-art hospitality technology within a beautifully crafted Italian furniture piece.",
@@ -509,11 +803,33 @@
       "id": "Kabinet minibar MNB-001 dengan mulus menyembunyikan teknologi perhotelan canggih di dalam perabot Italia yang dibuat dengan indah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -526,11 +842,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "90 × 60 × 130"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-001.pdf"
+    ]
   },
   {
     "id": "mnb-002",
@@ -538,7 +850,13 @@
     "slug": "minibar-mnb-002",
     "sku": "MNB-002",
     "title": {
-      "en": "Minibar MNB-002"
+      "en": "Minibar MNB-002",
+      "it": "Minibar MNB-002",
+      "fr": "Minibar MNB-002",
+      "de": "Minibar MNB-002",
+      "ru": "Мини-бар MNB-002",
+      "zh": "MNB-002 迷你吧",
+      "id": "Minibar MNB-002"
     },
     "description": {
       "en": "The MNB-002 minibar cabinet seamlessly conceals state-of-the-art hospitality technology within a beautifully crafted Italian furniture piece.",
@@ -550,11 +868,33 @@
       "id": "Kabinet minibar MNB-002 dengan mulus menyembunyikan teknologi perhotelan canggih di dalam perabot Italia yang dibuat dengan indah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -567,11 +907,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 60 × 150"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-002.pdf"
+    ]
   },
   {
     "id": "mnb-003",
@@ -579,7 +915,13 @@
     "slug": "minibar-mnb-003",
     "sku": "MNB-003",
     "title": {
-      "en": "Minibar MNB-003"
+      "en": "Minibar MNB-003",
+      "it": "Minibar MNB-003",
+      "fr": "Minibar MNB-003",
+      "de": "Minibar MNB-003",
+      "ru": "Мини-бар MNB-003",
+      "zh": "MNB-003 迷你吧",
+      "id": "Minibar MNB-003"
     },
     "description": {
       "en": "The MNB-003 minibar cabinet seamlessly conceals state-of-the-art hospitality technology within a beautifully crafted Italian furniture piece.",
@@ -591,11 +933,33 @@
       "id": "Kabinet minibar MNB-003 dengan mulus menyembunyikan teknologi perhotelan canggih di dalam perabot Italia yang dibuat dengan indah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -608,11 +972,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 60 × 100"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-003.pdf"
+    ]
   },
   {
     "id": "mnb-004",
@@ -620,7 +980,13 @@
     "slug": "minibar-mnb-004",
     "sku": "MNB-004",
     "title": {
-      "en": "Minibar MNB-004"
+      "en": "Minibar MNB-004",
+      "it": "Minibar MNB-004",
+      "fr": "Minibar MNB-004",
+      "de": "Minibar MNB-004",
+      "ru": "Мини-бар MNB-004",
+      "zh": "MNB-004 迷你吧",
+      "id": "Minibar MNB-004"
     },
     "description": {
       "en": "The MNB-004 minibar cabinet seamlessly conceals state-of-the-art hospitality technology within a beautifully crafted Italian furniture piece.",
@@ -632,11 +998,33 @@
       "id": "Kabinet minibar MNB-004 dengan mulus menyembunyikan teknologi perhotelan canggih di dalam perabot Italia yang dibuat dengan indah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -649,11 +1037,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "120 × 60 × 135"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-004.pdf"
+    ]
   },
   {
     "id": "mnb-005",
@@ -661,7 +1045,13 @@
     "slug": "minibar-mnb-005",
     "sku": "MNB-005",
     "title": {
-      "en": "Minibar MNB-005"
+      "en": "Minibar MNB-005",
+      "it": "Minibar MNB-005",
+      "fr": "Minibar MNB-005",
+      "de": "Minibar MNB-005",
+      "ru": "Мини-бар MNB-005",
+      "zh": "MNB-005 迷你吧",
+      "id": "Minibar MNB-005"
     },
     "description": {
       "en": "The MNB-005 minibar cabinet seamlessly conceals state-of-the-art hospitality technology within a beautifully crafted Italian furniture piece.",
@@ -673,11 +1063,33 @@
       "id": "Kabinet minibar MNB-005 dengan mulus menyembunyikan teknologi perhotelan canggih di dalam perabot Italia yang dibuat dengan indah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -690,11 +1102,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 60 × 160"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/minibar-mnb-005.pdf"
+    ]
   },
   {
     "id": "shf-001",
@@ -702,7 +1110,13 @@
     "slug": "shelving-unit-shf-001",
     "sku": "SHF-001",
     "title": {
-      "en": "Shelving Unit SHF-001"
+      "en": "Shelving Unit SHF-001",
+      "it": "Libreria a giorno SHF-001",
+      "fr": "Étagère SHF-001",
+      "de": "Regal SHF-001",
+      "ru": "Стеллаж SHF-001",
+      "zh": "SHF-001 搁架单元",
+      "id": "Unit Rak SHF-001"
     },
     "description": {
       "en": "Showcase your curated objects with the SHF-001. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -714,11 +1128,33 @@
       "id": "Pamerkan objek pilihan Anda dengan SHF-001. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/shelving-unit-shf-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -731,11 +1167,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "120 × 40 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/shelving-unit-shf-001.pdf"
+    ]
   },
   {
     "id": "tvw-001",
@@ -743,7 +1175,13 @@
     "slug": "media-wall-tvw-001",
     "sku": "TVW-001",
     "title": {
-      "en": "Media Wall TVW-001"
+      "en": "Media Wall TVW-001",
+      "it": "Parete Attrezzata TVW-001",
+      "fr": "Mur Média TVW-001",
+      "de": "Medienwand TVW-001",
+      "ru": "Медиа-стена TVW-001",
+      "zh": "TVW-001 电视墙",
+      "id": "Dinding Media TVW-001"
     },
     "description": {
       "en": "The TVW-001 media wall integrates entertainment technology into a sophisticated Italian furniture composition, eliminating clutter with style.",
@@ -755,11 +1193,33 @@
       "id": "Dinding media TVW-001 mengintegrasikan teknologi hiburan ke dalam komposisi furnitur Italia yang canggih, menghilangkan kekacauan dengan gaya."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -772,11 +1232,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 50 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-001.pdf"
+    ]
   },
   {
     "id": "tvw-002",
@@ -784,7 +1240,13 @@
     "slug": "media-wall-tvw-002",
     "sku": "TVW-002",
     "title": {
-      "en": "Media Wall TVW-002"
+      "en": "Media Wall TVW-002",
+      "it": "Parete Attrezzata TVW-002",
+      "fr": "Mur Média TVW-002",
+      "de": "Medienwand TVW-002",
+      "ru": "Медиа-стена TVW-002",
+      "zh": "TVW-002 电视墙",
+      "id": "Dinding Media TVW-002"
     },
     "description": {
       "en": "The TVW-002 media wall integrates entertainment technology into a sophisticated Italian furniture composition, eliminating clutter with style.",
@@ -796,11 +1258,33 @@
       "id": "Dinding media TVW-002 mengintegrasikan teknologi hiburan ke dalam komposisi furnitur Italia yang canggih, menghilangkan kekacauan dengan gaya."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -813,11 +1297,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "320 × 50 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-002.pdf"
+    ]
   },
   {
     "id": "tvw-003",
@@ -825,7 +1305,13 @@
     "slug": "media-wall-tvw-003",
     "sku": "TVW-003",
     "title": {
-      "en": "Media Wall TVW-003"
+      "en": "Media Wall TVW-003",
+      "it": "Parete Attrezzata TVW-003",
+      "fr": "Mur Média TVW-003",
+      "de": "Medienwand TVW-003",
+      "ru": "Медиа-стена TVW-003",
+      "zh": "TVW-003 电视墙",
+      "id": "Dinding Media TVW-003"
     },
     "description": {
       "en": "The TVW-003 media wall integrates entertainment technology into a sophisticated Italian furniture composition, eliminating clutter with style.",
@@ -837,11 +1323,33 @@
       "id": "Dinding media TVW-003 mengintegrasikan teknologi hiburan ke dalam komposisi furnitur Italia yang canggih, menghilangkan kekacauan dengan gaya."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -854,11 +1362,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 50 × 200"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-003.pdf"
+    ]
   },
   {
     "id": "tvw-004",
@@ -866,7 +1370,13 @@
     "slug": "media-wall-tvw-004",
     "sku": "TVW-004",
     "title": {
-      "en": "Media Wall TVW-004"
+      "en": "Media Wall TVW-004",
+      "it": "Parete Attrezzata TVW-004",
+      "fr": "Mur Média TVW-004",
+      "de": "Medienwand TVW-004",
+      "ru": "Медиа-стена TVW-004",
+      "zh": "TVW-004 电视墙",
+      "id": "Dinding Media TVW-004"
     },
     "description": {
       "en": "The TVW-004 media wall integrates entertainment technology into a sophisticated Italian furniture composition, eliminating clutter with style.",
@@ -878,11 +1388,33 @@
       "id": "Dinding media TVW-004 mengintegrasikan teknologi hiburan ke dalam komposisi furnitur Italia yang canggih, menghilangkan kekacauan dengan gaya."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -895,11 +1427,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "320 × 55 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/media-wall-tvw-004.pdf"
+    ]
   },
   {
     "id": "sof-001",
@@ -907,7 +1435,13 @@
     "slug": "deck-sofa",
     "sku": "SOF-001",
     "title": {
-      "en": "Deck Sofa"
+      "en": "Deck Sofa",
+      "it": "Divano Deck",
+      "fr": "Canapé Deck",
+      "de": "Sofa Deck",
+      "ru": "Диван Deck",
+      "zh": "Deck 沙发",
+      "id": "Sofa Deck"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-001 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -919,11 +1453,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-001. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": "Smoked eucalyptus / espresso leather / bronze / stone"
+      "en": "Smoked eucalyptus / espresso leather / bronze / stone",
+      "it": "Eucalipto affumicato / pelle color espresso / bronzo / pietra",
+      "fr": "Eucalyptus fumé / cuir espresso / bronze / pierre",
+      "de": "Geräucherter Eukalyptus / Espresso-Leder / Bronze / Stein",
+      "ru": "Копченый эвкалипт / кожа оттенка эспрессо / бронза / камень",
+      "zh": "烟熏桉木 / 浓缩咖啡色皮革 / 青铜 / 原石",
+      "id": "Kayu eukaliptus asap / kulit espreso / perunggu / batu"
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/deck-sofa.pdf",
     "isPublished": true,
     "images": [
       {
@@ -936,11 +1492,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 105 × 78; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/deck-sofa.pdf"
+    ]
   },
   {
     "id": "sof-002",
@@ -948,7 +1500,13 @@
     "slug": "calm-sofa",
     "sku": "SOF-002",
     "title": {
-      "en": "Calm Sofa"
+      "en": "Calm Sofa",
+      "it": "Divano Calm",
+      "fr": "Canapé Calm",
+      "de": "Sofa Calm",
+      "ru": "Диван Calm",
+      "zh": "Calm 沙发",
+      "id": "Sofa Calm"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-002 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -960,11 +1518,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-002. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/calm-sofa.pdf",
     "isPublished": true,
     "images": [
       {
@@ -977,11 +1557,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "260 × 100 × 75; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/calm-sofa.pdf"
+    ]
   },
   {
     "id": "sof-003",
@@ -989,7 +1565,13 @@
     "slug": "axis-sofa",
     "sku": "SOF-003",
     "title": {
-      "en": "Axis Sofa"
+      "en": "Axis Sofa",
+      "it": "Divano Axis",
+      "fr": "Canapé Axis",
+      "de": "Sofa Axis",
+      "ru": "Диван Axis",
+      "zh": "Axis 沙发",
+      "id": "Sofa Axis"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-003 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -1001,11 +1583,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-003. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/axis-sofa.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1018,11 +1622,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "300 × 105 × 80; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/axis-sofa.pdf"
+    ]
   },
   {
     "id": "sof-004",
@@ -1030,7 +1630,13 @@
     "slug": "mona-sofa",
     "sku": "SOF-004",
     "title": {
-      "en": "Mona Sofa"
+      "en": "Mona Sofa",
+      "it": "Divano Mona",
+      "fr": "Canapé Mona",
+      "de": "Sofa Mona",
+      "ru": "Диван Mona",
+      "zh": "Mona 沙发",
+      "id": "Sofa Mona"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-004 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -1042,11 +1648,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-004. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/mona-sofa.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1059,11 +1687,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "250 × 100 × 78; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/mona-sofa.pdf"
+    ]
   },
   {
     "id": "sof-005",
@@ -1071,7 +1695,13 @@
     "slug": "sofa-sof-005",
     "sku": "SOF-005",
     "title": {
-      "en": "Sofa SOF-005"
+      "en": "Sofa SOF-005",
+      "it": "Divano SOF-005",
+      "fr": "Canapé SOF-005",
+      "de": "Sofa SOF-005",
+      "ru": "Диван SOF-005",
+      "zh": "SOF-005 沙发",
+      "id": "Sofa SOF-005"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-005 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -1083,11 +1713,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-005. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1100,11 +1752,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "240 × 95 × 78; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-005.pdf"
+    ]
   },
   {
     "id": "sof-006",
@@ -1112,7 +1760,13 @@
     "slug": "sofa-sof-006",
     "sku": "SOF-006",
     "title": {
-      "en": "Sofa SOF-006"
+      "en": "Sofa SOF-006",
+      "it": "Divano SOF-006",
+      "fr": "Canapé SOF-006",
+      "de": "Sofa SOF-006",
+      "ru": "Диван SOF-006",
+      "zh": "SOF-006 沙发",
+      "id": "Sofa SOF-006"
     },
     "description": {
       "en": "Experience ultimate comfort with the SOF-006 sofa. Handcrafted in Italy, its generous proportions and premium upholstery make it the centerpiece of any luxury living room.",
@@ -1124,11 +1778,33 @@
       "id": "Rasakan kenyamanan luar biasa dengan sofa SOF-006. Dibuat dengan tangan di Italia, proporsinya yang luas dan pelapis premium menjadikannya pusat dari setiap ruang tamu mewah."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1141,11 +1817,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "320 × 105 × 72; SH 40"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sofa-sof-006.pdf"
+    ]
   },
   {
     "id": "arm-001",
@@ -1153,7 +1825,13 @@
     "slug": "deck-armchair",
     "sku": "ARM-001",
     "title": {
-      "en": "Deck Armchair"
+      "en": "Deck Armchair",
+      "it": "Poltrona Deck",
+      "fr": "Fauteuil Deck",
+      "de": "Sessel Deck",
+      "ru": "Кресло Deck",
+      "zh": "Deck 扶手椅",
+      "id": "Kursi santai Deck"
     },
     "description": {
       "en": "The ARM-001 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1165,11 +1843,33 @@
       "id": "Kursi santai ARM-001 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/deck-armchair.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1182,11 +1882,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 95 × 75; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/deck-armchair.pdf"
+    ]
   },
   {
     "id": "arm-002",
@@ -1194,7 +1890,13 @@
     "slug": "calm-armchair",
     "sku": "ARM-002",
     "title": {
-      "en": "Calm Armchair"
+      "en": "Calm Armchair",
+      "it": "Poltrona Calm",
+      "fr": "Fauteuil Calm",
+      "de": "Sessel Calm",
+      "ru": "Кресло Calm",
+      "zh": "Calm 扶手椅",
+      "id": "Kursi santai Calm"
     },
     "description": {
       "en": "The ARM-002 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1206,11 +1908,33 @@
       "id": "Kursi santai ARM-002 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": "Light ash / ivory boucle / champagne brass"
+      "en": "Light ash / ivory boucle / champagne brass",
+      "it": "Frassino chiaro / bouclé avorio / ottone champagne",
+      "fr": "Frêne clair / bouclé ivoire / laiton champagne",
+      "de": "Helle Esche / elfenbeinfarbener Bouclé / Champagner-Messing",
+      "ru": "Светлый ясень / ткань букле цвета слоновой кости / латунь цвета шампанского",
+      "zh": "浅色白蜡木 / 象牙白圈圈绒 / 香槟黄铜",
+      "id": "Kayu ash terang / boucle gading / kuningan sampanye"
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/calm-armchair.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1223,11 +1947,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "95 × 90 × 78; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/calm-armchair.pdf"
+    ]
   },
   {
     "id": "arm-003",
@@ -1235,7 +1955,13 @@
     "slug": "axis-armchair",
     "sku": "ARM-003",
     "title": {
-      "en": "Axis Armchair"
+      "en": "Axis Armchair",
+      "it": "Poltrona Axis",
+      "fr": "Fauteuil Axis",
+      "de": "Sessel Axis",
+      "ru": "Кресло Axis",
+      "zh": "Axis 扶手椅",
+      "id": "Kursi santai Axis"
     },
     "description": {
       "en": "The ARM-003 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1247,11 +1973,33 @@
       "id": "Kursi santai ARM-003 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/axis-armchair.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1264,11 +2012,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "95 × 90 × 80; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/axis-armchair.pdf"
+    ]
   },
   {
     "id": "arm-004",
@@ -1276,7 +2020,13 @@
     "slug": "mona-armchair",
     "sku": "ARM-004",
     "title": {
-      "en": "Mona Armchair"
+      "en": "Mona Armchair",
+      "it": "Poltrona Mona",
+      "fr": "Fauteuil Mona",
+      "de": "Sessel Mona",
+      "ru": "Кресло Mona",
+      "zh": "Mona 扶手椅",
+      "id": "Kursi santai Mona"
     },
     "description": {
       "en": "The ARM-004 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1288,11 +2038,33 @@
       "id": "Kursi santai ARM-004 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": "Sculpted walnut / taupe leather / brass"
+      "en": "Sculpted walnut / taupe leather / brass",
+      "it": "Noce scolpito / pelle taupe / ottone",
+      "fr": "Noyer sculpté / cuir taupe / laiton",
+      "de": "Skulpturierte Walnuss / taupefarbenes Leder / Messing",
+      "ru": "Резной орех / кожа цвета тауп / латунь",
+      "zh": "雕刻胡桃木 / 灰褐色皮革 / 黄铜",
+      "id": "Kayu kenari pahat / kulit taupe / kuningan"
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/mona-armchair.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1305,11 +2077,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 95 × 80; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/mona-armchair.pdf"
+    ]
   },
   {
     "id": "arm-005",
@@ -1317,7 +2085,13 @@
     "slug": "armchair-arm-005",
     "sku": "ARM-005",
     "title": {
-      "en": "Armchair ARM-005"
+      "en": "Armchair ARM-005",
+      "it": "Poltrona ARM-005",
+      "fr": "Fauteuil ARM-005",
+      "de": "Sessel ARM-005",
+      "ru": "Кресло ARM-005",
+      "zh": "ARM-005 扶手椅",
+      "id": "Kursi santai ARM-005"
     },
     "description": {
       "en": "The ARM-005 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1329,11 +2103,33 @@
       "id": "Kursi santai ARM-005 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1346,11 +2142,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "85 × 90 × 80; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-005.pdf"
+    ]
   },
   {
     "id": "arm-006",
@@ -1358,7 +2150,13 @@
     "slug": "armchair-arm-006",
     "sku": "ARM-006",
     "title": {
-      "en": "Armchair ARM-006"
+      "en": "Armchair ARM-006",
+      "it": "Poltrona ARM-006",
+      "fr": "Fauteuil ARM-006",
+      "de": "Sessel ARM-006",
+      "ru": "Кресло ARM-006",
+      "zh": "ARM-006 扶手椅",
+      "id": "Kursi santai ARM-006"
     },
     "description": {
       "en": "The ARM-006 armchair offers a perfect balance of ergonomic support and striking silhouette, tailored in the finest Italian fabrics and leathers.",
@@ -1370,11 +2168,33 @@
       "id": "Kursi santai ARM-006 menawarkan keseimbangan sempurna antara dukungan ergonomis dan siluet yang mencolok, disesuaikan dengan kain dan kulit Italia terbaik."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1387,11 +2207,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "110 × 95 × 78; SH 42"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/armchair-arm-006.pdf"
+    ]
   },
   {
     "id": "tbl-005",
@@ -1399,7 +2215,13 @@
     "slug": "occasional-table-console-tbl-005",
     "sku": "TBL-005",
     "title": {
-      "en": "Occasional Table / Console TBL-005"
+      "en": "Occasional Table / Console TBL-005",
+      "it": "Tavolino / Console TBL-005",
+      "fr": "Table d'appoint / Console TBL-005",
+      "de": "Beistelltisch / Konsole TBL-005",
+      "ru": "Приставной стол / Консоль TBL-005",
+      "zh": "TBL-005 茶几 / 玄关桌",
+      "id": "Meja Samping / Konsol TBL-005"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-005 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1411,11 +2233,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-005 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1428,11 +2272,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 45 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-005.pdf"
+    ]
   },
   {
     "id": "tbl-006",
@@ -1440,7 +2280,13 @@
     "slug": "occasional-table-console-tbl-006",
     "sku": "TBL-006",
     "title": {
-      "en": "Occasional Table / Console TBL-006"
+      "en": "Occasional Table / Console TBL-006",
+      "it": "Tavolino / Console TBL-006",
+      "fr": "Table d'appoint / Console TBL-006",
+      "de": "Beistelltisch / Konsole TBL-006",
+      "ru": "Приставной стол / Консоль TBL-006",
+      "zh": "TBL-006 茶几 / 玄关桌",
+      "id": "Meja Samping / Konsol TBL-006"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-006 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1452,11 +2298,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-006 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1469,11 +2337,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "140 × 50 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-006.pdf"
+    ]
   },
   {
     "id": "tbl-007",
@@ -1481,7 +2345,13 @@
     "slug": "occasional-table-console-tbl-007",
     "sku": "TBL-007",
     "title": {
-      "en": "Occasional Table / Console TBL-007"
+      "en": "Occasional Table / Console TBL-007",
+      "it": "Tavolino / Console TBL-007",
+      "fr": "Table d'appoint / Console TBL-007",
+      "de": "Beistelltisch / Konsole TBL-007",
+      "ru": "Приставной стол / Консоль TBL-007",
+      "zh": "TBL-007 茶几 / 玄关桌",
+      "id": "Meja Samping / Konsol TBL-007"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-007 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1493,11 +2363,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-007 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-007.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1510,11 +2402,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 45 × 78"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/occasional-table-console-tbl-007.pdf"
+    ]
   },
   {
     "id": "tbl-001",
@@ -1522,7 +2410,13 @@
     "slug": "dining-table-tbl-001",
     "sku": "TBL-001",
     "title": {
-      "en": "Dining Table TBL-001"
+      "en": "Dining Table TBL-001",
+      "it": "Tavolo da Pranzo TBL-001",
+      "fr": "Table de Salle à Manger TBL-001",
+      "de": "Esstisch TBL-001",
+      "ru": "Обеденный стол TBL-001",
+      "zh": "TBL-001 餐桌",
+      "id": "Meja Makan TBL-001"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-001 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1534,11 +2428,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-001 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1551,11 +2467,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "260 × 110 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-001.pdf"
+    ]
   },
   {
     "id": "tbl-002",
@@ -1563,7 +2475,13 @@
     "slug": "dining-table-tbl-002",
     "sku": "TBL-002",
     "title": {
-      "en": "Dining Table TBL-002"
+      "en": "Dining Table TBL-002",
+      "it": "Tavolo da Pranzo TBL-002",
+      "fr": "Table de Salle à Manger TBL-002",
+      "de": "Esstisch TBL-002",
+      "ru": "Обеденный стол TBL-002",
+      "zh": "TBL-002 餐桌",
+      "id": "Meja Makan TBL-002"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-002 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1575,11 +2493,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-002 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1592,11 +2532,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 120 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-002.pdf"
+    ]
   },
   {
     "id": "tbl-003",
@@ -1604,7 +2540,13 @@
     "slug": "dining-table-tbl-003",
     "sku": "TBL-003",
     "title": {
-      "en": "Dining Table TBL-003"
+      "en": "Dining Table TBL-003",
+      "it": "Tavolo da Pranzo TBL-003",
+      "fr": "Table de Salle à Manger TBL-003",
+      "de": "Esstisch TBL-003",
+      "ru": "Обеденный стол TBL-003",
+      "zh": "TBL-003 餐桌",
+      "id": "Meja Makan TBL-003"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-003 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1616,11 +2558,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-003 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1633,11 +2597,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "280 × 110 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-003.pdf"
+    ]
   },
   {
     "id": "tbl-004",
@@ -1645,7 +2605,13 @@
     "slug": "dining-table-tbl-004",
     "sku": "TBL-004",
     "title": {
-      "en": "Dining Table TBL-004"
+      "en": "Dining Table TBL-004",
+      "it": "Tavolo da Pranzo TBL-004",
+      "fr": "Table de Salle à Manger TBL-004",
+      "de": "Esstisch TBL-004",
+      "ru": "Обеденный стол TBL-004",
+      "zh": "TBL-004 餐桌",
+      "id": "Meja Makan TBL-004"
     },
     "description": {
       "en": "A statement of modern luxury, the TBL-004 table features a stunning top and sculptural base, perfect for refined dining or executive spaces.",
@@ -1657,11 +2623,33 @@
       "id": "Sebuah pernyataan kemewahan modern, meja TBL-004 menampilkan bagian atas yang memukau dan dasar pahatan, sempurna untuk ruang makan yang mewah atau ruang eksekutif."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1674,11 +2662,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "260 × 115 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-table-tbl-004.pdf"
+    ]
   },
   {
     "id": "chr-001",
@@ -1686,7 +2670,13 @@
     "slug": "dining-chair-chr-001",
     "sku": "CHR-001",
     "title": {
-      "en": "Dining Chair CHR-001"
+      "en": "Dining Chair CHR-001",
+      "it": "Sedia da Pranzo CHR-001",
+      "fr": "Chaise de Salle à Manger CHR-001",
+      "de": "Esszimmerstuhl CHR-001",
+      "ru": "Обеденный стул CHR-001",
+      "zh": "CHR-001 餐椅",
+      "id": "Kursi Makan CHR-001"
     },
     "description": {
       "en": "The CHR-001 chair is a masterpiece of contemporary seating, combining elegant Italian design with exceptional comfort for dining or lounge areas.",
@@ -1698,11 +2688,33 @@
       "id": "Kursi CHR-001 adalah mahakarya tempat duduk kontemporer, menggabungkan desain Italia yang elegan dengan kenyamanan luar biasa untuk ruang makan atau ruang tunggu."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1715,11 +2727,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "50 × 55 × 88; SH 47"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-001.pdf"
+    ]
   },
   {
     "id": "chr-002",
@@ -1727,7 +2735,13 @@
     "slug": "dining-chair-chr-002",
     "sku": "CHR-002",
     "title": {
-      "en": "Dining Chair CHR-002"
+      "en": "Dining Chair CHR-002",
+      "it": "Sedia da Pranzo CHR-002",
+      "fr": "Chaise de Salle à Manger CHR-002",
+      "de": "Esszimmerstuhl CHR-002",
+      "ru": "Обеденный стул CHR-002",
+      "zh": "CHR-002 餐椅",
+      "id": "Kursi Makan CHR-002"
     },
     "description": {
       "en": "The CHR-002 chair is a masterpiece of contemporary seating, combining elegant Italian design with exceptional comfort for dining or lounge areas.",
@@ -1739,11 +2753,33 @@
       "id": "Kursi CHR-002 adalah mahakarya tempat duduk kontemporer, menggabungkan desain Italia yang elegan dengan kenyamanan luar biasa untuk ruang makan atau ruang tunggu."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1756,11 +2792,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "52 × 56 × 86; SH 47"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-002.pdf"
+    ]
   },
   {
     "id": "chr-003",
@@ -1768,7 +2800,13 @@
     "slug": "dining-chair-chr-003",
     "sku": "CHR-003",
     "title": {
-      "en": "Dining Chair CHR-003"
+      "en": "Dining Chair CHR-003",
+      "it": "Sedia da Pranzo CHR-003",
+      "fr": "Chaise de Salle à Manger CHR-003",
+      "de": "Esszimmerstuhl CHR-003",
+      "ru": "Обеденный стул CHR-003",
+      "zh": "CHR-003 餐椅",
+      "id": "Kursi Makan CHR-003"
     },
     "description": {
       "en": "The CHR-003 chair is a masterpiece of contemporary seating, combining elegant Italian design with exceptional comfort for dining or lounge areas.",
@@ -1780,11 +2818,33 @@
       "id": "Kursi CHR-003 adalah mahakarya tempat duduk kontemporer, menggabungkan desain Italia yang elegan dengan kenyamanan luar biasa untuk ruang makan atau ruang tunggu."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1797,11 +2857,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "55 × 60 × 88; SH 47"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-003.pdf"
+    ]
   },
   {
     "id": "chr-004",
@@ -1809,7 +2865,13 @@
     "slug": "dining-chair-chr-004",
     "sku": "CHR-004",
     "title": {
-      "en": "Dining Chair CHR-004"
+      "en": "Dining Chair CHR-004",
+      "it": "Sedia da Pranzo CHR-004",
+      "fr": "Chaise de Salle à Manger CHR-004",
+      "de": "Esszimmerstuhl CHR-004",
+      "ru": "Обеденный стул CHR-004",
+      "zh": "CHR-004 餐椅",
+      "id": "Kursi Makan CHR-004"
     },
     "description": {
       "en": "The CHR-004 chair is a masterpiece of contemporary seating, combining elegant Italian design with exceptional comfort for dining or lounge areas.",
@@ -1821,11 +2883,33 @@
       "id": "Kursi CHR-004 adalah mahakarya tempat duduk kontemporer, menggabungkan desain Italia yang elegan dengan kenyamanan luar biasa untuk ruang makan atau ruang tunggu."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1838,11 +2922,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "50 × 58 × 90; SH 47"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dining-chair-chr-004.pdf"
+    ]
   },
   {
     "id": "sdb-001",
@@ -1850,7 +2930,13 @@
     "slug": "sideboard-sdb-001",
     "sku": "SDB-001",
     "title": {
-      "en": "Sideboard SDB-001"
+      "en": "Sideboard SDB-001",
+      "it": "Credenza SDB-001",
+      "fr": "Buffet SDB-001",
+      "de": "Sideboard SDB-001",
+      "ru": "Комод SDB-001",
+      "zh": "SDB-001 餐边柜",
+      "id": "Kredensa SDB-001"
     },
     "description": {
       "en": "The SDB-001 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -1862,11 +2948,33 @@
       "id": "SDB-001 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1879,11 +2987,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "240 × 50 × 80"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-001.pdf"
+    ]
   },
   {
     "id": "sdb-002",
@@ -1891,7 +2995,13 @@
     "slug": "sideboard-sdb-002",
     "sku": "SDB-002",
     "title": {
-      "en": "Sideboard SDB-002"
+      "en": "Sideboard SDB-002",
+      "it": "Credenza SDB-002",
+      "fr": "Buffet SDB-002",
+      "de": "Sideboard SDB-002",
+      "ru": "Комод SDB-002",
+      "zh": "SDB-002 餐边柜",
+      "id": "Kredensa SDB-002"
     },
     "description": {
       "en": "The SDB-002 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -1903,11 +3013,33 @@
       "id": "SDB-002 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1920,11 +3052,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 50 × 82"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-002.pdf"
+    ]
   },
   {
     "id": "sdb-003",
@@ -1932,7 +3060,13 @@
     "slug": "sideboard-sdb-003",
     "sku": "SDB-003",
     "title": {
-      "en": "Sideboard SDB-003"
+      "en": "Sideboard SDB-003",
+      "it": "Credenza SDB-003",
+      "fr": "Buffet SDB-003",
+      "de": "Sideboard SDB-003",
+      "ru": "Комод SDB-003",
+      "zh": "SDB-003 餐边柜",
+      "id": "Kredensa SDB-003"
     },
     "description": {
       "en": "The SDB-003 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -1944,11 +3078,33 @@
       "id": "SDB-003 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -1961,11 +3117,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "260 × 50 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-003.pdf"
+    ]
   },
   {
     "id": "sdb-004",
@@ -1973,7 +3125,13 @@
     "slug": "sideboard-sdb-004",
     "sku": "SDB-004",
     "title": {
-      "en": "Sideboard SDB-004"
+      "en": "Sideboard SDB-004",
+      "it": "Credenza SDB-004",
+      "fr": "Buffet SDB-004",
+      "de": "Sideboard SDB-004",
+      "ru": "Комод SDB-004",
+      "zh": "SDB-004 餐边柜",
+      "id": "Kredensa SDB-004"
     },
     "description": {
       "en": "The SDB-004 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -1985,11 +3143,33 @@
       "id": "SDB-004 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2002,11 +3182,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 50 × 78"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/sideboard-sdb-004.pdf"
+    ]
   },
   {
     "id": "vtr-001",
@@ -2014,7 +3190,13 @@
     "slug": "vitrine-vtr-001",
     "sku": "VTR-001",
     "title": {
-      "en": "Vitrine VTR-001"
+      "en": "Vitrine VTR-001",
+      "it": "Vetrina VTR-001",
+      "fr": "Vitrine VTR-001",
+      "de": "Vitrine VTR-001",
+      "ru": "Витрина VTR-001",
+      "zh": "VTR-001 展柜",
+      "id": "Lemari Pajangan VTR-001"
     },
     "description": {
       "en": "Showcase your curated objects with the VTR-001. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2026,11 +3208,33 @@
       "id": "Pamerkan objek pilihan Anda dengan VTR-001. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2043,11 +3247,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "80 × 45 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-001.pdf"
+    ]
   },
   {
     "id": "vtr-002",
@@ -2055,7 +3255,13 @@
     "slug": "vitrine-vtr-002",
     "sku": "VTR-002",
     "title": {
-      "en": "Vitrine VTR-002"
+      "en": "Vitrine VTR-002",
+      "it": "Vetrina VTR-002",
+      "fr": "Vitrine VTR-002",
+      "de": "Vitrine VTR-002",
+      "ru": "Витрина VTR-002",
+      "zh": "VTR-002 展柜",
+      "id": "Lemari Pajangan VTR-002"
     },
     "description": {
       "en": "Showcase your curated objects with the VTR-002. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2067,11 +3273,33 @@
       "id": "Pamerkan objek pilihan Anda dengan VTR-002. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2084,11 +3312,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "90 × 45 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vitrine-vtr-002.pdf"
+    ]
   },
   {
     "id": "bkc-001",
@@ -2096,7 +3320,13 @@
     "slug": "bookcase-bkc-001",
     "sku": "BKC-001",
     "title": {
-      "en": "Bookcase BKC-001"
+      "en": "Bookcase BKC-001",
+      "it": "Libreria BKC-001",
+      "fr": "Bibliothèque BKC-001",
+      "de": "Bücherregal BKC-001",
+      "ru": "Книжный шкаф BKC-001",
+      "zh": "BKC-001 书柜",
+      "id": "Rak Buku BKC-001"
     },
     "description": {
       "en": "Showcase your curated objects with the BKC-001. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2108,11 +3338,33 @@
       "id": "Pamerkan objek pilihan Anda dengan BKC-001. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2125,11 +3377,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "240 × 40 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-001.pdf"
+    ]
   },
   {
     "id": "bkc-002",
@@ -2137,7 +3385,13 @@
     "slug": "bookcase-bkc-002",
     "sku": "BKC-002",
     "title": {
-      "en": "Bookcase BKC-002"
+      "en": "Bookcase BKC-002",
+      "it": "Libreria BKC-002",
+      "fr": "Bibliothèque BKC-002",
+      "de": "Bücherregal BKC-002",
+      "ru": "Книжный шкаф BKC-002",
+      "zh": "BKC-002 书柜",
+      "id": "Rak Buku BKC-002"
     },
     "description": {
       "en": "Showcase your curated objects with the BKC-002. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2149,11 +3403,33 @@
       "id": "Pamerkan objek pilihan Anda dengan BKC-002. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2166,11 +3442,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "160 × 40 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-002.pdf"
+    ]
   },
   {
     "id": "bkc-003",
@@ -2178,7 +3450,13 @@
     "slug": "bookcase-bkc-003",
     "sku": "BKC-003",
     "title": {
-      "en": "Bookcase BKC-003"
+      "en": "Bookcase BKC-003",
+      "it": "Libreria BKC-003",
+      "fr": "Bibliothèque BKC-003",
+      "de": "Bücherregal BKC-003",
+      "ru": "Книжный шкаф BKC-003",
+      "zh": "BKC-003 书柜",
+      "id": "Rak Buku BKC-003"
     },
     "description": {
       "en": "Showcase your curated objects with the BKC-003. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2190,11 +3468,33 @@
       "id": "Pamerkan objek pilihan Anda dengan BKC-003. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2207,11 +3507,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 40 × 220"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-003.pdf"
+    ]
   },
   {
     "id": "bkc-004",
@@ -2219,7 +3515,13 @@
     "slug": "bookcase-bkc-004",
     "sku": "BKC-004",
     "title": {
-      "en": "Bookcase BKC-004"
+      "en": "Bookcase BKC-004",
+      "it": "Libreria BKC-004",
+      "fr": "Bibliothèque BKC-004",
+      "de": "Bücherregal BKC-004",
+      "ru": "Книжный шкаф BKC-004",
+      "zh": "BKC-004 书柜",
+      "id": "Rak Buku BKC-004"
     },
     "description": {
       "en": "Showcase your curated objects with the BKC-004. This structural masterpiece brings architectural elegance and intelligent display solutions to any room.",
@@ -2231,11 +3533,33 @@
       "id": "Pamerkan objek pilihan Anda dengan BKC-004. Mahakarya struktural ini menghadirkan keanggunan arsitektur dan solusi tampilan cerdas ke ruangan mana pun."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2248,11 +3572,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 45 × 210"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bookcase-bkc-004.pdf"
+    ]
   },
   {
     "id": "bed-001",
@@ -2260,7 +3580,13 @@
     "slug": "bed-bed-001",
     "sku": "BED-001",
     "title": {
-      "en": "Bed BED-001"
+      "en": "Bed BED-001",
+      "it": "Letto BED-001",
+      "fr": "Lit BED-001",
+      "de": "Bett BED-001",
+      "ru": "Кровать BED-001",
+      "zh": "BED-001 床",
+      "id": "Tempat Tidur BED-001"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-001 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2272,11 +3598,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-001. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2289,11 +3637,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 225 × 120 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-001.pdf"
+    ]
   },
   {
     "id": "bed-002",
@@ -2301,7 +3645,13 @@
     "slug": "bed-bed-002",
     "sku": "BED-002",
     "title": {
-      "en": "Bed BED-002"
+      "en": "Bed BED-002",
+      "it": "Letto BED-002",
+      "fr": "Lit BED-002",
+      "de": "Bett BED-002",
+      "ru": "Кровать BED-002",
+      "zh": "BED-002 床",
+      "id": "Tempat Tidur BED-002"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-002 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2313,11 +3663,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-002. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2330,11 +3702,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 235 × 105 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-002.pdf"
+    ]
   },
   {
     "id": "bed-003",
@@ -2342,7 +3710,13 @@
     "slug": "bed-bed-003",
     "sku": "BED-003",
     "title": {
-      "en": "Bed BED-003"
+      "en": "Bed BED-003",
+      "it": "Letto BED-003",
+      "fr": "Lit BED-003",
+      "de": "Bett BED-003",
+      "ru": "Кровать BED-003",
+      "zh": "BED-003 床",
+      "id": "Tempat Tidur BED-003"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-003 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2354,11 +3728,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-003. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2371,11 +3767,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 225 × 125 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-003.pdf"
+    ]
   },
   {
     "id": "bed-004",
@@ -2383,7 +3775,13 @@
     "slug": "bed-bed-004",
     "sku": "BED-004",
     "title": {
-      "en": "Bed BED-004"
+      "en": "Bed BED-004",
+      "it": "Letto BED-004",
+      "fr": "Lit BED-004",
+      "de": "Bett BED-004",
+      "ru": "Кровать BED-004",
+      "zh": "BED-004 床",
+      "id": "Tempat Tidur BED-004"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-004 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2395,11 +3793,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-004. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2412,11 +3832,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "215 × 230 × 115 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-004.pdf"
+    ]
   },
   {
     "id": "bed-005",
@@ -2424,7 +3840,13 @@
     "slug": "bed-bed-005",
     "sku": "BED-005",
     "title": {
-      "en": "Bed BED-005"
+      "en": "Bed BED-005",
+      "it": "Letto BED-005",
+      "fr": "Lit BED-005",
+      "de": "Bett BED-005",
+      "ru": "Кровать BED-005",
+      "zh": "BED-005 床",
+      "id": "Tempat Tidur BED-005"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-005 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2436,11 +3858,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-005. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2453,11 +3897,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "210 × 225 × 110 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-005.pdf"
+    ]
   },
   {
     "id": "bed-006",
@@ -2465,7 +3905,13 @@
     "slug": "bed-bed-006",
     "sku": "BED-006",
     "title": {
-      "en": "Bed BED-006"
+      "en": "Bed BED-006",
+      "it": "Letto BED-006",
+      "fr": "Lit BED-006",
+      "de": "Bett BED-006",
+      "ru": "Кровать BED-006",
+      "zh": "BED-006 床",
+      "id": "Tempat Tidur BED-006"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-006 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2477,11 +3923,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-006. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2494,11 +3962,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "230 × 235 × 105 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-006.pdf"
+    ]
   },
   {
     "id": "bed-007",
@@ -2506,7 +3970,13 @@
     "slug": "bed-bed-007",
     "sku": "BED-007",
     "title": {
-      "en": "Bed BED-007"
+      "en": "Bed BED-007",
+      "it": "Letto BED-007",
+      "fr": "Lit BED-007",
+      "de": "Bett BED-007",
+      "ru": "Кровать BED-007",
+      "zh": "BED-007 床",
+      "id": "Tempat Tidur BED-007"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-007 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2518,11 +3988,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-007. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-007.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2535,11 +4027,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 230 × 140 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-007.pdf"
+    ]
   },
   {
     "id": "bed-008",
@@ -2547,7 +4035,13 @@
     "slug": "bed-bed-008",
     "sku": "BED-008",
     "title": {
-      "en": "Bed BED-008"
+      "en": "Bed BED-008",
+      "it": "Letto BED-008",
+      "fr": "Lit BED-008",
+      "de": "Bett BED-008",
+      "ru": "Кровать BED-008",
+      "zh": "BED-008 床",
+      "id": "Tempat Tidur BED-008"
     },
     "description": {
       "en": "Transform your bedroom into a luxury sanctuary with the BED-008 bed. Its refined headboard and flawless construction guarantee restful elegance.",
@@ -2559,11 +4053,33 @@
       "id": "Ubah kamar tidur Anda menjadi tempat suci mewah dengan tempat tidur BED-008. Kepala tempat tidurnya yang disempurnakan dan konstruksi yang sempurna menjamin keanggunan yang tenang."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/bed-bed-008.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2576,11 +4092,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "225 × 230 × 125 (mattress 180 × 200)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/bed-bed-008.pdf"
+    ]
   },
   {
     "id": "nst-001",
@@ -2588,7 +4100,13 @@
     "slug": "nightstand-nst-001",
     "sku": "NST-001",
     "title": {
-      "en": "Nightstand NST-001"
+      "en": "Nightstand NST-001",
+      "it": "Comodino NST-001",
+      "fr": "Table de Nuit NST-001",
+      "de": "Nachttisch NST-001",
+      "ru": "Прикроватная тумбочка NST-001",
+      "zh": "NST-001 床头柜",
+      "id": "Nakas NST-001"
     },
     "description": {
       "en": "The NST-001 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2600,11 +4118,33 @@
       "id": "NST-001 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2617,11 +4157,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "100 × 50 × 60"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-001.pdf"
+    ]
   },
   {
     "id": "nst-002",
@@ -2629,7 +4165,13 @@
     "slug": "nightstand-nst-002",
     "sku": "NST-002",
     "title": {
-      "en": "Nightstand NST-002"
+      "en": "Nightstand NST-002",
+      "it": "Comodino NST-002",
+      "fr": "Table de Nuit NST-002",
+      "de": "Nachttisch NST-002",
+      "ru": "Прикроватная тумбочка NST-002",
+      "zh": "NST-002 床头柜",
+      "id": "Nakas NST-002"
     },
     "description": {
       "en": "The NST-002 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2641,11 +4183,33 @@
       "id": "NST-002 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2658,11 +4222,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "65 × 50 × 60"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-002.pdf"
+    ]
   },
   {
     "id": "nst-003",
@@ -2670,7 +4230,13 @@
     "slug": "nightstand-nst-003",
     "sku": "NST-003",
     "title": {
-      "en": "Nightstand NST-003"
+      "en": "Nightstand NST-003",
+      "it": "Comodino NST-003",
+      "fr": "Table de Nuit NST-003",
+      "de": "Nachttisch NST-003",
+      "ru": "Прикроватная тумбочка NST-003",
+      "zh": "NST-003 床头柜",
+      "id": "Nakas NST-003"
     },
     "description": {
       "en": "The NST-003 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2682,11 +4248,33 @@
       "id": "NST-003 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2699,11 +4287,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "90 × 50 × 60"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-003.pdf"
+    ]
   },
   {
     "id": "nst-004",
@@ -2711,7 +4295,13 @@
     "slug": "nightstand-nst-004",
     "sku": "NST-004",
     "title": {
-      "en": "Nightstand NST-004"
+      "en": "Nightstand NST-004",
+      "it": "Comodino NST-004",
+      "fr": "Table de Nuit NST-004",
+      "de": "Nachttisch NST-004",
+      "ru": "Прикроватная тумбочка NST-004",
+      "zh": "NST-004 床头柜",
+      "id": "Nakas NST-004"
     },
     "description": {
       "en": "The NST-004 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2723,11 +4313,33 @@
       "id": "NST-004 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2740,11 +4352,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "80 × 48 × 60"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-004.pdf"
+    ]
   },
   {
     "id": "nst-005",
@@ -2752,7 +4360,13 @@
     "slug": "nightstand-nst-005",
     "sku": "NST-005",
     "title": {
-      "en": "Nightstand NST-005"
+      "en": "Nightstand NST-005",
+      "it": "Comodino NST-005",
+      "fr": "Table de Nuit NST-005",
+      "de": "Nachttisch NST-005",
+      "ru": "Прикроватная тумбочка NST-005",
+      "zh": "NST-005 床头柜",
+      "id": "Nakas NST-005"
     },
     "description": {
       "en": "The NST-005 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2764,11 +4378,33 @@
       "id": "NST-005 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2781,11 +4417,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "55 × 45 × 65"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-005.pdf"
+    ]
   },
   {
     "id": "nst-006",
@@ -2793,7 +4425,13 @@
     "slug": "nightstand-nst-006",
     "sku": "NST-006",
     "title": {
-      "en": "Nightstand NST-006"
+      "en": "Nightstand NST-006",
+      "it": "Comodino NST-006",
+      "fr": "Table de Nuit NST-006",
+      "de": "Nachttisch NST-006",
+      "ru": "Прикроватная тумбочка NST-006",
+      "zh": "NST-006 床头柜",
+      "id": "Nakas NST-006"
     },
     "description": {
       "en": "The NST-006 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2805,11 +4443,33 @@
       "id": "NST-006 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2822,11 +4482,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "55 × 55 × 110"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/nightstand-nst-006.pdf"
+    ]
   },
   {
     "id": "drs-001",
@@ -2834,7 +4490,13 @@
     "slug": "dresser-chest-drs-001",
     "sku": "DRS-001",
     "title": {
-      "en": "Dresser / Chest DRS-001"
+      "en": "Dresser / Chest DRS-001",
+      "it": "Comò / Cassettiera DRS-001",
+      "fr": "Commode DRS-001",
+      "de": "Kommode DRS-001",
+      "ru": "Комод DRS-001",
+      "zh": "DRS-001 梳妆斗柜",
+      "id": "Lemari Laci DRS-001"
     },
     "description": {
       "en": "The DRS-001 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2846,11 +4508,33 @@
       "id": "DRS-001 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2863,11 +4547,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "200 × 50 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-001.pdf"
+    ]
   },
   {
     "id": "drs-002",
@@ -2875,7 +4555,13 @@
     "slug": "dresser-chest-drs-002",
     "sku": "DRS-002",
     "title": {
-      "en": "Dresser / Chest DRS-002"
+      "en": "Dresser / Chest DRS-002",
+      "it": "Comò / Cassettiera DRS-002",
+      "fr": "Commode DRS-002",
+      "de": "Kommode DRS-002",
+      "ru": "Комод DRS-002",
+      "zh": "DRS-002 梳妆斗柜",
+      "id": "Lemari Laci DRS-002"
     },
     "description": {
       "en": "The DRS-002 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2887,11 +4573,33 @@
       "id": "DRS-002 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2904,11 +4612,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "200 × 50 × 75"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-002.pdf"
+    ]
   },
   {
     "id": "drs-003",
@@ -2916,7 +4620,13 @@
     "slug": "dresser-chest-drs-003",
     "sku": "DRS-003",
     "title": {
-      "en": "Dresser / Chest DRS-003"
+      "en": "Dresser / Chest DRS-003",
+      "it": "Comò / Cassettiera DRS-003",
+      "fr": "Commode DRS-003",
+      "de": "Kommode DRS-003",
+      "ru": "Комод DRS-003",
+      "zh": "DRS-003 梳妆斗柜",
+      "id": "Lemari Laci DRS-003"
     },
     "description": {
       "en": "The DRS-003 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2928,11 +4638,33 @@
       "id": "DRS-003 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2945,11 +4677,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "220 × 50 × 80"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-003.pdf"
+    ]
   },
   {
     "id": "drs-004",
@@ -2957,7 +4685,13 @@
     "slug": "dresser-chest-drs-004",
     "sku": "DRS-004",
     "title": {
-      "en": "Dresser / Chest DRS-004"
+      "en": "Dresser / Chest DRS-004",
+      "it": "Comò / Cassettiera DRS-004",
+      "fr": "Commode DRS-004",
+      "de": "Kommode DRS-004",
+      "ru": "Комод DRS-004",
+      "zh": "DRS-004 梳妆斗柜",
+      "id": "Lemari Laci DRS-004"
     },
     "description": {
       "en": "The DRS-004 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -2969,11 +4703,33 @@
       "id": "DRS-004 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -2986,11 +4742,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 50 × 80"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-004.pdf"
+    ]
   },
   {
     "id": "drs-005",
@@ -2998,7 +4750,13 @@
     "slug": "dresser-chest-drs-005",
     "sku": "DRS-005",
     "title": {
-      "en": "Dresser / Chest DRS-005"
+      "en": "Dresser / Chest DRS-005",
+      "it": "Comò / Cassettiera DRS-005",
+      "fr": "Commode DRS-005",
+      "de": "Kommode DRS-005",
+      "ru": "Комод DRS-005",
+      "zh": "DRS-005 梳妆斗柜",
+      "id": "Lemari Laci DRS-005"
     },
     "description": {
       "en": "The DRS-005 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -3010,11 +4768,33 @@
       "id": "DRS-005 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3027,11 +4807,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 50 × 90"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-005.pdf"
+    ]
   },
   {
     "id": "drs-006",
@@ -3039,7 +4815,13 @@
     "slug": "dresser-chest-drs-006",
     "sku": "DRS-006",
     "title": {
-      "en": "Dresser / Chest DRS-006"
+      "en": "Dresser / Chest DRS-006",
+      "it": "Comò / Cassettiera DRS-006",
+      "fr": "Commode DRS-006",
+      "de": "Kommode DRS-006",
+      "ru": "Комод DRS-006",
+      "zh": "DRS-006 梳妆斗柜",
+      "id": "Lemari Laci DRS-006"
     },
     "description": {
       "en": "The DRS-006 offers refined storage and surface space, crafted with meticulous attention to detail and featuring premium hardware.",
@@ -3051,11 +4833,33 @@
       "id": "DRS-006 menawarkan penyimpanan yang disempurnakan dan ruang permukaan, dibuat dengan perhatian cermat terhadap detail dan menampilkan perangkat keras premium."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-006.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3068,11 +4872,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "75 × 50 × 140"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/dresser-chest-drs-006.pdf"
+    ]
   },
   {
     "id": "van-001",
@@ -3080,7 +4880,13 @@
     "slug": "vanity-van-001",
     "sku": "VAN-001",
     "title": {
-      "en": "Vanity VAN-001"
+      "en": "Vanity VAN-001",
+      "it": "Mobile Trucco VAN-001",
+      "fr": "Coiffeuse VAN-001",
+      "de": "Schminktisch VAN-001",
+      "ru": "Туалетный столик VAN-001",
+      "zh": "VAN-001 梳妆台",
+      "id": "Meja Rias VAN-001"
     },
     "description": {
       "en": "The VAN-001 is a masterclass in Italian design, bringing together premium materials, artisanal craftsmanship, and timeless elegance to elevate your luxury interior.",
@@ -3092,11 +4898,33 @@
       "id": "VAN-001 adalah kelas master dalam desain Italia, menyatukan bahan premium, pengerjaan artisanal, dan keanggunan abadi untuk meningkatkan interior mewah Anda."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-001.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3109,11 +4937,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "160 × 55 × 145 (top 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vanity-van-001.pdf"
+    ]
   },
   {
     "id": "van-002",
@@ -3121,7 +4945,13 @@
     "slug": "vanity-van-002",
     "sku": "VAN-002",
     "title": {
-      "en": "Vanity VAN-002"
+      "en": "Vanity VAN-002",
+      "it": "Mobile Trucco VAN-002",
+      "fr": "Coiffeuse VAN-002",
+      "de": "Schminktisch VAN-002",
+      "ru": "Туалетный столик VAN-002",
+      "zh": "VAN-002 梳妆台",
+      "id": "Meja Rias VAN-002"
     },
     "description": {
       "en": "The VAN-002 is a masterclass in Italian design, bringing together premium materials, artisanal craftsmanship, and timeless elegance to elevate your luxury interior.",
@@ -3133,11 +4963,33 @@
       "id": "VAN-002 adalah kelas master dalam desain Italia, menyatukan bahan premium, pengerjaan artisanal, dan keanggunan abadi untuk meningkatkan interior mewah Anda."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-002.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3150,11 +5002,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "180 × 55 × 145 (top 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vanity-van-002.pdf"
+    ]
   },
   {
     "id": "van-003",
@@ -3162,7 +5010,13 @@
     "slug": "vanity-van-003",
     "sku": "VAN-003",
     "title": {
-      "en": "Vanity VAN-003"
+      "en": "Vanity VAN-003",
+      "it": "Mobile Trucco VAN-003",
+      "fr": "Coiffeuse VAN-003",
+      "de": "Schminktisch VAN-003",
+      "ru": "Туалетный столик VAN-003",
+      "zh": "VAN-003 梳妆台",
+      "id": "Meja Rias VAN-003"
     },
     "description": {
       "en": "The VAN-003 is a masterclass in Italian design, bringing together premium materials, artisanal craftsmanship, and timeless elegance to elevate your luxury interior.",
@@ -3174,11 +5028,33 @@
       "id": "VAN-003 adalah kelas master dalam desain Italia, menyatukan bahan premium, pengerjaan artisanal, dan keanggunan abadi untuk meningkatkan interior mewah Anda."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-003.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3191,11 +5067,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "160 × 55 × 145 (top 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vanity-van-003.pdf"
+    ]
   },
   {
     "id": "van-004",
@@ -3203,7 +5075,13 @@
     "slug": "vanity-van-004",
     "sku": "VAN-004",
     "title": {
-      "en": "Vanity VAN-004"
+      "en": "Vanity VAN-004",
+      "it": "Mobile Trucco VAN-004",
+      "fr": "Coiffeuse VAN-004",
+      "de": "Schminktisch VAN-004",
+      "ru": "Туалетный столик VAN-004",
+      "zh": "VAN-004 梳妆台",
+      "id": "Meja Rias VAN-004"
     },
     "description": {
       "en": "The VAN-004 is a masterclass in Italian design, bringing together premium materials, artisanal craftsmanship, and timeless elegance to elevate your luxury interior.",
@@ -3215,11 +5093,33 @@
       "id": "VAN-004 adalah kelas master dalam desain Italia, menyatukan bahan premium, pengerjaan artisanal, dan keanggunan abadi untuk meningkatkan interior mewah Anda."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-004.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3232,11 +5132,7 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "140 × 55 × 140 (top 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vanity-van-004.pdf"
+    ]
   },
   {
     "id": "van-005",
@@ -3244,7 +5140,13 @@
     "slug": "vanity-van-005",
     "sku": "VAN-005",
     "title": {
-      "en": "Vanity VAN-005"
+      "en": "Vanity VAN-005",
+      "it": "Mobile Trucco VAN-005",
+      "fr": "Coiffeuse VAN-005",
+      "de": "Schminktisch VAN-005",
+      "ru": "Туалетный столик VAN-005",
+      "zh": "VAN-005 梳妆台",
+      "id": "Meja Rias VAN-005"
     },
     "description": {
       "en": "The VAN-005 is a masterclass in Italian design, bringing together premium materials, artisanal craftsmanship, and timeless elegance to elevate your luxury interior.",
@@ -3256,11 +5158,33 @@
       "id": "VAN-005 adalah kelas master dalam desain Italia, menyatukan bahan premium, pengerjaan artisanal, dan keanggunan abadi untuk meningkatkan interior mewah Anda."
     },
     "materials": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
     "specifications": {
-      "en": ""
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
     },
+    "dimensions": {
+      "en": "",
+      "it": "",
+      "fr": "",
+      "de": "",
+      "ru": "",
+      "zh": "",
+      "id": ""
+    },
+    "tearSheetUrl": "/pdfs/catalogue/vanity-van-005.pdf",
     "isPublished": true,
     "images": [
       {
@@ -3273,10 +5197,6 @@
         "viewType": "side",
         "isPrimary": false
       }
-    ],
-    "dimensions": {
-      "en": "70 × 45 × 145 (top 75)"
-    },
-    "tearSheetUrl": "/pdfs/catalogue/vanity-van-005.pdf"
+    ]
   }
 ]

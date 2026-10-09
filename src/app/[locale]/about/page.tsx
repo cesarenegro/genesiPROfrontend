@@ -1,6 +1,9 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const t = await getTranslations('About');
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -15,9 +18,9 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30 z-10" />
         
         <div className="relative z-20 container mx-auto">
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">Our Heritage</h1>
+          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">{t('heroTitle')}</h1>
           <p className="text-lg md:text-xl text-white/80 font-light max-w-2xl mx-auto">
-            Rooted in the timeless tradition of Italian craftsmanship, GENESI redefines luxury living through innovative design and impeccable execution.
+            {t('heroSubtitle')}
           </p>
         </div>
       </section>
@@ -28,13 +31,13 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div className="order-2 lg:order-1 space-y-8">
               <h2 className="text-3xl md:text-4xl font-light leading-tight">
-                A Legacy of Design Excellence
+                {t('storyTitle')}
               </h2>
               <p className="text-muted-foreground leading-relaxed text-lg font-light">
-                Since our inception, GENESI has been driven by a singular vision: to create environments that inspire. We believe that true luxury lies in the harmony between aesthetics and functionality, where every line, every material, and every finish tells a story.
+                {t('storyP1')}
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg font-light">
-                Our approach combines the soul of artisan craftsmanship with the precision of modern engineering. From our headquarters in Milan, we curate collections and orchestrate bespoke contract projects for the world's most demanding clients.
+                {t('storyP2')}
               </p>
             </div>
             
@@ -57,18 +60,18 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div>
               <div className="text-5xl font-light mb-4">100%</div>
-              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">Made in Italy</h3>
-              <p className="text-muted-foreground font-light">Sourced, crafted, and finished entirely in Italy by master artisans.</p>
+              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">{t('statMadeInItaly')}</h3>
+              <p className="text-muted-foreground font-light">{t('statMadeInItalyDesc')}</p>
             </div>
             <div>
               <div className="text-5xl font-light mb-4">50+</div>
-              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">Global Projects</h3>
-              <p className="text-muted-foreground font-light">Delivering turnkey FF&E solutions across five continents.</p>
+              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">{t('statGlobalProjects')}</h3>
+              <p className="text-muted-foreground font-light">{t('statGlobalProjectsDesc')}</p>
             </div>
             <div>
               <div className="text-5xl font-light mb-4">∞</div>
-              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">Bespoke Options</h3>
-              <p className="text-muted-foreground font-light">Infinite customization possibilities to meet any architectural vision.</p>
+              <h3 className="text-sm uppercase tracking-widest font-semibold mb-2">{t('statBespokeOptions')}</h3>
+              <p className="text-muted-foreground font-light">{t('statBespokeOptionsDesc')}</p>
             </div>
           </div>
         </div>

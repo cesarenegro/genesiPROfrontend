@@ -1,11 +1,12 @@
 import { getCategories } from '@/lib/catalogue';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 
 export default async function Home() {
   const categories = await getCategories();
   const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
+  const t = await getTranslations('Home');
   
   // Prendi le prime 4 categorie come "Featured"
   const featuredCategories = categories.slice(0, 4);
@@ -43,23 +44,23 @@ export default async function Home() {
 
           <div className="animate-fade-in-up">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6">
-              Elegance in Every Detail
+              {t('heroTitle')}
             </h1>
             <p className="text-base md:text-xl text-white/80 max-w-2xl mx-auto mb-10 font-light">
-              Premium furniture, FF&E procurement, interior design, and project management for luxury spaces worldwide.
+              {t('heroSubtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 href="/catalogue" 
                 className="px-8 py-4 bg-white text-black text-sm font-medium hover:bg-white/90 transition-colors uppercase tracking-widest"
               >
-                Explore Catalogue
+                {t('exploreCatalogue')}
               </Link>
               <Link 
                 href="/projects" 
                 className="px-8 py-4 border border-white text-white text-sm font-medium hover:bg-white hover:text-black transition-colors uppercase tracking-widest"
               >
-                Our Projects
+                {t('ourProjects')}
               </Link>
             </div>
           </div>
@@ -69,10 +70,10 @@ export default async function Home() {
       {/* Corporate Intro */}
       <section className="py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8 text-center max-w-4xl">
-          <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">Our Philosophy</h2>
-          <h3 className="text-3xl md:text-5xl font-light mb-8 leading-tight">Crafting Luxury Spaces</h3>
+          <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('ourPhilosophy')}</h2>
+          <h3 className="text-3xl md:text-5xl font-light mb-8 leading-tight">{t('craftingLuxurySpaces')}</h3>
           <p className="text-muted-foreground leading-relaxed text-lg md:text-xl font-light">
-            GENESI is your partner for high-end interior solutions. From bespoke furniture to complete turnkey contract management, we bring Italian design excellence to hotels, residences, and commercial spaces. Every detail is meticulously engineered to ensure timeless elegance.
+            {t('philosophyText')}
           </p>
         </div>
       </section>
@@ -82,11 +83,11 @@ export default async function Home() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-end mb-12">
             <div>
-              <h2 className="text-3xl md:text-4xl font-light mb-2">Featured Collections</h2>
-              <p className="text-muted-foreground">Discover our latest additions</p>
+              <h2 className="text-3xl md:text-4xl font-light mb-2">{t('featuredCollections')}</h2>
+              <p className="text-muted-foreground">{t('discoverLatest')}</p>
             </div>
             <Link href="/catalogue" className="hidden md:inline-block text-sm uppercase tracking-widest border-b border-foreground pb-1 hover:text-primary hover:border-primary transition-colors">
-              View All Collections
+              {t('viewAllCollections')}
             </Link>
           </div>
 
@@ -111,7 +112,7 @@ export default async function Home() {
                   </div>
                   <div className="p-6">
                     <h3 className="text-lg font-medium mb-1 group-hover:text-primary transition-colors">{title}</h3>
-                    <p className="text-xs text-muted-foreground uppercase tracking-widest">Explore →</p>
+                    <p className="text-xs text-muted-foreground uppercase tracking-widest">{t('exploreArrow')}</p>
                   </div>
                 </Link>
               );
@@ -120,7 +121,7 @@ export default async function Home() {
           
           <div className="mt-12 text-center md:hidden">
             <Link href="/catalogue" className="inline-block px-8 py-4 bg-foreground text-background text-sm font-medium hover:bg-foreground/90 transition-colors uppercase tracking-widest">
-              View All Collections
+              {t('viewAllCollections')}
             </Link>
           </div>
         </div>
@@ -130,14 +131,14 @@ export default async function Home() {
       <section className="py-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
           <div className="bg-zinc-900 text-white p-12 lg:p-24 flex flex-col justify-center">
-            <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-4">Services</h2>
-            <h3 className="text-3xl md:text-5xl font-light mb-8">Turnkey Solutions</h3>
+            <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-4">{t('servicesTag')}</h2>
+            <h3 className="text-3xl md:text-5xl font-light mb-8">{t('turnkeySolutions')}</h3>
             <p className="text-zinc-300 leading-relaxed text-lg font-light mb-12 max-w-lg">
-              We provide comprehensive FF&E procurement, custom millwork, and project management. From the initial concept to the final white-glove installation, Genesi ensures impeccable execution.
+              {t('turnkeyText')}
             </p>
             <div>
               <Link href="/services" className="inline-block border border-white px-8 py-4 text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
-                Discover Our Services
+                {t('discoverOurServices')}
               </Link>
             </div>
           </div>

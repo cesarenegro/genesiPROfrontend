@@ -1,5 +1,5 @@
 import { getCategories, getProductsByCategory } from '@/lib/catalogue';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -20,15 +20,17 @@ export default async function CategoryPage({ params }: Props) {
   const products = await getProductsByCategory(category.slug);
   const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
   const categoryTitle = category.title[locale] || category.title.en;
+  const t = await getTranslations('Catalogue');
+  const galleryT = await getTranslations('Gallery');
   
   return (
     <div className="container mx-auto px-4 py-16 min-h-screen">
       <div className="mb-12">
         <Link href="/catalogue" className="text-sm text-muted-foreground hover:text-primary transition-colors mb-4 inline-block">
-          ← Back to Collections
+          {t('backToCollections')}
         </Link>
         <h1 className="text-4xl md:text-5xl font-light mb-4">{categoryTitle}</h1>
-        <p className="text-muted-foreground">{products.length} products available</p>
+        <p className="text-muted-foreground">{t('productsAvailable', { count: products.length })}</p>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -54,7 +56,7 @@ export default async function CategoryPage({ params }: Props) {
                     />
                   </div>
                 ) : (
-                  <div className="text-muted-foreground/30 font-medium">NO IMAGE</div>
+                  <div className="text-muted-foreground/30 font-medium">{galleryT('noImage')}</div>
                 )}
               </div>
               <div className="p-4 border-t border-border">
@@ -68,7 +70,7 @@ export default async function CategoryPage({ params }: Props) {
       
       {products.length === 0 && (
         <div className="py-20 text-center text-muted-foreground border border-dashed rounded-lg">
-          No products currently available in this collection.
+          {t('noProducts')}
         </div>
       )}
     </div>

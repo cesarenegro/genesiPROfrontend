@@ -1,17 +1,18 @@
 import { getCategories } from '@/lib/catalogue';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 
 export default async function CatalogueIndexPage() {
   const categories = await getCategories();
   const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
+  const t = await getTranslations('Catalogue');
   
   return (
     <div className="container mx-auto px-4 py-24 min-h-screen">
-      <h1 className="text-4xl md:text-5xl font-light mb-4">Our Collections</h1>
+      <h1 className="text-4xl md:text-5xl font-light mb-4">{t('title')}</h1>
       <p className="text-lg text-muted-foreground max-w-3xl mb-16">
-        Explore our curated selection of premium furniture across all categories.
+        {t('subtitle')}
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -35,7 +36,7 @@ export default async function CatalogueIndexPage() {
               </div>
               <div className="p-6">
                 <h2 className="text-xl font-medium mb-1 group-hover:text-primary transition-colors">{title}</h2>
-                <p className="text-sm text-muted-foreground uppercase tracking-wider text-xs">View Collection</p>
+                <p className="text-sm text-muted-foreground uppercase tracking-wider text-xs">{t('viewCollection')}</p>
               </div>
             </Link>
           );

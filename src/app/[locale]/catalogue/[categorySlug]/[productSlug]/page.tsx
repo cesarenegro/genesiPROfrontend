@@ -1,5 +1,5 @@
-import { getProducts } from '@/lib/catalogue';
-import { getLocale } from 'next-intl/server';
+import { getProducts, getCategories } from '@/lib/catalogue';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import ProductGallery from '@/components/catalogue/ProductGallery';
@@ -18,7 +18,13 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
+  const allCategories = await getCategories();
+  const category = allCategories.find(c => c.slug === categorySlug);
+
   const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
+  const t = await getTranslations('Catalogue');
+  
+  const categoryTitle = category ? (category.title[locale] || category.title.en) : categorySlug;
   const title = product.title[locale] || product.title.en;
   const description = product.description?.[locale] || product.description?.en || '';
   const specifications = product.specifications?.[locale] || product.specifications?.en || '';
@@ -29,7 +35,7 @@ export default async function ProductDetailPage({ params }: Props) {
     <div className="container mx-auto px-4 py-16 min-h-screen">
       <div className="mb-8">
         <Link href={`/catalogue/${categorySlug}`} className="text-sm text-muted-foreground hover:text-primary transition-colors inline-block uppercase tracking-wider">
-          ← Back to {categorySlug}
+          {t('backToCategory', { category: categoryTitle })}
         </Link>
       </div>
 
@@ -53,19 +59,19 @@ export default async function ProductDetailPage({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 border-y border-border py-8">
             {materials && (
               <div>
-                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">Materials & Finishes</h3>
+                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">{t('materialsFinishes')}</h3>
                 <p className="text-sm text-muted-foreground">{materials}</p>
               </div>
             )}
             {dimensions && (
               <div>
-                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">Dimensions</h3>
+                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">{t('dimensions')}</h3>
                 <p className="text-sm text-muted-foreground">{dimensions}</p>
               </div>
             )}
             {specifications && (
               <div>
-                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">Specifications</h3>
+                <h3 className="text-sm uppercase tracking-widest mb-2 font-semibold">{t('specifications')}</h3>
                 <p className="text-sm text-muted-foreground whitespace-pre-line">{specifications}</p>
               </div>
             )}
@@ -73,11 +79,11 @@ export default async function ProductDetailPage({ params }: Props) {
 
           <div className="mt-auto space-y-4">
             <button className="w-full bg-foreground text-background py-4 uppercase tracking-widest text-sm font-semibold hover:bg-foreground/90 transition-colors">
-              Request a Quote
+              {t('requestQuote')}
             </button>
             <a href={`/api/pdf/${product.slug}?locale=${locale}`} download={`${product.sku}.pdf`} className="w-full border border-border py-4 uppercase tracking-widest text-sm font-semibold hover:border-foreground transition-colors flex justify-center items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
-              Download Tear-sheet
+              {t('downloadTearSheet')}
             </a>
           </div>
         </div>

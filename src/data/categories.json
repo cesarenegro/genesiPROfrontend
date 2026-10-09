@@ -3,10 +3,22 @@
     "id": "wardrobes",
     "slug": "wardrobes",
     "title": {
-      "en": "Wardrobes"
+      "en": "Wardrobes",
+      "it": "Armadi",
+      "fr": "Armoires",
+      "de": "Kleiderschränke",
+      "ru": "Шкафы",
+      "zh": "衣柜",
+      "id": "Lemari Pakaian"
     },
     "description": {
-      "en": "Wardrobes"
+      "en": "Wardrobes",
+      "it": "Armadi",
+      "fr": "Armoires",
+      "de": "Kleiderschränke",
+      "ru": "Шкафы",
+      "zh": "衣柜",
+      "id": "Lemari Pakaian"
     },
     "isActive": true
   },
@@ -14,10 +26,22 @@
     "id": "desks",
     "slug": "desks",
     "title": {
-      "en": "Desks"
+      "en": "Desks",
+      "it": "Scrivanie",
+      "fr": "Bureaux",
+      "de": "Schreibtische",
+      "ru": "Письменные столы",
+      "zh": "书桌",
+      "id": "Meja Tulis"
     },
     "description": {
-      "en": "Desks"
+      "en": "Desks",
+      "it": "Scrivanie",
+      "fr": "Bureaux",
+      "de": "Schreibtische",
+      "ru": "Письменные столы",
+      "zh": "书桌",
+      "id": "Meja Tulis"
     },
     "isActive": true
   },
@@ -25,10 +49,22 @@
     "id": "desk-minibar",
     "slug": "desk-minibar",
     "title": {
-      "en": "Desk + Minibar"
+      "en": "Desk + Minibar",
+      "it": "Scrivania + Minibar",
+      "fr": "Bureau + Minibar",
+      "de": "Schreibtisch + Minibar",
+      "ru": "Письменный стол + Мини-бар",
+      "zh": "书桌 + 迷你吧",
+      "id": "Meja Tulis + Minibar"
     },
     "description": {
-      "en": "Desk + Minibar"
+      "en": "Desk + Minibar",
+      "it": "Scrivania + Minibar",
+      "fr": "Bureau + Minibar",
+      "de": "Schreibtisch + Minibar",
+      "ru": "Письменный стол + Мини-бар",
+      "zh": "书桌 + 迷你吧",
+      "id": "Meja Tulis + Minibar"
     },
     "isActive": true
   },
@@ -36,10 +72,22 @@
     "id": "minibars",
     "slug": "minibars",
     "title": {
-      "en": "Minibars"
+      "en": "Minibars",
+      "it": "Minibar",
+      "fr": "Minibars",
+      "de": "Minibars",
+      "ru": "Мини-бары",
+      "zh": "迷你吧",
+      "id": "Minibar"
     },
     "description": {
-      "en": "Minibars"
+      "en": "Minibars",
+      "it": "Minibar",
+      "fr": "Minibars",
+      "de": "Minibars",
+      "ru": "Мини-бары",
+      "zh": "迷你吧",
+      "id": "Minibar"
     },
     "isActive": true
   },
@@ -47,10 +95,22 @@
     "id": "shelving",
     "slug": "shelving",
     "title": {
-      "en": "Shelving"
+      "en": "Shelving",
+      "it": "Librerie e Scaffali",
+      "fr": "Étagères",
+      "de": "Regale",
+      "ru": "Стеллажи",
+      "zh": "搁架",
+      "id": "Rak"
     },
     "description": {
-      "en": "Shelving"
+      "en": "Shelving",
+      "it": "Librerie e Scaffali",
+      "fr": "Étagères",
+      "de": "Regale",
+      "ru": "Стеллажи",
+      "zh": "搁架",
+      "id": "Rak"
     },
     "isActive": true
   },
@@ -58,10 +118,22 @@
     "id": "media-walls",
     "slug": "media-walls",
     "title": {
-      "en": "Media Walls"
+      "en": "Media Walls",
+      "it": "Pareti Attrezzate",
+      "fr": "Murs Média",
+      "de": "Medienwände",
+      "ru": "Медиа-стены",
+      "zh": "电视背景墙",
+      "id": "Dinding Media"
     },
     "description": {
-      "en": "Media Walls"
+      "en": "Media Walls",
+      "it": "Pareti Attrezzate",
+      "fr": "Murs Média",
+      "de": "Medienwände",
+      "ru": "Медиа-стены",
+      "zh": "电视背景墙",
+      "id": "Dinding Media"
     },
     "isActive": true
   },
@@ -69,10 +141,22 @@
     "id": "sofas",
     "slug": "sofas",
     "title": {
-      "en": "Sofas"
+      "en": "Sofas",
+      "it": "Divani",
+      "fr": "Canapés",
+      "de": "Sofas",
+      "ru": "Диваны",
+      "zh": "沙发",
+      "id": "Sofa"
     },
     "description": {
-      "en": "Sofas"
+      "en": "Sofas",
+      "it": "Divani",
+      "fr": "Canapés",
+      "de": "Sofas",
+      "ru": "Диваны",
+      "zh": "沙发",
+      "id": "Sofa"
     },
     "isActive": true
   },
@@ -80,10 +164,22 @@
     "id": "armchairs",
     "slug": "armchairs",
     "title": {
-      "en": "Armchairs"
+      "en": "Armchairs",
+      "it": "Poltrone",
+      "fr": "Fauteuils",
+      "de": "Sessel",
+      "ru": "Кресла",
+      "zh": "扶手椅",
+      "id": "Kursi Berlengan"
     },
     "description": {
-      "en": "Armchairs"
+      "en": "Armchairs",
+      "it": "Poltrone",
+      "fr": "Fauteuils",
+      "de": "Sessel",
+      "ru": "Кресла",
+      "zh": "扶手椅",
+      "id": "Kursi Berlengan"
     },
     "isActive": true
   },
@@ -91,10 +187,22 @@
     "id": "occasional-tables-consoles",
     "slug": "occasional-tables-consoles",
     "title": {
-      "en": "Occasional Tables + Consoles"
+      "en": "Occasional Tables + Consoles",
+      "it": "Tavolini e Console",
+      "fr": "Tables d'appoint et Consoles",
+      "de": "Beistelltische + Konsolen",
+      "ru": "Приставные столы и консоли",
+      "zh": "茶几与玄关桌",
+      "id": "Meja Samping + Meja Konsol"
     },
     "description": {
-      "en": "Occasional Tables + Consoles"
+      "en": "Occasional Tables + Consoles",
+      "it": "Tavolini e Console",
+      "fr": "Tables d'appoint et Consoles",
+      "de": "Beistelltische + Konsolen",
+      "ru": "Приставные столы и консоли",
+      "zh": "茶几与玄关桌",
+      "id": "Meja Samping + Meja Konsol"
     },
     "isActive": true
   },
@@ -102,10 +210,22 @@
     "id": "dining-tables",
     "slug": "dining-tables",
     "title": {
-      "en": "Dining Tables"
+      "en": "Dining Tables",
+      "it": "Tavoli da Pranzo",
+      "fr": "Tables de Salle à Manger",
+      "de": "Esstische",
+      "ru": "Обеденные столы",
+      "zh": "餐桌",
+      "id": "Meja Makan"
     },
     "description": {
-      "en": "Dining Tables"
+      "en": "Dining Tables",
+      "it": "Tavoli da Pranzo",
+      "fr": "Tables de Salle à Manger",
+      "de": "Esstische",
+      "ru": "Обеденные столы",
+      "zh": "餐桌",
+      "id": "Meja Makan"
     },
     "isActive": true
   },
@@ -113,10 +233,22 @@
     "id": "dining-chairs",
     "slug": "dining-chairs",
     "title": {
-      "en": "Dining Chairs"
+      "en": "Dining Chairs",
+      "it": "Sedie da Pranzo",
+      "fr": "Chaises de Salle à Manger",
+      "de": "Esszimmerstühle",
+      "ru": "Обеденные стулья",
+      "zh": "餐椅",
+      "id": "Kursi Makan"
     },
     "description": {
-      "en": "Dining Chairs"
+      "en": "Dining Chairs",
+      "it": "Sedie da Pranzo",
+      "fr": "Chaises de Salle à Manger",
+      "de": "Esszimmerstühle",
+      "ru": "Обеденные стулья",
+      "zh": "餐椅",
+      "id": "Kursi Makan"
     },
     "isActive": true
   },
@@ -124,10 +256,22 @@
     "id": "sideboards",
     "slug": "sideboards",
     "title": {
-      "en": "Sideboards"
+      "en": "Sideboards",
+      "it": "Credenze",
+      "fr": "Buffets",
+      "de": "Sideboards",
+      "ru": "Комоды и буфеты",
+      "zh": "餐边柜",
+      "id": "Kredensa"
     },
     "description": {
-      "en": "Sideboards"
+      "en": "Sideboards",
+      "it": "Credenze",
+      "fr": "Buffets",
+      "de": "Sideboards",
+      "ru": "Комоды и буфеты",
+      "zh": "餐边柜",
+      "id": "Kredensa"
     },
     "isActive": true
   },
@@ -135,10 +279,22 @@
     "id": "vitrines",
     "slug": "vitrines",
     "title": {
-      "en": "Vitrines"
+      "en": "Vitrines",
+      "it": "Vetrine",
+      "fr": "Vitrines",
+      "de": "Vitrinen",
+      "ru": "Витрины",
+      "zh": "展示柜",
+      "id": "Lemari Pajangan"
     },
     "description": {
-      "en": "Vitrines"
+      "en": "Vitrines",
+      "it": "Vetrine",
+      "fr": "Vitrines",
+      "de": "Vitrinen",
+      "ru": "Витрины",
+      "zh": "展示柜",
+      "id": "Lemari Pajangan"
     },
     "isActive": true
   },
@@ -146,10 +302,22 @@
     "id": "bookcases",
     "slug": "bookcases",
     "title": {
-      "en": "Bookcases"
+      "en": "Bookcases",
+      "it": "Librerie",
+      "fr": "Bibliothèques",
+      "de": "Bücherregale",
+      "ru": "Книжные шкафы",
+      "zh": "书柜",
+      "id": "Rak Buku"
     },
     "description": {
-      "en": "Bookcases"
+      "en": "Bookcases",
+      "it": "Librerie",
+      "fr": "Bibliothèques",
+      "de": "Bücherregale",
+      "ru": "Книжные шкафы",
+      "zh": "书柜",
+      "id": "Rak Buku"
     },
     "isActive": true
   },
@@ -157,10 +325,22 @@
     "id": "beds",
     "slug": "beds",
     "title": {
-      "en": "Beds"
+      "en": "Beds",
+      "it": "Letti",
+      "fr": "Lits",
+      "de": "Betten",
+      "ru": "Кровати",
+      "zh": "床",
+      "id": "Tempat Tidur"
     },
     "description": {
-      "en": "Beds"
+      "en": "Beds",
+      "it": "Letti",
+      "fr": "Lits",
+      "de": "Betten",
+      "ru": "Кровати",
+      "zh": "床",
+      "id": "Tempat Tidur"
     },
     "isActive": true
   },
@@ -168,10 +348,22 @@
     "id": "nightstands",
     "slug": "nightstands",
     "title": {
-      "en": "Nightstands"
+      "en": "Nightstands",
+      "it": "Comodini",
+      "fr": "Tables de Nuit",
+      "de": "Nachttische",
+      "ru": "Прикроватные тумбочки",
+      "zh": "床头柜",
+      "id": "Nakas"
     },
     "description": {
-      "en": "Nightstands"
+      "en": "Nightstands",
+      "it": "Comodini",
+      "fr": "Tables de Nuit",
+      "de": "Nachttische",
+      "ru": "Прикроватные тумбочки",
+      "zh": "床头柜",
+      "id": "Nakas"
     },
     "isActive": true
   },
@@ -179,10 +371,22 @@
     "id": "dressers-chests",
     "slug": "dressers-chests",
     "title": {
-      "en": "Dressers + Chests"
+      "en": "Dressers + Chests",
+      "it": "Comò e Cassettiere",
+      "fr": "Commodes",
+      "de": "Kommoden",
+      "ru": "Комоды",
+      "zh": "梳妆斗柜",
+      "id": "Lemari Laci"
     },
     "description": {
-      "en": "Dressers + Chests"
+      "en": "Dressers + Chests",
+      "it": "Comò e Cassettiere",
+      "fr": "Commodes",
+      "de": "Kommoden",
+      "ru": "Комоды",
+      "zh": "梳妆斗柜",
+      "id": "Lemari Laci"
     },
     "isActive": true
   },
@@ -190,10 +394,22 @@
     "id": "vanities",
     "slug": "vanities",
     "title": {
-      "en": "Vanities"
+      "en": "Vanities",
+      "it": "Mobili Trucco",
+      "fr": "Coiffeuses",
+      "de": "Schminktische",
+      "ru": "Туалетные столики",
+      "zh": "梳妆台",
+      "id": "Meja Rias"
     },
     "description": {
-      "en": "Vanities"
+      "en": "Vanities",
+      "it": "Mobili Trucco",
+      "fr": "Coiffeuses",
+      "de": "Schminktische",
+      "ru": "Туалетные столики",
+      "zh": "梳妆台",
+      "id": "Meja Rias"
     },
     "isActive": true
   }

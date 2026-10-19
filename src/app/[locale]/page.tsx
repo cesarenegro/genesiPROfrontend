@@ -56,6 +56,13 @@ export default async function Home() {
               >
                 {t('exploreCatalogue')}
               </Link>
+              <Link
+                href="/vela/catalogo"
+                className="px-8 py-4 bg-[#5B9C94] text-white text-sm font-medium hover:bg-[#488079] transition-colors uppercase tracking-widest flex items-center justify-center gap-2"
+              >
+                <span>Scarica Catalogo VELA</span>
+                <span>↓</span>
+              </Link>
               <Link 
                 href="/projects" 
                 className="px-8 py-4 border border-white text-white text-sm font-medium hover:bg-white hover:text-black transition-colors uppercase tracking-widest"
@@ -123,6 +130,74 @@ export default async function Home() {
             <Link href="/catalogue" className="inline-block px-8 py-4 bg-foreground text-background text-sm font-medium hover:bg-foreground/90 transition-colors uppercase tracking-widest">
               {t('viewAllCollections')}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* VELA by Genesi Brand Spotlight */}
+      <section className="py-24 bg-zinc-950 text-white border-t border-zinc-800">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div className="lg:col-span-5 space-y-8">
+              <div className="w-48">
+                <Image
+                  src="/images/vela/vela-logo-white.svg"
+                  alt="VELA by Genesi"
+                  width={280}
+                  height={100}
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="space-y-4">
+                <span className="text-xs uppercase tracking-widest text-zinc-400 block font-medium">
+                  Nuova Sezione Architetturale
+                </span>
+                <h2 className="text-3xl md:text-4xl font-light tracking-tight leading-tight">
+                  Porte e superfici per l’architettura degli interni.
+                </h2>
+                <p className="text-zinc-400 font-light text-base leading-relaxed">
+                  Dalla complanarità assoluta dei sistemi a bilico e scorrevoli alle soluzioni coordinate per residenze di prestigio e hospitality di lusso.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-4 text-xs tracking-wider text-zinc-400 border-y border-zinc-800/80 py-4">
+                <Link href="/vela/porte-interni" className="hover:text-white transition-colors underline-offset-4 hover:underline">Porte per interni residenziali</Link>
+                <span>•</span>
+                <Link href="/vela/porte-hotel" className="hover:text-white transition-colors underline-offset-4 hover:underline">Porte per camere hotel</Link>
+                <span>•</span>
+                <Link href="/vela/box-doccia" className="hover:text-white transition-colors underline-offset-4 hover:underline">Box doccia</Link>
+              </div>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/vela"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-zinc-950 text-xs font-semibold uppercase tracking-widest hover:bg-zinc-200 transition-colors"
+                >
+                  <span>Esplora il Mondo VELA</span>
+                  <span>→</span>
+                </Link>
+                <Link
+                  href="/vela/catalogo"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-[#5B9C94] text-white text-xs font-semibold uppercase tracking-widest hover:bg-[#488079] transition-colors"
+                >
+                  <span>Scarica Catalogo VELA</span>
+                  <span>↓</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7">
+              <div className="relative aspect-[16/10] w-full overflow-hidden border border-zinc-800/80">
+                <Image
+                  src="/images/vela/doors/01_P+G4.webp"
+                  alt="VELA Sistema Bilico P+G4"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 58vw"
+                  className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                />
+                <div className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-xs px-3.5 py-1.5 text-[11px] uppercase tracking-widest text-zinc-300">
+                  Modello Bilico Pivot · 01 P+G4
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

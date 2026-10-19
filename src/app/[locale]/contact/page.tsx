@@ -1,7 +1,14 @@
 import { getTranslations } from 'next-intl/server';
 
-export default async function ContactPage() {
+interface Props {
+  searchParams?: Promise<{ inquiry?: string; model?: string }>;
+}
+
+export default async function ContactPage({ searchParams }: Props) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const t = await getTranslations('Contact');
+  const preselectedInquiry = resolvedSearchParams?.inquiry || '';
+  const preselectedModel = resolvedSearchParams?.model ? `Richiesta informazioni per modello: ${resolvedSearchParams.model}` : '';
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -71,7 +78,7 @@ export default async function ContactPage() {
 
                 <div className="space-y-2">
                   <label htmlFor="inquiry" className="text-xs uppercase tracking-widest text-muted-foreground">{t('inquiryType')}</label>
-                  <select id="inquiry" defaultValue="" className="w-full bg-transparent border-b border-border py-2 focus:outline-none focus:border-primary transition-colors appearance-none rounded-none">
+                  <select id="inquiry" defaultValue={preselectedInquiry || ""} className="w-full bg-transparent border-b border-border py-2 focus:outline-none focus:border-primary transition-colors appearance-none rounded-none">
                     <option value="" disabled>{t('selectOption')}</option>
                     <option value="general">{t('optGeneral')}</option>
                     <option value="sales">{t('optSales')}</option>
@@ -82,7 +89,7 @@ export default async function ContactPage() {
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-xs uppercase tracking-widest text-muted-foreground">{t('message')}</label>
-                  <textarea id="message" rows={4} className="w-full bg-transparent border-b border-border py-2 focus:outline-none focus:border-primary transition-colors resize-none"></textarea>
+                  <textarea id="message" rows={4} defaultValue={preselectedModel} className="w-full bg-transparent border-b border-border py-2 focus:outline-none focus:border-primary transition-colors resize-none"></textarea>
                 </div>
 
                 <button type="submit" className="w-full bg-foreground text-background py-4 uppercase tracking-widest text-sm font-semibold hover:bg-foreground/90 transition-colors mt-8">

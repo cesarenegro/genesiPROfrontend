@@ -1,0 +1,1035 @@
+{
+  "hotelDoors": [
+    {
+      "id": "h-01",
+      "slug": "arenaria-oak-hotel-door",
+      "name": {
+        "it": "Porta Suite Arenaria in Rovere Naturale",
+        "en": "Arenaria Natural Oak Hotel Door"
+      },
+      "material": {
+        "it": "Rovere biondo spazzolato con modanatura complanare a parete",
+        "en": "Brushed natural oak with flush-to-wall coordinated casing"
+      },
+      "description": {
+        "it": "Configurazione coordinata con pannellatura continua e diptych visivo per suite d'albergo d'alta gamma.",
+        "en": "Coordinated architectural layout with continuous wall panelling for luxury hotel suites."
+      },
+      "image": "/images/vela/hotel/arenaria-oak-hotel-door-diptych.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Suite Luxury",
+      "features": [
+        "Isolamento acustico certificabile per privacy ospite",
+        "Complanarità totale con boiserie di corridoio",
+        "Cerniere a scomparsa registrabili 3D ad alta portata"
+      ]
+    },
+    {
+      "id": "h-02",
+      "slug": "bronze-framed-espresso-hotel-door",
+      "name": {
+        "it": "Porta Suite Espresso con Telaio in Bronzo Satinato",
+        "en": "Bronze-Framed Espresso Suite Door"
+      },
+      "material": {
+        "it": "Rovere tinto espresso e profilo perimetrale in bronzo satinato",
+        "en": "Espresso stained oak with satin bronze perimeter frame"
+      },
+      "description": {
+        "it": "Rigore geometrico e contrasto materico per ingressi di grande impatto visivo nei boutique hotel.",
+        "en": "Geometric balance and noble contrast for boutique hotel suite entrances."
+      },
+      "image": "/images/vela/hotel/bronze-framed-espresso-hotel-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Boutique Hotel",
+      "features": [
+        "Telaio metallico perimetrale a vista con finitura bronzo",
+        "Serratura magnetica a scatto silenzioso",
+        "Pannello ad alto spessore fonoassorbente"
+      ]
+    },
+    {
+      "id": "h-03",
+      "slug": "elegant-green-hotel-door",
+      "name": {
+        "it": "Porta Camera Forest Green Laccata Opaca",
+        "en": "Forest Green Matte Lacquered Hotel Door"
+      },
+      "material": {
+        "it": "Laccatura opaca vellutata e inserti in ottone brunito",
+        "en": "Velvet matte lacquer and burnished brass accents"
+      },
+      "description": {
+        "it": "Tonalità profonda e rilassante per ambienti hospitality contemporanei dal fascino internazionale.",
+        "en": "Deep, serene tone for contemporary hospitality environments with international appeal."
+      },
+      "image": "/images/vela/hotel/elegant-green-hotel-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Design Hotel",
+      "features": [
+        "Finitura anti-impronta soft-touch ad alta resistenza",
+        "Guarnizione perimetrale fonoassorbente a tenuta morbida",
+        "Disponibile con sopraluce complanare a tutta altezza"
+      ]
+    },
+    {
+      "id": "h-04",
+      "slug": "essenza-hotel-door-ash-bronze",
+      "name": {
+        "it": "Porta Camera Essenza in Frassino e Bronzo",
+        "en": "Essenza Ashwood & Bronze Guestroom Door"
+      },
+      "material": {
+        "it": "Frassino spazzolato tinto caldo con fascia inferiore in bronzo",
+        "en": "Warm brushed ashwood with bottom bronze kickplate"
+      },
+      "description": {
+        "it": "Una porta che dialoga con la luce radente dei corridoi d'albergo grazie alla venatura aperta e ai dettagli metallici.",
+        "en": "A door that interacts with grazing corridor illumination through open grain wood and metallic accents."
+      },
+      "image": "/images/vela/hotel/essenza-hotel-door-in-ash-and-bronze.webp",
+      "width": 1536,
+      "height": 1024,
+      "tag": "Contract Urban",
+      "features": [
+        "Protezione paracolpi inferiore integrata a filo",
+        "Soglia mobile a ghigliottina a scomparsa antirumore",
+        "Perfetto coordinamento con parquet e moquette"
+      ]
+    },
+    {
+      "id": "h-05",
+      "slug": "fluted-oak-boutique-hotel-door",
+      "name": {
+        "it": "Porta Fluted Oak a Cannette Verticali",
+        "en": "Fluted Oak Boutique Hotel Door"
+      },
+      "material": {
+        "it": "Rovere naturale a cannettatura ritmata tridimensionale",
+        "en": "Natural oak with rhythmic 3D vertical fluting"
+      },
+      "description": {
+        "it": "Superficie a cannette verticali che crea giochi di chiaroscuro e una forte identità per boutique hotel d'autore.",
+        "en": "Vertical fluted texture creating chiaroscuro lighting and strong character for design-driven hotels."
+      },
+      "image": "/images/vela/hotel/fluted-oak-boutique-hotel-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Boutique Signature",
+      "features": [
+        "Lavorazione cannettata dal massello di rovere",
+        "Impugnatura a gola ricavata direttamente nel pannello",
+        "Spessore maggiorato per stabilità e isolamento acustico"
+      ]
+    },
+    {
+      "id": "h-06",
+      "slug": "greige-hotel-door-with-brass-accent",
+      "name": {
+        "it": "Porta Hotel Greige con Accenti in Ottone Satinato",
+        "en": "Greige Hotel Door with Satin Brass Accent"
+      },
+      "material": {
+        "it": "Laccatura satinata tonalità greige calda e profilo ottone",
+        "en": "Warm greige satin lacquer with satin brass edge profile"
+      },
+      "description": {
+        "it": "Equilibrio cromatico neutro e sofisticato per corridoi alberghieri luminosi e suites di lusso.",
+        "en": "Refined neutral palette for bright hospitality corridors and high-end suites."
+      },
+      "image": "/images/vela/hotel/greige-hotel-door-with-brass-accent.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Minimal Luxury",
+      "features": [
+        "Accoppiamento a filo con pareti rasate",
+        "Predisposizione per transponder e lettore card hotel",
+        "Trattamento superficiale ad alta resistenza contro urti e abrasione"
+      ]
+    },
+    {
+      "id": "h-07",
+      "slug": "italian-walnut-bronze-hotel-door",
+      "name": {
+        "it": "Porta Suite Noce Italiano con Intarsio in Bronzo",
+        "en": "Italian Walnut Suite Door with Bronze Inlay"
+      },
+      "material": {
+        "it": "Noce canaletto naturale fiammato con filettatura in bronzo",
+        "en": "Natural figured Canaletto walnut with satin bronze inlay"
+      },
+      "description": {
+        "it": "L'eleganza senza tempo del noce canaletto nobilitata da una sottile fuga metallica orizzontale in bronzo.",
+        "en": "Timeless elegance of Italian walnut enriched by a subtle horizontal satin bronze inlay."
+      },
+      "image": "/images/vela/hotel/italian-walnut-hotel-door-with-bronze-inlay.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Heritage Luxury",
+      "features": [
+        "Venatura orizzontale continua a libro",
+        "Intarsio metallico complanare levigato a filo",
+        "Serratura magnetica di sicurezza a corsa fluida"
+      ]
+    },
+    {
+      "id": "h-08",
+      "slug": "ivory-hotel-door-brass-details",
+      "name": {
+        "it": "Porta Suite Ivory con Dettagli in Ottone",
+        "en": "Ivory Hotel Suite Door with Brass Accents"
+      },
+      "material": {
+        "it": "Laccatura bianco avorio caldo con mostrine e maniglia in ottone",
+        "en": "Warm ivory lacquer with coordinated brass trim and lever"
+      },
+      "description": {
+        "it": "Luminosità aristocratica per hotel d'epoca e resort sul mare, con battuta perimetrale acustica sigillata.",
+        "en": "Aristocratic light and warmth for historic hotels and seaside resorts, with acoustic sealed perimeter."
+      },
+      "image": "/images/vela/hotel/ivory-hotel-door-with-brass-details.webp",
+      "width": 1536,
+      "height": 1024,
+      "tag": "Resort & Grand Hotel",
+      "features": [
+        "Superficie laccata a poro chiuso facile da igienizzare",
+        "Maniglia ergonomica coordinata dal design sobrio",
+        "Doppia guarnizione fonoassorbente lungo tutto il perimetro"
+      ]
+    },
+    {
+      "id": "h-09",
+      "slug": "limestone-guestroom-door",
+      "name": {
+        "it": "Porta Camera Limestone con Finitura Materica",
+        "en": "Limestone Guestroom Door with Tactile Finish"
+      },
+      "material": {
+        "it": "Finitura minerale a effetto pietra calcarea chiara",
+        "en": "Mineral tactile finish with light limestone effect"
+      },
+      "description": {
+        "it": "Superficie materica opaca che richiama la pietra levigata, per architetture alberghiere dal sapore mediterraneo.",
+        "en": "Tactile matte surface recalling honed stone, designed for Mediterranean architectural hospitality."
+      },
+      "image": "/images/vela/hotel/limestone-guestroom-door-in-a-sunlit-corridor.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Mineral Architecture",
+      "features": [
+        "Finitura minerale resistente all'usura e agli urti quotidiani",
+        "Serratura con incontro magnetico per azzerare il rumore di scatto",
+        "Complanarità totale con l'imbotte muraria rasata"
+      ]
+    },
+    {
+      "id": "h-10",
+      "slug": "luxurious-walnut-and-bronze-hotel-door",
+      "name": {
+        "it": "Porta Grande Suite Noce Scuro & Bronzo Scanalato",
+        "en": "Presidential Suite Dark Walnut & Fluted Bronze Door"
+      },
+      "material": {
+        "it": "Noce canaletto tinto scuro e maniglione verticale in bronzo scanalato",
+        "en": "Dark stained Canaletto walnut with vertical fluted bronze pull"
+      },
+      "description": {
+        "it": "Porta d'accesso maestosa per presidential suites e luxury resort con imponente maniglione a tutta altezza.",
+        "en": "Stately entrance door for presidential suites and 5-star hotels with monumental full-height bronze pull."
+      },
+      "image": "/images/vela/hotel/luxurious-walnut-and-bronze-hotel-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Presidential Suite",
+      "features": [
+        "Altezza fino a 300 cm a filo soffitto",
+        "Maniglione verticale integrato con profilo fonoassorbente",
+        "Guarnizione perimetrale a quattro lati per totale privacy dell'ospite"
+      ]
+    },
+    {
+      "id": "h-11",
+      "slug": "olive-grey-hotel-door-italian-design",
+      "name": {
+        "it": "Porta Hotel Olive-Grey Minimalista",
+        "en": "Olive-Grey Minimalist Hotel Door"
+      },
+      "material": {
+        "it": "Laccatura grigio-oliva opaca con taglio perimetrale netto",
+        "en": "Matte olive-grey lacquer with sharp perimeter lines"
+      },
+      "description": {
+        "it": "Design italiano contemporaneo che esalta la purezza del varco senza mostrine a vista.",
+        "en": "Contemporary Italian design celebrating the entrance aperture without visible frames."
+      },
+      "image": "/images/vela/hotel/olive-grey-hotel-door-italian-design.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Contemporary Hotel",
+      "features": [
+        "Telaio a scomparsa totale in alluminio estruso anodizzato",
+        "Apertura a 180 gradi con cerniere invisibili",
+        "Chiusura ammortizzata soft-close magnetica"
+      ]
+    },
+    {
+      "id": "h-12",
+      "slug": "warm-oak-luxury-hotel-entrance",
+      "name": {
+        "it": "Ingresso Suite Warm Oak con Portale Architetturale",
+        "en": "Warm Oak Luxury Hotel Suite Entrance"
+      },
+      "material": {
+        "it": "Rovere biondo miele con portale sagomato coordinato",
+        "en": "Honey oak with coordinated architectural deep portal"
+      },
+      "description": {
+        "it": "Un vero e proprio portale d'ingresso alla suite che nobilita il corridoio e crea una zona di rispetto all'accesso.",
+        "en": "A generous architectural portal framing the suite doorway to elevate the guest arrival."
+      },
+      "image": "/images/vela/hotel/warm-oak-luxury-hotel-entrance.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Architectural Portal",
+      "features": [
+        "Portale a sguancio svasato con illuminazione LED indiretta integrabile",
+        "Pannello porta a filo con guarnizioni fonoassorbenti",
+        "Coordinamento con le boiserie e gli armadi interni camera"
+      ]
+    },
+    {
+      "id": "h-13",
+      "slug": "warm-ashwood-room-door-boutique-hotel",
+      "name": {
+        "it": "Porta Camera Warm Ashwood in Frassino Desaturato",
+        "en": "Warm Ashwood Boutique Guestroom Door"
+      },
+      "material": {
+        "it": "Frassino naturale desaturato e profili complanari titanio",
+        "en": "Natural desaturated ashwood with flush titanium profiles"
+      },
+      "description": {
+        "it": "Atmosfera nordico-mediterranea per eco-resort e boutique hotel con la texture del legno esaltata al naturale.",
+        "en": "Nordic-Mediterranean warmth for eco-resorts and boutique retreats with natural open-grain tactile wood."
+      },
+      "image": "/images/vela/hotel/warm-ashwood-room-door-in-boutique-hotel.webp",
+      "width": 1122,
+      "height": 1402,
+      "tag": "Eco Resort & Spa",
+      "features": [
+        "Trattamento protettivo all'acqua opaco naturale",
+        "Isolamento termico e acustico integrato ad alte prestazioni",
+        "Chiusura controllata silenziosa con serratura a scatto morbido"
+      ]
+    }
+  ],
+  "hotelDetails": [
+    {
+      "id": "hd-01",
+      "title": {
+        "it": "Serratura Elettronica RFID e Maniglia a Filo",
+        "en": "RFID Electronic Hotel Lock & Flush Handle"
+      },
+      "desc": {
+        "it": "Integrazione invisibile dei lettori di card hospitality transponder direttamente a filo porta in finitura ottone brunito.",
+        "en": "Seamless integration of RFID guestroom transponder card readers flush with the burnished brass door plate."
+      },
+      "image": "/images/vela/hotel/espresso-oak-door-with-bronze-rfid-detail.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hd-02",
+      "title": {
+        "it": "Accoppiamento Rovere Espresso & Telaio Bronzo",
+        "en": "Espresso Oak & Satin Bronze Casing Detail"
+      },
+      "desc": {
+        "it": "Incontro millimetrico tra l'essenza scura del rovere e il metallo satinato spazzolato a mano.",
+        "en": "Sub-millimeter junction between dark espresso oak veneer and hand-brushed satin bronze frame."
+      },
+      "image": "/images/vela/hotel/espresso-oak-and-bronze-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hd-03",
+      "title": {
+        "it": "Dettaglio Battuta Forest Green e Maniglia Ergonomica",
+        "en": "Forest Green Door Edge & Ergonomic Lever"
+      },
+      "desc": {
+        "it": "Laccatura vellutata opaca con riscontro serratura magnetico e guarnizione fonoassorbente continua.",
+        "en": "Velvet matte lacquer with magnetic latch strike and continuous acoustic damping seal."
+      },
+      "image": "/images/vela/hotel/forest-green-hotel-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hd-04",
+      "title": {
+        "it": "Finitura Minerale Pietra Limestone",
+        "en": "Tactile Limestone Mineral Edge"
+      },
+      "desc": {
+        "it": "Superficie materica ad elevata resistenza all'usura da carrelli di servizio e valigie.",
+        "en": "High-durability tactile mineral texture engineered to withstand hospitality luggage wear."
+      },
+      "image": "/images/vela/hotel/pietra-limestone-hotel-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hd-05",
+      "title": {
+        "it": "Dettaglio Bordo Complanare Oliva & Cerniera a Scomparsa",
+        "en": "Olive Tone Flush Edge & Concealed Hinge"
+      },
+      "desc": {
+        "it": "Allineamento complanare assoluto con la parete circostante per una linea di corridoio ininterrotta.",
+        "en": "Absolute coplanar alignment with adjacent wall surfaces for seamless corridor perspective."
+      },
+      "image": "/images/vela/hotel/oliva-hotel-door-details.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "id": "hd-06",
+      "title": {
+        "it": "Serratura Smart Hotel ad Alta Sicurezza",
+        "en": "High-Security Hotel Smart Lock System"
+      },
+      "desc": {
+        "it": "Incontro tra tecnologia d'accesso alberghiera e calda ebanisteria in rovere naturale.",
+        "en": "Convergence of state-of-the-art hotel access credentials and warm natural oak craftsmanship."
+      },
+      "image": "/images/vela/hotel/italian-hotel-lock-and-oak-elegance.webp",
+      "width": 1774,
+      "height": 887
+    }
+  ],
+  "residentialDoors": [
+    {
+      "id": "r-01",
+      "slug": "bruma-greige-pivot-door",
+      "name": {
+        "it": "Porta a Bilico Pivot Bruma Greige",
+        "en": "Bruma Greige Pivot Door"
+      },
+      "material": {
+        "it": "Laccatura satinata greige e perno pivot a scomparsa",
+        "en": "Satin greige lacquer with concealed pivot hinge"
+      },
+      "description": {
+        "it": "Proporzioni monumentali e apertura a bilico con rotazione fluida e ammortizzata senza cerniere visibili.",
+        "en": "Stately proportions and smooth dampened pivot rotation without visible hinges."
+      },
+      "image": "/images/vela/residential/bruma-greige-pivot-door-detail-diptych.webp",
+      "width": 1536,
+      "height": 1024,
+      "type": "pivot",
+      "features": [
+        "Rotazione pivot senza battuta a pavimento",
+        "Laccatura multistrato setosa al tatto",
+        "Apertura bidirezionale con fermo a 90°"
+      ]
+    },
+    {
+      "id": "r-02",
+      "slug": "burnt-sienna-double-doors",
+      "name": {
+        "it": "Doppia Porta Battente Burnt Sienna in Travertino",
+        "en": "Burnt Sienna Double Doors in Travertine"
+      },
+      "material": {
+        "it": "Laccatura terra di Siena bruciata e portale in travertino",
+        "en": "Burnt sienna matte lacquer framed by natural travertine portal"
+      },
+      "description": {
+        "it": "Doppia anta battente maestosa che dialoga con la pietra naturale, ideale per sale da pranzo e saloni di rappresentanza.",
+        "en": "Stately double swing door pairing rich earth tones with stone portals for grand living rooms."
+      },
+      "image": "/images/vela/residential/burnt-sienna-double-doors-in-travertine.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "double",
+      "features": [
+        "Doppia anta con battuta centrale ermetica fonoassorbente",
+        "Serratura a scatto magnetico silenzioso",
+        "Realizzazione su misura fino a grandi luci di passaggio"
+      ]
+    },
+    {
+      "id": "r-03",
+      "slug": "satin-bronze-reeded-glass-door",
+      "name": {
+        "it": "Porta in Cristallo Cannettato & Telaio Bronzo Satinato",
+        "en": "Reeded Glass Door with Satin Bronze Frame"
+      },
+      "material": {
+        "it": "Vetro cannettato extrachiaro con telaio strutturale in bronzo satinato",
+        "en": "Extra-clear reeded fluted glass with satin bronze structural frame"
+      },
+      "description": {
+        "it": "Filtra la luce naturale mantenendo una raffinata riservatezza visiva, perfetta tra zona giorno e cucina o studio.",
+        "en": "Diffuses natural daylight while providing visual privacy between living spaces, kitchen and study."
+      },
+      "image": "/images/vela/residential/satin-bronze-reeded-glass-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Vetro stratificato di sicurezza a cannette verticali",
+        "Profilo minimale in alluminio estruso finitura bronzo satinato",
+        "Maniglione a tutta altezza integrato nel montante"
+      ]
+    },
+    {
+      "id": "r-04",
+      "slug": "graphite-pivot-door-brass",
+      "name": {
+        "it": "Porta a Bilico Grafite con Inserto in Ottone Satinato",
+        "en": "Graphite Pivot Door with Satin Brass Inlay"
+      },
+      "material": {
+        "it": "Laccatura opaca grafite profonda e inserto continuo in ottone",
+        "en": "Deep graphite matte lacquer with continuous satin brass vertical inlay"
+      },
+      "description": {
+        "it": "Forte carattere scultoreo dove il nero grafite incontra la calda lucentezza dell'ottone spazzolato a mano.",
+        "en": "Sculptural character where deep graphite meets the warm shimmer of hand-brushed brass."
+      },
+      "image": "/images/vela/residential/graphite-pivot-door-with-brass-detail.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "pivot",
+      "features": [
+        "Perno pivot decentrato con regolazione micrometrica 3D",
+        "Fascia decorativa in massello d'ottone satinato spazzolato",
+        "Assenza totale di cornici e mostrine a vista"
+      ]
+    },
+    {
+      "id": "r-05",
+      "slug": "fluted-oak-serene-passage",
+      "name": {
+        "it": "Porta Cannettata Fluted Oak — Rovere Naturale",
+        "en": "Fluted Natural Oak Passage Door"
+      },
+      "material": {
+        "it": "Rovere naturale a doghe verticali con scanalature ritmate",
+        "en": "Natural oak with rhythmic 3D vertical grooving"
+      },
+      "description": {
+        "it": "Un passaggio sereno e caldo che impreziosisce il corridoio residenziale trasformando la porta in elemento d'arredo continuo.",
+        "en": "A serene passage enriching residential hallways by transforming the door into architectural wall panelling."
+      },
+      "image": "/images/vela/residential/fluted-oak-door-serene-passage.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Fresatura tridimensionale su essenza di rovere selezionato",
+        "Maniglia a gola ricavata a filo della scanalatura",
+        "Perfetta complanarità con la parete circostante"
+      ]
+    },
+    {
+      "id": "r-06",
+      "slug": "warm-bronze-door-modern",
+      "name": {
+        "it": "Porta Complanare Warm Bronze ad Alta Riflettanza Materica",
+        "en": "Warm Bronze Flush Door with Metallic Sheen"
+      },
+      "material": {
+        "it": "Finitura metallo liquido bronzato e maniglia complanare coordinata",
+        "en": "Liquid bronze metallic finish with matching flush handle"
+      },
+      "description": {
+        "it": "Superficie metallica lavorata a spatola con riflessi cangianti che mutano a seconda dell'incidenza della luce naturale.",
+        "en": "Artisanal hand-trowelled liquid metal surface with shifting reflections under changing daylight."
+      },
+      "image": "/images/vela/residential/warm-bronze-door-modern-elegance.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Finitura esclusiva a polvere di bronzo su base composita",
+        "Complanarità assoluta con battuta ammortizzata push-pull",
+        "Resistenza ad abrasione, usura e impronte"
+      ]
+    },
+    {
+      "id": "r-07",
+      "slug": "alba-ivory-door-diptych",
+      "name": {
+        "it": "Porta Rasomuro Alba Ivory — Purezza a Filo Parete",
+        "en": "Alba Ivory Flush-to-Wall Pure Door"
+      },
+      "material": {
+        "it": "Laccatura bianco avorio opaco e cerniere a scomparsa totale",
+        "en": "Warm matte ivory lacquer and fully concealed hinges"
+      },
+      "description": {
+        "it": "La massima espressione del minimalismo architettonico: la porta si dissolve nella muratura creando totale continuità visiva.",
+        "en": "Minimalist architectural purity: the door blends seamlessly into the wall creating complete visual continuity."
+      },
+      "image": "/images/vela/residential/alba-ivory-door-detail-diptych.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Telaio a filo muro invisibile per cartongesso o intonaco",
+        "Guarnizione morbida antirumore integrata nel telaio estruso",
+        "Pannello pre-trattabile con la stessa pittura della parete"
+      ]
+    },
+    {
+      "id": "r-08",
+      "slug": "elegant-warm-white-pocket-door",
+      "name": {
+        "it": "Porta Scorrevole a Scomparsa Warm White",
+        "en": "Warm White Concealed Pocket Door System"
+      },
+      "material": {
+        "it": "Laccatura bianco caldo seta e binario a scomparsa nel controsoffitto",
+        "en": "Silky warm white lacquer with ceiling-recessed track system"
+      },
+      "description": {
+        "it": "Sistema scorrevole complanare o a scomparsa nel controtelaio senza alcun binario visibile a pavimento.",
+        "en": "Pocket sliding door disappearing into the wall cavity without floor tracks for uninterrupted flooring."
+      },
+      "image": "/images/vela/residential/elegant-warm-white-pocket-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "sliding",
+      "features": [
+        "Scorrimento silenzioso su cuscinetti a sfera con soft-close ammortizzato",
+        "Nessun inciampo a terra: perfetta continuità del pavimento in parquet o marmo",
+        "Vaschetta di trascinamento a filo pannello ergonomica"
+      ]
+    },
+    {
+      "id": "r-09",
+      "slug": "luxury-reeded-oak-door-bronze-inlay",
+      "name": {
+        "it": "Porta Rovere Plissé con Filetto in Bronzo",
+        "en": "Reeded Oak Door with Satin Bronze Inlay"
+      },
+      "material": {
+        "it": "Legno cannettato con inserimento di filettatura in bronzo spazzolato",
+        "en": "Fluted reeded oak with inset satin bronze metal inlay"
+      },
+      "description": {
+        "it": "Geometrie sartoriali che uniscono la texture del legno cannettato alla nobiltà del bronzo spazzolato a mano.",
+        "en": "Bespoke craftsmanship uniting tactile reeded wood texture with the nobility of hand-brushed bronze."
+      },
+      "image": "/images/vela/residential/luxury-reeded-oak-door-with-bronze-inlay.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Accostamento tra superfici lisce e plissettate a contrasto",
+        "Filettatura metallica incassata a controllo numerico centesimale",
+        "Serratura silenziosa con riscontro magnetico"
+      ]
+    },
+    {
+      "id": "r-10",
+      "slug": "quiet-luxury-smoked-oak-pivot-door",
+      "name": {
+        "it": "Porta Pivot Quiet Luxury in Rovere Affumicato",
+        "en": "Quiet Luxury Smoked Oak Pivot Door"
+      },
+      "material": {
+        "it": "Rovere termotrattato affumicato e maniglione verticale scuro",
+        "en": "Smoked thermal-treated oak with vertical dark metal pull"
+      },
+      "description": {
+        "it": "Profondità cromatica ed eleganza discreta per ambienti residenziali sofisticati e caldi.",
+        "en": "Chromatic depth and quiet elegance for warm, refined residential interiors."
+      },
+      "image": "/images/vela/residential/quiet-luxury--smoked-oak-pivot-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "pivot",
+      "features": [
+        "Perno a bilico per ante di peso elevato fino a 150 kg",
+        "Finitura protettiva ad olio vegetale opaco a poro aperto",
+        "Movimento bilanciato privo di attrito e scatto a 90°"
+      ]
+    },
+    {
+      "id": "r-11",
+      "slug": "riga-walnut-door-with-bronze-accents",
+      "name": {
+        "it": "Porta Riga Noce Canaletto e Dettagli Bronzo",
+        "en": "Riga Canaletto Walnut Door with Bronze Accents"
+      },
+      "material": {
+        "it": "Noce canaletto a doghe orizzontali e montante di battuta bronzato",
+        "en": "Canaletto walnut horizontal slats with bronze edge detail"
+      },
+      "description": {
+        "it": "Disegno a doghe orizzontali 'Riga' che allarga visivamente lo spazio e valorizza la venatura nobile del noce.",
+        "en": "Horizontal rhythmic slatted design visually expanding the space while celebrating Canaletto walnut."
+      },
+      "image": "/images/vela/residential/riga-walnut-door-with-bronze-accents.webp",
+      "width": 1536,
+      "height": 1024,
+      "type": "swing",
+      "features": [
+        "Dogatura orizzontale a disegno continuo a rilievo",
+        "Profilo perimetrale di rinforzo in alluminio anodizzato",
+        "Guarnizione magnetica perimetrale silenziosa"
+      ]
+    },
+    {
+      "id": "r-12",
+      "slug": "terra-door-brass-geometric-relief",
+      "name": {
+        "it": "Porta Terra con Bassorilievo Geometrico e Ottone",
+        "en": "Terra Door with Geometric Relief & Brass Handles"
+      },
+      "material": {
+        "it": "Pannello laccato tono argilla con incisione geometrica e maniglia in ottone pieno",
+        "en": "Clay-toned matte lacquer with geometric relief engraving and solid brass handles"
+      },
+      "description": {
+        "it": "Ispirata alle geometrie dell'architettura modernista italiana degli anni '50 e '60 con impugnatura scultorea orizzontale.",
+        "en": "Inspired by mid-century Italian modernist geometries with a sculptural solid brass horizontal handle."
+      },
+      "image": "/images/vela/residential/terra-door--brass-handles-and-geometric-relief.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "double",
+      "features": [
+        "Bassorilievo pantografato con precisione centesimale",
+        "Maniglia orizzontale a barra in ottone ricavata dal pieno",
+        "Complanarità su entrambi i lati del varco"
+      ]
+    },
+    {
+      "id": "r-13",
+      "slug": "vela-door-calm-italian-interior",
+      "name": {
+        "it": "Porta Serene Oak in Interno Residenziale",
+        "en": "Serene Oak Door in Calm Italian Interior"
+      },
+      "material": {
+        "it": "Rovere biondo naturale a poro aperto in ambiente living",
+        "en": "Natural blonde open-pore oak for calm living spaces"
+      },
+      "description": {
+        "it": "La porta come elemento d'arredo che connette il living alla zona notte in perfetta armonia con gli arredi su misura GENESI.",
+        "en": "The door as furniture element connecting living and bedroom areas in harmony with GENESI bespoke cabinetry."
+      },
+      "image": "/images/vela/residential/vela-door-in-a-calm-italian-interior.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Spessore anta 50 mm per eccellente isolamento acustico",
+        "Cerniere registrabili su 3 assi a scomparsa",
+        "Finitura opaca 5 gloss antiriflesso a tatto setoso"
+      ]
+    },
+    {
+      "id": "r-14",
+      "slug": "warm-ivory-italian-interior-door",
+      "name": {
+        "it": "Porta Warm Ivory con Modanatura a Fuga Sottile",
+        "en": "Warm Ivory Interior Door with Shadow Gap Trim"
+      },
+      "material": {
+        "it": "Laccatura multistrato avorio caldo con fuga perimetrale d'ombra",
+        "en": "Multilayer warm ivory lacquer with subtle perimeter shadow gap"
+      },
+      "description": {
+        "it": "Un'interpretazione contemporanea della porta classica, con una fuga d'ombra che distacca il pannello dal muro.",
+        "en": "A contemporary take on timeless interior doors, featuring a shadow gap detail framing the leaf."
+      },
+      "image": "/images/vela/residential/warm-ivory-italian-interior-door.webp",
+      "width": 1122,
+      "height": 1402,
+      "type": "swing",
+      "features": [
+        "Fuga d'ombra perimetrale millimetrica da 10 mm",
+        "Impugnatura satinata ergonomica coordinata",
+        "Elevata resistenza ai raggi UV e all'ingiallimento"
+      ]
+    }
+  ],
+  "residentialDetails": [
+    {
+      "id": "rd-01",
+      "title": {
+        "it": "Venatura Rovere Affumicato & Perno Pivot",
+        "en": "Smoked Oak Grain & Pivot Mechanism"
+      },
+      "desc": {
+        "it": "Macro sulla texture spazzolata del rovere termotrattato e sul fulcro di rotazione a filo pavimento.",
+        "en": "Macro on brushed smoked oak texture and the floor-flush rotation pivot hinge."
+      },
+      "image": "/images/vela/residential/rovere-smoked-oak-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "rd-02",
+      "title": {
+        "it": "Incontro Rovere Termotrattato & Finitura Bronzo",
+        "en": "Thermal-Treated Oak & Satin Bronze Intersection"
+      },
+      "desc": {
+        "it": "Giunzione ad altissima precisione senza tolleranze visibili tra legno e metallo nobile.",
+        "en": "High-precision junction with invisible tolerances between natural wood and noble metal."
+      },
+      "image": "/images/vela/residential/smoked-oak-satin-bronze-door-details.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "id": "rd-03",
+      "title": {
+        "it": "Presa a Gola nel Massello di Rovere",
+        "en": "Carved Solid Oak Finger Groove"
+      },
+      "desc": {
+        "it": "L'apertura avviene tramite una gola ergonomica fresata direttamente nel legno massello dell'anta.",
+        "en": "Door operation via an ergonomic groove milled directly into the solid wood edge."
+      },
+      "image": "/images/vela/residential/vela-rovere-door-details-in-smoked-oak.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "rd-04",
+      "title": {
+        "it": "Meccanismo Bilico Superiore a Scomparsa",
+        "en": "Concealed Upper Pivot Bearing"
+      },
+      "desc": {
+        "it": "Perno a scomparsa incassato nel controsoffitto con regolazione millimetrica della velocità di chiusura.",
+        "en": "Ceiling-recessed pivot bearing with micrometric closing speed damping control."
+      },
+      "image": "/images/vela/residential/warm-greige-pivot-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "handles": [
+    {
+      "id": "han-01",
+      "slug": "quadro-steel-lever",
+      "name": {
+        "it": "Maniglia a Leva Quadro Steel",
+        "en": "Quadro Steel Lever Handle"
+      },
+      "type": "lever",
+      "material": {
+        "it": "Acciaio satinato AISI 316 e rosetta minimale a filo",
+        "en": "Satin stainless steel AISI 316 with ultra-flat rose"
+      },
+      "description": {
+        "it": "Geometria ortogonale pura ed ergonomia rigorosa. Il ritorno a molla calibrato assicura una tenuta orizzontale impeccabile nel tempo.",
+        "en": "Pure orthogonal geometry with balanced ergonomics. Internal calibrated spring ensuring long-term horizontal perfection."
+      },
+      "image": "/images/vela/handles/quadro-steel-lever-and-oak-panel.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte battenti per interni e hotel",
+      "finishes": [
+        "Acciaio satinato",
+        "Nero opaco soft-touch",
+        "Ottone naturale spazzolato"
+      ]
+    },
+    {
+      "id": "han-02",
+      "slug": "bronze-brushed-lever",
+      "name": {
+        "it": "Maniglia a Leva in Bronzo Spazzolato",
+        "en": "Brushed Bronze Lever Handle"
+      },
+      "type": "lever",
+      "material": {
+        "it": "Bronzo massiccio forgiato e spazzolato a mano",
+        "en": "Solid forged bronze hand-brushed to architectural satin finish"
+      },
+      "description": {
+        "it": "Materia calda e viva: la finitura spazzolata a mano conferisce un tocco setoso e riflessi profondi che dialogano con essenze lignee nobili.",
+        "en": "Warm tactile metal with hand-brushed satin reflections complementing precious architectural woods."
+      },
+      "image": "/images/vela/handles/bronze-handle-and-brushed-metal-finish.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte battenti residenziali e suite hotel",
+      "finishes": [
+        "Bronzo satinato",
+        "Bronzo scuro anticato",
+        "Canna di fucile"
+      ]
+    },
+    {
+      "id": "han-03",
+      "slug": "bronze-pull-fluted-oak",
+      "name": {
+        "it": "Maniglione a Barra per Rovere Cannettato",
+        "en": "Bronze Pull for Fluted Oak Doors"
+      },
+      "type": "pull",
+      "material": {
+        "it": "Bronzo architettonico con fissaggio passante a scomparsa",
+        "en": "Architectural bronze bar with concealed through-fixing"
+      },
+      "description": {
+        "it": "Maniglione verticale sagomato per integrarsi alla perfezione nelle scanalature delle ante cannettate o a doghe.",
+        "en": "Vertical pull bar designed specifically to seat into the grooves of fluted and relief door panels."
+      },
+      "image": "/images/vela/handles/bronze-pull-and-fluted-oak-detail.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte a bilico pivot e scorrevoli a tutta altezza",
+      "finishes": [
+        "Bronzo chiaro",
+        "Bronzo bruno",
+        "Ottone grezzo cerato"
+      ]
+    },
+    {
+      "id": "han-04",
+      "slug": "bronze-pull-reeded-glass",
+      "name": {
+        "it": "Maniglione Lineare per Ante in Cristallo",
+        "en": "Linear Bronze Pull for Glass Doors"
+      },
+      "type": "pull",
+      "material": {
+        "it": "Bronzo trafilato a sezione quadrata con rosette in gomma neutra",
+        "en": "Drawn square-section bronze with neutral vibration gaskets"
+      },
+      "description": {
+        "it": "Fissaggio sicuro a doppio punto attraverso il cristallo temperato, concepito per porte vetrate scorrevoli o a bilico.",
+        "en": "Two-point secure through-glass mounting engineered for sliding and pivot reeded glass doors."
+      },
+      "image": "/images/vela/handles/bronze-pull-and-reeded-glass-detail.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte in vetro cannettato, box doccia e partizioni",
+      "finishes": [
+        "Bronzo satinato",
+        "Acciaio inox lucido",
+        "Nero anodizzato"
+      ]
+    },
+    {
+      "id": "han-05",
+      "slug": "seta-door-pull-groove",
+      "name": {
+        "it": "Presa d'Apertura a Gola Seta",
+        "en": "Seta Recessed Opening Groove"
+      },
+      "type": "recessed",
+      "material": {
+        "it": "Fresatura a filo nel massello con profilo metallico protettivo interno",
+        "en": "Direct flush milling with integrated protective metallic liner"
+      },
+      "description": {
+        "it": "Azzeramento totale di ogni elemento sporgente. La mano trova alloggiamento naturale nella gola sagomata sul bordo dell'anta.",
+        "en": "Complete eradication of protruding hardware: the hand fits naturally into the recessed contoured edge groove."
+      },
+      "image": "/images/vela/handles/seta-door-pull-and-groove.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte scorrevoli a scomparsa e partizioni complanari",
+      "finishes": [
+        "Interno gola laccato",
+        "Profilo in ottone brunito",
+        "Profilo bronzo"
+      ]
+    },
+    {
+      "id": "han-06",
+      "slug": "ombra-fluted-oak-brass-pull",
+      "name": {
+        "it": "Maniglione Integrato Ombra in Ottone",
+        "en": "Ombra Fluted Brass & Oak Pull"
+      },
+      "type": "pull",
+      "material": {
+        "it": "Ottone satinato spazzolato e rovere termocotto",
+        "en": "Satin brushed brass seated against thermo-treated oak"
+      },
+      "description": {
+        "it": "Raccordo armonico tra l'oro caldo dell'ottone e i toni bruni del legno smoked, ideale per ambienti residenziali di rappresentanza.",
+        "en": "Harmonious balance between the warm gold of brass and deep tones of smoked wood."
+      },
+      "image": "/images/vela/handles/ombra-door-details--fluted-oak-and-brass.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte a bilico scenografiche e ingressi padronali",
+      "finishes": [
+        "Ottone dorato satinato",
+        "Ottone brunito",
+        "Canna di fucile"
+      ]
+    },
+    {
+      "id": "han-07",
+      "slug": "senso-hotel-door-hardware",
+      "name": {
+        "it": "Sistema Senso con Serratura Magnetica a Filo",
+        "en": "Senso Flush Magnetic Lock & Hardware"
+      },
+      "type": "hardware",
+      "material": {
+        "it": "Scatola serratura magnetica con frontale a raso e leva calibrata",
+        "en": "Magnetic flush latch casing with ultra-slim faceplate"
+      },
+      "description": {
+        "it": "Scatto silenzioso azionato da magneti permanenti al neodimio. La linguetta esce solo ad anta accostata, eliminando attriti e strisciamenti.",
+        "en": "Silent magnetic latch activated only when door is aligned: zeroes frictional latch drag and noise."
+      },
+      "image": "/images/vela/handles/senso-hotel-door-hardware-details.webp",
+      "width": 1122,
+      "height": 1402,
+      "compatibility": "Porte hotel, suite e zone notte residenziali",
+      "finishes": [
+        "Bronzo opaco",
+        "Cromo satinato",
+        "Nero titanio"
+      ]
+    },
+    {
+      "id": "han-08",
+      "slug": "italian-hotel-rfid-lock",
+      "name": {
+        "it": "Serratura Elettronica RFID per Hotel d'Autore",
+        "en": "Architectural Electronic RFID Hotel Lock"
+      },
+      "type": "hardware",
+      "material": {
+        "it": "Piastra complanare in ottone con transponder contactless a scomparsa",
+        "en": "Flush brass faceplate with concealed contactless RFID transponder"
+      },
+      "description": {
+        "it": "L'elettronica alberghiera più evoluta custodita in una placca in metallo nobile complanare alla venatura del legno.",
+        "en": "Advanced hospitality contactless intelligence enclosed inside a noble metal plate flush with the wood grain."
+      },
+      "image": "/images/vela/handles/italian-hotel-lock-and-oak-elegance.webp",
+      "width": 1774,
+      "height": 887,
+      "compatibility": "Camere hotel, resort di lusso e residenze gestite",
+      "finishes": [
+        "Ottone satinato",
+        "Bronzo scuro",
+        "Acciaio naturale"
+      ]
+    }
+  ]
+}

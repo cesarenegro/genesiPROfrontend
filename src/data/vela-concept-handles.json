@@ -1,0 +1,243 @@
+[
+  {
+    "id": "leva-rosetta",
+    "name": {
+      "it": "Leva con Rosetta",
+      "en": "Lever Handle with Rose",
+      "de": "Drücker mit Rosette",
+      "fr": "Poignée à levier sur rosace",
+      "ru": "Ручка на круглой розетке",
+      "zh": "带圆形盖板执手",
+      "id": "Handle Lever dengan Rose"
+    },
+    "type": "lever",
+    "description": {
+      "it": "Impugnatura a leva classica con rosetta circolare coordinata a scomparsa visiva.",
+      "en": "Classic lever handle with coordinated low-profile circular rose."
+    },
+    "defaultVariant": "bronzo",
+    "variants": [
+      {
+        "id": "bronzo",
+        "finishName": {
+          "it": "Bronzo satinato",
+          "en": "Satin Bronze"
+        },
+        "colorHex": "#8C6D58",
+        "image": "/images/vela/handles/concept/Satin bronze VELA concept door lever-1.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Leva_Bronzo_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Leva_Bronzo_Scheda_Concept.svg"
+      },
+      {
+        "id": "nichel",
+        "finishName": {
+          "it": "Nichel satinato",
+          "en": "Satin Nickel"
+        },
+        "colorHex": "#B8B5B0",
+        "image": "/images/vela/handles/concept/Satin bronze VELA concept door lever-1.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Leva_Nichel_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Leva_Nichel_Scheda_Concept.svg"
+      }
+    ],
+    "indicativeDimensions": {
+      "it": "Lunghezza ≈ 130 mm · Rosetta Ø 52 mm · Sporgenza ≈ 58 mm · Impugnatura ≈ 18 mm",
+      "en": "Length ≈ 130 mm · Rose Ø 52 mm · Projection ≈ 58 mm · Grip ≈ 18 mm"
+    },
+    "dimensionsSummary": [
+      { "label": "Lunghezza", "value": "≈ 130 mm" },
+      { "label": "Rosetta", "value": "Ø 52 mm" },
+      { "label": "Sporgenza", "value": "≈ 58 mm" },
+      { "label": "Impugnatura", "value": "≈ 18 mm" }
+    ],
+    "compatibleOpeningTypes": ["swing", "double"],
+    "compatibleFamilies": ["residential", "hotel"],
+    "compatibilityNote": {
+      "it": "Compatibile con porte a battente per interni e hotel",
+      "en": "Compatible with residential and hotel swing doors"
+    }
+  },
+  {
+    "id": "leva-lineare",
+    "name": {
+      "it": "Leva Lineare Minimale",
+      "en": "Minimal Linear Lever Handle",
+      "de": "Minimalistischer linearer Drücker",
+      "fr": "Poignée à levier linéaire minimale",
+      "ru": "Минималистичная линейная ручка",
+      "zh": "极简直角线条执手",
+      "id": "Handle Lever Linear Minimalis"
+    },
+    "type": "lever",
+    "description": {
+      "it": "Profilo ortogonale netto con base quadrata complanare per un'estetica pura.",
+      "en": "Clean orthogonal profile with square flush base for architectural purity."
+    },
+    "defaultVariant": "nichel",
+    "variants": [
+      {
+        "id": "nichel",
+        "finishName": {
+          "it": "Nichel satinato",
+          "en": "Satin Nickel"
+        },
+        "colorHex": "#B8B5B0",
+        "image": "/images/vela/handles/concept/Minimalist satin nickel linear door lever-4.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Leva_Lineare_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Leva_Lineare_Scheda_Concept.svg"
+      }
+    ],
+    "indicativeDimensions": {
+      "it": "Lunghezza ≈ 136 mm · Base 52 × 52 mm · Sporgenza ≈ 64 mm",
+      "en": "Length ≈ 136 mm · Base 52 × 52 mm · Projection ≈ 64 mm"
+    },
+    "dimensionsSummary": [
+      { "label": "Lunghezza", "value": "≈ 136 mm" },
+      { "label": "Base", "value": "52 × 52 mm" },
+      { "label": "Sporgenza", "value": "≈ 64 mm" }
+    ],
+    "compatibleOpeningTypes": ["swing", "pivot", "double"],
+    "compatibleFamilies": ["residential", "hotel"],
+    "compatibilityNote": {
+      "it": "Compatibile con porte a battente e sistemi a bilico pivot",
+      "en": "Compatible with swing and pivot systems"
+    }
+  },
+  {
+    "id": "presa-incassata",
+    "name": {
+      "it": "Presa Incassata per Scorrevole",
+      "en": "Recessed Sliding Door Pull",
+      "de": "Eingelassene Schiebetürmuschel",
+      "fr": "Poignée cuvette pour porte coulissante",
+      "ru": "Врезная ручка для раздвижной двери",
+      "zh": "移门嵌入式拉手",
+      "id": "Tarikan Tanam Pintu Geser"
+    },
+    "type": "recessed",
+    "description": {
+      "it": "Elemento ad incasso totale a filo anta con profondità ergonomica calibrata.",
+      "en": "Fully recessed flush element with calibrated ergonomic finger depth."
+    },
+    "defaultVariant": "nichel",
+    "variants": [
+      {
+        "id": "nichel",
+        "finishName": {
+          "it": "Nichel satinato",
+          "en": "Satin Nickel"
+        },
+        "colorHex": "#B8B5B0",
+        "image": "/images/vela/handles/concept/Satin Nickel Recessed Sliding Door Pull-5.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Presa_Incassata_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Presa_Incassata_Scheda_Concept.svg"
+      }
+    ],
+    "indicativeDimensions": {
+      "it": "Ingombro ≈ 184 × 88 mm · Profondità d'incasso ≈ 14 mm",
+      "en": "Overall ≈ 184 × 88 mm · Recessed depth ≈ 14 mm"
+    },
+    "dimensionsSummary": [
+      { "label": "Ingombro", "value": "≈ 184 × 88 mm" },
+      { "label": "Profondità incasso", "value": "≈ 14 mm" }
+    ],
+    "compatibleOpeningTypes": ["sliding"],
+    "compatibleFamilies": ["residential", "hotel"],
+    "compatibilityNote": {
+      "it": "Specifico per porte scorrevoli a scomparsa e partizioni",
+      "en": "Specifically designed for pocket sliding doors and partitions"
+    }
+  },
+  {
+    "id": "pomolo-tondo",
+    "name": {
+      "it": "Pomolo Tondo",
+      "en": "Spherical / Round Door Knob",
+      "de": "Runder Türknauf",
+      "fr": "Bouton de porte sphérique",
+      "ru": "Круглая дверная ручка-кноб",
+      "zh": "圆形球形门把手",
+      "id": "Knob Pintu Bulat"
+    },
+    "type": "knob",
+    "description": {
+      "it": "Geometria sferica pura per aperture controllate e dettagli di pregio.",
+      "en": "Pure spherical geometry for controlled openings and refined architectural details."
+    },
+    "defaultVariant": "nichel",
+    "variants": [
+      {
+        "id": "nichel",
+        "finishName": {
+          "it": "Nichel satinato",
+          "en": "Satin Nickel"
+        },
+        "colorHex": "#B8B5B0",
+        "image": "/images/vela/handles/concept/Satin nickel spherical door knob-3.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Pomolo_Tondo_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Pomolo_Tondo_Scheda_Concept.svg"
+      }
+    ],
+    "indicativeDimensions": {
+      "it": "Diametro Ø ≈ 68 mm · Sporgenza ≈ 64 mm",
+      "en": "Diameter Ø ≈ 68 mm · Projection ≈ 64 mm"
+    },
+    "dimensionsSummary": [
+      { "label": "Diametro", "value": "Ø ≈ 68 mm" },
+      { "label": "Sporgenza", "value": "≈ 64 mm" }
+    ],
+    "compatibleOpeningTypes": ["swing", "pivot", "double"],
+    "compatibleFamilies": ["residential", "hotel"],
+    "compatibilityNote": {
+      "it": "Compatibile con porte a battente e bilico residenziali e suite hotel",
+      "en": "Compatible with residential and hotel suite swing and pivot doors"
+    }
+  },
+  {
+    "id": "maniglione-vetro",
+    "name": {
+      "it": "Maniglione Verticale per Vetro",
+      "en": "Vertical Glass Door Pull Handle",
+      "de": "Vertikaler Stoßgriff für Glastüren",
+      "fr": "Tirant vertical pour porte en verre",
+      "ru": "Вертикальная ручка-скоба для стеклянных дверей",
+      "zh": "玻璃门垂直拉手",
+      "id": "Pull Handle Vertikal Pintu Kaca"
+    },
+    "type": "pull",
+    "description": {
+      "it": "Profilo tubolare a sezione calibrata con fissaggi passanti per ante in cristallo.",
+      "en": "Calibrated section tubular pull with through-glass fixings for crystal doors."
+    },
+    "defaultVariant": "nichel",
+    "variants": [
+      {
+        "id": "nichel",
+        "finishName": {
+          "it": "Nichel satinato",
+          "en": "Satin Nickel"
+        },
+        "colorHex": "#B8B5B0",
+        "image": "/images/vela/handles/concept/Satin Nickel Glass Door Pull Handle-2.png",
+        "sheetSvg": "/images/vela/handles/schede/VELA_Maniglione_Vetro_Scheda_Concept.svg",
+        "sheetFilename": "VELA_Maniglione_Vetro_Scheda_Concept.svg"
+      }
+    ],
+    "indicativeDimensions": {
+      "it": "Altezza ≈ 290 mm · Interasse fissaggi ≈ 240 mm · Sporgenza ≈ 35 mm",
+      "en": "Height ≈ 290 mm · Fixing pitch ≈ 240 mm · Projection ≈ 35 mm"
+    },
+    "dimensionsSummary": [
+      { "label": "Altezza", "value": "≈ 290 mm" },
+      { "label": "Interasse", "value": "≈ 240 mm" },
+      { "label": "Sporgenza", "value": "≈ 35 mm" }
+    ],
+    "compatibleOpeningTypes": ["swing", "sliding", "pivot"],
+    "compatibleCodes": ["IN-08", "box-doccia-01-p-g4", "box-doccia-02-nvp1", "box-doccia-09-stp1", "box-doccia-25-vpp2"],
+    "compatibleFamilies": ["shower"],
+    "compatibilityNote": {
+      "it": "Specifico per ante in cristallo (es. IN-08 Cristallo) e cabine doccia",
+      "en": "Specifically engineered for glass doors (e.g. IN-08 Cristallo) and shower screens"
+    }
+  }
+]

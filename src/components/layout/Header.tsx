@@ -29,6 +29,66 @@ export default async function Header() {
           <Link href="/studio" className="hover:text-primary transition-colors">{t('studio')}</Link>
           <Link href="/services" className="hover:text-primary transition-colors">{t('services')}</Link>
           <Link href="/catalogue" className="hover:text-primary transition-colors">{t('catalogue')}</Link>
+          <div className="relative group">
+            <Link
+              href="/vela"
+              className="hover:text-primary transition-colors font-semibold tracking-wider text-black dark:text-white border-b-2 border-transparent hover:border-black dark:hover:border-white pb-0.5 flex items-center gap-1"
+            >
+              <span>{t('vela')}</span>
+              <span className="text-[10px] text-zinc-400 group-hover:rotate-180 transition-transform duration-200">▾</span>
+            </Link>
+
+            {/* VELA Categories Dropdown */}
+            <div className="absolute left-0 top-full pt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-lg py-2 flex flex-col text-xs uppercase tracking-wider">
+                <Link
+                  href="/vela"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 font-semibold text-zinc-900 dark:text-zinc-100 transition-colors"
+                >
+                  Panoramica Brand VELA
+                </Link>
+                <div className="h-px bg-zinc-200 dark:bg-zinc-800 my-1" />
+                <Link
+                  href="/vela/porte-interni"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors"
+                >
+                  Porte per Interni
+                </Link>
+                <Link
+                  href="/vela/porte-hotel"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors"
+                >
+                  Porte Camere Hotel
+                </Link>
+                <Link
+                  href="/vela/box-doccia"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors"
+                >
+                  Box Doccia
+                </Link>
+                <Link
+                  href="/vela/maniglie"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors"
+                >
+                  Maniglie & Dettagli
+                </Link>
+                <Link
+                  href="/vela/materiali"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors"
+                >
+                  Materiali & Finiture
+                </Link>
+                <div className="h-px bg-zinc-200 dark:bg-zinc-800 my-1" />
+                <Link
+                  href="/vela/catalogo"
+                  className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-[#5B9C94] font-semibold transition-colors flex items-center justify-between"
+                >
+                  <span>Scarica Catalogo VELA</span>
+                  <span>↓</span>
+                </Link>
+              </div>
+            </div>
+          </div>
           <Link href="/projects" className="hover:text-primary transition-colors">{t('projects')}</Link>
           <Link href="/materials" className="hover:text-primary transition-colors">{t('materials')}</Link>
           
@@ -59,8 +119,11 @@ export default async function Header() {
           <LocaleSwitcher />
         </nav>
         
-        {/* Mobile menu toggle could go here */}
-        <div className="md:hidden flex items-center gap-4">
+        {/* Mobile menu link */}
+        <div className="md:hidden flex items-center gap-3">
+          <Link href="/vela" className="text-xs font-semibold tracking-widest uppercase px-2.5 py-1 bg-foreground text-background">
+            VELA
+          </Link>
           {userId && (
             <UserButton />
           )}

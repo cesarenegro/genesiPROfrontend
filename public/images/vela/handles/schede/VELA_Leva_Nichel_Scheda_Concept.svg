@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+  <rect width="297" height="210" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="8" width="281" height="194"/>
+    <line x1="8" y1="31" x2="289" y2="31" stroke-width="0.7"/>
+    <line x1="8" y1="180" x2="289" y2="180" stroke-width="0.6"/>
+    <line x1="8" y1="180" x2="289" y2="180"/>
+    <line x1="186" y1="31" x2="186" y2="180" stroke="#aaa" stroke-width="0.25"/>
+    <line x1="8" y1="128" x2="289" y2="128" stroke="#aaa" stroke-width="0.25"/>
+    <!-- FRONT VIEW, schematic 1:2 -->
+    <circle cx="63" cy="81" r="13" stroke-width="0.65"/>
+    <circle cx="63" cy="81" r="9.5" stroke-width="0.3"/>
+    <circle cx="63" cy="81" r="2.5" stroke-width="0.3"/>
+    <path d="M64.5 77.4 C69 76.8 73 76.5 77 76.6 L124 76.6 Q128.2 76.6 128.2 80.3 L128.2 81.7 Q128.2 85.4 124 85.4 L77.5 85.4 C72.7 85.4 68.6 84.4 64.5 82.8 Z" stroke-width="0.7"/>
+    <line x1="63" y1="72" x2="63" y2="42" stroke="#555" stroke-width="0.25" stroke-dasharray="1.5 1.5"/>
+    <!-- overall lever length dimension -->
+    <line x1="63" y1="49" x2="128.2" y2="49" stroke-width="0.3"/>
+    <line x1="63" y1="49" x2="63" y2="66" stroke-width="0.25"/>
+    <line x1="128.2" y1="49" x2="128.2" y2="73" stroke-width="0.25"/>
+    <path d="M63 49 l3 -1.4 v2.8 z M128.2 49 l-3 -1.4 v2.8 z" fill="#111" stroke="none"/>
+    <!-- rose diameter -->
+    <line x1="42" y1="81" x2="36" y2="81" stroke-width="0.25"/>
+    <line x1="36" y1="68" x2="36" y2="94" stroke-width="0.3"/>
+    <path d="M36 68 l-1.4 3 h2.8 z M36 94 l-1.4 -3 h2.8 z" fill="#111" stroke="none"/>
+    <line x1="36" y1="68" x2="48" y2="68" stroke-width="0.25"/>
+    <line x1="36" y1="94" x2="48" y2="94" stroke-width="0.25"/>
+    <!-- SIDE VIEW -->
+    <line x1="211" y1="52" x2="211" y2="112" stroke-width="0.8"/>
+    <line x1="214" y1="52" x2="214" y2="112" stroke-width="0.25"/>
+    <circle cx="215" cy="81" r="11" stroke-width="0.5"/>
+    <path d="M215 77.5 L242 76.8 Q245 76.8 245 80.5 L245 81.5 Q245 85.2 242 85.2 L215 84.4" stroke-width="0.65"/>
+    <!-- projection dimension -->
+    <line x1="215" y1="99" x2="245" y2="99" stroke-width="0.3"/>
+    <line x1="215" y1="90" x2="215" y2="102" stroke-width="0.25"/>
+    <line x1="245" y1="86" x2="245" y2="102" stroke-width="0.25"/>
+    <path d="M215 99 l3 -1.4 v2.8 z M245 99 l-3 -1.4 v2.8 z" fill="#111" stroke="none"/>
+    <!-- TOP / GRIP SECTION -->
+    <rect x="217" y="147" width="30" height="8" rx="2" stroke-width="0.55"/>
+    <line x1="255" y1="147" x2="255" y2="155" stroke-width="0.3"/>
+    <line x1="247" y1="147" x2="258" y2="147" stroke-width="0.25"/>
+    <line x1="247" y1="155" x2="258" y2="155" stroke-width="0.25"/>
+    <path d="M255 147 l-1.4 3 h2.8 z M255 155 l-1.4 -3 h2.8 z" fill="#111" stroke="none"/>
+    <!-- title-block divisions -->
+    <line x1="201" y1="180" x2="201" y2="202" stroke-width="0.35"/>
+    <line x1="243" y1="180" x2="243" y2="202" stroke-width="0.35"/>
+    <line x1="267" y1="180" x2="267" y2="202" stroke-width="0.35"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="14" y="17" font-size="4.2" font-weight="700" letter-spacing="0.5">VELA — BY GENESI</text>
+    <text x="14" y="25" font-size="3.1" letter-spacing="0.35">HARDWARE / CAMPIONE GRAFICO</text>
+    <text x="278" y="18" font-size="3.2" text-anchor="end">CONCEPT 01</text>
+    <text x="278" y="25" font-size="2.8" text-anchor="end">REV. 00</text>
+    <text x="14" y="39" font-size="3.1" font-weight="700">01 — LEVA CON ROSETTA</text>
+    <text x="14" y="44" font-size="2.7">FINITURA DI RIFERIMENTO: NICHEL SATINATO</text>
+    <text x="14" y="59" font-size="2.5" font-weight="700">PROSPETTO / SCALA SCHEMATICA 1:2</text>
+    <text x="95.6" y="45.5" font-size="2.7" text-anchor="middle">L ≈ 130 mm*</text>
+    <text x="32.5" y="82" font-size="2.5" transform="rotate(-90 32.5 82)" text-anchor="middle">Ø 52 mm*</text>
+    <text x="198" y="59" font-size="2.5" font-weight="700">VISTA LATERALE</text>
+    <text x="230" y="96" font-size="2.6" text-anchor="middle">P ≈ 58 mm*</text>
+    <text x="198" y="141" font-size="2.5" font-weight="700">SEZIONE IMPUGNATURA</text>
+    <text x="259" y="152" font-size="2.5">≈ 18 mm*</text>
+    <text x="14" y="137" font-size="2.7" font-weight="700">NOTE</text>
+    <text x="14" y="143" font-size="2.5">Schema dimensionale concettuale per comunicazione web/catalogo.</text>
+    <text x="14" y="148" font-size="2.5">*Quote indicative proposte; forma, fissaggi, materiali e misure da validare.</text>
+    <text x="14" y="153" font-size="2.5">Non utilizzare per produzione, foratura o ordine ferramenta.</text>
+    <text x="14" y="165" font-size="2.5">La resa fotografica del prodotto è un’immagine concept separata da questa tavola.</text>
+    <text x="14" y="174" font-size="2.6" font-weight="700">DISEGNO CONCETTUALE — NON ESECUTIVO</text>
+    <text x="14" y="188" font-size="2.5" font-weight="700">MODELLO</text>
+    <text x="14" y="196" font-size="3.1">LEVA / NICHEL SATINATO</text>
+    <text x="205" y="188" font-size="2.5" font-weight="700">QUOTE</text>
+    <text x="205" y="196" font-size="3.1">INDICATIVE</text>
+    <text x="246" y="188" font-size="2.5" font-weight="700">FORMATO</text>
+    <text x="246" y="196" font-size="3.1">A4 / ORIZZ.</text>
+    <text x="275" y="188" font-size="2.5" font-weight="700">TAV.</text>
+    <text x="275" y="196" font-size="3.1">01/01</text>
+  </g>
+</svg>

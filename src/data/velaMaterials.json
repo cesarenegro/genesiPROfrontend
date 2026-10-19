@@ -1,0 +1,182 @@
+[
+  {
+    "code": "IN-01",
+    "name": "Rovere Fumé",
+    "model": "Selva",
+    "desc": "Rovere con tonalità fumé.",
+    "category": "interior",
+    "type": "Legno Naturale",
+    "image": "/images/vela/materials/IN-01_rovere_fume.jpg"
+  },
+  {
+    "code": "IN-02",
+    "name": "Laccato Avorio",
+    "model": "Alba",
+    "desc": "Superficie laccata color avorio.",
+    "category": "interior",
+    "type": "Laccato Architetturale",
+    "image": "/images/vela/materials/IN-02_laccato_avorio.jpg"
+  },
+  {
+    "code": "IN-03",
+    "name": "Rovere Naturale",
+    "model": "Righe",
+    "desc": "Rovere dal tono naturale con doghe verticali.",
+    "category": "interior",
+    "type": "Legno Dogato",
+    "image": "/images/vela/materials/IN-03_rovere_naturale.jpg"
+  },
+  {
+    "code": "IN-04",
+    "name": "Terracotta",
+    "model": "Terra",
+    "desc": "Finitura laccata color terracotta.",
+    "category": "interior",
+    "type": "Laccato Opaco",
+    "image": "/images/vela/materials/IN-04_terracotta.jpg"
+  },
+  {
+    "code": "IN-05",
+    "name": "Rovere Scuro",
+    "model": "Ombra",
+    "desc": "Rovere in tonalità scura scanalato.",
+    "category": "interior",
+    "type": "Legno Scanalato",
+    "image": "/images/vela/materials/IN-05_rovere_scuro.jpg"
+  },
+  {
+    "code": "IN-06",
+    "name": "Rovere Chiaro",
+    "model": "Quadro",
+    "desc": "Rovere in tonalità chiara con riquadratura geometrica.",
+    "category": "interior",
+    "type": "Legno Riquadrato",
+    "image": "/images/vela/materials/IN-06_rovere_chiaro.jpg"
+  },
+  {
+    "code": "IN-07",
+    "name": "Bronzo Satinato",
+    "model": "Metallo",
+    "desc": "Superficie metallica satinata color bronzo.",
+    "category": "interior",
+    "type": "Metallo Architetturale",
+    "image": "/images/vela/materials/IN-07_bronzo_satinato.jpg"
+  },
+  {
+    "code": "IN-08",
+    "name": "Vetro Cannettato",
+    "model": "Cristallo",
+    "desc": "Vetro con texture cannettata e telaio bronzo.",
+    "category": "interior",
+    "type": "Cristallo Strutturato",
+    "image": "/images/vela/materials/IN-08_vetro_cannettato.jpg"
+  },
+  {
+    "code": "IN-09",
+    "name": "Laccato Bianco",
+    "model": "Seta",
+    "desc": "Superficie laccata bianca vellutata.",
+    "category": "interior",
+    "type": "Laccato Architetturale",
+    "image": "/images/vela/materials/IN-09_laccato_bianco.jpg"
+  },
+  {
+    "code": "IN-10",
+    "name": "Greige",
+    "model": "Bruma",
+    "desc": "Finitura laccata in tonalità greige calda.",
+    "category": "interior",
+    "type": "Laccato Opaco",
+    "image": "/images/vela/materials/IN-10_greige.jpg"
+  },
+  {
+    "code": "HT-01",
+    "name": "Noce",
+    "model": "Senso",
+    "desc": "Finitura effetto noce canaletto.",
+    "category": "hotel",
+    "type": "Legno Noce",
+    "image": "/images/vela/materials/HT-01_noce.jpg"
+  },
+  {
+    "code": "HT-02",
+    "name": "Verde Oliva",
+    "model": "Oliva",
+    "desc": "Finitura laccata verde oliva desaturata.",
+    "category": "hotel",
+    "type": "Laccato Opaco",
+    "image": "/images/vela/materials/HT-02_verde_oliva.jpg"
+  },
+  {
+    "code": "HT-03",
+    "name": "Rovere Chiaro",
+    "model": "Arenaria",
+    "desc": "Rovere in tonalità chiara sabbiata.",
+    "category": "hotel",
+    "type": "Legno Rovere",
+    "image": "/images/vela/materials/HT-03_rovere_chiaro.jpg"
+  },
+  {
+    "code": "HT-04",
+    "name": "Rovere Espresso",
+    "model": "Bronzo",
+    "desc": "Rovere in tonalità espresso con inserto bronzeo.",
+    "category": "hotel",
+    "type": "Legno Termocotto",
+    "image": "/images/vela/materials/HT-04_rovere_espresso.jpg"
+  },
+  {
+    "code": "HT-05",
+    "name": "Avorio",
+    "model": "Avena",
+    "desc": "Finitura laccata color avorio con inserto sottile.",
+    "category": "hotel",
+    "type": "Laccato Inserto",
+    "image": "/images/vela/materials/HT-05_avorio.jpg"
+  },
+  {
+    "code": "HT-06",
+    "name": "Rovere Tinto",
+    "model": "Rovere",
+    "desc": "Rovere tinto con scansione dogata verticale.",
+    "category": "hotel",
+    "type": "Legno Dogato",
+    "image": "/images/vela/materials/HT-06_rovere_tinto.jpg"
+  },
+  {
+    "code": "HT-07",
+    "name": "Frassino Chiaro",
+    "model": "Essenza",
+    "desc": "Frassino in tonalità chiara con venatura naturale.",
+    "category": "hotel",
+    "type": "Legno Frassino",
+    "image": "/images/vela/materials/HT-07_frassino_chiaro.jpg"
+  },
+  {
+    "code": "HT-08",
+    "name": "Verde Profondo",
+    "model": "Verde",
+    "desc": "Finitura laccata verde foresta profondo.",
+    "category": "hotel",
+    "type": "Laccato Opaco",
+    "image": "/images/vela/materials/HT-08_verde_profondo.jpg"
+  },
+  {
+    "code": "HT-09",
+    "name": "Laccato Effetto Pietra",
+    "model": "Pietra",
+    "desc": "Finitura laccata texturizzata effetto pietra naturale.",
+    "category": "hotel",
+    "type": "Materico Pietra",
+    "image": "/images/vela/materials/HT-09_laccato_effetto_pietra.jpg"
+  },
+  {
+    "code": "HT-10",
+    "name": "Noce",
+    "model": "Riga",
+    "desc": "Finitura effetto noce con inserto orizzontale bronzeo.",
+    "category": "hotel",
+    "type": "Legno Noce Inserto",
+    "image": "/images/vela/materials/HT-10_noce.jpg"
+  }
+]

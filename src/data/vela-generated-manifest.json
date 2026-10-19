@@ -1,0 +1,323 @@
+{
+  "hotel": [
+    {
+      "originalName": "Arenaria oak hotel door diptych.png",
+      "slug": "arenaria-oak-hotel-door-diptych",
+      "webpUrl": "/images/vela/hotel/arenaria-oak-hotel-door-diptych.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Bronze-Framed Espresso Hotel Door.png",
+      "slug": "bronze-framed-espresso-hotel-door",
+      "webpUrl": "/images/vela/hotel/bronze-framed-espresso-hotel-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Elegant Green Hotel Door.png",
+      "slug": "elegant-green-hotel-door",
+      "webpUrl": "/images/vela/hotel/elegant-green-hotel-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Espresso Oak Door with Bronze RFID Detail.png",
+      "slug": "espresso-oak-door-with-bronze-rfid-detail",
+      "webpUrl": "/images/vela/hotel/espresso-oak-door-with-bronze-rfid-detail.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Espresso oak and bronze door details.png",
+      "slug": "espresso-oak-and-bronze-door-details",
+      "webpUrl": "/images/vela/hotel/espresso-oak-and-bronze-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Essenza hotel door in ash and bronze.png",
+      "slug": "essenza-hotel-door-in-ash-and-bronze",
+      "webpUrl": "/images/vela/hotel/essenza-hotel-door-in-ash-and-bronze.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Fluted oak boutique hotel door.png",
+      "slug": "fluted-oak-boutique-hotel-door",
+      "webpUrl": "/images/vela/hotel/fluted-oak-boutique-hotel-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Forest Green Hotel Door Details.png",
+      "slug": "forest-green-hotel-door-details",
+      "webpUrl": "/images/vela/hotel/forest-green-hotel-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Greige hotel door with brass accent.png",
+      "slug": "greige-hotel-door-with-brass-accent",
+      "webpUrl": "/images/vela/hotel/greige-hotel-door-with-brass-accent.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Italian hotel lock and oak elegance.png",
+      "slug": "italian-hotel-lock-and-oak-elegance",
+      "webpUrl": "/images/vela/hotel/italian-hotel-lock-and-oak-elegance.webp",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "originalName": "Italian walnut hotel door with bronze inlay.png",
+      "slug": "italian-walnut-hotel-door-with-bronze-inlay",
+      "webpUrl": "/images/vela/hotel/italian-walnut-hotel-door-with-bronze-inlay.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Ivory hotel door with brass details.png",
+      "slug": "ivory-hotel-door-with-brass-details",
+      "webpUrl": "/images/vela/hotel/ivory-hotel-door-with-brass-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Limestone Guestroom Door in a Sunlit Corridor.png",
+      "slug": "limestone-guestroom-door-in-a-sunlit-corridor",
+      "webpUrl": "/images/vela/hotel/limestone-guestroom-door-in-a-sunlit-corridor.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Luxurious walnut and bronze hotel door.png",
+      "slug": "luxurious-walnut-and-bronze-hotel-door",
+      "webpUrl": "/images/vela/hotel/luxurious-walnut-and-bronze-hotel-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Oliva hotel door details.png",
+      "slug": "oliva-hotel-door-details",
+      "webpUrl": "/images/vela/hotel/oliva-hotel-door-details.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Olive-Grey Hotel Door, Italian Design.png",
+      "slug": "olive-grey-hotel-door-italian-design",
+      "webpUrl": "/images/vela/hotel/olive-grey-hotel-door-italian-design.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Pietra limestone hotel door details.png",
+      "slug": "pietra-limestone-hotel-door-details",
+      "webpUrl": "/images/vela/hotel/pietra-limestone-hotel-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Warm Oak Luxury Hotel Entrance.png",
+      "slug": "warm-oak-luxury-hotel-entrance",
+      "webpUrl": "/images/vela/hotel/warm-oak-luxury-hotel-entrance.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Warm ashwood room door in boutique hotel.png",
+      "slug": "warm-ashwood-room-door-in-boutique-hotel",
+      "webpUrl": "/images/vela/hotel/warm-ashwood-room-door-in-boutique-hotel.webp",
+      "width": 1122,
+      "height": 1402
+    }
+  ],
+  "residential": [
+    {
+      "originalName": "Alba ivory door detail diptych.png",
+      "slug": "alba-ivory-door-detail-diptych",
+      "webpUrl": "/images/vela/residential/alba-ivory-door-detail-diptych.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Bruma Greige Pivot Door Detail Diptych.png",
+      "slug": "bruma-greige-pivot-door-detail-diptych",
+      "webpUrl": "/images/vela/residential/bruma-greige-pivot-door-detail-diptych.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Burnt Sienna Double Doors in Travertine.png",
+      "slug": "burnt-sienna-double-doors-in-travertine",
+      "webpUrl": "/images/vela/residential/burnt-sienna-double-doors-in-travertine.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Elegant warm white pocket door.png",
+      "slug": "elegant-warm-white-pocket-door",
+      "webpUrl": "/images/vela/residential/elegant-warm-white-pocket-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Fluted oak door, serene passage.png",
+      "slug": "fluted-oak-door-serene-passage",
+      "webpUrl": "/images/vela/residential/fluted-oak-door-serene-passage.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Graphite Pivot Door with Brass Detail.png",
+      "slug": "graphite-pivot-door-with-brass-detail",
+      "webpUrl": "/images/vela/residential/graphite-pivot-door-with-brass-detail.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Luxury reeded oak door with bronze inlay.png",
+      "slug": "luxury-reeded-oak-door-with-bronze-inlay",
+      "webpUrl": "/images/vela/residential/luxury-reeded-oak-door-with-bronze-inlay.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Quiet luxury- smoked oak pivot door.png",
+      "slug": "quiet-luxury--smoked-oak-pivot-door",
+      "webpUrl": "/images/vela/residential/quiet-luxury--smoked-oak-pivot-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "ROVERE Smoked Oak Door Details.png",
+      "slug": "rovere-smoked-oak-door-details",
+      "webpUrl": "/images/vela/residential/rovere-smoked-oak-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Riga walnut door with bronze accents.png",
+      "slug": "riga-walnut-door-with-bronze-accents",
+      "webpUrl": "/images/vela/residential/riga-walnut-door-with-bronze-accents.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Satin bronze reeded glass door.png",
+      "slug": "satin-bronze-reeded-glass-door",
+      "webpUrl": "/images/vela/residential/satin-bronze-reeded-glass-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Smoked oak, satin bronze door details.png",
+      "slug": "smoked-oak-satin-bronze-door-details",
+      "webpUrl": "/images/vela/residential/smoked-oak-satin-bronze-door-details.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Terra Door- Brass Handles and Geometric Relief.png",
+      "slug": "terra-door--brass-handles-and-geometric-relief",
+      "webpUrl": "/images/vela/residential/terra-door--brass-handles-and-geometric-relief.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "VELA Door in a Calm Italian Interior.png",
+      "slug": "vela-door-in-a-calm-italian-interior",
+      "webpUrl": "/images/vela/residential/vela-door-in-a-calm-italian-interior.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "VELA Rovere door details in smoked oak.png",
+      "slug": "vela-rovere-door-details-in-smoked-oak",
+      "webpUrl": "/images/vela/residential/vela-rovere-door-details-in-smoked-oak.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "originalName": "Warm Ivory Italian Interior Door.png",
+      "slug": "warm-ivory-italian-interior-door",
+      "webpUrl": "/images/vela/residential/warm-ivory-italian-interior-door.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Warm bronze door, modern elegance.png",
+      "slug": "warm-bronze-door-modern-elegance",
+      "webpUrl": "/images/vela/residential/warm-bronze-door-modern-elegance.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Warm greige pivot door details.png",
+      "slug": "warm-greige-pivot-door-details",
+      "webpUrl": "/images/vela/residential/warm-greige-pivot-door-details.webp",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "handles": [
+    {
+      "originalName": "Bronze handle and brushed metal finish.png",
+      "slug": "bronze-handle-and-brushed-metal-finish",
+      "webpUrl": "/images/vela/handles/bronze-handle-and-brushed-metal-finish.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Bronze pull and fluted oak detail.png",
+      "slug": "bronze-pull-and-fluted-oak-detail",
+      "webpUrl": "/images/vela/handles/bronze-pull-and-fluted-oak-detail.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Bronze pull and reeded glass detail.png",
+      "slug": "bronze-pull-and-reeded-glass-detail",
+      "webpUrl": "/images/vela/handles/bronze-pull-and-reeded-glass-detail.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Quadro steel lever and oak panel.png",
+      "slug": "quadro-steel-lever-and-oak-panel",
+      "webpUrl": "/images/vela/handles/quadro-steel-lever-and-oak-panel.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Seta door pull and groove.png",
+      "slug": "seta-door-pull-and-groove",
+      "webpUrl": "/images/vela/handles/seta-door-pull-and-groove.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Ombra door details- fluted oak and brass.png",
+      "slug": "ombra-door-details--fluted-oak-and-brass",
+      "webpUrl": "/images/vela/handles/ombra-door-details--fluted-oak-and-brass.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Senso hotel door hardware details.png",
+      "slug": "senso-hotel-door-hardware-details",
+      "webpUrl": "/images/vela/handles/senso-hotel-door-hardware-details.webp",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "originalName": "Italian hotel lock and oak elegance.png",
+      "slug": "italian-hotel-lock-and-oak-elegance",
+      "webpUrl": "/images/vela/handles/italian-hotel-lock-and-oak-elegance.webp",
+      "width": 1774,
+      "height": 887
+    }
+  ]
+}

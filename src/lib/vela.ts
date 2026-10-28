@@ -11,6 +11,12 @@ export interface LocalizedText {
   ru?: string;
   zh?: string;
   id?: string;
+  [key: string]: string | undefined;
+}
+
+export function resolveLocalizedText(text: LocalizedText | undefined | null, locale: Locale): string {
+  if (!text) return '';
+  return text[locale] || text.en || text.it || '';
 }
 
 export interface VelaImage {
@@ -219,4 +225,74 @@ export async function getCompatibleHandlesForProduct(product: VelaProduct): Prom
   });
 }
 
+export interface VelaHardwareItem {
+  id: string;
+  slug: string;
+  category: 'magnetic' | 'hinges' | 'smart-residential' | 'hospitality' | 'handles';
+  brand: string;
+  country: string;
+  name: LocalizedText;
+  subtitle: LocalizedText;
+  description: LocalizedText;
+  images: {
+    product: string;
+    inSitu?: string;
+  };
+  datasheetPdf?: {
+    url: string;
+    filename: string;
+    sizeLabel: string;
+  };
+  specs: {
+    loadCapacityKg?: number;
+    backsetMm?: string;
+    doorThicknessMinMm?: number;
+    powerSupply?: string;
+    batteryLife?: string;
+    wirelessProtocols?: string[];
+    certifications?: string[];
+    finishes: string[];
+  };
+  recommendedFor: LocalizedText;
+}
 
+export async function getVelaHardware(): Promise<VelaHardwareItem[]> {
+  const data = await import('@/data/vela-hardware.json');
+  return data.default as unknown as VelaHardwareItem[];
+}
+
+export interface VelaShowerDetail {
+  label: LocalizedText;
+  url: string;
+}
+
+export interface VelaShowerEnclosure {
+  id: string;
+  slug: string;
+  code: string;
+  category: 'pivot' | 'sliding' | 'walk-in' | 'folding' | 'niche' | 'island' | string;
+  name: LocalizedText;
+  subtitle: LocalizedText;
+  description: LocalizedText;
+  images: {
+    ambient: string;
+    elevation: string;
+    details: VelaShowerDetail[];
+  };
+  specs: {
+    glassThicknessMm: number[];
+    glassFinishes: string[];
+    metalFinishes: string[];
+    installationType: 'niche' | 'corner' | 'freestanding' | 'both' | string;
+    maxHeightMm: number;
+    adjustmentRangeMm: string;
+    treatment: LocalizedText;
+  };
+  features: LocalizedText[];
+  disclaimer?: LocalizedText;
+}
+
+export async function getVelaShowerEnclosures(): Promise<VelaShowerEnclosure[]> {
+  const data = await import('@/data/vela-box-doccia.json');
+  return data.default as unknown as VelaShowerEnclosure[];
+}

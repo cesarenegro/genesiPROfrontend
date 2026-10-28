@@ -1,0 +1,1473 @@
+[
+  {
+    "id": "bx-01-p-g4",
+    "slug": "p-g4-bilico-pivot",
+    "code": "P+G4",
+    "category": "pivot",
+    "name": {
+      "it": "Serie P+G4 — Bilico Pivot con Cerniera a Filo",
+      "en": "P+G4 Series — Flush Pivot Hinge Glass System"
+    },
+    "subtitle": {
+      "it": "Apertura rotante a perno per ambienti bagno contemporanei",
+      "en": "Rotary pivot opening for contemporary bathroom spaces"
+    },
+    "description": {
+      "it": "Sistema in cristallo temperato con cerniera a perno pivot complanare al vetro interno. Assicura rotazione a 180° senza ingombro esterno, azzerando le fessure per una pulizia immediata con lavavetri.",
+      "en": "Tempered glass enclosure with pivot hinge perfectly flush with the interior glass face. Allows 180° smooth rotation without outward projection, facilitating effortless squeegee cleaning."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/01_P+G4.webp",
+      "elevation": "/images/vela/box-doccia/01_P+G4_2AV.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Perno Pivot a Filo Interno",
+            "en": "Flush Interior Pivot Hinge"
+          },
+          "url": "/images/vela/box-doccia/01_P+G4_DETT_PIVOT.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "Trattamento CleanGlass Nano-Tech permanente anticalcare",
+        "en": "Permanent CleanGlass Nano-Tech hydrophobic anti-limescale coating"
+      }
+    },
+    "features": [
+      {
+        "it": "Cerniera a perno pivot filo vetro interno",
+        "en": "Flush interior pivot hinge"
+      },
+      {
+        "it": "Canalina a pavimento annegata nel massetto a filo zero",
+        "en": "Zero-barrier floor profile embedded in screed"
+      },
+      {
+        "it": "Guarnizione magnetica di chiusura a scomparsa",
+        "en": "Concealed magnetic closing seal"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni padronali con posa a filo pavimento continuo in resina o pietra naturale",
+      "en": "Master bathrooms with seamless flush flooring in resin or natural stone"
+    }
+  },
+  {
+    "id": "bx-02-nvp1",
+    "slug": "nvp1-scorrevole-binario-aereo",
+    "code": "NVP1",
+    "category": "sliding",
+    "name": {
+      "it": "Serie NVP1 — Scorrevole Minimale con Binario Aereo",
+      "en": "NVP1 Series — Minimal Overhead Track Sliding System"
+    },
+    "subtitle": {
+      "it": "Scorrimento fluido silenzioso con carrelli in acciaio",
+      "en": "Whisper-quiet sliding with precision stainless steel carriages"
+    },
+    "description": {
+      "it": "Anta scorrevole ad alta stabilità guidata da un sottile profilo aereo in alluminio estruso. L'assenza totale di guide inferiori garantisce continuità visiva e massima igiene della zona doccia.",
+      "en": "High-stability sliding leaf guided by a slim overhead extruded aluminum profile. The total absence of floor tracks ensures visual continuity and effortless maintenance."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/02_NVP1.webp",
+      "elevation": "/images/vela/box-doccia/02_NVP1_2AV.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Presa Maniglia Filo Cristallo",
+            "en": "Flush Integrated Handle"
+          },
+          "url": "/images/vela/box-doccia/02_NVP1_DETT_MANIGLIA.webp"
+        },
+        {
+          "label": {
+            "it": "Carrello Scorrevole Silenziato",
+            "en": "Acoustic Dampened Roller Track"
+          },
+          "url": "/images/vela/box-doccia/02_NVP1_DETT_SCORREVOLE.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Bronzo Caldo"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Canna di Fucile",
+        "Acciaio Inox AISI 316",
+        "Cromo Lucido"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±12 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech idrofobico",
+        "en": "CleanGlass Nano-Tech hydrophobic"
+      }
+    },
+    "features": [
+      {
+        "it": "Binario aereo minimale con carrelli a cuscinetto silenziato",
+        "en": "Minimal overhead track with acoustic ball-bearing rollers"
+      },
+      {
+        "it": "Sistema Soft-Close decelerato in apertura e chiusura",
+        "en": "Soft-Close dampened opening and closing system"
+      },
+      {
+        "it": "Presa maniglia a filo per sovrapposizione totale",
+        "en": "Flush handle for full leaf overlap"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Configurazioni in nicchia o ad angolo per bagni moderni e suite d'hotel",
+      "en": "Niche or corner configurations for luxury residences and hotel suites"
+    }
+  },
+  {
+    "id": "bx-03-nvp4",
+    "slug": "nvp4-scorrevole-tutta-altezza",
+    "code": "NVP4",
+    "category": "sliding",
+    "name": {
+      "it": "Serie NVP4 — Scorrevole a Tutta Altezza senza Soglia",
+      "en": "NVP4 Series — Full-Height Threshold-Free Sliding Enclosure"
+    },
+    "subtitle": {
+      "it": "Pura trasparenza verticale fino a 270 cm d'altezza",
+      "en": "Pure vertical transparency up to 270 cm ceiling height"
+    },
+    "description": {
+      "it": "Progettato per integrarsi direttamente con il controsoffitto o l'intradosso architettonico. L'anta scorre tramite pattini a scomparsa invisibili e guarnizioni a labbro ad alta tenuta termica e acustica.",
+      "en": "Engineered for flush integration into false ceilings or architectural soffits. The glass leaf moves via concealed gliders with high-performance acoustic and thermal lip seals."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/03_NVP4.webp",
+      "elevation": "/images/vela/box-doccia/03_NVP4_2AV.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Guida Inferiore a Scomparsa",
+            "en": "Concealed Bottom Pin Guide"
+          },
+          "url": "/images/vela/box-doccia/03_NVP4_DETT_INFERIORE.webp"
+        },
+        {
+          "label": {
+            "it": "Doppia Maniglia Coordinata VELA",
+            "en": "Coordinated VELA Dual Handle"
+          },
+          "url": "/images/vela/box-doccia/03_NVP4_DETT_MANIGLIE.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Inox 316"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente a caldo",
+        "en": "Thermal-cured CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Altezza fino a 270 cm con fissaggio soffitto/parete",
+        "en": "Height up to 270 cm with ceiling/wall anchors"
+      },
+      {
+        "it": "Zero barriere fisiche a pavimento (complanarità 100%)",
+        "en": "Zero floor barriers (100% flush walk-through)"
+      },
+      {
+        "it": "Guarnizioni magnetiche traslucide anti-ingiallimento",
+        "en": "UV-resistant translucent magnetic seals"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Zone wellness e docce walk-through di grande respiro architettonico",
+      "en": "Wellness areas and architectural walk-through shower rooms"
+    }
+  },
+  {
+    "id": "bx-04-flaier",
+    "slug": "flaier-fep2-scorrevole-leggero",
+    "code": "FLAIER FEP2",
+    "category": "sliding",
+    "name": {
+      "it": "Serie FLAIER FEP2 — Scorrevole Compatto a Sezione Slim",
+      "en": "FLAIER FEP2 Series — Slim Section Compact Sliding Door"
+    },
+    "subtitle": {
+      "it": "Profili essenziali ad alta rigidità torsionale",
+      "en": "Essential slim profiles with high torsional rigidity"
+    },
+    "description": {
+      "it": "Configurazione ad anta scorrevole e pannello fisso con ingombri minimi. Ottimale per ottimizzare gli spazi in bagni di medie dimensioni senza rinunciare a finiture metalliche coordinate.",
+      "en": "Sliding door with fixed side panel engineered with minimal profile width. Ideal for maximizing space in medium-sized bathrooms while retaining coordinated luxury metal finishes."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/04_FLAIER_FEP2.webp",
+      "elevation": "/images/vela/box-doccia/04_FLAIER_FEP2_2AV.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Cromo Lucido",
+        "Nero Opaco",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2400,
+      "adjustmentRangeMm": "±20 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech protettivo",
+        "en": "CleanGlass Nano-Tech protective"
+      }
+    },
+    "features": [
+      {
+        "it": "Profilo a parete ad innesto rapido con compensazione",
+        "en": "Quick-fit wall profile with out-of-plumb compensation"
+      },
+      {
+        "it": "Sgancio rapido dell'anta inferiore per pulizia facile",
+        "en": "Quick-release bottom leaf for easy cleaning access"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni ospiti e suite alberghiere con chiusura a nicchia",
+      "en": "Guest bathrooms and hotel guestrooms with niche openings"
+    }
+  },
+  {
+    "id": "bx-05-kup7",
+    "slug": "kup7-battente-nicchia",
+    "code": "KUP7",
+    "category": "pivot",
+    "name": {
+      "it": "Serie KUP7 — Battente Rigoroso per Chiusura a Nicchia",
+      "en": "KUP7 Series — Rigorous Swing Door for Niche Showers"
+    },
+    "subtitle": {
+      "it": "Porta battente singola con profilo magnetico perimetrale",
+      "en": "Single swing glass door with perimeter magnetic seal"
+    },
+    "description": {
+      "it": "La purezza del battente ad anta singola montato su cerniere a scatto registrabile. Il magnete incassato nel profilo laterale assicura ermeticità perfetta ad ogni chiusura.",
+      "en": "Pure single swing glass door mounted on adjustable snap hinges. The magnetic strip embedded into the jamb profile ensures airtight and watertight closure."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/05_KUP7.webp",
+      "elevation": "/images/vela/box-doccia/05_KUP7_2AV.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2500,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente",
+        "en": "Permanent CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Apertura bidirezionale interno/esterno a 180°",
+        "en": "180° dual interior/exterior opening"
+      },
+      {
+        "it": "Cerniera con sollevamento anta in apertura (cam lift)",
+        "en": "Cam-lift hinge mechanism raising door during swing"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Nicchie doccia con rivestimenti continui a tutta altezza",
+      "en": "Full-height tiled and marble shower niches"
+    }
+  },
+  {
+    "id": "bx-06-knp1",
+    "slug": "knp1-battente-con-fisso",
+    "code": "KNP1",
+    "category": "pivot",
+    "name": {
+      "it": "Serie KNP1 — Anta Battente con Pannello Fisso in Linea",
+      "en": "KNP1 Series — Swing Door with In-Line Fixed Glass Screen"
+    },
+    "subtitle": {
+      "it": "Equilibrio tra parte mobile e parete vetrata fissa",
+      "en": "Harmonious balance between operable door and fixed screen"
+    },
+    "description": {
+      "it": "Soluzione per varchi doccia generosi dove l'anta a battente dialoga con un cristallo fisso bloccato da canalina a pavimento e tirante superiore a sezione quadrata.",
+      "en": "Architectural solution for wide shower openings where a hinged door pairs with a fixed glass screen anchored by floor channels and square stabilizing tie-bars."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/06_KNP1.webp",
+      "elevation": "/images/vela/box-doccia/06_KNP1_2AV.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Staffa tirante di sostegno in metallo pieno lavorata dal pieno",
+        "en": "Solid machined metal overhead stabilizer bar"
+      },
+      {
+        "it": "Guarnizione morbida tra anta e fisso quasi invisibile",
+        "en": "Ultra-slim soft seal between active door and fixed glass"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Docce padronali di larghezza compresa tra 120 e 180 cm",
+      "en": "Master showers ranging between 120 and 180 cm width"
+    }
+  },
+  {
+    "id": "bx-07-ovp3",
+    "slug": "ovp3-scorrevole-doppio",
+    "code": "OVP3",
+    "category": "sliding",
+    "name": {
+      "it": "Serie OVP3 — Scorrevole Doppio per Ampie Luci",
+      "en": "OVP3 Series — Dual Sliding System for Expansive Openings"
+    },
+    "subtitle": {
+      "it": "Due ante mobili scorrevoli con apertura centrale",
+      "en": "Twin sliding glass panels with central opening"
+    },
+    "description": {
+      "it": "Composizione con due ante scorrevoli sincronizzate o indipendenti. Consente un vano d'accesso centrale generoso, ideale per bagni di rappresentanza e suite presidenziali.",
+      "en": "Composition featuring twin sliding leaves with central opening. Delivers a wide walk-through access, optimal for luxury estates and presidential suites."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/07_OVP3.webp",
+      "elevation": "/images/vela/box-doccia/07_OVP3_2V.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Canna di Fucile",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Apertura centrale simmetrica con calamita a battuta",
+        "en": "Symmetrical central magnetic meet closure"
+      },
+      {
+        "it": "Scorrimento bilanciato a doppio cuscinetto",
+        "en": "Double-bearing balanced silent gliding"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Grandi nicchie bagno con luce superiore a 160 cm",
+      "en": "Large niche shower enclosures wider than 160 cm"
+    }
+  },
+  {
+    "id": "bx-08-sta1",
+    "slug": "sta1-walk-in-minimal",
+    "code": "STA1",
+    "category": "walk-in",
+    "name": {
+      "it": "Serie STA1 — Parete Walk-In con Tirante Stabilizzatore",
+      "en": "STA1 Series — Minimal Walk-In Screen with Stabilizer Bar"
+    },
+    "subtitle": {
+      "it": "La quintessenza dell'open space doccia a filo pavimento",
+      "en": "The quintessence of open-space flush-floor showering"
+    },
+    "description": {
+      "it": "Lastra fissa in cristallo temperato da 10 mm ancorata tramite canalina a pavimento quasi invisibile e tirante d'irrigidimento a 45° o ortogonale. Massima libertà di movimento e facilità di pulizia.",
+      "en": "10 mm monolithic tempered glass screen secured via ultra-slim floor channel and 45° or 90° stabilizer bar. Total freedom of motion and unmatched cleaning simplicity."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/08_STA1.webp",
+      "elevation": "/images/vela/box-doccia/08_STA1_2V.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Presa Maniglia Architetturale",
+            "en": "Architectural Grip Detail"
+          },
+          "url": "/images/vela/box-doccia/08_STA1_DETT_MANIGLIA.webp"
+        },
+        {
+          "label": {
+            "it": "Profilo Terminale a Parete",
+            "en": "Sleek Wall Terminal Profile"
+          },
+          "url": "/images/vela/box-doccia/08_STA1_DETT_TERMINALE.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted",
+        "Bronzo Caldo"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±10 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente a doppio lato",
+        "en": "Double-sided permanent CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Cristallo 10 mm per rigidità statica monumentale",
+        "en": "10 mm monolithic glass for structural rigidity"
+      },
+      {
+        "it": "Nessuna soglia o binario: accessibilità totale",
+        "en": "No threshold or barrier: barrier-free accessibility"
+      },
+      {
+        "it": "Disponibile con lavorazione cannettata o fumé per privacy",
+        "en": "Available in fluted or smoked glass for privacy"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni en-suite e suite contemporanee con docce passanti",
+      "en": "En-suite bathrooms and contemporary suites with walk-through showers"
+    }
+  },
+  {
+    "id": "bx-09-stp1",
+    "slug": "stp1-battente-mensola-integrata",
+    "code": "STP1",
+    "category": "pivot",
+    "name": {
+      "it": "Serie STP1 — Anta Battente con Mensola Integrata",
+      "en": "STP1 Series — Hinged Glass Enclosure with Built-in Shelf"
+    },
+    "subtitle": {
+      "it": "Funzionalità ergonomica fusa nel cristallo temperato",
+      "en": "Ergonomic utility seamlessly integrated into tempered glass"
+    },
+    "description": {
+      "it": "Composizione con porta a battente e fisso laterale dotato di mensola portaflaconi in cristallo e metallo nobile incollata con tecnologia UV a tenuta strutturale permanente.",
+      "en": "Enclosure pairing a hinged door and fixed panel with structural UV-bonded glass shelf in coordinated noble metal, eliminating drilling while holding bath amenities securely."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/09_STP1.webp",
+      "elevation": "/images/vela/box-doccia/09_STP1_2AV.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Maniglia Verticale in Tinta",
+            "en": "Coordinated Vertical Handle"
+          },
+          "url": "/images/vela/box-doccia/09_STP1_DETT_MANIGLIA.webp"
+        },
+        {
+          "label": {
+            "it": "Mensola Cristallo con Incollaggio UV",
+            "en": "UV-Bonded Glass & Metal Shelf"
+          },
+          "url": "/images/vela/box-doccia/09_STP1_DETT_MENSOLA.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Mensola in cristallo ancorata con tecnologia UV",
+        "en": "UV-bonded glass shelf without holes in glass"
+      },
+      {
+        "it": "Cerniere a perno con scatto di chiusura ammortizzato",
+        "en": "Snap-close damped pivot hinges"
+      },
+      {
+        "it": "Maniglia complanare ergonomica a sezione tonda o quadra",
+        "en": "Ergonomic round or square section pull"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni residenziali di alto profilo dove l'ergonomia sposa il design",
+      "en": "High-end residential bathrooms where ergonomics meets pure design"
+    }
+  },
+  {
+    "id": "bx-10-stp1l",
+    "slug": "stp1l-battente-cerniera-superiore",
+    "code": "STP1L",
+    "category": "pivot",
+    "name": {
+      "it": "Serie STP1L — Battente con Cerniera a Perno Superiore Rinforzata",
+      "en": "STP1L Series — Heavy-Duty Upper Pivot Hinged Door"
+    },
+    "subtitle": {
+      "it": "Cerniera a sbalzo per ante di peso e dimensioni eccezionali",
+      "en": "Cantilevered upper hinge for oversized and heavy glass panels"
+    },
+    "description": {
+      "it": "Evoluzione della serie STP con perno superiore a snodo sferico ricavato dal pieno. Consente di sostenere ante fino a 70 kg di peso garantendo rotazione fluida con una sola mano.",
+      "en": "Evolution of the STP series featuring a CNC machined upper ball-bearing pivot. Supports glass doors up to 70 kg while maintaining single-finger fluid rotation."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/09_STP1.webp",
+      "elevation": "/images/vela/box-doccia/10_STP1L_2V.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Cerniera a Perno Superiore dal Pieno",
+            "en": "Solid Milled Upper Pivot Hinge"
+          },
+          "url": "/images/vela/box-doccia/10_STP1L_DETT_CERNIERA_SUPERIORE.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Cerniera superiore speciale per ante over-size da 10 mm",
+        "en": "Specialized upper pivot for oversized 10 mm doors"
+      },
+      {
+        "it": "Regolazione millimetrica sui 3 assi di complanarità",
+        "en": "3D millimetric adjustment for absolute flush alignment"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Realizzazioni monumentali a tutta altezza su disegno dell'architetto",
+      "en": "Full-height custom architectural commissions"
+    }
+  },
+  {
+    "id": "bx-11-sta2",
+    "slug": "sta2-walk-in-freestanding",
+    "code": "STA2",
+    "category": "walk-in",
+    "name": {
+      "it": "Serie STA2 — Walk-In Freestanding Centro Stanza",
+      "en": "STA2 Series — Freestanding Center-Room Walk-In"
+    },
+    "subtitle": {
+      "it": "Doppio ingresso passante per master bathroom iconici",
+      "en": "Dual walk-through entrance for iconic master suites"
+    },
+    "description": {
+      "it": "Parete divisoria centrale in cristallo extrachiaro da 10 mm fissata tramite doppi tiranti a soffitto o a parete. Permette il passaggio fluido da entrambi i lati della sala da bagno.",
+      "en": "Central 10 mm extra-clear glass partition anchored via dual overhead tie-bars. Allows continuous fluid circulation from both sides of the bathroom suite."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/11_STA2.webp",
+      "elevation": "/images/vela/box-doccia/08_STA1_2V.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±10 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech bifacciale",
+        "en": "Dual-sided CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Passaggio libero da ambo i lati senza porte",
+        "en": "Free dual-sided walk-through without operable doors"
+      },
+      {
+        "it": "Ideale per pareti doccia con soffioni a pioggia doppi",
+        "en": "Ideal for double rain-shower wellness installations"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Grandi ambienti bagno open space con vasca e doccia integrate",
+      "en": "Large open-plan bathrooms integrating soaking tubs and showers"
+    }
+  },
+  {
+    "id": "bx-12-z8p2",
+    "slug": "z8p2-scorrevole-nicchia-2ante",
+    "code": "Z8P2",
+    "category": "sliding",
+    "name": {
+      "it": "Serie Z8P2 — Scorrevole a Nicchia Cristallo 8 mm",
+      "en": "Z8P2 Series — 8 mm Niche Sliding Glass Enclosure"
+    },
+    "subtitle": {
+      "it": "Struttura solida con tenuta ermetica certificata",
+      "en": "Sturdy architectural structure with certified watertight seal"
+    },
+    "description": {
+      "it": "Chiusura doccia per nicchia composta da pannello fisso e anta scorrevole. I profili perimetrali a battuta assicurano isolamento totale dagli schizzi d'acqua anche con idrogetti intensi.",
+      "en": "Niche shower enclosure composed of a fixed panel and sliding door. Perimeter sealing profiles guarantee total protection against spray from high-pressure hydro-massage jets."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/12_Z8P2.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Cromo Lucido",
+        "Nero Opaco",
+        "Inox 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2500,
+      "adjustmentRangeMm": "±25 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Ampia tolleranza di compensazione fuori squadro (fino a 25 mm)",
+        "en": "Generous out-of-plumb wall adjustment (up to 25 mm)"
+      },
+      {
+        "it": "Impugnatura verticale integrata a tutta altezza",
+        "en": "Full-height integrated ergonomic vertical grip"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Ristrutturazioni e posa su pareti esistenti con dislivelli",
+      "en": "Renovations and installations on existing uneven walls"
+    }
+  },
+  {
+    "id": "bx-13-p-l3",
+    "slug": "p-l3-battente-cerniere-filo-interno",
+    "code": "P+L3",
+    "category": "pivot",
+    "name": {
+      "it": "Serie P+L3 — Battente Angolare con Cerniere a Filo Interno",
+      "en": "P+L3 Series — Corner Hinged Door with Flush Interior Hinges"
+    },
+    "subtitle": {
+      "it": "Zero depositi di calcare grazie alla complanarità assoluta",
+      "en": "Zero limescale residue with perfectly flush internal glass hardware"
+    },
+    "description": {
+      "it": "Composizione angolare a due lati con porta battente e fisso laterale. Le cerniere sono fresate a filo perfetto sul lato interno del vetro: il tergivetro scorre senza incontrare alcuna asperità.",
+      "en": "Corner composition with swing door and lateral fixed panel. Hinges are countersunk perfectly flush on the inner glass side, allowing seamless wiper gliding with zero crevices."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/13_P+L3.webp",
+      "elevation": "/images/vela/box-doccia/13_P+L3_2V.webp",
+      "details": [
+        {
+          "label": {
+            "it": "Cerniera a Pavimento a Tenuta",
+            "en": "Sealed Floor Pivot Hinge"
+          },
+          "url": "/images/vela/box-doccia/13_P+L3_DETT_CERNIERA_INFERIORE.webp"
+        },
+        {
+          "label": {
+            "it": "Cerniera Superiore a Filo Interno",
+            "en": "Flush Interior Upper Hinge"
+          },
+          "url": "/images/vela/box-doccia/13_P+L3_DETT_CERNIERA_SUPERIORE.webp"
+        },
+        {
+          "label": {
+            "it": "Maniglia di Presa Meccanica VELA",
+            "en": "VELA Solid Lever Handle"
+          },
+          "url": "/images/vela/box-doccia/13_P+L3_DETT_MANIGLIA.webp"
+        }
+      ]
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente",
+        "en": "Permanent CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Cerniere fresate a filo interno vetro: igiene impeccabile",
+        "en": "Countersunk flush internal hinges: effortless squeegee wiping"
+      },
+      {
+        "it": "Guarnizione magnetica coordinata in tinta con le finiture",
+        "en": "Coordinated finish magnetic closure profiles"
+      },
+      {
+        "it": "Maniglia ricavata dal pieno abbinata alle maniglie delle porte VELA",
+        "en": "Solid brass/steel handle matching VELA door levers"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni di prestigio che richiedono massima praticità di manutenzione",
+      "en": "Prestigious residential master bathrooms requiring effortless cleaning"
+    }
+  },
+  {
+    "id": "bx-14-prp8",
+    "slug": "prp8-parete-vasca-cristallo",
+    "code": "PRP8",
+    "category": "special",
+    "name": {
+      "it": "Serie PRP8 — Sopravasca & Partizione Cristallo Pieghevole",
+      "en": "PRP8 Series — Folding Over-Tub & Glass Screen Enclosure"
+    },
+    "subtitle": {
+      "it": "Protezione trasparente per vasche da bagno di design",
+      "en": "Crystal protection for design-forward bathtubs"
+    },
+    "description": {
+      "it": "Schermo in cristallo da 8 mm a una o due ante a pacchetto. Consente di convertire la vasca da bagno in una doccia funzionale mantenendo trasparenza e leggerezza visiva.",
+      "en": "8 mm glass screen available in single or bi-folding leaves. Transforms designer bathtubs into functional showers without visual clutter or heavy frames."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/14_PRP8.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Cromo Lucido"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 1800,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Rotazione a 180° per ripiegamento completo a parete",
+        "en": "180° swing allowing complete folding against the wall"
+      },
+      {
+        "it": "Guarnizione orizzontale a doppio labbro antigoccia",
+        "en": "Double horizontal drip seal along tub edge"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni con vasca da bagno integrata in contesti residenziali e hospitality",
+      "en": "Bathtubs in residential and hotel suites needing shower versatility"
+    }
+  },
+  {
+    "id": "bx-15-kuj",
+    "slug": "kuj-angolare-battente-2lati",
+    "code": "KUJ",
+    "category": "special",
+    "name": {
+      "it": "Serie KUJ — Box Angolare a Totale Apertura",
+      "en": "KUJ Series — Full-Opening Dual Corner Enclosure"
+    },
+    "subtitle": {
+      "it": "Doppia anta battente ad angolo con apertura a 180°",
+      "en": "Twin corner swing doors opening completely outward and inward"
+    },
+    "description": {
+      "it": "Sistema ad angolo a due ante battenti che si chiudono a 90° con calamita invisibile. Aprendo entrambe le ante, lo spazio doccia diventa completamente accessibile senza montanti centrali.",
+      "en": "Corner enclosure with dual outward and inward swing doors meeting at 90° via concealed magnetic seals. Delivers barrier-free corner access without central pillars."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/15_KUJ.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Inox 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2500,
+      "adjustmentRangeMm": "±20 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Apertura totale dell'angolo senza montanti intermedi",
+        "en": "Total corner opening without fixed uprights"
+      },
+      {
+        "it": "Ante ripiegabili a parete per ampliare visivamente il bagno",
+        "en": "Doors fold flat against walls when not in use to expand space"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni dove è richiesta massima flessibilità di spazio e accesso facilitato",
+      "en": "Compact or universal-access bathrooms requiring optimal space usage"
+    }
+  },
+  {
+    "id": "bx-16-z8a1",
+    "slug": "z8a1-walk-in-angolare-fume",
+    "code": "Z8A1",
+    "category": "walk-in",
+    "name": {
+      "it": "Serie Z8A1 — Walk-In Angolare con Cristallo Fumé Grafite",
+      "en": "Z8A1 Series — Corner Walk-In Screen with Smoked Graphite Glass"
+    },
+    "subtitle": {
+      "it": "Intimità sofisticata e riflessi materici caldi",
+      "en": "Sophisticated privacy with warm tinted material reflections"
+    },
+    "description": {
+      "it": "Configurazione walk-in a giorno ad angolo realizzata in cristallo grigio fumé in pasta. Crea un diaframma visivo elegante che protegge la privacy senza chiudere la luce naturale.",
+      "en": "Open corner walk-in partition crafted in body-tinted smoked graphite glass. Creates a refined visual shield that preserves privacy while allowing natural illumination to filter through."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/16_Z8A1.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Fumé Grigio",
+        "Bronzo Caldo"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Canna di Fucile",
+        "Bronzo Spazzolato"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente",
+        "en": "Permanent CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Vetro colorato in pasta fumé: nessuna pellicola",
+        "en": "Body-tinted float glass: no peelable films"
+      },
+      {
+        "it": "Dialogo cromatico con rubinetterie nere e canna di fucile",
+        "en": "Perfect chromatic pairing with matte black and gunmetal tapware"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni scuri materici con boiserie in rovere termotrattato o pietra piasentina",
+      "en": "Dark mood bathrooms featuring thermal wood or dark stone wall finishes"
+    }
+  },
+  {
+    "id": "bx-17-fya2",
+    "slug": "fya2-parete-fissa-canalina-filo",
+    "code": "FYA2",
+    "category": "walk-in",
+    "name": {
+      "it": "Serie FYA2 — Cristallo Walk-In con Canalina a Filo Pavimento",
+      "en": "FYA2 Series — Walk-In Screen with Recessed Floor Channel"
+    },
+    "subtitle": {
+      "it": "Il cristallo sembra sorgere direttamente dalla pavimentazione",
+      "en": "The glass rises seamlessly from the stone flooring"
+    },
+    "description": {
+      "it": "La canalina strutturale in alluminio viene annegata sotto la pavimentazione durante il getto del massetto. Il vetro emerge direttamente dalla fuga, cancellando ogni profilo metallico alla base.",
+      "en": "The structural aluminum sub-floor channel is embedded into the screed before tiling. The glass sheet emerges directly from the tile joint, zeroing visible bottom metal profiles."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/17_FYA2.webp",
+      "elevation": "/images/vela/box-doccia/21_FYRMA_2V.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Acciaio Inox AISI 316",
+        "Nero Opaco",
+        "Bronzo Spazzolato"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±10 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech a caldo",
+        "en": "Thermal CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Canalina annegata nel massetto: profilo inferiore invisibile al 100%",
+        "en": "Embedded floor channel: 100% invisible bottom metal"
+      },
+      {
+        "it": "Sigillatura igienica nano-siliconica antimuffa",
+        "en": "Anti-mold sanitary nano-silicone seal"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Pavimentazioni continue in grandi lastre ceramiche o marmi di Carrara",
+      "en": "Continuous large-format porcelain slabs and natural marble floors"
+    }
+  },
+  {
+    "id": "bx-18-ngp7",
+    "slug": "ngp7-scorrevole-tenute-magnetiche",
+    "code": "NGP7",
+    "category": "sliding",
+    "name": {
+      "it": "Serie NGP7 — Scorrevole Tecnico con Guarnizioni a Scomparsa",
+      "en": "NGP7 Series — Technical Sliding System with Concealed Seals"
+    },
+    "subtitle": {
+      "it": "Isolamento acustico e tenuta ermetica ai vertici della categoria",
+      "en": "Benchmark acoustic dampening and hermetic watertightness"
+    },
+    "description": {
+      "it": "Anta scorrevole ad alta precisione con profilo di battuta magnetico a scomparsa. L'aggancio dell'anta è silenzioso e preciso, con microregolazione dell'inclinazione per compensare disassamenti.",
+      "en": "High-precision sliding glass enclosure with concealed magnetic latching profile. Leaf engagement is silent and stable, featuring micro-adjusters to correct vertical deviation."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/18_NGP7.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Canna di Fucile",
+        "Inox 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2500,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Guarnizioni magnetiche coordinate prive di viti a vista",
+        "en": "Coordinated magnetic seals without visible screw heads"
+      },
+      {
+        "it": "Cuscinetti a rulli ad altissima scorrevolezza testati a 100.000 cicli",
+        "en": "High-fluidity roller bearings certified for 100,000 cycles"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Camere d'albergo 5 stelle con standard di silenziosità notturna rigorosi",
+      "en": "5-star hotel rooms adhering to strict nocturnal silence benchmarks"
+    }
+  },
+  {
+    "id": "bx-19-p-l4",
+    "slug": "p-l4-saloon-doppia-anta",
+    "code": "P+L4",
+    "category": "pivot",
+    "name": {
+      "it": "Serie P+L4 — Doppia Anta Battente Tipo Saloon",
+      "en": "P+L4 Series — Saloon-Style Double Swing Doors"
+    },
+    "subtitle": {
+      "it": "Apertura simmetrica a doppio battente per ingressi agevoli",
+      "en": "Symmetrical double-leaf opening for wide obstacle-free access"
+    },
+    "description": {
+      "it": "Due ante a battente indipendenti che si aprono sia verso l'interno che verso l'esterno. Riducono del 50% il raggio d'ingombro dell'anta, consentendo installazioni anche davanti a lavabi o sanitari.",
+      "en": "Twin independent swing doors opening both inward and outward. Halves door clearance radius, making it ideal when positioned close to vanity units or sanitary fixtures."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/19_P+L4.webp",
+      "elevation": "/images/vela/box-doccia/19_P+L4_2V.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Cromo Lucido",
+        "Inox 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2500,
+      "adjustmentRangeMm": "±20 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Ingombro di rotazione ridotto del 50%",
+        "en": "Rotational clearance reduced by 50%"
+      },
+      {
+        "it": "Cerniera con arresto automatico a 0° e 90°",
+        "en": "Auto-centering hinge stop at 0° and 90°"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Bagni residenziali con spazi ridotti davanti al piatto doccia",
+      "en": "En-suite bathrooms with compact clearances facing the shower tray"
+    }
+  },
+  {
+    "id": "bx-20-svp11",
+    "slug": "svp11-scorrevole-soft-close",
+    "code": "SVP11",
+    "category": "sliding",
+    "name": {
+      "it": "Serie SVP11 — Scorrevole con Ammortizzatori Idraulici Soft-Close",
+      "en": "SVP11 Series — Sliding Enclosure with Hydraulic Soft-Close"
+    },
+    "subtitle": {
+      "it": "Frenata controllata dolce e silenziosa a fine corsa",
+      "en": "Gentle, whisper-quiet hydraulic deceleration at travel limits"
+    },
+    "description": {
+      "it": "Meccanismo di scorrimento dotato di doppi ammortizzatori oleodinamici a scomparsa nel binario. Anche in caso di spinta energica, l'anta rallenta dolcemente negli ultimi 10 cm accostandosi al telaio.",
+      "en": "Sliding mechanism equipped with dual concealed hydraulic dampeners inside the top rail. Even when pushed forcefully, the door decelerates gently over the final 10 cm to latch noiselessly."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/20_SVP11.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Inox 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Doppio deceleratore idraulico Soft-Close in apertura e chiusura",
+        "en": "Dual hydraulic Soft-Close dampening in both directions"
+      },
+      {
+        "it": "Binario superiore ultracompatto di soli 38 mm d'altezza",
+        "en": "Ultra-compact top rail height of only 38 mm"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Residenze di lusso con elevati standard di sicurezza e comfort d'uso",
+      "en": "Luxury family residences requiring child-safe, silent door deceleration"
+    }
+  },
+  {
+    "id": "bx-21-fyrma",
+    "slug": "fyrma-prospetto-architettonico",
+    "code": "FYRMA",
+    "category": "walk-in",
+    "name": {
+      "it": "Serie FYRMA — Sistema Parete Doccia a Geometria Modulare",
+      "en": "FYRMA Series — Modular Geometry Shower Screen System"
+    },
+    "subtitle": {
+      "it": "Modularità architettonica coordinata per contract di pregio",
+      "en": "Coordinated architectural modularity for prestige contract"
+    },
+    "description": {
+      "it": "Sistema componibile di lastre fisse e profili a sezione rettangolare calibrata. Ideale per progetti alberghieri e complessi residenziali che richiedono replicabilità dimensionale e durata decennale.",
+      "en": "Modular assembly of fixed glass screens and calibrated rectangular metal sections. Ideal for high-end hospitality projects requiring repeatable dimensions and long-term durability."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/17_FYA2.webp",
+      "elevation": "/images/vela/box-doccia/21_FYRMA_2V.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8,
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Cannettato Fluted",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Acciaio Inox AISI 316",
+        "Bronzo Spazzolato"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2600,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Progettazione modulare a misura per capitolati contract",
+        "en": "Modular custom sizing tailored for contract tender requirements"
+      },
+      {
+        "it": "Massima resistenza meccanica agli urti e alla corrosione salina",
+        "en": "High resistance to structural impact and saline corrosion"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Capitolati alberghieri, resort marini e complessi residenziali di lusso",
+      "en": "Hospitality tenders, seaside resorts, and multi-unit luxury towers"
+    }
+  },
+  {
+    "id": "bx-22-z8p3",
+    "slug": "z8p3-scorrevole-3ante-nicchia",
+    "code": "Z8P3",
+    "category": "sliding",
+    "name": {
+      "it": "Serie Z8P3 — Scorrevole a 3 Ante Sovrapponibili per Nicchia",
+      "en": "Z8P3 Series — 3-Panel Telescopic Sliding Niche Enclosure"
+    },
+    "subtitle": {
+      "it": "Luce di passaggio massima per nicchie di media dimensione",
+      "en": "Maximum walk-through opening for mid-sized niche spaces"
+    },
+    "description": {
+      "it": "Due ante scorrevoli si impacchettano sovrapponendosi a una lastra fissa. Si ottiene un vano di passaggio pari a oltre due terzi della larghezza totale della nicchia, con accesso straordinariamente comodo.",
+      "en": "Two sliding panels glide telescopically over a fixed pane. Yields an entry opening exceeding two-thirds of the total niche width, providing effortless ingress even in compact spans."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/22_Z8P3.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        8
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Satinato"
+      ],
+      "metalFinishes": [
+        "Cromo Lucido",
+        "Nero Opaco",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "both",
+      "maxHeightMm": 2400,
+      "adjustmentRangeMm": "±25 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech",
+        "en": "CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Luce d'ingresso pari al 66% della larghezza della nicchia",
+        "en": "Walk-through opening equal to 66% of total niche span"
+      },
+      {
+        "it": "Movimento sincronizzato a cascata dei pannelli mobili",
+        "en": "Cascading synchronized glide movement between glass panels"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Nicchie doccia con limitata larghezza dove è fondamentale un accesso ampio",
+      "en": "Niche showers where wide, unimpeded entry is essential"
+    }
+  },
+  {
+    "id": "bx-23-ngpg",
+    "slug": "ngpg-scorrevole-maxi-suite",
+    "code": "NGPG",
+    "category": "sliding",
+    "name": {
+      "it": "Serie NGPG — Box Scorrevole Monumentale Maxi Suite",
+      "en": "NGPG Series — Monumental Maxi Suite Sliding Glassroom"
+    },
+    "subtitle": {
+      "it": "Dimensioni scultoree per docce walk-in chiuse di grande prestigio",
+      "en": "Sculptural proportions for enclosed walk-in wellness suites"
+    },
+    "description": {
+      "it": "Composizione doccia ad altissima capienza con lastre in cristallo temperato fino a 10 mm e profili perimetrali in metallo nobile a forte spessore. Progettata per suite benessere private e ambienti spa.",
+      "en": "Expansive glass room composition with up to 10 mm tempered glass and heavy-gauge perimeter frames in noble metals. Conceived for private wellness suites and luxury spa pavilions."
+    },
+    "images": {
+      "ambient": "/images/vela/box-doccia/23_NGPG.webp"
+    },
+    "specs": {
+      "glassThicknessMm": [
+        10
+      ],
+      "glassFinishes": [
+        "Extrachiaro",
+        "Fumé Grigio",
+        "Cannettato Fluted"
+      ],
+      "metalFinishes": [
+        "Nero Opaco",
+        "Bronzo Spazzolato",
+        "Ottone Naturale",
+        "Acciaio Inox AISI 316"
+      ],
+      "installationType": "flush-floor",
+      "maxHeightMm": 2700,
+      "adjustmentRangeMm": "±15 mm",
+      "treatment": {
+        "it": "CleanGlass Nano-Tech permanente a doppio lato",
+        "en": "Dual-sided permanent CleanGlass Nano-Tech"
+      }
+    },
+    "features": [
+      {
+        "it": "Capacità portante per lastre scorrevoli fino a 90 kg",
+        "en": "Engineered load capacity for heavy sliding panels up to 90 kg"
+      },
+      {
+        "it": "Tenuta a vapore per integrazione con bagno turco / hammam",
+        "en": "Steam-tight sealing suitable for integrated hammam/steam rooms"
+      }
+    ],
+    "recommendedFor": {
+      "it": "Ville esclusive, attici panoramici e suite presidenziali con spa interna",
+      "en": "Exclusive villas, penthouses, and presidential suites with in-room spa"
+    }
+  }
+]

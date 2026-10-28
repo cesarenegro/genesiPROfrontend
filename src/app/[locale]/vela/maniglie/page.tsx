@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { getVelaHandles, getVelaConceptHandles, Locale } from '@/lib/vela';
+import { getVelaHandles, getVelaConceptHandles, getVelaHardware, Locale } from '@/lib/vela';
 import VelaCategoryNav from '@/components/vela/VelaCategoryNav';
 import VelaHandlesSection from '@/components/vela/VelaHandlesSection';
+import VelaHardwareSection from '@/components/vela/VelaHardwareSection';
+import VelaHardwareTable from '@/components/vela/VelaHardwareTable';
 import type { Metadata } from 'next';
 
 interface Props {
@@ -13,8 +15,8 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'Maniglie, Prese e Dettagli Architetturali — VELA by Genesi',
-    description: 'Collezione maniglie per porte, maniglioni complanari, prese a gola ricavate nel massello e serrature magnetiche ed elettroniche RFID.',
+    title: 'Maniglie, Serrature Smart & Ferramenta Architetturale — VELA by Genesi',
+    description: 'Collezione maniglie per porte, cerniere a scomparsa 3D Simonswerk, serrature magnetiche AGB, smart lock biometriche e card reader RFID hotel.',
   };
 }
 
@@ -23,6 +25,7 @@ export default async function ManigliePage({ params }: Props) {
   const locale = rawLocale as Locale;
   const handles = await getVelaHandles();
   const conceptHandles = await getVelaConceptHandles();
+  const hardware = await getVelaHardware();
   const t = await getTranslations('Vela');
 
   const finishes = [
@@ -93,27 +96,55 @@ export default async function ManigliePage({ params }: Props) {
       <VelaCategoryNav activeCategory="maniglie" />
 
       {/* Hero Category Banner */}
-      <section className="relative h-[65vh] min-h-[480px] max-h-[640px] flex items-center justify-center overflow-hidden bg-zinc-950 text-white">
+      <section className="relative h-[65vh] min-h-[500px] max-h-[660px] flex items-center justify-center overflow-hidden bg-zinc-950 text-white">
         <Image
           src="/images/vela/handles/italian-hotel-lock-and-oak-elegance.webp"
           alt="Maniglie e dettagli architetturali VELA"
           fill
           priority
           sizes="100vw"
-          className="object-cover brightness-65"
+          className="object-cover brightness-60"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/45 to-black/60 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-black/60 z-10" />
 
         <div className="relative z-20 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
-          <span className="text-xs uppercase tracking-widest text-zinc-300 mb-3 block font-medium">
-            VELA • Hardware & Tatto
+          <span className="text-xs uppercase tracking-widest text-zinc-300 mb-3 block font-mono font-medium">
+            VELA • Hardware Program & Architectural Details
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-white mb-4 leading-tight">
-            Maniglie, Prese & Dettagli
+            Maniglie, Serrature Smart & Ferramenta
           </h1>
-          <p className="text-sm sm:text-base md:text-lg text-zinc-300 font-light max-w-2xl mx-auto leading-relaxed">
-            L'interfaccia tattile del sistema porta. Maniglie a leva forgiate, maniglioni per cristalli e cannettati, gole d’apertura a scomparsa e serrature elettroniche RFID per l'hospitality.
+          <p className="text-sm sm:text-base md:text-lg text-zinc-300 font-light max-w-2xl mx-auto leading-relaxed mb-6">
+            L'interfaccia tattile e ingegneristica del sistema porta: cerniere a scomparsa 3D, serrature magnetiche silenziate, controllo accessi biometrico e card reader RFID per l’hospitality di lusso.
           </p>
+
+          {/* Quick Anchor Navigation Pills */}
+          <div className="flex flex-wrap justify-center gap-2.5">
+            <a
+              href="#ferramenta-architetturale"
+              className="px-3.5 py-1.5 bg-white/10 hover:bg-white/20 backdrop-blur-xs text-[11px] uppercase tracking-wider text-white border border-white/20 transition-colors"
+            >
+              Ferramenta & Smart Locks ({hardware.length}) ↓
+            </a>
+            <a
+              href="#guida-capitolato"
+              className="px-3.5 py-1.5 bg-white/10 hover:bg-white/20 backdrop-blur-xs text-[11px] uppercase tracking-wider text-white border border-white/20 transition-colors"
+            >
+              Matrice Capitolato ↓
+            </a>
+            <a
+              href="#maniglie-disponibili"
+              className="px-3.5 py-1.5 bg-white/10 hover:bg-white/20 backdrop-blur-xs text-[11px] uppercase tracking-wider text-white border border-white/20 transition-colors"
+            >
+              Maniglie & Quote SVG ↓
+            </a>
+            <a
+              href="#finiture-metalli"
+              className="px-3.5 py-1.5 bg-white/10 hover:bg-white/20 backdrop-blur-xs text-[11px] uppercase tracking-wider text-white border border-white/20 transition-colors"
+            >
+              Finiture Metalli ↓
+            </a>
+          </div>
         </div>
       </section>
 
@@ -124,23 +155,29 @@ export default async function ManigliePage({ params }: Props) {
             Ergonomia e Precisione Meccanica
           </span>
           <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-6 leading-tight">
-            La qualità di una porta si percepisce nel momento in cui la si tocca.
+            La qualità di una porta si percepisce nel momento in cui la si tocca e la si aziona.
           </h2>
           <p className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 font-light leading-relaxed mb-10">
-            In VELA, l'impugnatura e gli elementi di chiusura non sono semplici accessori ma parte integrante del disegno architettonico della porta. I metalli nobili vengono lavorati dal pieno o forgiati e rifiniti a mano per garantire un'esperienza tattile fluida e una durata senza compromessi.
+            In VELA, l'impugnatura, le cerniere a scomparsa totale e gli elementi di chiusura non sono semplici accessori ma parte integrante del disegno architettonico della porta. I metalli nobili e i meccanismi europei certificati garantiscono un'esperienza tattile fluida, complanarità rigorosa e silenziosità assoluta alla chiusura.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="/contact?inquiry=contract&category=maniglie"
+              href="/contact?inquiry=contract&category=ferramenta"
               className="px-8 py-4 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-opacity"
             >
-              Richiedi Catalogo Tecnico & Campionari Maniglie
+              Richiedi Catalogo Tecnico & Campionari Ferramenta
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Concept Handles & SVG Sheets Section */}
+      {/* 1. Architectural Hardware & Smart Locks Section */}
+      <VelaHardwareSection hardware={hardware} locale={locale} />
+
+      {/* 2. Architect Configuration Matrix & Specifications */}
+      <VelaHardwareTable locale={locale} />
+
+      {/* 3. Concept Handles & SVG Sheets Section */}
       <div className="container mx-auto px-6 lg:px-12">
         <VelaHandlesSection
           handles={conceptHandles}
@@ -150,7 +187,7 @@ export default async function ManigliePage({ params }: Props) {
         />
       </div>
 
-      {/* Handles Grid: 2 columns on desktop */}
+      {/* 4. Handles Grid: 2 columns on desktop */}
       <section className="py-24 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-900/30">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="mb-14 max-w-2xl">
@@ -240,7 +277,7 @@ export default async function ManigliePage({ params }: Props) {
       </section>
 
       {/* Materials & Finishes Palette Section */}
-      <section className="py-24 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-950 text-white">
+      <section id="finiture-metalli" className="scroll-mt-20 py-24 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-950 text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-16">
             <span className="text-xs uppercase tracking-widest text-zinc-400 mb-3 block font-medium">

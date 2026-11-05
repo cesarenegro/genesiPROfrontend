@@ -1,7 +1,8 @@
 # SESSION HANDOVER — GENESI & VELA FRONTEND
-**Data:** 28 Ottobre 2026  
+**Data:** 5 Novembre 2026  
 **Workspace:** `E:\Projects\GENESI FRONTEND`  
-**Stato Git:** Branch `main` (Nessun push automatico effettuato, in conformità rigorosa alle regole CODER).
+**Dominio Standard Produzione Vercel Attivo:** https://genesi-pro.vercel.app (e https://genesi-pr-ofrontend.vercel.app)  
+**Stato Git:** Branch `main` (Deploy Vercel aggiornato e verificato).
 
 ---
 
@@ -100,6 +101,37 @@
     6. `05_MATERIOTECA`: Supplementi percentuali e al mq per essenze lignee termocotte, metalli PVD e marmi scanalati.
     7. `06_VANI MURARI`: Quote controtelaio, luce passaggio netta e tolleranze di posa.
     8. `07_CALCOLATORE_TENDER`: Preventivatore interattivo con formule live Excel (`SUM`, `SUMPRODUCT`, sconti quantità, imballo cassa legno e totale imponibile).
+
+---
+
+### F. Aggiornamenti Sessione 5 Novembre 2026 (Vercel Production, Clerk Auth, VELA Gate, Favicon & Area Riservata 3×3)
+- **1. Dominio Standard Vercel & Deploy in Produzione**:
+  - Configurato e attivato sul progetto Vercel `genesi-pr-ofrontend` (`prj_nynZDdRAmClJEDp2CY4RvdLsbfSz`) il dominio standard pulito: **https://genesi-pro.vercel.app** (in attesa dell'attivazione DNS di `genesi-pro.com` su Cloudflare).
+- **2. Ripristino Autenticazione Clerk (Sign-In & Trade Login)**:
+  - Sostituite su Vercel (e in `.env` / `.env.local`) le chiavi `pk_live_`/`sk_live_` (che puntavano al dominio non ancora attivo `accounts.genesi-pro.com`) con le chiavi Clerk standard funzionanti (`polished-kiwi-32.accounts.dev`).
+  - Il pulsante **Trade Login** nell'header e il redirect protetto su `/trade` e `/dashboard` aprono regolarmente la schermata di login.
+- **3. Sezione VELA Oscurata con Pagina Standard `"UNDER DEVELOPMENT"`**:
+  - Aggiunto il flag [`FEATURE_VELA_UNDER_DEVELOPMENT = true`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/lib/features.ts) (riattivabile impostando `NEXT_PUBLIC_VELA_FULL_ACCESS="true"` o `FEATURE_VELA_UNDER_DEVELOPMENT = false`).
+  - Tutte le route sotto `/[locale]/vela/*` mostrano unicamente la pagina standard **"UNDER DEVELOPMENT"** tramite [`VelaLayout`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/vela/layout.tsx), preservando intatto tutto il codice sviluppato in attesa di definire i costi col committente.
+  - Rimossi i PDF del catalogo VELA dalla cartella pubblica `public/docs/` e nascosti i sottomenu/pulsanti di download VELA in [`Header.tsx`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/components/layout/Header.tsx), [`page.tsx`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/page.tsx) e [`materials/page.tsx`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/materials/page.tsx).
+- **4. Favicon Ufficiale GENESI**:
+  - Generati dal monogramma ufficiale GENESI: [`src/app/favicon.ico`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/favicon.ico) (multi-risoluzione 16–64px), [`src/app/icon.png`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/icon.png) (512×512), [`src/app/apple-icon.png`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/apple-icon.png) (180×180) e relative copie in `public/`.
+  - Configurati i metadati `icons` in [`src/app/[locale]/layout.tsx`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/layout.tsx) e sincronizzati entrambi i file `MASTER FILE.CSV`.
+- **5. Area Riservata Cliente Loggato — Griglia 3×3 Cataloghi, Listini & Placeholder VELA**:
+  - Realizzato il componente [`TradeResourcesGrid.tsx`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/components/trade/TradeResourcesGrid.tsx) e integrato in [`/dashboard`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/dashboard/page.tsx) e [`/trade`](file:///E:/Projects/GENESI%20FRONTEND/genesi-web/src/app/%5Blocale%5D/trade/page.tsx) con layout a **3 card per riga (`lg:grid-cols-3`)**:
+    - **6 Card GENESI Attive**:
+      1. *GENESI Hospitality Collection 2026* (`/docs/GENESI_COLLECTION_2026_FINAL.pdf` · 108 pag. A4 300 DPI)
+      2. *GENESI Technical Price List 2026* (`/docs/GENESI_TECHNICAL_PRICE_LIST_2026_FINAL.pdf` · 86 pag. A4 300 DPI)
+      3. *GENESI Trade Price List 2026 (v2)* (`/api/trade/price-list` · PDF B2B protetto)
+      4. *GENESI Master Excel Price List 2026* (`/docs/GENESI_MASTER_PRICE_LIST_2026.xlsx` · 80 SKU auditati)
+      5. *GENESI Finishing & Materials 2026* (`/docs/GENESI_MATERIALS_FINISHING_2026.pdf` · Dossier campionari UMA)
+      6. *GENESI Architectural Overview* (`/docs/genesi-catalogue.pdf` · Brochure istituzionale)
+    - **3 Card Placeholder VELA (`"Coming Soon"`)**:
+      7. *VELA Collezione Porte & Sistemi 2026* (`Coming Soon`)
+      8. *VELA Box Doccia & Pareti Cristallo* (`Coming Soon`)
+      9. *VELA Master Price List & Hardware 2026* (`Coming Soon`)
+- **6. Regola CRITICAL in `AGENTS.md`**:
+  - Aggiunta in cima a [`.agents/AGENTS.md`](file:///E:/Projects/GENESI%20FRONTEND/.agents/AGENTS.md) la regola con stato **CRITICAL** di priorità assoluta e risposta immediata alle domande dirette dell'utente.
 
 ---
 

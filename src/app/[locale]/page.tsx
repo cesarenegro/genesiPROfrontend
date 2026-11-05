@@ -2,7 +2,7 @@ import { getCategories } from '@/lib/catalogue';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { FEATURE_VELA_ENABLED } from '@/lib/features';
+import { FEATURE_VELA_ENABLED, FEATURE_VELA_UNDER_DEVELOPMENT } from '@/lib/features';
 
 export default async function Home() {
   const categories = await getCategories();
@@ -57,7 +57,7 @@ export default async function Home() {
               >
                 {t('exploreCatalogue')}
               </Link>
-              {FEATURE_VELA_ENABLED && (
+              {FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT && (
                 <Link
                   href="/vela/catalogo"
                   className="px-8 py-4 bg-[#5B9C94] text-white text-sm font-medium hover:bg-[#488079] transition-colors uppercase tracking-widest flex items-center justify-center gap-2"
@@ -138,7 +138,7 @@ export default async function Home() {
       </section>
 
       {/* VELA by Genesi Brand Spotlight */}
-      {FEATURE_VELA_ENABLED && (
+      {FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT && (
         <section className="py-24 bg-zinc-950 text-white border-t border-zinc-800">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

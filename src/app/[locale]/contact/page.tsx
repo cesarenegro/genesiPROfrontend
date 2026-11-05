@@ -31,27 +31,32 @@ export default async function ContactPage({ searchParams }: Props) {
             <div className="flex flex-col justify-center">
               <div className="mb-12">
                 <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('hqTitle')}</h2>
-                <h3 className="text-2xl font-light mb-2">{t('hqName')}</h3>
-                <p className="text-muted-foreground leading-relaxed font-light">
-                  Via Monte Napoleone, 14<br />
-                  20121 Milano MI, Italy
-                </p>
+                <h3 className="text-2xl font-light mb-2">GENESI</h3>
+                {/* Indirizzo lasciato vuoto — in TODO LIST da completare */}
               </div>
 
               <div className="mb-12">
                 <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('infoTitle')}</h2>
                 <p className="text-lg font-light mb-2">
-                  <a href="mailto:info@genesimobli.it" className="hover:text-primary transition-colors">info@genesimobli.it</a>
+                  <a href="https://genesi-pro.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                    genesi-pro.online
+                  </a>
                 </p>
-                <p className="text-lg font-light">
-                  <a href="tel:+390212345678" className="hover:text-primary transition-colors">+39 02 1234 5678</a>
+                <p className="text-lg font-light mb-2">
+                  <a href="mailto:info@genesi-pro.online" className="hover:text-primary transition-colors">
+                    info@genesi-pro.online
+                  </a>
                 </p>
+                {/* Telefono lasciato vuoto — in TODO LIST da completare */}
               </div>
 
               <div>
                 <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('tradePressTitle')}</h2>
                 <p className="text-muted-foreground leading-relaxed font-light">
-                  {t('tradePressDesc')} <a href="mailto:press@genesimobli.it" className="text-foreground hover:text-primary underline underline-offset-4">press@genesimobli.it</a>.
+                  {t('tradePressDesc')}{' '}
+                  <a href="mailto:press@genesi-pro.online" className="text-foreground hover:text-primary underline underline-offset-4">
+                    press@genesi-pro.online
+                  </a>.
                 </p>
               </div>
             </div>
@@ -83,6 +88,7 @@ export default async function ContactPage({ searchParams }: Props) {
                     <option value="general">{t('optGeneral')}</option>
                     <option value="sales">{t('optSales')}</option>
                     <option value="contract">{t('optContract')}</option>
+                    <option value="materials">Materials & Finishes Sample Box</option>
                     <option value="press">{t('optPress')}</option>
                   </select>
                 </div>

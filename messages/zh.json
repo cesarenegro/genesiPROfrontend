@@ -13,7 +13,9 @@
     "openCatalogue": "浏览画册",
     "tradeLogin": "商用登录",
     "personalArea": "个人中心",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "设计工坊",
+    "menu": "菜单"
   },
   "Footer": {
     "copyright": "© {year} Genesi 官方网站。保留所有权利。",
@@ -116,9 +118,36 @@
     "galleryView": "全景视角"
   },
   "Projects": {
-    "headerTitle": "经典案例",
-    "headerSubtitle": "精选全球知名酒店与私邸合作案例。GENESI 携手国际顶级建筑设计大师，呈现不妥协的高品质空间。",
-    "viewProject": "查看项目详情"
+    "headerTitle": "项目案例",
+    "headerSubtitle": "GENESI 为酒店及私人住宅真实交付的项目：来自施工现场、安装过程及合作工坊的实拍照片。",
+    "viewProject": "查看项目详情",
+    "caseStudiesTag": "已完成项目",
+    "caseStudiesTitle": "精选作品",
+    "portfolioTag": "作品集",
+    "portfolioTitle": "按类别浏览",
+    "portfolioSubtitle": "为客户交付的家具、饰面与供货，按类型分类。",
+    "filterAll": "全部",
+    "close": "关闭",
+    "photos": "{count} 张照片",
+    "backToProjects": "返回项目列表",
+    "seeOnInstagram": "在 Instagram 查看",
+    "otherProjects": "其他项目",
+    "moreText": "更多项目及现场动态，请访问我们的 Instagram 与 Genesi Pro 历史网站。",
+    "cat": {
+      "restaurants": "餐厅与酒吧",
+      "hotel-rooms": "酒店客房",
+      "kitchens": "厨房",
+      "wardrobes": "衣柜与衣帽间",
+      "upholstery": "软体家具",
+      "tables": "桌类",
+      "complements": "配饰",
+      "lighting": "照明",
+      "bathroom": "浴室家具",
+      "marbles": "大理石",
+      "wood-flooring": "木地板",
+      "outdoor": "户外",
+      "interior-design": "室内设计"
+    }
   },
   "Materials": {
     "headerTitle": "材质与表面工艺",

@@ -9,8 +9,8 @@ export default async function StudioPage() {
       {/* Hero */}
       <section className="relative bg-black text-white py-40 border-b border-border text-center px-4 overflow-hidden min-h-[60vh] flex items-center justify-center">
         <Image
-          src="/images/studio/hero.png"
-          alt="Genesi Studio Headquarters"
+          src="/images/projects/interior-design/genesi-interior-design-01.jpg"
+          alt="Genesi Studio — Interior Design"
           fill
           priority
           className="object-cover opacity-50 z-0"
@@ -33,8 +33,8 @@ export default async function StudioPage() {
             {/* Image block */}
             <div className="aspect-[3/4] bg-zinc-100 dark:bg-zinc-900 border border-border flex items-center justify-center relative overflow-hidden">
                <Image
-                 src="/images/studio/atmosphere.png"
-                 alt="Studio Atmosphere"
+                 src="/images/projects/hotel-rooms/genesi-hotel-rooms-02.jpg"
+                 alt="Genesi Studio — camera su misura"
                  fill
                  className="object-cover"
                />

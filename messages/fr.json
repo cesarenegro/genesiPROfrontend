@@ -13,7 +13,9 @@
     "openCatalogue": "Consulter le Catalogue",
     "tradeLogin": "Espace Pro",
     "personalArea": "Espace Personnel",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "Le Studio",
+    "menu": "Menu"
   },
   "Footer": {
     "copyright": "© {year} Site Officiel Genesi. Tous droits réservés.",
@@ -117,8 +119,35 @@
   },
   "Projects": {
     "headerTitle": "Nos Réalisations",
-    "headerSubtitle": "Un aperçu de nos projets hôteliers et résidences privées les plus renommés dans le monde. GENESI s'associe aux grands noms de l'architecture pour des finitions d'une qualité rare.",
-    "viewProject": "Voir le Projet"
+    "headerSubtitle": "Des projets réellement livrés par GENESI pour l'hôtellerie et les résidences privées : photos de nos chantiers, de nos installations et des ateliers de nos partenaires.",
+    "viewProject": "Voir le Projet",
+    "caseStudiesTag": "Projets réalisés",
+    "caseStudiesTitle": "Une sélection de nos travaux",
+    "portfolioTag": "Portfolio",
+    "portfolioTitle": "Réalisations par catégorie",
+    "portfolioSubtitle": "Mobilier, finitions et fournitures livrés à nos clients, classés par typologie.",
+    "filterAll": "Tout",
+    "close": "Fermer",
+    "photos": "{count} photos",
+    "backToProjects": "Retour aux Projets",
+    "seeOnInstagram": "Voir sur Instagram",
+    "otherProjects": "Autres projets",
+    "moreText": "D'autres projets et nouvelles de chantier sont sur notre profil Instagram et sur le site historique Genesi Pro.",
+    "cat": {
+      "restaurants": "Restaurants & bars",
+      "hotel-rooms": "Chambres d'hôtel",
+      "kitchens": "Cuisines",
+      "wardrobes": "Armoires & dressings",
+      "upholstery": "Rembourrés",
+      "tables": "Tables",
+      "complements": "Compléments",
+      "lighting": "Éclairage",
+      "bathroom": "Meubles de salle de bain",
+      "marbles": "Marbres",
+      "wood-flooring": "Parquets",
+      "outdoor": "Outdoor",
+      "interior-design": "Architecture d'intérieur"
+    }
   },
   "Materials": {
     "headerTitle": "Matériaux et Nuances",

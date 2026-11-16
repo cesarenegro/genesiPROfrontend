@@ -13,7 +13,9 @@
     "openCatalogue": "Sfoglia Catalogo",
     "tradeLogin": "Area Riservata",
     "personalArea": "Area Personale",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "Lo Studio",
+    "menu": "Menu"
   },
   "Footer": {
     "copyright": "© {year} Genesi Sito Ufficiale. Tutti i diritti riservati.",
@@ -117,8 +119,35 @@
   },
   "Projects": {
     "headerTitle": "I Nostri Progetti",
-    "headerSubtitle": "Una selezione delle nostre realizzazioni residenziali e contract più esclusive nel mondo. GENESI collabora con i più celebri architetti per offrire qualità senza compromessi.",
-    "viewProject": "Vedi Progetto"
+    "headerSubtitle": "Progetti realmente realizzati da GENESI per l'hospitality e le residenze private: foto dai nostri cantieri, dalle installazioni e dai laboratori dei nostri partner.",
+    "viewProject": "Vedi Progetto",
+    "caseStudiesTag": "Progetti realizzati",
+    "caseStudiesTitle": "Una selezione dei nostri lavori",
+    "portfolioTag": "Portfolio",
+    "portfolioTitle": "Realizzazioni per categoria",
+    "portfolioSubtitle": "Arredi, finiture e forniture consegnati ai nostri clienti, suddivisi per tipologia.",
+    "filterAll": "Tutti",
+    "close": "Chiudi",
+    "photos": "{count} foto",
+    "backToProjects": "Torna ai Progetti",
+    "seeOnInstagram": "Vedi su Instagram",
+    "otherProjects": "Altri progetti",
+    "moreText": "Altri progetti e aggiornamenti dai cantieri sono sul nostro profilo Instagram e sul sito storico Genesi Pro.",
+    "cat": {
+      "restaurants": "Ristoranti e bar",
+      "hotel-rooms": "Camere hotel",
+      "kitchens": "Cucine",
+      "wardrobes": "Armadi e cabine armadio",
+      "upholstery": "Imbottiti",
+      "tables": "Tavoli",
+      "complements": "Complementi",
+      "lighting": "Illuminazione",
+      "bathroom": "Arredo bagno",
+      "marbles": "Marmi",
+      "wood-flooring": "Pavimenti in legno",
+      "outdoor": "Outdoor",
+      "interior-design": "Interior design"
+    }
   },
   "Materials": {
     "headerTitle": "Materiali e Finiture",

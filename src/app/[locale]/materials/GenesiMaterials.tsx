@@ -8,28 +8,28 @@ export default async function GenesiMaterials() {
   const materialCategories = [
     {
       id: 'marbles',
-      image: '/images/materials/marbles.png',
+      image: '/images/projects/marbles/genesi-marbles-01.jpg',
       title: t('marblesTitle'),
       description: t('marblesDesc'),
       items: ['Calacatta Gold', 'Nero Marquina', 'Emperador Dark', 'Travertino Romano'],
     },
     {
       id: 'woods',
-      image: '/images/materials/woods.png',
+      image: '/images/projects/wood-flooring/genesi-wood-flooring-01.jpg',
       title: t('woodsTitle'),
       description: t('woodsDesc'),
       items: ['Canaletto Walnut', 'Smoked Oak', 'Ebony Macassar', 'Eucalyptus'],
     },
     {
       id: 'metals',
-      image: '/images/materials/metals.png',
+      image: '/images/projects/tables/genesi-tables-06.jpg',
       title: t('metalsTitle'),
       description: t('metalsDesc'),
       items: ['Brushed Brass', 'Polished Chrome', 'Burnished Bronze', 'Titanium'],
     },
     {
       id: 'leathers',
-      image: '/images/materials/leathers.png',
+      image: '/images/projects/wardrobes/genesi-wardrobes-02.jpg',
       title: t('leathersTitle'),
       description: t('leathersDesc'),
       items: ['Full-Grain Aniline', 'Nabuk', 'Suede', 'Printed Leather'],

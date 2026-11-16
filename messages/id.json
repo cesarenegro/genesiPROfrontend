@@ -13,7 +13,9 @@
     "openCatalogue": "Buka Katalog",
     "tradeLogin": "Area Bisnis",
     "personalArea": "Area Pribadi",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "Studio Kami",
+    "menu": "Menu"
   },
   "Footer": {
     "copyright": "© {year} Situs Resmi Genesi. Hak cipta dilindungi.",
@@ -117,8 +119,35 @@
   },
   "Projects": {
     "headerTitle": "Proyek Kami",
-    "headerSubtitle": "Pilihan proyek hunian dan komersial paling prestisius kami di seluruh dunia. GENESI bermitra dengan arsitek terkemuka untuk menghadirkan kualitas terbaik.",
-    "viewProject": "Lihat Proyek"
+    "headerSubtitle": "Proyek yang benar-benar dikerjakan GENESI untuk perhotelan dan hunian pribadi: foto dari lokasi proyek, pemasangan, dan bengkel mitra kami.",
+    "viewProject": "Lihat Proyek",
+    "caseStudiesTag": "Proyek terlaksana",
+    "caseStudiesTitle": "Pilihan karya kami",
+    "portfolioTag": "Portofolio",
+    "portfolioTitle": "Karya per kategori",
+    "portfolioSubtitle": "Furnitur, finishing, dan pasokan yang dikirim ke klien kami, dikelompokkan menurut jenis.",
+    "filterAll": "Semua",
+    "close": "Tutup",
+    "photos": "{count} foto",
+    "backToProjects": "Kembali ke Proyek",
+    "seeOnInstagram": "Lihat di Instagram",
+    "otherProjects": "Proyek lainnya",
+    "moreText": "Proyek lain dan kabar dari lokasi ada di profil Instagram kami dan situs historis Genesi Pro.",
+    "cat": {
+      "restaurants": "Restoran & bar",
+      "hotel-rooms": "Kamar hotel",
+      "kitchens": "Dapur",
+      "wardrobes": "Lemari & walk-in closet",
+      "upholstery": "Furnitur berlapis",
+      "tables": "Meja",
+      "complements": "Pelengkap",
+      "lighting": "Pencahayaan",
+      "bathroom": "Furnitur kamar mandi",
+      "marbles": "Marmer",
+      "wood-flooring": "Lantai kayu",
+      "outdoor": "Outdoor",
+      "interior-design": "Desain interior"
+    }
   },
   "Materials": {
     "headerTitle": "Material & Hasil Akhir",

@@ -13,7 +13,9 @@
     "openCatalogue": "Открыть Каталог",
     "tradeLogin": "Вход для Профессионалов",
     "personalArea": "Личный Кабинет",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "Студия",
+    "menu": "Меню"
   },
   "Footer": {
     "copyright": "© {year} Официальный сайт Genesi. Все права защищены.",
@@ -117,8 +119,35 @@
   },
   "Projects": {
     "headerTitle": "Наши Проекты",
-    "headerSubtitle": "Подборка реализованных гостиничных и частных проектов по всему миру. GENESI работает в тандеме с ведущими архитекторами, обеспечивая бескомпромиссное качество.",
-    "viewProject": "Смотреть Проект"
+    "headerSubtitle": "Проекты, реально выполненные GENESI для гостиничного сектора и частных резиденций: фотографии с наших объектов, монтажей и мастерских партнёров.",
+    "viewProject": "Смотреть Проект",
+    "caseStudiesTag": "Реализованные проекты",
+    "caseStudiesTitle": "Подборка наших работ",
+    "portfolioTag": "Портфолио",
+    "portfolioTitle": "Работы по категориям",
+    "portfolioSubtitle": "Мебель, отделка и поставки для наших клиентов, по типам.",
+    "filterAll": "Все",
+    "close": "Закрыть",
+    "photos": "Фото: {count}",
+    "backToProjects": "Назад к проектам",
+    "seeOnInstagram": "Смотреть в Instagram",
+    "otherProjects": "Другие проекты",
+    "moreText": "Больше проектов и новостей с объектов — в нашем Instagram и на историческом сайте Genesi Pro.",
+    "cat": {
+      "restaurants": "Рестораны и бары",
+      "hotel-rooms": "Гостиничные номера",
+      "kitchens": "Кухни",
+      "wardrobes": "Шкафы и гардеробные",
+      "upholstery": "Мягкая мебель",
+      "tables": "Столы",
+      "complements": "Аксессуары",
+      "lighting": "Освещение",
+      "bathroom": "Мебель для ванной",
+      "marbles": "Мрамор",
+      "wood-flooring": "Деревянные полы",
+      "outdoor": "Outdoor",
+      "interior-design": "Дизайн интерьера"
+    }
   },
   "Materials": {
     "headerTitle": "Материалы и Фактуры",

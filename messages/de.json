@@ -13,7 +13,9 @@
     "openCatalogue": "Katalog Öffnen",
     "tradeLogin": "Partnerbereich",
     "personalArea": "Mein Bereich",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "Das Studio",
+    "menu": "Menü"
   },
   "Footer": {
     "copyright": "© {year} Offizielle Genesi Webseite. Alle Rechte vorbehalten.",
@@ -116,9 +118,36 @@
     "galleryView": "Gesamtansicht"
   },
   "Projects": {
-    "headerTitle": "Realisierte Projekte",
-    "headerSubtitle": "Eine Auswahl renommierter Referenzen aus dem Objekt- und Privatbereich. In Zusammenarbeit mit namhaften Architekten schaffen wir kompromisslose Raumqualität.",
-    "viewProject": "Projekt Ansehen"
+    "headerTitle": "Unsere Projekte",
+    "headerSubtitle": "Von GENESI tatsächlich realisierte Projekte für Hotellerie und private Residenzen: Fotos von unseren Baustellen, Montagen und Partnerwerkstätten.",
+    "viewProject": "Projekt Ansehen",
+    "caseStudiesTag": "Realisierte Projekte",
+    "caseStudiesTitle": "Eine Auswahl unserer Arbeiten",
+    "portfolioTag": "Portfolio",
+    "portfolioTitle": "Arbeiten nach Kategorie",
+    "portfolioSubtitle": "Möbel, Oberflächen und Lieferungen für unsere Kunden, nach Typ geordnet.",
+    "filterAll": "Alle",
+    "close": "Schließen",
+    "photos": "{count} Fotos",
+    "backToProjects": "Zurück zu den Projekten",
+    "seeOnInstagram": "Auf Instagram ansehen",
+    "otherProjects": "Weitere Projekte",
+    "moreText": "Weitere Projekte und Baustellen-Updates finden Sie auf unserem Instagram-Profil und auf der historischen Website Genesi Pro.",
+    "cat": {
+      "restaurants": "Restaurants & Bars",
+      "hotel-rooms": "Hotelzimmer",
+      "kitchens": "Küchen",
+      "wardrobes": "Schränke & Ankleiden",
+      "upholstery": "Polstermöbel",
+      "tables": "Tische",
+      "complements": "Accessoires",
+      "lighting": "Beleuchtung",
+      "bathroom": "Badmöbel",
+      "marbles": "Marmor",
+      "wood-flooring": "Holzböden",
+      "outdoor": "Outdoor",
+      "interior-design": "Innenarchitektur"
+    }
   },
   "Materials": {
     "headerTitle": "Materialien & Veredelungen",

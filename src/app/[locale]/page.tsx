@@ -3,11 +3,13 @@ import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { FEATURE_VELA_ENABLED, FEATURE_VELA_UNDER_DEVELOPMENT } from '@/lib/features';
+import { PROJECTS, pick } from '@/lib/projects';
 
 export default async function Home() {
   const categories = await getCategories();
   const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
   const t = await getTranslations('Home');
+  const tp = await getTranslations('Projects');
   
   // Prendi le prime 4 categorie come "Featured"
   const featuredCategories = categories.slice(0, 4);
@@ -85,6 +87,45 @@ export default async function Home() {
           <p className="text-muted-foreground leading-relaxed text-lg md:text-xl font-light">
             {t('philosophyText')}
           </p>
+        </div>
+      </section>
+
+      {/* Real projects teaser */}
+      <section className="py-24 border-t border-border">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-between items-end mb-12 gap-6">
+            <div>
+              <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-3">{tp('caseStudiesTag')}</h2>
+              <h3 className="text-3xl md:text-4xl font-light">{tp('caseStudiesTitle')}</h3>
+            </div>
+            <Link href="/projects" className="hidden md:inline-block text-sm uppercase tracking-widest border-b border-foreground pb-1 hover:text-primary hover:border-primary transition-colors shrink-0">
+              {t('ourProjects')} →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {PROJECTS.slice(0, 3).map((p) => (
+              <Link key={p.slug} href={`/projects/${p.slug}`} className="group block">
+                <div className="relative aspect-[4/5] overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-border mb-4">
+                  <Image
+                    src={p.cover.src}
+                    alt={pick(p.title, locale)}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
+                  />
+                </div>
+                <h4 className="text-lg font-light group-hover:text-primary transition-colors">{pick(p.title, locale)}</h4>
+                <p className="text-xs text-muted-foreground uppercase tracking-widest mt-1">
+                  {p.location ? `${pick(p.location, locale)} · ` : ''}{p.year}
+                </p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-12 text-center md:hidden">
+            <Link href="/projects" className="inline-block px-8 py-4 bg-foreground text-background text-sm font-medium uppercase tracking-widest">
+              {t('ourProjects')}
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -224,8 +265,8 @@ export default async function Home() {
           </div>
           <div className="bg-zinc-200 dark:bg-zinc-800 relative min-h-[400px]">
             <Image
-              src="/images/home-turnkey.png"
-              alt="Genesi Turnkey Solutions"
+              src="/images/projects/restaurants/genesi-restaurants-01.jpg"
+              alt="Genesi — ristorante a Mykonos"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

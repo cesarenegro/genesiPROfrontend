@@ -8,28 +8,28 @@ export default async function ServicesPage() {
   const services = [
     {
       id: '01',
-      image: '/images/services/bespoke.png',
+      image: '/images/projects/complements/genesi-complements-03.jpg',
       title: t('s01Title'),
       description: t('s01Desc'),
       features: [t('s01F1'), t('s01F2'), t('s01F3'), t('s01F4')]
     },
     {
       id: '02',
-      image: '/images/services/ffe.png',
+      image: '/images/projects/restaurants/genesi-restaurants-02.jpg',
       title: t('s02Title'),
       description: t('s02Desc'),
       features: [t('s02F1'), t('s02F2'), t('s02F3'), t('s02F4')]
     },
     {
       id: '03',
-      image: '/images/services/turnkey.png',
+      image: '/images/projects/restaurants/genesi-restaurants-05.jpg',
       title: t('s03Title'),
       description: t('s03Desc'),
       features: [t('s03F1'), t('s03F2'), t('s03F3'), t('s03F4')]
     },
     {
       id: '04',
-      image: '/images/services/white-glove.png',
+      image: '/images/projects/wardrobes/genesi-wardrobes-01.jpg',
       title: t('s04Title'),
       description: t('s04Desc'),
       features: [t('s04F1'), t('s04F2'), t('s04F3'), t('s04F4')]

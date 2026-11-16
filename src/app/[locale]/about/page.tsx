@@ -9,8 +9,8 @@ export default async function AboutPage() {
       {/* Hero Section */}
       <section className="relative bg-black text-white py-40 border-b border-border text-center px-4 overflow-hidden min-h-[60vh] flex items-center justify-center">
         <Image
-          src="/images/about/hero.png"
-          alt="Genesi Heritage"
+          src="/images/projects/backgrounds/genesi-backgrounds-01.jpg"
+          alt="Genesi — arredi su misura"
           fill
           priority
           className="object-cover opacity-60 z-0"
@@ -44,8 +44,8 @@ export default async function AboutPage() {
             {/* Visual Block */}
             <div className="order-1 lg:order-2 aspect-[4/5] bg-zinc-100 dark:bg-zinc-900 border border-border flex items-center justify-center relative overflow-hidden">
                <Image
-                 src="/images/about/craftsmanship.png"
-                 alt="Italian Craftsmanship"
+                 src="/images/projects/complements/genesi-complements-05.jpg"
+                 alt="Genesi — produzione su misura in laboratorio"
                  fill
                  className="object-cover"
                />

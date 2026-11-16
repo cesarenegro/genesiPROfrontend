@@ -13,7 +13,9 @@
     "openCatalogue": "Open Catalogue",
     "tradeLogin": "Trade Login",
     "personalArea": "Personal Area",
-    "vela": "VELA"
+    "vela": "VELA",
+    "studioOverview": "The Studio",
+    "menu": "Menu"
   },
   "Footer": {
     "copyright": "© {year} Genesi Premium Website. All rights reserved.",
@@ -117,8 +119,35 @@
   },
   "Projects": {
     "headerTitle": "Our Projects",
-    "headerSubtitle": "A selection of our most prestigious contract and residential projects worldwide. GENESI partners with renowned architects to deliver uncompromising quality in every space.",
-    "viewProject": "View Project"
+    "headerSubtitle": "Projects actually delivered by GENESI for hospitality and private residences: photos from our sites, installations and partner workshops.",
+    "viewProject": "View Project",
+    "caseStudiesTag": "Delivered projects",
+    "caseStudiesTitle": "A selection of our work",
+    "portfolioTag": "Portfolio",
+    "portfolioTitle": "Work by category",
+    "portfolioSubtitle": "Furniture, finishes and supplies delivered to our clients, grouped by type.",
+    "filterAll": "All",
+    "close": "Close",
+    "photos": "{count} photos",
+    "backToProjects": "Back to Projects",
+    "seeOnInstagram": "See on Instagram",
+    "otherProjects": "Other projects",
+    "moreText": "More projects and site updates are on our Instagram profile and on the historical Genesi Pro website.",
+    "cat": {
+      "restaurants": "Restaurants & bars",
+      "hotel-rooms": "Hotel rooms",
+      "kitchens": "Kitchens",
+      "wardrobes": "Wardrobes & walk-in closets",
+      "upholstery": "Upholstery",
+      "tables": "Tables",
+      "complements": "Complements",
+      "lighting": "Lighting",
+      "bathroom": "Bathroom units",
+      "marbles": "Marbles",
+      "wood-flooring": "Wood flooring",
+      "outdoor": "Outdoor",
+      "interior-design": "Interior design"
+    }
   },
   "Materials": {
     "headerTitle": "Materials & Finishes",

@@ -1,9 +1,12 @@
+import { Cover, Panel, Stack } from '@/components/opt2/Stack';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 export default async function ServicesPage() {
   const t = await getTranslations('Services');
+  const n = await getTranslations('Navigation');
+  const o = await getTranslations('Opt2');
 
   const services = [
     {
@@ -37,16 +40,19 @@ export default async function ServicesPage() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header Section */}
-      <section className="bg-background py-32 border-b border-border">
-        <div className="container mx-auto px-4 text-center max-w-3xl">
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">{t('headerTitle')}</h1>
-          <p className="text-lg text-muted-foreground font-light leading-relaxed">
-            {t('headerSubtitle')}
-          </p>
-        </div>
-      </section>
+    <Stack count={2}>
+      <Panel
+        i={0}
+        hero
+        image="/images/projects/complements/genesi-complements-02.jpg"
+        alt="Genesi — servizi"
+        eyebrow={n('services')}
+        title={t('headerTitle')}
+        text={t('headerSubtitle')}
+        scrollLabel={o('scroll')}
+      />
+
+      <Cover i={1}>
 
       {/* Services List (Zig-Zag Layout) */}
       <section className="py-24">
@@ -104,6 +110,7 @@ export default async function ServicesPage() {
           </Link>
         </div>
       </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

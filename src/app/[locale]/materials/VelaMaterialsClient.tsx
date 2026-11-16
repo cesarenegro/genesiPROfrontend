@@ -38,14 +38,6 @@ export default function VelaMaterialsClient() {
             >
               Vai alla Cartella VELA Dedicata →
             </Link>
-            <a
-              href="/docs/genesi-catalogue.pdf?v=2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2.5 border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 uppercase tracking-widest hover:border-zinc-900 dark:hover:border-white transition-colors"
-            >
-              Sfoglia nel PDF Catalogo (Pag. 03–04)
-            </a>
           </div>
         </div>
       </section>

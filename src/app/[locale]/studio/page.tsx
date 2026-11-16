@@ -1,29 +1,26 @@
+import { Cover, Panel, Stack } from '@/components/opt2/Stack';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 export default async function StudioPage() {
   const t = await getTranslations('Studio');
+  const n = await getTranslations('Navigation');
+  const o = await getTranslations('Opt2');
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Hero */}
-      <section className="relative bg-black text-white py-40 border-b border-border text-center px-4 overflow-hidden min-h-[60vh] flex items-center justify-center">
-        <Image
-          src="/images/projects/interior-design/genesi-interior-design-01.jpg"
-          alt="Genesi Studio — Interior Design"
-          fill
-          priority
-          className="object-cover opacity-50 z-0"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30 z-10" />
-        
-        <div className="relative z-20 container mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight mb-6">{t('heroTitle')}</h1>
-          <p className="text-lg md:text-xl text-white/80 font-light max-w-3xl mx-auto leading-relaxed">
-            {t('heroSubtitle')}
-          </p>
-        </div>
-      </section>
+    <Stack count={2}>
+      <Panel
+        i={0}
+        hero
+        image="/images/projects/tables/genesi-tables-03.jpg"
+        alt="Genesi Studio"
+        eyebrow={n('studio')}
+        title={t('heroTitle')}
+        text={t('heroSubtitle')}
+        scrollLabel={o('scroll')}
+      />
+
+      <Cover i={1}>
 
       {/* Main Intro */}
       <section className="py-24">
@@ -80,6 +77,7 @@ export default async function StudioPage() {
           </p>
         </div>
       </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

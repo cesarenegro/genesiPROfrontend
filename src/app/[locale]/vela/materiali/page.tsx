@@ -51,14 +51,6 @@ export default function VelaMaterialsPage() {
             <span className="px-3 py-1 bg-zinc-200/60 dark:bg-zinc-800/80 rounded-none border border-zinc-300 dark:border-zinc-700">
               10 FINITURE HOSPITALITY (HT-01 — HT-10)
             </span>
-            <a
-              href="/docs/genesi-catalogue.pdf?v=2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-zinc-900 dark:text-white underline hover:opacity-75 transition-opacity font-sans font-medium uppercase tracking-wider text-[11px]"
-            >
-              Consulta nel Catalogo Ufficiale (Pag. 03–04) →
-            </a>
           </div>
         </div>
       </header>
@@ -295,14 +287,6 @@ export default function VelaMaterialsPage() {
             >
               Richiedi Cofanetto Materiali VELA
             </Link>
-            <a
-              href="/docs/genesi-catalogue.pdf?v=2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 border border-zinc-700 text-white text-xs sm:text-sm uppercase tracking-widest font-medium hover:bg-zinc-900 transition-colors"
-            >
-              Scarica Schede Tecniche (PDF)
-            </a>
           </div>
         </div>
       </section>

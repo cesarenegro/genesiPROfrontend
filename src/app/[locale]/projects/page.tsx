@@ -1,3 +1,4 @@
+import { Cover, Panel, Stack } from '@/components/opt2/Stack';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { getLocale, getTranslations } from 'next-intl/server';
@@ -6,6 +7,8 @@ import { GALLERY, GALLERY_CATEGORIES, PROJECTS, pick, type GalleryCategory } fro
 
 export default async function ProjectsPage() {
   const t = await getTranslations('Projects');
+  const n = await getTranslations('Navigation');
+  const o = await getTranslations('Opt2');
   const locale = await getLocale();
 
   const labels = Object.fromEntries(
@@ -13,14 +16,19 @@ export default async function ProjectsPage() {
   ) as Record<GalleryCategory, string>;
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header */}
-      <section className="py-32 bg-background border-b border-border">
-        <div className="container mx-auto px-4 text-center max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">{t('headerTitle')}</h1>
-          <p className="text-lg text-muted-foreground font-light leading-relaxed">{t('headerSubtitle')}</p>
-        </div>
-      </section>
+    <Stack count={2}>
+      <Panel
+        i={0}
+        hero
+        image="/images/projects/restaurants/genesi-restaurants-05.jpg"
+        alt="Genesi — progetti"
+        eyebrow={n('projects')}
+        title={t('headerTitle')}
+        text={t('headerSubtitle')}
+        scrollLabel={o('scroll')}
+      />
+
+      <Cover i={1}>
 
       {/* Case studies */}
       <section className="py-24">
@@ -110,6 +118,7 @@ export default async function ProjectsPage() {
           </div>
         </div>
       </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

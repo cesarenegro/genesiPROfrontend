@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Raleway, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
@@ -8,10 +8,13 @@ import {notFound} from 'next/navigation';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { ClerkProvider } from '@clerk/nextjs';
+import SmoothScroll from '@/components/opt2/SmoothScroll';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// OPT2: Raleway (light, airy) like the reference site; exposed as the default sans font.
+const raleway = Raleway({
+  variable: "--font-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -79,7 +82,7 @@ export default async function RootLayout({
 }) {
   const {locale} = await params;
   
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
  
@@ -87,11 +90,12 @@ export default async function RootLayout({
 
   return (
     <ClerkProvider>
-      <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <html lang={locale} className={`${raleway.variable} ${geistMono.variable} h-full antialiased`}>
         <body className="min-h-full flex flex-col">
           <NextIntlClientProvider messages={messages}>
+            <SmoothScroll />
             <Header />
-            <main className="flex-1 flex flex-col">
+            <main className="below-header flex-1 flex flex-col">
               {children}
             </main>
             <Footer />

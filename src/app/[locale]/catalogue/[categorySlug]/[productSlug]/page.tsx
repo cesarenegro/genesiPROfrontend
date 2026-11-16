@@ -81,10 +81,6 @@ export default async function ProductDetailPage({ params }: Props) {
             <button className="w-full bg-foreground text-background py-4 uppercase tracking-widest text-sm font-semibold hover:bg-foreground/90 transition-colors">
               {t('requestQuote')}
             </button>
-            <a href={`/api/pdf/${product.slug}?locale=${locale}`} download={`${product.sku}.pdf`} className="w-full border border-border py-4 uppercase tracking-widest text-sm font-semibold hover:border-foreground transition-colors flex justify-center items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
-              {t('downloadTearSheet')}
-            </a>
           </div>
         </div>
       </div>

@@ -1,29 +1,26 @@
+import { Cover, Panel, Stack } from '@/components/opt2/Stack';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 export default async function AboutPage() {
   const t = await getTranslations('About');
+  const n = await getTranslations('Navigation');
+  const o = await getTranslations('Opt2');
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
-      <section className="relative bg-black text-white py-40 border-b border-border text-center px-4 overflow-hidden min-h-[60vh] flex items-center justify-center">
-        <Image
-          src="/images/projects/backgrounds/genesi-backgrounds-01.jpg"
-          alt="Genesi — arredi su misura"
-          fill
-          priority
-          className="object-cover opacity-60 z-0"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30 z-10" />
-        
-        <div className="relative z-20 container mx-auto">
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">{t('heroTitle')}</h1>
-          <p className="text-lg md:text-xl text-white/80 font-light max-w-2xl mx-auto">
-            {t('heroSubtitle')}
-          </p>
-        </div>
-      </section>
+    <Stack count={2}>
+      <Panel
+        i={0}
+        hero
+        image="/images/projects/backgrounds/genesi-backgrounds-01.jpg"
+        alt="Genesi — arredi su misura"
+        eyebrow={n('about')}
+        title={t('heroTitle')}
+        text={t('heroSubtitle')}
+        scrollLabel={o('scroll')}
+      />
+
+      <Cover i={1}>
 
       {/* Story Split Section */}
       <section className="py-24 bg-background">
@@ -76,6 +73,7 @@ export default async function AboutPage() {
           </div>
         </div>
       </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

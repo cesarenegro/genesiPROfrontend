@@ -128,3 +128,113 @@
     @apply font-sans;
   }
 }
+/* ───────────── OPT2 · Minotti-inspired premium layer ───────────── */
+:root {
+  --header-h: 4rem;      /* main bar */
+  --topbar-h: 0rem;      /* utility bar (desktop only) */
+  --ink: #1e1e1e;        /* charcoal used for header, menu, footer */
+}
+@media (min-width: 1024px) {
+  :root { --header-h: 4.5rem; --topbar-h: 2rem; }
+}
+
+html { scroll-behavior: auto; }
+body { font-weight: 300; letter-spacing: 0.01em; }
+
+/* Page transition: fade + slight rise on every navigation */
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+.page-enter { animation: page-enter 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Header offset for pages without a full-screen hero */
+.below-header { padding-top: calc(var(--header-h) + var(--topbar-h)); }
+
+/* Sticky stacking ("curtain") sections:
+   .stack-panel stays pinned while the next .stack-cover / .stack-panel slides over it.
+   Each element names its own view timeline (--self) and its photo reacts to the
+   timeline of the element that covers it (--by). The common parent (.stack) lists
+   the names in timeline-scope so siblings can see each other's timelines. */
+.stack-panel {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  view-timeline-name: var(--self, none);
+}
+.stack-cover {
+  position: relative;
+  z-index: 1;
+  background: var(--background);
+  box-shadow: 0 -30px 60px -30px rgb(0 0 0 / 0.45);
+  view-timeline-name: var(--self, none);
+}
+.stack-panel + .stack-panel { box-shadow: 0 -30px 60px -30px rgb(0 0 0 / 0.45); }
+.stack { timeline-scope: var(--scope, none); }
+
+/* While a panel is being covered, its photo gently zooms and darkens (scroll-driven, progressive). */
+@supports (animation-timeline: view()) {
+  .stack-panel .stack-media {
+    animation: stack-exit linear both;
+    animation-timeline: var(--by, none);
+    animation-range: entry 0% entry 100%;
+  }
+  @keyframes stack-exit {
+    to { transform: scale(1.06); filter: brightness(0.45); }
+  }
+}
+
+/* Slow settle of hero photos on load */
+@keyframes hero-settle {
+  from { transform: scale(1.08); }
+  to   { transform: scale(1); }
+}
+.hero-settle { animation: hero-settle 2.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Hero copy rises in after the photo settles */
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: none; }
+}
+.rise-in { animation: rise-in 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both; }
+
+/* Scroll cue line */
+@keyframes cue {
+  0%   { transform: scaleY(0); transform-origin: top; }
+  45%  { transform: scaleY(1); transform-origin: top; }
+  55%  { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+.scroll-cue { animation: cue 2.2s ease-in-out infinite; }
+
+/* Pages with a full-screen hero slide it under the fixed header */
+.under-header { margin-top: calc(-1 * (var(--header-h) + var(--topbar-h))); }
+
+/* Reveal-on-scroll for text blocks (progressive) */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 60%;
+  }
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(32px); }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
+/* Minotti-like sub-navigation: ITEM —— ITEM */
+.dash-sep::before {
+  content: '';
+  display: inline-block;
+  width: 2.5rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter, .reveal, .stack-panel .stack-media, .hero-settle, .scroll-cue, .rise-in { animation: none !important; }
+}

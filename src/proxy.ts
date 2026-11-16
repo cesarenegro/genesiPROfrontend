@@ -19,6 +19,14 @@ export default clerkMiddleware(async (auth, req) => {
     return NextResponse.next();
   }
 
+  // Locales removed in OPT2 (ru, zh, id): send old links to the English version.
+  const legacy = req.nextUrl.pathname.match(/^\/(ru|zh|id)(\/.*)?$/);
+  if (legacy) {
+    const url = req.nextUrl.clone();
+    url.pathname = `/en${legacy[2] ?? ''}`;
+    return NextResponse.redirect(url, 308);
+  }
+
   if (isProtectedRoute(req)) {
     const session = await auth();
     if (!session.userId) {
@@ -31,5 +39,5 @@ export default clerkMiddleware(async (auth, req) => {
 
 
 export const config = {
-  matcher: ['/', '/(it|en|ru|zh|id|fr|de)/:path*', '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest|pdf|mp4|txt|xml)).*)', '/(api|trpc)(.*)'],
+  matcher: ['/', '/(it|en|fr|de|ru|zh|id)/:path*', '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest|pdf|mp4|txt|xml)).*)', '/(api|trpc)(.*)'],
 };

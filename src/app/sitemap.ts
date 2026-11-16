@@ -23,8 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       '/vela/porte-hotel',
       '/vela/box-doccia',
       '/vela/maniglie',
-      '/vela/materiali',
-      '/vela/catalogo'
+      '/vela/materiali'
     );
   }
 

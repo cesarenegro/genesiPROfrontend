@@ -46,21 +46,6 @@ export default function VelaCategoryNav({ activeCategory = 'all' }: Props) {
               );
             })}
           </div>
-
-          {/* Highlighted CTA: Scarica Catalogo VELA */}
-          <div className="shrink-0 pl-2">
-            <Link
-              href="/vela/catalogo"
-              className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 transition-all text-[11px] font-semibold tracking-wider ${
-                activeCategory === 'catalogo'
-                  ? 'bg-primary text-white'
-                  : 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 hover:bg-zinc-800 dark:hover:bg-zinc-100'
-              }`}
-            >
-              <span>Scarica Catalogo VELA</span>
-              <span>↓</span>
-            </Link>
-          </div>
         </div>
       </div>
     </div>

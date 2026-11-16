@@ -1,180 +1,128 @@
 import { Link } from "@/i18n/routing";
-import LocaleSwitcher from "./LocaleSwitcher";
-import MobileMenu, { type MobileNavItem } from "./MobileMenu";
 import Image from "next/image";
 import { SignInButton, UserButton } from '@clerk/nextjs';
 import { auth } from '@clerk/nextjs/server';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { FEATURE_VELA_ENABLED, FEATURE_VELA_UNDER_DEVELOPMENT } from '@/lib/features';
+import { PROJECTS, pick } from '@/lib/projects';
+import HeaderShell from '@/components/opt2/HeaderShell';
+import FullMenu, { type MenuEntry } from '@/components/opt2/FullMenu';
+import LocaleLinks from '@/components/opt2/LocaleLinks';
 
-const GENESI_PRO_URL = 'https://www.genesi-pro.com';
-const GENMA_URL = 'https://genmacollection.com/';
+export const GENESI_PRO_URL = 'https://www.genesi-pro.com';
+export const GENMA_URL = 'https://genmacollection.com/';
 
-const dropdownPanel =
-  "absolute left-0 top-full pt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 z-50";
-const dropdownBox =
-  "bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-lg py-2 flex flex-col text-xs uppercase tracking-wider";
-const dropdownItem =
-  "px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors";
-const dropdownHead =
-  "px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 font-semibold text-zinc-900 dark:text-zinc-100 transition-colors";
-const caret = "text-[10px] text-zinc-400 group-hover:rotate-180 transition-transform duration-200";
+const V = '/images/vela';
+const P = '/images/projects';
 
+/**
+ * OPT2 header (Minotti-inspired): thin utility bar on desktop, a minimal main bar with
+ * "Menu" on the left and the logo centred, and a full-screen menu overlay.
+ * No catalogue downloads anywhere.
+ */
 export default async function Header() {
   const { userId } = await auth();
+  const locale = await getLocale();
   const t = await getTranslations('Navigation');
+  const o = await getTranslations('Opt2');
   const velaMenu = FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT;
 
-  const mobileItems: MobileNavItem[] = [
+  const entries: MenuEntry[] = [
     { kind: 'link', href: '/about', label: t('about') },
-    { kind: 'heading', label: t('studio') },
-    { kind: 'link', href: '/studio', label: t('studioOverview'), indent: true },
-    { kind: 'link', href: '/services', label: t('services'), indent: true },
-    { kind: 'link', href: '/catalogue', label: t('catalogue'), indent: true },
-    { kind: 'link', href: '/materials', label: t('materials'), indent: true },
-    ...(FEATURE_VELA_ENABLED ? [{ kind: 'link', href: '/vela', label: t('vela') } as MobileNavItem] : []),
-    { kind: 'link', href: '/projects', label: t('projects') },
+    {
+      kind: 'group',
+      label: t('studio'),
+      cards: [
+        { href: '/studio', label: t('studioOverview'), image: `${P}/interior-design/genesi-interior-design-01.jpg` },
+        { href: '/services', label: t('services'), image: `${P}/complements/genesi-complements-02.jpg` },
+        { href: '/catalogue', label: t('catalogue'), image: `${P}/tables/genesi-tables-03.jpg` },
+        { href: '/materials', label: t('materials'), image: `${P}/marbles/genesi-marbles-03.jpg` },
+      ],
+    },
+    {
+      kind: 'group',
+      label: t('projects'),
+      cards: [
+        ...PROJECTS.map((p) => ({ href: `/projects/${p.slug}`, label: pick(p.title, locale), image: p.cover.src })),
+        { href: '/projects', label: o('allProjects'), image: `${P}/restaurants/genesi-restaurants-05.jpg` },
+      ],
+    },
+    ...(velaMenu
+      ? [
+          {
+            kind: 'group',
+            label: t('vela'),
+            cards: [
+              { href: '/vela', label: o('velaOverview'), image: `${V}/residential/vela-door-in-a-calm-italian-interior.webp` },
+              { href: '/vela/porte-interni', label: o('velaInterior'), image: `${V}/residential/burnt-sienna-double-doors-in-travertine.webp` },
+              { href: '/vela/porte-hotel', label: o('velaHotel'), image: `${V}/hotel/elegant-green-hotel-door.webp` },
+              { href: '/vela/box-doccia', label: o('velaShower'), image: `${V}/box-doccia/01_P+G4.webp` },
+              { href: '/vela/maniglie', label: o('velaHandles'), image: `${V}/handles/bronze-pull-and-fluted-oak-detail.webp` },
+              { href: '/vela/materiali', label: o('velaMaterials'), image: `${V}/finishes/01-bronzo-spazzolato.webp` },
+            ],
+          } as MenuEntry,
+        ]
+      : FEATURE_VELA_ENABLED
+        ? [{ kind: 'link', href: '/vela', label: t('vela') } as MenuEntry]
+        : []),
+    { kind: 'link', href: '/contact', label: o('contact') },
     { kind: 'external', href: GENESI_PRO_URL, label: 'Genesi Pro' },
     { kind: 'external', href: GENMA_URL, label: 'Genma Collection' },
-    { kind: 'external', href: '/docs/genesi-catalogue.pdf?v=2', label: t('openCatalogue') },
-    ...(userId ? [{ kind: 'link', href: '/dashboard', label: t('personalArea') } as MobileNavItem] : []),
   ];
 
+  const account = userId ? (
+    <span className="inline-flex items-center gap-4">
+      <Link href="/dashboard" className="hover:text-white transition-colors">{t('personalArea')}</Link>
+      <UserButton />
+    </span>
+  ) : (
+    <SignInButton mode="modal">
+      <button type="button" className="uppercase tracking-[0.2em] hover:text-white transition-colors">{t('tradeLogin')}</button>
+    </SignInButton>
+  );
+
+  const utility = 'hover:text-white transition-colors';
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4 lg:px-6 xl:px-8">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
+    <HeaderShell>
+      {/* Utility bar (desktop) */}
+      <div className="hidden lg:flex h-[var(--topbar-h)] items-center justify-between px-10 bg-black/40 text-[10.5px] uppercase tracking-[0.22em] text-white/65">
+        <LocaleLinks />
+        <div className="flex items-center gap-7">
+          <Link href="/contact" className={utility}>{o('contact')}</Link>
+          <a href={GENESI_PRO_URL} target="_blank" rel="noopener noreferrer" className={utility}>Genesi Pro ↗</a>
+          <a href={GENMA_URL} target="_blank" rel="noopener noreferrer" className={utility}>Genma Collection ↗</a>
+          {account}
+        </div>
+      </div>
+
+      {/* Main bar */}
+      <div className="relative flex h-[var(--header-h)] items-center justify-between px-5 lg:px-10">
+        <FullMenu
+          entries={entries}
+          labels={{ menu: t('menu'), close: o('close') }}
+          locales={<LocaleLinks />}
+          account={account}
+        />
+
+        <Link href="/" className="absolute left-1/2 -translate-x-1/2" aria-label="GENESI">
           <Image
             src="/images/logo.png"
-            alt="GENESI Logo"
+            alt="GENESI"
             width={120}
-            height={40}
-            className="object-contain h-10 w-auto"
+            height={64}
+            className="h-8 lg:h-10 w-auto brightness-0 invert"
             priority
           />
         </Link>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden lg:flex gap-3 xl:gap-6 2xl:gap-8 items-center text-[13px] xl:text-sm font-medium">
-          <Link href="/about" className="hover:text-primary transition-colors whitespace-nowrap">{t('about')}</Link>
-
-          {/* Studio dropdown: Studio, Services, Catalogue, Materials */}
-          <div className="relative group">
-            <Link href="/studio" className="hover:text-primary transition-colors flex items-center gap-1 py-2">
-              <span>{t('studio')}</span>
-              <span className={caret}>▾</span>
-            </Link>
-            <div className={dropdownPanel}>
-              <div className={dropdownBox}>
-                <Link href="/studio" className={dropdownHead}>{t('studioOverview')}</Link>
-                <div className="h-px bg-zinc-200 dark:bg-zinc-800 my-1" />
-                <Link href="/services" className={dropdownItem}>{t('services')}</Link>
-                <Link href="/catalogue" className={dropdownItem}>{t('catalogue')}</Link>
-                <Link href="/materials" className={dropdownItem}>{t('materials')}</Link>
-              </div>
-            </div>
-          </div>
-
+        <nav className="flex items-center gap-6 lg:gap-8 text-[11px] uppercase tracking-[0.25em]">
+          <Link href="/projects" className="hidden md:inline hover:text-white/70 transition-colors">{t('projects')}</Link>
           {FEATURE_VELA_ENABLED && (
-            <div className="relative group">
-              <Link
-                href="/vela"
-                className="hover:text-primary transition-colors font-semibold tracking-wider text-black dark:text-white border-b-2 border-transparent hover:border-black dark:hover:border-white pb-0.5 flex items-center gap-1"
-              >
-                <span>{t('vela')}</span>
-                {velaMenu && <span className={caret}>▾</span>}
-              </Link>
-
-              {/* VELA Categories Dropdown */}
-              {velaMenu && (
-                <div className={dropdownPanel}>
-                  <div className={dropdownBox}>
-                    <Link href="/vela" className={dropdownHead}>Panoramica Brand VELA</Link>
-                    <div className="h-px bg-zinc-200 dark:bg-zinc-800 my-1" />
-                    <Link href="/vela/porte-interni" className={dropdownItem}>Porte per Interni</Link>
-                    <Link href="/vela/porte-hotel" className={dropdownItem}>Porte Camere Hotel</Link>
-                    <Link href="/vela/box-doccia" className={dropdownItem}>Box Doccia</Link>
-                    <Link href="/vela/maniglie" className={dropdownItem}>Maniglie & Dettagli</Link>
-                    <Link href="/vela/materiali" className={dropdownItem}>Materiali & Finiture</Link>
-                    <div className="h-px bg-zinc-200 dark:bg-zinc-800 my-1" />
-                    <Link
-                      href="/vela/catalogo"
-                      className="px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-[#5B9C94] font-semibold transition-colors flex items-center justify-between"
-                    >
-                      <span>Scarica Catalogo VELA</span>
-                      <span>↓</span>
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
+            <Link href="/vela" className="font-semibold hover:text-white/70 transition-colors">VELA</Link>
           )}
-
-          <Link href="/projects" className="hover:text-primary transition-colors whitespace-nowrap">{t('projects')}</Link>
-
-          {/* External sister sites */}
-          <a
-            href={GENESI_PRO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 border border-foreground px-2.5 xl:px-3 py-1.5 font-semibold tracking-wider uppercase text-[11px] xl:text-xs hover:bg-foreground hover:text-background transition-colors whitespace-nowrap"
-          >
-            Genesi Pro <span aria-hidden>↗</span>
-          </a>
-          <a
-            href={GENMA_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 border border-foreground px-2.5 xl:px-3 py-1.5 font-semibold tracking-wider uppercase text-[11px] xl:text-xs hover:bg-foreground hover:text-background transition-colors whitespace-nowrap"
-          >
-            Genma Collection <span aria-hidden>↗</span>
-          </a>
-
-          <div className="hidden xl:block w-px h-4 bg-border mx-1"></div>
-
-          {/* Download Catalogue CTA */}
-          <a
-            href="/docs/genesi-catalogue.pdf?v=2"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[13px] xl:text-sm font-medium bg-[#5B9C94] text-white px-2.5 xl:px-4 py-2 hover:bg-[#488079] transition-colors whitespace-nowrap"
-          >
-            {t('openCatalogue')}
-          </a>
-
-          {/* Auth Block */}
-          {!userId ? (
-            <SignInButton mode="modal">
-              <button className="text-[13px] xl:text-sm font-medium bg-[#8A9A86] text-white px-2.5 xl:px-4 py-2 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
-            </SignInButton>
-          ) : (
-            <>
-              <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">{t('personalArea')}</Link>
-              <UserButton />
-            </>
-          )}
-
-          <LocaleSwitcher />
         </nav>
-
-        {/* Mobile / tablet */}
-        <div className="lg:hidden flex items-center gap-3">
-          {FEATURE_VELA_ENABLED && (
-            <Link href="/vela" className="text-xs font-semibold tracking-widest uppercase px-2.5 py-1 bg-foreground text-background">
-              VELA
-            </Link>
-          )}
-          {userId ? (
-            <UserButton />
-          ) : (
-            <SignInButton mode="modal">
-              <button className="hidden sm:inline-block text-xs font-medium bg-[#8A9A86] text-white px-3 py-1.5 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
-            </SignInButton>
-          )}
-          <LocaleSwitcher />
-          <MobileMenu items={mobileItems} menuLabel={t('menu')} />
-        </div>
       </div>
-    </header>
+    </HeaderShell>
   );
 }

@@ -1,279 +1,162 @@
-import { getCategories } from '@/lib/catalogue';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { FEATURE_VELA_ENABLED, FEATURE_VELA_UNDER_DEVELOPMENT } from '@/lib/features';
 import { PROJECTS, pick } from '@/lib/projects';
+import { ArrowLink, Cover, Eyebrow, Panel, Stack } from '@/components/opt2/Stack';
+
+const P = '/images/projects';
 
 export default async function Home() {
-  const categories = await getCategories();
-  const locale = await getLocale() as 'en' | 'it' | 'ru' | 'zh' | 'id' | 'fr' | 'de';
-  const t = await getTranslations('Home');
-  const tp = await getTranslations('Projects');
-  
-  // Prendi le prime 4 categorie come "Featured"
-  const featuredCategories = categories.slice(0, 4);
+  const locale = await getLocale();
+  const o = await getTranslations('Opt2');
+  const velaOn = FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT;
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
-      <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden bg-black text-white">
-        <video
-          src="/videos/hero-video.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
-        
-        {/* Overlay per leggibilità e fonditura verso il basso */}
-        <div className="absolute inset-0 bg-black/20 z-10" />
-        <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-background to-transparent z-10" />
-        
-        <div className="relative z-20 container mx-auto px-4 flex flex-col items-center text-center">
-          
-          {/* Logo intro animato (50vw max) */}
-          <div className="animate-intro-logo mb-12 flex justify-center">
-            <Image 
-              src="/images/logo.png" 
-              alt="GENESI" 
-              width={1000} 
-              height={400} 
-              className="w-[50vw] max-w-3xl object-contain filter invert brightness-0 opacity-90"
-              priority
-            />
-          </div>
+    <Stack count={6}>
+      {/* 0 · Full-screen hero */}
+      <Panel
+        i={0}
+        hero
+        image={`${P}/restaurants/genesi-restaurants-01.jpg`}
+        alt="Genesi — ristorante a Mykonos"
+        eyebrow={o('homeHeroEyebrow')}
+        title={o('homeHeroTitle')}
+        cta={{ href: '/projects', label: o('projectsCta') }}
+        scrollLabel={o('scroll')}
+      />
 
-          <div className="animate-fade-in-up">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6">
-              {t('heroTitle')}
-            </h1>
-            <p className="text-base md:text-xl text-white/80 max-w-2xl mx-auto mb-10 font-light">
-              {t('heroSubtitle')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                href="/catalogue" 
-                className="px-8 py-4 bg-white text-black text-sm font-medium hover:bg-white/90 transition-colors uppercase tracking-widest"
-              >
-                {t('exploreCatalogue')}
-              </Link>
-              {FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT && (
-                <Link
-                  href="/vela/catalogo"
-                  className="px-8 py-4 bg-[#5B9C94] text-white text-sm font-medium hover:bg-[#488079] transition-colors uppercase tracking-widest flex items-center justify-center gap-2"
-                >
-                  <span>Scarica Catalogo VELA</span>
-                  <span>↓</span>
-                </Link>
-              )}
-              <Link 
-                href="/projects" 
-                className="px-8 py-4 border border-white text-white text-sm font-medium hover:bg-white hover:text-black transition-colors uppercase tracking-widest"
-              >
-                {t('ourProjects')}
-              </Link>
-            </div>
+      {/* 1 · Philosophy */}
+      <Cover i={1}>
+        <section className="px-6 lg:px-16 py-28 lg:py-44">
+          <div className="max-w-5xl mx-auto text-center reveal">
+            <Eyebrow>{o('homeIntroEyebrow')}</Eyebrow>
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-extralight leading-[1.1] tracking-tight">{o('homeIntroTitle')}</h2>
+            <p className="mt-10 text-base lg:text-xl text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">{o('homeIntroText')}</p>
           </div>
-        </div>
-      </section>
+        </section>
+      </Cover>
 
-      {/* Corporate Intro */}
-      <section className="py-32 bg-background">
-        <div className="container mx-auto px-4 lg:px-8 text-center max-w-4xl">
-          <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('ourPhilosophy')}</h2>
-          <h3 className="text-3xl md:text-5xl font-light mb-8 leading-tight">{t('craftingLuxurySpaces')}</h3>
-          <p className="text-muted-foreground leading-relaxed text-lg md:text-xl font-light">
-            {t('philosophyText')}
-          </p>
-        </div>
-      </section>
+      {/* 2-4 · Pinned photo bands */}
+      <Panel
+        i={2}
+        image={`${P}/restaurants/genesi-restaurants-05.jpg`}
+        alt="Genesi — hospitality"
+        eyebrow={o('band1Eyebrow')}
+        title={o('band1Title')}
+        text={o('band1Text')}
+        cta={{ href: '/projects', label: o('discover') }}
+      />
+      <Panel
+        i={3}
+        image={`${P}/tables/genesi-tables-03.jpg`}
+        alt="Genesi — tavolo su misura"
+        eyebrow={o('band2Eyebrow')}
+        title={o('band2Title')}
+        text={o('band2Text')}
+        cta={{ href: '/studio', label: o('discover') }}
+      />
+      <Panel
+        i={4}
+        image={`${P}/lighting/genesi-lighting-04.jpg`}
+        alt="Genesi — illuminazione"
+        eyebrow={o('band3Eyebrow')}
+        title={o('band3Title')}
+        text={o('band3Text')}
+        cta={{ href: '/projects', label: o('discover') }}
+      />
 
-      {/* Real projects teaser */}
-      <section className="py-24 border-t border-border">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-end mb-12 gap-6">
-            <div>
-              <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-3">{tp('caseStudiesTag')}</h2>
-              <h3 className="text-3xl md:text-4xl font-light">{tp('caseStudiesTitle')}</h3>
-            </div>
-            <Link href="/projects" className="hidden md:inline-block text-sm uppercase tracking-widest border-b border-foreground pb-1 hover:text-primary hover:border-primary transition-colors shrink-0">
-              {t('ourProjects')} →
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {PROJECTS.slice(0, 3).map((p) => (
-              <Link key={p.slug} href={`/projects/${p.slug}`} className="group block">
-                <div className="relative aspect-[4/5] overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-border mb-4">
-                  <Image
-                    src={p.cover.src}
-                    alt={pick(p.title, locale)}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
-                  />
+      {/* 5 · Everything else slides over the last band */}
+      <Cover i={5}>
+        {/* VELA */}
+        {velaOn && (
+          <section className="bg-[#1e1e1e] text-white">
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[100svh]">
+              <div className="relative min-h-[70svh] lg:min-h-0 lg:order-2 overflow-hidden">
+                <Image
+                  src="/images/vela/residential/vela-door-in-a-calm-italian-interior.webp"
+                  alt="VELA — porta per interni"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex flex-col justify-center px-6 lg:px-20 py-20 reveal">
+                <Image src="/images/vela/vela-logo-white.svg" alt="VELA by Genesi" width={200} height={72} className="w-36 h-auto mb-12 opacity-90" />
+                <Eyebrow className="text-white/60">{o('velaEyebrow')}</Eyebrow>
+                <h2 className="text-3xl lg:text-5xl font-extralight leading-tight tracking-tight">{o('velaTitle')}</h2>
+                <p className="mt-6 text-white/70 font-light leading-relaxed max-w-md">{o('velaText')}</p>
+                <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-[11px] uppercase tracking-[0.25em] text-white/70">
+                  <Link href="/vela/porte-interni" className="hover:text-white transition-colors">{o('velaInterior')}</Link>
+                  <span className="dash-sep" />
+                  <Link href="/vela/porte-hotel" className="hover:text-white transition-colors">{o('velaHotel')}</Link>
+                  <span className="dash-sep" />
+                  <Link href="/vela/box-doccia" className="hover:text-white transition-colors">{o('velaShower')}</Link>
                 </div>
-                <h4 className="text-lg font-light group-hover:text-primary transition-colors">{pick(p.title, locale)}</h4>
-                <p className="text-xs text-muted-foreground uppercase tracking-widest mt-1">
-                  {p.location ? `${pick(p.location, locale)} · ` : ''}{p.year}
-                </p>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-12 text-center md:hidden">
-            <Link href="/projects" className="inline-block px-8 py-4 bg-foreground text-background text-sm font-medium uppercase tracking-widest">
-              {t('ourProjects')}
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Collections */}
-      <section className="py-24 bg-zinc-50 dark:bg-zinc-900 border-t border-border">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-end mb-12">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-light mb-2">{t('featuredCollections')}</h2>
-              <p className="text-muted-foreground">{t('discoverLatest')}</p>
+                <div className="mt-12">
+                  <ArrowLink href="/vela" light>{o('velaCta')}</ArrowLink>
+                </div>
+              </div>
             </div>
-            <Link href="/catalogue" className="hidden md:inline-block text-sm uppercase tracking-widest border-b border-foreground pb-1 hover:text-primary hover:border-primary transition-colors">
-              {t('viewAllCollections')}
-            </Link>
-          </div>
+          </section>
+        )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredCategories.map((cat) => {
-              const title = cat.title[locale] || cat.title.en;
-              
+        {/* Projects */}
+        <section className="px-6 lg:px-16 py-24 lg:py-36">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14 lg:mb-20 reveal">
+            <div>
+              <Eyebrow>{o('projectsEyebrow')}</Eyebrow>
+              <h2 className="text-3xl lg:text-5xl font-extralight tracking-tight">{o('projectsTitle')}</h2>
+            </div>
+            <ArrowLink href="/projects">{o('projectsCta')}</ArrowLink>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-x-6 gap-y-14">
+            {PROJECTS.slice(0, 5).map((p, idx) => {
+              // Editorial rhythm: two wide, three narrow
+              const span = idx < 2 ? 'md:col-span-3' : 'md:col-span-2';
+              const ratio = idx < 2 ? 'aspect-[4/3]' : 'aspect-[4/5]';
               return (
-                <Link 
-                  href={`/catalogue/${cat.slug}`} 
-                  key={cat.id}
-                  className="group block overflow-hidden bg-white dark:bg-zinc-950 border border-border hover:border-primary transition-all duration-300"
-                >
-                  <div className="aspect-[3/4] relative overflow-hidden bg-zinc-100 dark:bg-zinc-900">
-                    <Image 
-                      src={`/images/categories/${cat.slug}.png`}
-                      alt={title}
+                <Link key={p.slug} href={`/projects/${p.slug}`} className={`group block ${span}`}>
+                  <div className={`relative ${ratio} overflow-hidden bg-zinc-100`}>
+                    <Image
+                      src={p.cover.src}
+                      alt={pick(p.title, locale)}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                      sizes="(max-width: 768px) 100vw, 25vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.04]"
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-lg font-medium mb-1 group-hover:text-primary transition-colors">{title}</h3>
-                    <p className="text-xs text-muted-foreground uppercase tracking-widest">{t('exploreArrow')}</p>
-                  </div>
+                  <h3 className="mt-5 text-lg lg:text-xl font-light">{pick(p.title, locale)}</h3>
+                  <p className="mt-1 text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
+                    {p.location ? `${pick(p.location, locale)} · ` : ''}{p.year}
+                  </p>
                 </Link>
               );
             })}
           </div>
-          
-          <div className="mt-12 text-center md:hidden">
-            <Link href="/catalogue" className="inline-block px-8 py-4 bg-foreground text-background text-sm font-medium hover:bg-foreground/90 transition-colors uppercase tracking-widest">
-              {t('viewAllCollections')}
-            </Link>
+        </section>
+
+        {/* Studio split */}
+        <section className="grid grid-cols-1 lg:grid-cols-2 bg-[#1e1e1e] text-white">
+          <div className="relative min-h-[60svh] lg:min-h-[90svh] overflow-hidden">
+            <Image
+              src={`${P}/complements/genesi-complements-02.jpg`}
+              alt="Genesi — banco reception su misura"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
+            />
           </div>
-        </div>
-      </section>
-
-      {/* VELA by Genesi Brand Spotlight */}
-      {FEATURE_VELA_ENABLED && !FEATURE_VELA_UNDER_DEVELOPMENT && (
-        <section className="py-24 bg-zinc-950 text-white border-t border-zinc-800">
-          <div className="container mx-auto px-4 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              <div className="lg:col-span-5 space-y-8">
-                <div className="w-48">
-                  <Image
-                    src="/images/vela/vela-logo-white.svg"
-                    alt="VELA by Genesi"
-                    width={280}
-                    height={100}
-                    className="w-full h-auto object-contain"
-                  />
-                </div>
-                <div className="space-y-4">
-                  <span className="text-xs uppercase tracking-widest text-zinc-400 block font-medium">
-                    Nuova Sezione Architetturale
-                  </span>
-                  <h2 className="text-3xl md:text-4xl font-light tracking-tight leading-tight">
-                    Porte e superfici per l’architettura degli interni.
-                  </h2>
-                  <p className="text-zinc-400 font-light text-base leading-relaxed">
-                    Dalla complanarità assoluta dei sistemi a bilico e scorrevoli alle soluzioni coordinate per residenze di prestigio e hospitality di lusso.
-                  </p>
-                </div>
-                <div className="flex flex-wrap gap-4 text-xs tracking-wider text-zinc-400 border-y border-zinc-800/80 py-4">
-                  <Link href="/vela/porte-interni" className="hover:text-white transition-colors underline-offset-4 hover:underline">Porte per interni residenziali</Link>
-                  <span>•</span>
-                  <Link href="/vela/porte-hotel" className="hover:text-white transition-colors underline-offset-4 hover:underline">Porte per camere hotel</Link>
-                  <span>•</span>
-                  <Link href="/vela/box-doccia" className="hover:text-white transition-colors underline-offset-4 hover:underline">Box doccia</Link>
-                </div>
-                <div className="flex flex-wrap gap-4">
-                  <Link
-                    href="/vela"
-                    className="inline-flex items-center gap-3 px-8 py-4 bg-white text-zinc-950 text-xs font-semibold uppercase tracking-widest hover:bg-zinc-200 transition-colors"
-                  >
-                    <span>Esplora il Mondo VELA</span>
-                    <span>→</span>
-                  </Link>
-                  <Link
-                    href="/vela/catalogo"
-                    className="inline-flex items-center gap-3 px-8 py-4 bg-[#5B9C94] text-white text-xs font-semibold uppercase tracking-widest hover:bg-[#488079] transition-colors"
-                  >
-                    <span>Scarica Catalogo VELA</span>
-                    <span>↓</span>
-                  </Link>
-                </div>
-              </div>
-
-              <div className="lg:col-span-7">
-                <div className="relative aspect-[16/10] w-full overflow-hidden border border-zinc-800/80">
-                  <Image
-                    src="/images/vela/doors/01_P+G4.webp"
-                    alt="VELA Sistema Bilico P+G4"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 58vw"
-                    className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
-                  />
-                  <div className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-xs px-3.5 py-1.5 text-[11px] uppercase tracking-widest text-zinc-300">
-                    Modello Bilico Pivot · 01 P+G4
-                  </div>
-                </div>
-              </div>
+          <div className="flex flex-col justify-center px-6 lg:px-20 py-20 reveal">
+            <Eyebrow className="text-white/60">{o('studioEyebrow')}</Eyebrow>
+            <h2 className="text-3xl lg:text-5xl font-extralight tracking-tight">{o('studioTitle')}</h2>
+            <p className="mt-6 text-white/70 font-light leading-relaxed max-w-md">{o('studioText')}</p>
+            <div className="mt-12">
+              <ArrowLink href="/services" light>{o('studioCta')}</ArrowLink>
             </div>
           </div>
         </section>
-      )}
-      
-      {/* Services Split */}
-      <section className="py-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
-          <div className="bg-zinc-900 text-white p-12 lg:p-24 flex flex-col justify-center">
-            <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-4">{t('servicesTag')}</h2>
-            <h3 className="text-3xl md:text-5xl font-light mb-8">{t('turnkeySolutions')}</h3>
-            <p className="text-zinc-300 leading-relaxed text-lg font-light mb-12 max-w-lg">
-              {t('turnkeyText')}
-            </p>
-            <div>
-              <Link href="/services" className="inline-block border border-white px-8 py-4 text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
-                {t('discoverOurServices')}
-              </Link>
-            </div>
-          </div>
-          <div className="bg-zinc-200 dark:bg-zinc-800 relative min-h-[400px]">
-            <Image
-              src="/images/projects/restaurants/genesi-restaurants-01.jpg"
-              alt="Genesi — ristorante a Mykonos"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
-          </div>
-        </div>
-      </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

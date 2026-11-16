@@ -1,3 +1,4 @@
+import { Cover, Panel, Stack } from '@/components/opt2/Stack';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
@@ -17,53 +18,38 @@ export default async function ProjectDetailPage({
   }
 
   const t = await getTranslations('Projects');
+  const o = await getTranslations('Opt2');
   const title = pick(project.title, locale);
   const others = PROJECTS.filter((p) => p.slug !== project.slug).slice(0, 3);
-  const [hero, ...rest] = project.gallery;
+  // Full-screen cover: the widest photo of the set reads best edge to edge.
+  const hero = [...project.gallery].sort((x, y) => y.w - x.w)[0];
+  const rest = project.gallery.filter((g) => g !== hero);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header */}
-      <section className="py-20 bg-background border-b border-border">
-        <div className="container mx-auto px-4">
-          <Link
-            href="/projects"
-            className="inline-block text-xs uppercase tracking-widest text-muted-foreground hover:text-foreground mb-8"
-          >
-            ← {t('backToProjects')}
-          </Link>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-            <div>
-              <span className="text-xs uppercase tracking-widest text-[#5B9C94] block mb-2">
-                {pick(project.scope, locale)}
-              </span>
-              <h1 className="text-3xl md:text-5xl font-light tracking-tight">{title}</h1>
-            </div>
-            <div className="text-sm uppercase tracking-widest text-muted-foreground">
-              {project.location ? `${pick(project.location, locale)} · ` : ''}
-              {project.year}
-            </div>
-          </div>
-        </div>
-      </section>
+    <Stack count={2}>
+      <Panel
+        i={0}
+        hero
+        image={hero.src}
+        alt={title}
+        eyebrow={pick(project.scope, locale)}
+        title={title}
+        text={`${project.location ? `${pick(project.location, locale)} · ` : ''}${project.year}`}
+        scrollLabel={o('scroll')}
+      />
 
-      {/* Hero */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="relative w-full overflow-hidden border border-border bg-zinc-100 dark:bg-zinc-900 flex justify-center">
-          <Image
-            src={hero.src}
-            alt={title}
-            width={hero.w}
-            height={hero.h}
-            priority
-            sizes="(max-width: 1280px) 100vw, 1280px"
-            className="w-auto h-auto max-h-[80vh] object-contain"
-          />
-        </div>
+      <Cover i={1}>
+      <section className="px-6 lg:px-16 pt-10">
+        <Link
+          href="/projects"
+          className="inline-block text-[11px] uppercase tracking-[0.3em] text-muted-foreground hover:text-foreground"
+        >
+          ← {t('backToProjects')}
+        </Link>
       </section>
 
       {/* Description & gallery */}
-      <section className="container mx-auto px-4 pb-16 space-y-16">
+      <section className="px-6 lg:px-16 py-16 lg:py-24 space-y-16">
         <div className="max-w-3xl">
           <p className="text-lg md:text-xl font-light text-muted-foreground leading-relaxed">
             {pick(project.description, locale)}
@@ -99,8 +85,8 @@ export default async function ProjectDetailPage({
       </section>
 
       {/* Other projects */}
-      <section className="py-20 bg-zinc-50 dark:bg-zinc-900 border-t border-border">
-        <div className="container mx-auto px-4">
+      <section className="py-20 lg:py-28 bg-zinc-50 dark:bg-zinc-900 border-t border-border">
+        <div className="px-6 lg:px-16">
           <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-8">{t('otherProjects')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {others.map((p) => (
@@ -120,6 +106,7 @@ export default async function ProjectDetailPage({
           </div>
         </div>
       </section>
-    </div>
+      </Cover>
+    </Stack>
   );
 }

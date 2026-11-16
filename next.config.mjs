@@ -14,6 +14,16 @@ const nextConfig = {
       { source: '/vela/catalogo', destination: '/vela', permanent: true },
     ];
   },
+  // The OPT2 review copy on opt2.genesi-italia.com must never be indexed by search engines.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'opt2.genesi-italia.com' }],
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

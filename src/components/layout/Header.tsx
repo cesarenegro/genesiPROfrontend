@@ -42,7 +42,7 @@ export default async function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
+      <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4 lg:px-6 xl:px-8">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
             src="/images/logo.png"
@@ -55,7 +55,7 @@ export default async function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden xl:flex gap-6 2xl:gap-8 items-center text-sm font-medium">
+        <nav className="hidden lg:flex gap-4 xl:gap-6 2xl:gap-8 items-center text-[13px] xl:text-sm font-medium">
           <Link href="/about" className="hover:text-primary transition-colors whitespace-nowrap">{t('about')}</Link>
 
           {/* Studio dropdown: Studio, Services, Catalogue, Materials */}
@@ -137,7 +137,7 @@ export default async function Header() {
             href="/docs/genesi-catalogue.pdf?v=2"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium bg-[#5B9C94] text-white px-4 py-2 hover:bg-[#488079] transition-colors whitespace-nowrap"
+            className="text-[13px] xl:text-sm font-medium bg-[#5B9C94] text-white px-3 xl:px-4 py-2 hover:bg-[#488079] transition-colors whitespace-nowrap"
           >
             {t('openCatalogue')}
           </a>
@@ -145,7 +145,7 @@ export default async function Header() {
           {/* Auth Block */}
           {!userId ? (
             <SignInButton mode="modal">
-              <button className="text-sm font-medium bg-[#8A9A86] text-white px-4 py-2 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
+              <button className="text-[13px] xl:text-sm font-medium bg-[#8A9A86] text-white px-3 xl:px-4 py-2 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
             </SignInButton>
           ) : (
             <>
@@ -158,7 +158,7 @@ export default async function Header() {
         </nav>
 
         {/* Mobile / tablet */}
-        <div className="xl:hidden flex items-center gap-3">
+        <div className="lg:hidden flex items-center gap-3">
           {FEATURE_VELA_ENABLED && (
             <Link href="/vela" className="text-xs font-semibold tracking-widest uppercase px-2.5 py-1 bg-foreground text-background">
               VELA

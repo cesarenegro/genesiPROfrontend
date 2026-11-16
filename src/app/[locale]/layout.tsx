@@ -28,9 +28,35 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const title = 'Genesi Italia - Elegance in Every Detail';
+  const description = t('description');
+
   return {
-    title: t('title'),
-    description: t('description'),
+    metadataBase: new URL('https://genesi-italia.com'),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://genesi-italia.com/${locale}`,
+      siteName: 'Genesi Italia',
+      locale,
+      type: 'website',
+      images: [
+        {
+          url: '/images/og-hero.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Genesi Italia - Elegance in Every Detail',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/images/og-hero.jpg'],
+    },
     icons: {
       icon: [
         { url: '/favicon.ico', sizes: 'any' },

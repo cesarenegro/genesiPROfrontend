@@ -55,7 +55,7 @@ export default async function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex gap-4 xl:gap-6 2xl:gap-8 items-center text-[13px] xl:text-sm font-medium">
+        <nav className="hidden lg:flex gap-3 xl:gap-6 2xl:gap-8 items-center text-[13px] xl:text-sm font-medium">
           <Link href="/about" className="hover:text-primary transition-colors whitespace-nowrap">{t('about')}</Link>
 
           {/* Studio dropdown: Studio, Services, Catalogue, Materials */}
@@ -117,27 +117,27 @@ export default async function Header() {
             href={GENESI_PRO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-primary transition-colors whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 border border-foreground px-2.5 xl:px-3 py-1.5 font-semibold tracking-wider uppercase text-[11px] xl:text-xs hover:bg-foreground hover:text-background transition-colors whitespace-nowrap"
           >
-            Genesi Pro <span aria-hidden className="text-[10px] text-zinc-400">↗</span>
+            Genesi Pro <span aria-hidden>↗</span>
           </a>
           <a
             href={GENMA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-primary transition-colors whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 border border-foreground px-2.5 xl:px-3 py-1.5 font-semibold tracking-wider uppercase text-[11px] xl:text-xs hover:bg-foreground hover:text-background transition-colors whitespace-nowrap"
           >
-            Genma Collection <span aria-hidden className="text-[10px] text-zinc-400">↗</span>
+            Genma Collection <span aria-hidden>↗</span>
           </a>
 
-          <div className="w-px h-4 bg-border mx-1"></div>
+          <div className="hidden xl:block w-px h-4 bg-border mx-1"></div>
 
           {/* Download Catalogue CTA */}
           <a
             href="/docs/genesi-catalogue.pdf?v=2"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] xl:text-sm font-medium bg-[#5B9C94] text-white px-3 xl:px-4 py-2 hover:bg-[#488079] transition-colors whitespace-nowrap"
+            className="text-[13px] xl:text-sm font-medium bg-[#5B9C94] text-white px-2.5 xl:px-4 py-2 hover:bg-[#488079] transition-colors whitespace-nowrap"
           >
             {t('openCatalogue')}
           </a>
@@ -145,7 +145,7 @@ export default async function Header() {
           {/* Auth Block */}
           {!userId ? (
             <SignInButton mode="modal">
-              <button className="text-[13px] xl:text-sm font-medium bg-[#8A9A86] text-white px-3 xl:px-4 py-2 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
+              <button className="text-[13px] xl:text-sm font-medium bg-[#8A9A86] text-white px-2.5 xl:px-4 py-2 hover:bg-[#788764] transition-colors whitespace-nowrap">{t('tradeLogin')}</button>
             </SignInButton>
           ) : (
             <>

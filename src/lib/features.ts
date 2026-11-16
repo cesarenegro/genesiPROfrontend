@@ -7,4 +7,4 @@
  * Set NEXT_PUBLIC_VELA_FULL_ACCESS="true" in environment variables or set FEATURE_VELA_UNDER_DEVELOPMENT = false below.
  */
 export const FEATURE_VELA_ENABLED = true;
-export const FEATURE_VELA_UNDER_DEVELOPMENT = process.env.NEXT_PUBLIC_VELA_FULL_ACCESS === 'true' ? false : true;
+export const FEATURE_VELA_UNDER_DEVELOPMENT = false;

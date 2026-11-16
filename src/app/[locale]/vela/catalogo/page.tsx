@@ -10,45 +10,45 @@ export default function VelaCatalogoPage() {
     {
       id: 'it',
       language: 'Italiano (IT)',
-      title: 'Catalogo Generale VELA',
-      subtitle: 'Edizione Ufficiale Completa — Italiano',
-      filename: 'VELA_Catalogo_Completo_IT.pdf',
-      href: '/docs/VELA_Catalogo_Completo_IT.pdf',
+      title: 'Catalogo Monografico VELA 2026 (v2.0)',
+      subtitle: 'Edizione Ufficiale Super-Premium — Italiano',
+      filename: 'VELA_COLLECTION_2026_SUPER_PREMIUM.pdf',
+      href: '/docs/VELA_COLLECTION_2026_SUPER_PREMIUM.pdf',
       cover: '/images/vela/catalogo/cover_catalogo_it.png',
-      size: '24.8 MB',
-      pages: '63 Pagine HD',
-      rev: 'Rev. 00 · 2026',
+      size: '75.4 MB',
+      pages: '80 Pagine A4 · 300 DPI',
+      rev: 'Rev. 02 · 2026',
       badge: 'ITALIANO (IT)',
       summary:
-        'Documento tecnico completo comprensivo di tutta la gamma VELA: 10 porte per interni, 10 porte hospitality con lettori RFID, 6 maniglie architetturali, cartella finiture e schemi costruttivi.',
+        'Catalogo monografico completo di tutta la gamma VELA: 14 porte per interni residenziali, 13 porte hospitality certificate EI30/EI60, 23 serie box doccia in cristallo, 17 sistemi di ferramenta europea e materioteca.',
       features: [
-        'Porte Interni (IN-01 — IN-10)',
-        'Porte Hospitality & Camere Hotel (HT-01 — HT-10)',
-        'Cartella Finiture Ufficiale (20 Finiture Materiche)',
-        'Sistemi di Presa, Maniglie e Ferramenta RFID',
-        'Schede Costruttive: Legno, Composito e Vetro'
+        'Porte per Interni Residenziali (R-01 — R-14)',
+        'Porte Camere Hotel & Hospitality (H-01 — H-13)',
+        'Box Doccia & Pareti in Cristallo (23 Serie 8/10 mm)',
+        'Ferramenta Architetturale & Smart Access (17 Sistemi)',
+        'Materioteca Coordinata & Matrice Vani Murari'
       ]
     },
     {
       id: 'en',
-      language: 'English (EN)',
-      title: 'Official VELA Catalogue',
-      subtitle: 'Complete International Edition — English',
+      language: 'English / International',
+      title: 'VELA Master Price List & Abaco Doccia 2026',
+      subtitle: 'Official Tender Price List (.XLSX) & Technical Catalogue',
       filename: 'VELA_Catalogue_Complete_EN.pdf',
       href: '/docs/VELA_Catalogue_Complete_EN.pdf',
       cover: '/images/vela/catalogo/cover_catalogo_en.png',
-      size: '25.5 MB',
-      pages: '63 HD Pages',
-      rev: 'Rev. 00 · 2026',
-      badge: 'ENGLISH (EN)',
+      size: '75.4 MB',
+      pages: '80 Pages A4 · 300 DPI',
+      rev: 'Rev. 02 · 2026',
+      badge: 'COMPLETE EDITION',
       summary:
-        'Complete architectural documentation covering the whole VELA portfolio: 10 interior doors, 10 hospitality doors with RFID access, 6 concept handles, 20 material finishes, and technical construction sections.',
+        'Complete architectural documentation covering the full VELA portfolio: 14 interior doors, 13 hospitality doors with RFID access, 23 shower enclosure series, 17 European hardware systems, and wall integration matrices.',
       features: [
-        'Interior Residential Doors (IN-01 — IN-10)',
-        'Hospitality & Hotel Suite Doors (HT-01 — HT-10)',
-        'Official 20 Material Finishes & Textures',
-        'Architectural Handles, Flush Pulls & RFID Hardware',
-        'Wall Integration & Construction Sections'
+        'Interior Residential Doors (R-01 — R-14)',
+        'Hospitality & Hotel Suite Doors (H-01 — H-13)',
+        'Shower Enclosures & Crystal Partitions (23 Series)',
+        'Architectural Hardware, Concealed Hinges & RFID Locks',
+        'Wall Integration & Construction Matrices'
       ]
     }
   ];

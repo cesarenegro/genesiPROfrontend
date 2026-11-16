@@ -27,7 +27,7 @@ export default clerkMiddleware(async (auth, req) => {
   }
   
   return intlMiddleware(req);
-}, { debug: true });
+});
 
 
 export const config = {

@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import { CONTACT_EMAIL } from '@/lib/contact';
+import SocialLinks from '@/components/opt2/SocialLinks';
 
 interface Props {
   searchParams?: Promise<{ inquiry?: string; model?: string }>;
@@ -38,24 +40,20 @@ export default async function ContactPage({ searchParams }: Props) {
               <div className="mb-12">
                 <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('infoTitle')}</h2>
                 <p className="text-lg font-light mb-2">
-                  <a href="https://genesi-pro.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    genesi-pro.online
-                  </a>
-                </p>
-                <p className="text-lg font-light mb-2">
-                  <a href="mailto:info@genesi-pro.online" className="hover:text-primary transition-colors">
-                    info@genesi-pro.online
+                  <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-primary transition-colors">
+                    {CONTACT_EMAIL}
                   </a>
                 </p>
                 {/* Telefono lasciato vuoto — in TODO LIST da completare */}
+                <SocialLinks className="mt-6" labels iconClass="w-5 h-5" />
               </div>
 
               <div>
                 <h2 className="text-sm uppercase tracking-widest text-muted-foreground mb-4">{t('tradePressTitle')}</h2>
                 <p className="text-muted-foreground leading-relaxed font-light">
                   {t('tradePressDesc')}{' '}
-                  <a href="mailto:press@genesi-pro.online" className="text-foreground hover:text-primary underline underline-offset-4">
-                    press@genesi-pro.online
+                  <a href={`mailto:${CONTACT_EMAIL}`} className="text-foreground hover:text-primary underline underline-offset-4">
+                    {CONTACT_EMAIL}
                   </a>.
                 </p>
               </div>

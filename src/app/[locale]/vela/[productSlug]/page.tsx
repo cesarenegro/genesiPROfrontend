@@ -211,7 +211,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                 {t('inquireProduct')}
               </Link>
               <a
-                href={`mailto:info@genesimobili.it?subject=${encodeURIComponent(`Richiesta Preventivo VELA — ${product.code}`)}`}
+                href={`mailto:info@genesi-italia.com?subject=${encodeURIComponent(`Richiesta Preventivo VELA — ${product.code}`)}`}
                 className="w-full inline-flex justify-center items-center py-3.5 px-6 border border-zinc-300 dark:border-zinc-700 text-xs uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:border-white transition-colors text-zinc-700 dark:text-zinc-300"
               >
                 Invia Richiesta Email Rapida

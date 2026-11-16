@@ -8,6 +8,7 @@ import { PROJECTS, pick } from '@/lib/projects';
 import HeaderShell from '@/components/opt2/HeaderShell';
 import FullMenu, { type MenuEntry } from '@/components/opt2/FullMenu';
 import LocaleLinks from '@/components/opt2/LocaleLinks';
+import SocialLinks from '@/components/opt2/SocialLinks';
 
 export const GENESI_PRO_URL = 'https://www.genesi-pro.com';
 export const GENMA_URL = 'https://genmacollection.com/';
@@ -81,6 +82,13 @@ export default async function Header() {
     </SignInButton>
   );
 
+  const menuFooter = (
+    <span className="flex flex-wrap items-center justify-between gap-6">
+      {account}
+      <SocialLinks iconClass="w-5 h-5" />
+    </span>
+  );
+
   const utility = 'hover:text-white transition-colors';
 
   return (
@@ -93,6 +101,7 @@ export default async function Header() {
           <a href={GENESI_PRO_URL} target="_blank" rel="noopener noreferrer" className={utility}>Genesi Pro ↗</a>
           <a href={GENMA_URL} target="_blank" rel="noopener noreferrer" className={utility}>Genma Collection ↗</a>
           {account}
+          <SocialLinks className="pl-6 border-l border-white/20" iconClass="w-3.5 h-3.5" />
         </div>
       </div>
 
@@ -102,7 +111,7 @@ export default async function Header() {
           entries={entries}
           labels={{ menu: t('menu'), close: o('close') }}
           locales={<LocaleLinks />}
-          account={account}
+          account={menuFooter}
         />
 
         <Link href="/" className="absolute left-1/2 -translate-x-1/2" aria-label="GENESI">

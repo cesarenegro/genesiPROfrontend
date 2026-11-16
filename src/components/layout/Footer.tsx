@@ -3,9 +3,8 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { FEATURE_VELA_ENABLED } from "@/lib/features";
 import { GENESI_PRO_URL, GENMA_URL } from "./Header";
-
-const INSTAGRAM = 'https://www.instagram.com/genesi_pro/';
-const LINKEDIN = 'https://www.linkedin.com/company/genesi-pro-ffe-ssional/';
+import { CONTACT_EMAIL } from "@/lib/contact";
+import SocialLinks from "@/components/opt2/SocialLinks";
 
 export default async function Footer() {
   const t = await getTranslations('Footer');
@@ -22,6 +21,7 @@ export default async function Footer() {
           <div className="col-span-2 lg:col-span-4">
             <Image src="/images/logo.png" alt="GENESI" width={140} height={74} className="h-12 w-auto brightness-0 invert" />
             <p className="mt-8 text-sm font-light text-white/60 leading-relaxed max-w-xs">{o('footerTagline')}</p>
+            <a href={`mailto:${CONTACT_EMAIL}`} className="mt-6 inline-block text-sm font-light text-white/85 hover:text-white border-b border-white/30 hover:border-white pb-0.5 transition-colors">{CONTACT_EMAIL}</a>
           </div>
 
           <div className="lg:col-span-2">
@@ -54,10 +54,7 @@ export default async function Footer() {
 
           <div className="lg:col-span-2">
             <p className={head}>{o('footerFollow')}</p>
-            <ul className="space-y-3">
-              <li><a href={INSTAGRAM} target="_blank" rel="noopener noreferrer" className={item}>Instagram ↗</a></li>
-              <li><a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className={item}>LinkedIn ↗</a></li>
-            </ul>
+            <SocialLinks labels vertical className="text-sm font-light text-white" iconClass="w-4 h-4" />
           </div>
         </div>
 

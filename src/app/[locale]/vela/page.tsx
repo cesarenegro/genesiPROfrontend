@@ -353,7 +353,7 @@ export default async function VelaBrandPage({ params }: Props) {
               {t('requestInfo')}
             </Link>
             <a
-              href="mailto:info@genesimobili.it?subject=Richiesta%20Informazioni%20Linea%20VELA"
+              href="mailto:info@genesi-italia.com?subject=Richiesta%20Informazioni%20Linea%20VELA"
               className="px-8 py-4 border border-zinc-300 dark:border-zinc-700 text-xs sm:text-sm uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:border-white transition-colors"
             >
               Contatta via Email

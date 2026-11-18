@@ -10,7 +10,7 @@ export default async function ContactPage({ searchParams }: Props) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const t = await getTranslations('Contact');
   const preselectedInquiry = resolvedSearchParams?.inquiry || '';
-  const preselectedModel = resolvedSearchParams?.model ? `Richiesta informazioni per modello: ${resolvedSearchParams.model}` : '';
+  const preselectedModel = resolvedSearchParams?.model ? t('inquiryForModel', { model: resolvedSearchParams.model }) : '';
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -86,7 +86,7 @@ export default async function ContactPage({ searchParams }: Props) {
                     <option value="general">{t('optGeneral')}</option>
                     <option value="sales">{t('optSales')}</option>
                     <option value="contract">{t('optContract')}</option>
-                    <option value="materials">Materials & Finishes Sample Box</option>
+                    <option value="materials">{t('optMaterials')}</option>
                     <option value="press">{t('optPress')}</option>
                   </select>
                 </div>

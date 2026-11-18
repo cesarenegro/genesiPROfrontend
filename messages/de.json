@@ -184,7 +184,9 @@
     "optContract": "Objektbereich / B2B",
     "optPress": "Presse & Medien",
     "message": "Ihre Mitteilung",
-    "submit": "Anfrage Absenden"
+    "submit": "Anfrage Absenden",
+    "inquiryForModel": "Informationsanfrage für Modell: {model}",
+    "optMaterials": "Musterkoffer Materialien & Oberflächen"
   },
   "Trade": {
     "tag": "Geschützter Bereich",

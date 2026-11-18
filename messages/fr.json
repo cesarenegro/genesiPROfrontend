@@ -184,7 +184,9 @@
     "optContract": "Aménagement Contract / B2B",
     "optPress": "Relations Presse",
     "message": "Votre Message",
-    "submit": "Transmettre la Demande"
+    "submit": "Transmettre la Demande",
+    "inquiryForModel": "Demande d'informations pour le modèle : {model}",
+    "optMaterials": "Coffret d'Échantillons Matériaux & Finitions"
   },
   "Trade": {
     "tag": "Espace Professionnel",

@@ -184,7 +184,9 @@
     "optContract": "Contract / B2B",
     "optPress": "Press & Media",
     "message": "Message",
-    "submit": "Submit Inquiry"
+    "submit": "Submit Inquiry",
+    "inquiryForModel": "Information inquiry for model: {model}",
+    "optMaterials": "Materials & Finishes Sample Box"
   },
   "Trade": {
     "tag": "Reserved Area",

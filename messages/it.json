@@ -184,7 +184,9 @@
     "optContract": "Forniture Contract / B2B",
     "optPress": "Ufficio Stampa & Media",
     "message": "Messaggio",
-    "submit": "Invia Richiesta"
+    "submit": "Invia Richiesta",
+    "inquiryForModel": "Richiesta informazioni per modello: {model}",
+    "optMaterials": "Campionario Materiali e Finiture"
   },
   "Trade": {
     "tag": "Area Riservata",

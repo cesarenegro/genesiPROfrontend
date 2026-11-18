@@ -41,7 +41,7 @@ export default async function VelaBrandPage({ params }: Props) {
         {/* Background real photography with slow subtle ambient feel */}
         <Image
           src="/images/vela/residential/vela-door-in-a-calm-italian-interior.webp"
-          alt="VELA by Genesi — Porte e superfici per l’architettura degli interni"
+          alt={t('heroAlt')}
           fill
           priority
           sizes="100vw"
@@ -92,12 +92,10 @@ export default async function VelaBrandPage({ params }: Props) {
             {t('brandTag')}
           </span>
           <h2 className="text-3xl md:text-5xl font-light tracking-tight mb-8 leading-tight">
-            Geometrie del passaggio, complanarità e silenzio materico.
+            {t('editorialTitle')}
           </h2>
           <p className="text-base md:text-xl text-zinc-600 dark:text-zinc-400 font-light leading-relaxed">
-            La porta non è più un elemento di separazione, ma una superficie architettonica continua.
-            VELA nasce all'interno dell'universo GENESI per offrire ai progettisti sistemi di apertura
-            integrati: dal bilico scenografico alle soluzioni scorrevoli a scomparsa totale.
+            {t('editorialText')}
           </p>
         </div>
       </section>
@@ -183,20 +181,20 @@ export default async function VelaBrandPage({ params }: Props) {
           <div className="bg-zinc-900 text-white p-8 md:p-14 border border-zinc-800 flex flex-col lg:flex-row items-center justify-between gap-10">
             <div className="max-w-2xl space-y-4">
               <span className="text-xs uppercase tracking-widest text-zinc-400 font-medium block">
-                Hardware & Tatto • Sezione Dedicata
+                {t('hardwareSpotlightTag')}
               </span>
               <h2 className="text-2xl md:text-4xl font-light tracking-tight text-white leading-tight">
-                Maniglie, Prese a Gola & Serrature Elettroniche VELA
+                {t('hardwareSpotlightTitle')}
               </h2>
               <p className="text-xs sm:text-sm md:text-base text-zinc-400 font-light leading-relaxed">
-                L'interfaccia tattile del sistema porta. Maniglie forgiate a mano, maniglioni per cristalli e pannelli cannettati, prese a gola a filo nel massello e sistemi di chiusura RFID per hotel.
+                {t('hardwareSpotlightDesc')}
               </p>
               <div className="pt-2">
                 <Link
                   href="/vela/maniglie"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white text-zinc-950 text-xs uppercase tracking-widest font-semibold hover:bg-zinc-200 transition-colors"
                 >
-                  <span>Esplora il Catalogo Maniglie & Dettagli</span>
+                  <span>{t('hardwareSpotlightCta')}</span>
                   <span>→</span>
                 </Link>
               </div>
@@ -206,7 +204,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/handles/bronze-handle-and-brushed-metal-finish.webp"
-                  alt="Maniglia Bronzo Spazzolato"
+                  alt={t('hardwareAlt1')}
                   fill
                   sizes="20vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
@@ -215,7 +213,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/handles/bronze-pull-and-fluted-oak-detail.webp"
-                  alt="Maniglione Bronzo su Cannettato"
+                  alt={t('hardwareAlt2')}
                   fill
                   sizes="20vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
@@ -224,7 +222,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/handles/seta-door-pull-and-groove.webp"
-                  alt="Presa a Gola nel Massello"
+                  alt={t('hardwareAlt3')}
                   fill
                   sizes="20vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
@@ -233,7 +231,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/handles/senso-hotel-door-hardware-details.webp"
-                  alt="Serratura Hotel e Hardware"
+                  alt={t('hardwareAlt4')}
                   fill
                   sizes="20vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
@@ -260,7 +258,7 @@ export default async function VelaBrandPage({ params }: Props) {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mb-16">
             <span className="text-xs uppercase tracking-widest text-zinc-400 mb-3 block">
-              Dettagli Costruttivi
+              {t('constructionDetailsTag')}
             </span>
             <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-4 text-white">
               {t('materialsTitle')}
@@ -276,7 +274,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square w-full bg-zinc-900 overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/residential/warm-greige-pivot-door-details.webp"
-                  alt="Dettaglio Perno a Bilico"
+                  alt={t('altDetailPivot')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -293,7 +291,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square w-full bg-zinc-900 overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/residential/vela-rovere-door-details-in-smoked-oak.webp"
-                  alt="Dettaglio Presa a Gola nel Massello"
+                  alt={t('altDetailGola')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -310,7 +308,7 @@ export default async function VelaBrandPage({ params }: Props) {
               <div className="relative aspect-square w-full bg-zinc-900 overflow-hidden border border-zinc-800">
                 <Image
                   src="/images/vela/residential/smoked-oak-satin-bronze-door-details.webp"
-                  alt="Dettaglio Incontro Rovere e Bronzo"
+                  alt={t('altDetailIncontro')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -356,7 +354,7 @@ export default async function VelaBrandPage({ params }: Props) {
               href="mailto:info@genesi-italia.com?subject=Richiesta%20Informazioni%20Linea%20VELA"
               className="px-8 py-4 border border-zinc-300 dark:border-zinc-700 text-xs sm:text-sm uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:border-white transition-colors"
             >
-              Contatta via Email
+              {t('contactEmailCta')}
             </a>
           </div>
         </div>

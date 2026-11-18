@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { VelaImage, Locale } from '@/lib/vela';
+import { useTranslations } from 'next-intl';
+import { VelaImage, Locale, resolveLocalizedText } from '@/lib/vela';
 
 interface Props {
   images: VelaImage[];
@@ -11,17 +12,18 @@ interface Props {
 }
 
 export default function VelaGallery({ images, locale, productName }: Props) {
+  const t = useTranslations('Vela');
   const [activeImage, setActiveImage] = useState<VelaImage>(images[0] || null);
 
   if (!images.length) {
     return (
       <div className="aspect-[4/3] bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center text-zinc-400 text-xs uppercase tracking-widest">
-        Nessuna immagine disponibile
+        {t('galleryNoImages')}
       </div>
     );
   }
 
-  const activeLabel = activeImage.label[locale] || activeImage.label.en;
+  const activeLabel = resolveLocalizedText(activeImage.label, locale);
   const isDrawing = activeImage.type === 'drawing';
 
   return (
@@ -58,7 +60,7 @@ export default function VelaGallery({ images, locale, productName }: Props) {
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3">
           {images.map((img, idx) => {
             const isSelected = activeImage.url === img.url;
-            const thumbLabel = img.label[locale] || img.label.en;
+            const thumbLabel = resolveLocalizedText(img.label, locale);
             const thumbIsDrawing = img.type === 'drawing';
 
             return (
@@ -87,7 +89,7 @@ export default function VelaGallery({ images, locale, productName }: Props) {
                 </span>
                 {thumbIsDrawing && (
                   <span className="absolute top-1 right-1 bg-zinc-900/80 text-white text-[8px] font-mono px-1 py-0.5 tracking-tighter uppercase">
-                    QUOTE
+                    {t('galleryQuoteBadge')}
                   </span>
                 )}
               </button>

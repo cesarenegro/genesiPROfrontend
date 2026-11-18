@@ -36,9 +36,20 @@ export default function VelaShowerModal({ item, locale, onClose }: Props) {
   const description = resolveLocalizedText(item.description, locale);
   const treatment = resolveLocalizedText(item.specs.treatment, locale);
 
+  const ambientLabel = locale === 'it' ? 'Ambientazione' : locale === 'fr' ? 'Ambiance' : locale === 'de' ? 'Ambiente' : 'Ambient';
+  const cadLabel = locale === 'it' ? 'Prospetto 2D CAD' : locale === 'fr' ? 'Plan 2D CAD' : locale === 'de' ? '2D CAD-Plan' : '2D CAD Elevation';
+  const glassThicknessLabel = locale === 'it' ? 'Spessore Cristallo' : locale === 'fr' ? 'Épaisseur du Verre' : locale === 'de' ? 'Glasstärke' : 'Glass Thickness';
+  const maxHeightLabel = locale === 'it' ? 'Altezza Massima' : locale === 'fr' ? 'Hauteur Maximale' : locale === 'de' ? 'Maximale Höhe' : 'Max Height';
+  const adjustmentRangeLabel = locale === 'it' ? 'Compensazione Fuori Squadra' : locale === 'fr' ? 'Plage de Réglage' : locale === 'de' ? 'Verstellbereich' : 'Adjustment Range';
+  const installationLabel = locale === 'it' ? 'Installazione' : locale === 'fr' ? 'Installation' : locale === 'de' ? 'Montage' : 'Installation';
+  const metalFinishesLabel = locale === 'it' ? 'Finiture Profili Alluminio / Inox' : locale === 'fr' ? 'Finitions Profilés Aluminium / Inox' : locale === 'de' ? 'Profile Aluminium / Edelstahl' : 'Metal Finishes';
+  const glassTypesLabel = locale === 'it' ? 'Finiture Cristallo' : locale === 'fr' ? 'Finitions du Verre' : locale === 'de' ? 'Glasoberflächen' : 'Glass Types';
+  const requestQuoteLabel = locale === 'it' ? 'Richiedi Preventivo & Capitolato' : locale === 'fr' ? 'Demander Devis & CPT' : locale === 'de' ? 'Ausschreibung / Angebot anfordern' : 'Request Tender Quote';
+  const closeLabel = locale === 'it' ? 'Chiudi' : locale === 'fr' ? 'Fermer' : locale === 'de' ? 'Schließen' : 'Close';
+
   const allImages = [
-    { label: locale === 'it' ? 'Ambientazione' : 'Ambient', url: item.images.ambient },
-    ...(item.images.elevation ? [{ label: locale === 'it' ? 'Prospetto 2D CAD' : '2D CAD Elevation', url: item.images.elevation }] : []),
+    { label: ambientLabel, url: item.images.ambient },
+    ...(item.images.elevation ? [{ label: cadLabel, url: item.images.elevation }] : []),
     ...(item.images.details ? item.images.details.map((d) => ({ label: resolveLocalizedText(d.label, locale), url: d.url })) : []),
   ];
 
@@ -67,7 +78,8 @@ export default function VelaShowerModal({ item, locale, onClose }: Props) {
             type="button"
             onClick={onClose}
             className="p-2 text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
-            aria-label="Chiudi"
+            aria-label={closeLabel}
+            title={`${closeLabel} (Esc)`}
           >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
@@ -123,23 +135,23 @@ export default function VelaShowerModal({ item, locale, onClose }: Props) {
               {/* Technical Specifications Matrix */}
               <div className="border border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-950/50 p-4 space-y-2.5 text-xs font-mono">
                 <div className="flex justify-between border-b border-zinc-200/60 dark:border-zinc-800/60 pb-1.5">
-                  <span className="text-zinc-500">{locale === 'it' ? 'Spessore Cristallo' : 'Glass Thickness'}</span>
+                  <span className="text-zinc-500">{glassThicknessLabel}</span>
                   <span className="font-semibold text-zinc-900 dark:text-zinc-100">{item.specs.glassThicknessMm.join(' / ')} mm</span>
                 </div>
                 <div className="flex justify-between border-b border-zinc-200/60 dark:border-zinc-800/60 pb-1.5">
-                  <span className="text-zinc-500">{locale === 'it' ? 'Altezza Massima' : 'Max Height'}</span>
+                  <span className="text-zinc-500">{maxHeightLabel}</span>
                   <span className="font-semibold text-zinc-900 dark:text-zinc-100">{item.specs.maxHeightMm} mm</span>
                 </div>
                 <div className="flex justify-between border-b border-zinc-200/60 dark:border-zinc-800/60 pb-1.5">
-                  <span className="text-zinc-500">{locale === 'it' ? 'Compensazione Fuori Squadra' : 'Adjustment Range'}</span>
+                  <span className="text-zinc-500">{adjustmentRangeLabel}</span>
                   <span className="font-semibold text-zinc-900 dark:text-zinc-100">{item.specs.adjustmentRangeMm}</span>
                 </div>
                 <div className="flex justify-between border-b border-zinc-200/60 dark:border-zinc-800/60 pb-1.5">
-                  <span className="text-zinc-500">{locale === 'it' ? 'Installazione' : 'Installation'}</span>
+                  <span className="text-zinc-500">{installationLabel}</span>
                   <span className="font-semibold text-zinc-900 dark:text-zinc-100 uppercase">{item.specs.installationType}</span>
                 </div>
                 <div className="pt-1">
-                  <span className="text-zinc-500 block mb-1">{locale === 'it' ? 'Finiture Profili Alluminio / Inox' : 'Metal Finishes'}</span>
+                  <span className="text-zinc-500 block mb-1">{metalFinishesLabel}</span>
                   <div className="flex flex-wrap gap-1">
                     {item.specs.metalFinishes.map((f, i) => (
                       <span key={i} className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 px-2 py-0.5 text-[10px] text-zinc-800 dark:text-zinc-200">
@@ -149,7 +161,7 @@ export default function VelaShowerModal({ item, locale, onClose }: Props) {
                   </div>
                 </div>
                 <div className="pt-1">
-                  <span className="text-zinc-500 block mb-1">{locale === 'it' ? 'Finiture Cristallo' : 'Glass Types'}</span>
+                  <span className="text-zinc-500 block mb-1">{glassTypesLabel}</span>
                   <div className="flex flex-wrap gap-1">
                     {item.specs.glassFinishes.map((g, i) => (
                       <span key={i} className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 px-2 py-0.5 text-[10px] text-zinc-800 dark:text-zinc-200">
@@ -177,17 +189,17 @@ export default function VelaShowerModal({ item, locale, onClose }: Props) {
             {/* Bottom Actions */}
             <div className="pt-6 border-t border-zinc-200 dark:border-zinc-800 mt-6 flex flex-col sm:flex-row gap-3">
               <Link
-                href="/contatti"
+                href="/contact"
                 className="flex-1 text-center py-2.5 px-4 text-xs font-mono font-medium bg-zinc-900 dark:bg-zinc-100 hover:bg-amber-600 dark:hover:bg-amber-400 text-white dark:text-zinc-900 transition-colors"
               >
-                {locale === 'it' ? 'Richiedi Preventivo & Capitolato' : 'Request Tender Quote'}
+                {requestQuoteLabel}
               </Link>
               <button
                 type="button"
                 onClick={onClose}
                 className="py-2.5 px-4 text-xs font-mono font-medium border border-zinc-300 dark:border-zinc-700 hover:border-zinc-900 dark:hover:border-zinc-100 text-zinc-800 dark:text-zinc-200 transition-colors"
               >
-                {locale === 'it' ? 'Chiudi' : 'Close'}
+                {closeLabel}
               </button>
             </div>
           </div>

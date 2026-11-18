@@ -129,7 +129,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
                       {product.openingType === 'pivot' && t('filterPivot')}
                       {product.openingType === 'sliding' && t('filterSliding')}
                       {product.openingType === 'swing' && t('filterSwing')}
-                      {product.openingType === 'double' && 'Doppia Anta'}
+                      {product.openingType === 'double' && t('slugDoubleSwing')}
                     </span>
                   </div>
                   <p className="text-sm text-zinc-500 dark:text-zinc-400 font-light leading-relaxed line-clamp-2">
@@ -142,7 +142,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
                     </span>
                     {product.nominalDimensions && (
                       <span className="text-[11px] text-zinc-400 font-mono">
-                        Quote: {product.nominalDimensions.widthMm} × {product.nominalDimensions.heightMm} mm
+                        {t('slugDimensionsQuote')}: {product.nominalDimensions.widthMm} × {product.nominalDimensions.heightMm} mm
                       </span>
                     )}
                   </div>

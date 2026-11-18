@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import { VelaHardwareItem, Locale, resolveLocalizedText } from '@/lib/vela';
 
 interface Props {
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
+  const t = useTranslations('Vela');
   const hasInSitu = Boolean(item.images.inSitu);
   const [viewMode, setViewMode] = useState<'product' | 'inSitu'>('product');
 
@@ -21,17 +23,15 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
   const description = resolveLocalizedText(item.description, locale);
   const recommendedFor = resolveLocalizedText(item.recommendedFor, locale);
 
-  const categoryLabels: Record<string, Record<string, string>> = {
-    magnetic: { it: 'Serratura Magnetica', en: 'Magnetic Lock' },
-    hinges: { it: 'Cerniera a Scomparsa 3D', en: '3D Concealed Hinge' },
-    'smart-residential': { it: 'Smart Lock Residenziale', en: 'Residential Smart Lock' },
-    hospitality: { it: 'Hospitality & RFID Hotel', en: 'Hospitality RFID Lock' },
-    handles: { it: 'Maniglia di Pregio', en: 'Architectural Handle' },
+  const categoryLabels: Record<string, string> = {
+    magnetic: t('hardwareCatMagnetic'),
+    hinges: t('hardwareCatHinges'),
+    'smart-residential': t('hardwareCatSmart'),
+    hospitality: t('hardwareCatHospitality'),
+    handles: t('hardwareCatHandles'),
   };
 
-  const catLabel = categoryLabels[item.category]
-    ? categoryLabels[item.category][locale] || categoryLabels[item.category].en
-    : item.category;
+  const catLabel = categoryLabels[item.category] || item.category;
 
   return (
     <div className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-xs hover:shadow-lg">
@@ -39,7 +39,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
       <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
         <Image
           src={currentImage}
-          alt={`${name} — ${viewMode === 'inSitu' ? 'Installazione in-situ' : 'Vista tecnica prodotto'}`}
+          alt={`${name} — ${viewMode === 'inSitu' ? t('hardwareAltInSitu') : t('hardwareAltProduct')}`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-102"
@@ -58,26 +58,26 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
             <button
               type="button"
               onClick={() => setViewMode('product')}
-              className={`px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-mono transition-colors ${
+              className={`px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-mono transition-colors cursor-pointer ${
                 viewMode === 'product'
                   ? 'bg-white text-zinc-950 font-semibold shadow-xs'
                   : 'text-zinc-300 hover:text-white'
               }`}
-              title="Visualizza prodotto isolato"
+              title={t('hardwareTitleViewProduct')}
             >
-              Prodotto
+              {t('hardwareViewProduct')}
             </button>
             <button
               type="button"
               onClick={() => setViewMode('inSitu')}
-              className={`px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-mono transition-colors flex items-center gap-1 ${
+              className={`px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-mono transition-colors flex items-center gap-1 cursor-pointer ${
                 viewMode === 'inSitu'
                   ? 'bg-amber-500 text-black font-semibold shadow-xs'
                   : 'text-zinc-300 hover:text-white'
               }`}
-              title="Visualizza installazione architettonica in-situ"
+              title={t('hardwareTitleViewInSitu')}
             >
-              <span>In-Situ</span>
+              <span>{t('hardwareViewInSitu')}</span>
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
             </button>
           </div>
@@ -107,30 +107,38 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
         <div className="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 space-y-2 text-[11px] font-mono">
           {item.specs.loadCapacityKg && (
             <div className="flex justify-between items-baseline text-zinc-600 dark:text-zinc-400">
-              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">Portata Max:</span>
+              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
+                {t('hardwareLoadCapacity')}
+              </span>
               <span className="font-semibold text-zinc-900 dark:text-zinc-200">
-                {item.specs.loadCapacityKg} kg / coppia
+                {item.specs.loadCapacityKg} {t('hardwareLoadCapacityUnit')}
               </span>
             </div>
           )}
 
           {item.specs.backsetMm && (
             <div className="flex justify-between items-baseline text-zinc-600 dark:text-zinc-400">
-              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">Entrata (Backset):</span>
+              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
+                {t('hardwareBackset')}
+              </span>
               <span className="text-zinc-900 dark:text-zinc-200">{item.specs.backsetMm}</span>
             </div>
           )}
 
           {item.specs.doorThicknessMinMm && (
             <div className="flex justify-between items-baseline text-zinc-600 dark:text-zinc-400">
-              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">Spessore Anta Min:</span>
+              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
+                {t('hardwareDoorThicknessMin')}
+              </span>
               <span className="text-zinc-900 dark:text-zinc-200">≥ {item.specs.doorThicknessMinMm} mm</span>
             </div>
           )}
 
           {item.specs.wirelessProtocols && item.specs.wirelessProtocols.length > 0 && (
             <div className="flex justify-between items-baseline text-zinc-600 dark:text-zinc-400">
-              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">Protocolli:</span>
+              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
+                {t('hardwareProtocols')}
+              </span>
               <span className="text-right text-zinc-900 dark:text-zinc-200 font-sans text-[10px]">
                 {item.specs.wirelessProtocols.slice(0, 3).join(', ')}
               </span>
@@ -139,7 +147,9 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
 
           {item.specs.batteryLife && (
             <div className="flex justify-between items-baseline text-zinc-600 dark:text-zinc-400">
-              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">Autonomia:</span>
+              <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
+                {t('hardwareBatteryLife')}
+              </span>
               <span className="text-zinc-900 dark:text-zinc-200 font-sans text-[10px]">{item.specs.batteryLife}</span>
             </div>
           )}
@@ -156,14 +166,16 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
             ))}
             {item.specs.finishes.length > 4 && (
               <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 text-zinc-400 font-sans">
-                +{item.specs.finishes.length - 4} altre
+                {t('hardwareMoreFinishes', { count: item.specs.finishes.length - 4 })}
               </span>
             )}
           </div>
 
           {/* Recommended context note */}
           <div className="pt-2 text-[10px] text-zinc-500 dark:text-zinc-400 font-sans italic border-t border-zinc-100 dark:border-zinc-800/50">
-            <strong className="not-italic text-zinc-700 dark:text-zinc-300 font-medium">Ideale per: </strong>
+            <strong className="not-italic text-zinc-700 dark:text-zinc-300 font-medium">
+              {t('hardwareIdealFor')}{' '}
+            </strong>
             {recommendedFor}
           </div>
         </div>
@@ -181,7 +193,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
                 <svg className="w-3.5 h-3.5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V7.414A2 2 0 0017.414 6L14 2.586A2 2 0 0012.586 2H4zm8 1.414L15.586 8H12V4.414zM4 5h6v4a1 1 0 001 1h4v6H4V5z" />
                 </svg>
-                <span>Scheda Tecnica PDF</span>
+                <span>{t('hardwareDatasheetPdf')}</span>
               </span>
               <span className="text-[10px] font-mono text-zinc-400 dark:text-zinc-500">
                 {item.datasheetPdf.sizeLabel} ↓
@@ -193,9 +205,9 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
             <button
               type="button"
               onClick={() => onOpenModal(item)}
-              className="text-[11px] uppercase tracking-wider font-semibold text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors flex items-center gap-1.5 py-1"
+              className="text-[11px] uppercase tracking-wider font-semibold text-zinc-700 dark:text-zinc-300 hover:text-zinc-950 dark:hover:text-white transition-colors flex items-center gap-1.5 py-1 cursor-pointer"
             >
-              <span>Dettagli & Tolleranze</span>
+              <span>{t('hardwareDetailsTolerances')}</span>
               <span>↗</span>
             </button>
 
@@ -203,7 +215,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
               href={`/contact?inquiry=hardware&model=${encodeURIComponent(item.slug)}`}
               className="text-[11px] uppercase tracking-wider font-medium text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
             >
-              Richiedi Preventivo →
+              {t('hardwareRequestQuote')}
             </Link>
           </div>
         </div>

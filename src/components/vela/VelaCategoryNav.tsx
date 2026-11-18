@@ -1,6 +1,6 @@
 'use client';
 
-import { Link, usePathname } from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 
 interface Props {
@@ -11,12 +11,12 @@ export default function VelaCategoryNav({ activeCategory = 'all' }: Props) {
   const t = useTranslations('Vela');
 
   const links = [
-    { id: 'all', href: '/vela', label: 'Panoramica VELA' },
-    { id: 'porte-interni', href: '/vela/porte-interni', label: 'Porte per Interni' },
-    { id: 'porte-hotel', href: '/vela/porte-hotel', label: 'Porte Camere Hotel' },
-    { id: 'box-doccia', href: '/vela/box-doccia', label: 'Box Doccia' },
-    { id: 'maniglie', href: '/vela/maniglie', label: 'Maniglie & Dettagli' },
-    { id: 'materiali', href: '/vela/materiali', label: 'Materiali & Finiture' },
+    { id: 'all', href: '/vela', label: t('navAll') },
+    { id: 'porte-interni', href: '/vela/porte-interni', label: t('navPorteInterni') },
+    { id: 'porte-hotel', href: '/vela/porte-hotel', label: t('navPorteHotel') },
+    { id: 'box-doccia', href: '/vela/box-doccia', label: t('navBoxDoccia') },
+    { id: 'maniglie', href: '/vela/maniglie', label: t('navManiglie') },
+    { id: 'materiali', href: '/vela/materiali', label: t('navMateriali') },
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function VelaCategoryNav({ activeCategory = 'all' }: Props) {
           <div className="flex items-center gap-2 text-zinc-400 shrink-0">
             <span className="font-semibold text-zinc-900 dark:text-zinc-100">VELA</span>
             <span>/</span>
-            <span>Categorie:</span>
+            <span>{t('navCategoryPrefix')}</span>
           </div>
           <div className="flex items-center gap-6 shrink-0">
             {links.map((link) => {

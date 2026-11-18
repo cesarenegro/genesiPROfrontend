@@ -13,7 +13,9 @@
     "type": "lever",
     "description": {
       "it": "Impugnatura a leva classica con rosetta circolare coordinata a scomparsa visiva.",
-      "en": "Classic lever handle with coordinated low-profile circular rose."
+      "en": "Classic lever handle with coordinated low-profile circular rose.",
+      "fr": "Classic lever handle with coordinated low-profile circular rose.",
+      "de": "Classic lever handle with coordinated low-profile circular rose."
     },
     "defaultVariant": "bronzo",
     "variants": [
@@ -21,7 +23,9 @@
         "id": "bronzo",
         "finishName": {
           "it": "Bronzo satinato",
-          "en": "Satin Bronze"
+          "en": "Satin Bronze",
+          "fr": "Satin Bronze",
+          "de": "Satin Bronze"
         },
         "colorHex": "#8C6D58",
         "image": "/images/vela/handles/concept/Satin bronze VELA concept door lever-1.png",
@@ -32,7 +36,9 @@
         "id": "nichel",
         "finishName": {
           "it": "Nichel satinato",
-          "en": "Satin Nickel"
+          "en": "Satin Nickel",
+          "fr": "Satin Nickel",
+          "de": "Satin Nickel"
         },
         "colorHex": "#B8B5B0",
         "image": "/images/vela/handles/concept/Satin bronze VELA concept door lever-1.png",
@@ -42,19 +48,41 @@
     ],
     "indicativeDimensions": {
       "it": "Lunghezza ≈ 130 mm · Rosetta Ø 52 mm · Sporgenza ≈ 58 mm · Impugnatura ≈ 18 mm",
-      "en": "Length ≈ 130 mm · Rose Ø 52 mm · Projection ≈ 58 mm · Grip ≈ 18 mm"
+      "en": "Length ≈ 130 mm · Rose Ø 52 mm · Projection ≈ 58 mm · Grip ≈ 18 mm",
+      "fr": "Length ≈ 130 mm · Rose Ø 52 mm · Projection ≈ 58 mm · Grip ≈ 18 mm",
+      "de": "Length ≈ 130 mm · Rose Ø 52 mm · Projection ≈ 58 mm · Grip ≈ 18 mm"
     },
     "dimensionsSummary": [
-      { "label": "Lunghezza", "value": "≈ 130 mm" },
-      { "label": "Rosetta", "value": "Ø 52 mm" },
-      { "label": "Sporgenza", "value": "≈ 58 mm" },
-      { "label": "Impugnatura", "value": "≈ 18 mm" }
+      {
+        "label": "Lunghezza",
+        "value": "≈ 130 mm"
+      },
+      {
+        "label": "Rosetta",
+        "value": "Ø 52 mm"
+      },
+      {
+        "label": "Sporgenza",
+        "value": "≈ 58 mm"
+      },
+      {
+        "label": "Impugnatura",
+        "value": "≈ 18 mm"
+      }
     ],
-    "compatibleOpeningTypes": ["swing", "double"],
-    "compatibleFamilies": ["residential", "hotel"],
+    "compatibleOpeningTypes": [
+      "swing",
+      "double"
+    ],
+    "compatibleFamilies": [
+      "residential",
+      "hotel"
+    ],
     "compatibilityNote": {
       "it": "Compatibile con porte a battente per interni e hotel",
-      "en": "Compatible with residential and hotel swing doors"
+      "en": "Compatible with residential and hotel swing doors",
+      "fr": "Compatible with residential and hotel swing doors",
+      "de": "Compatible with residential and hotel swing doors"
     }
   },
   {
@@ -71,7 +99,9 @@
     "type": "lever",
     "description": {
       "it": "Profilo ortogonale netto con base quadrata complanare per un'estetica pura.",
-      "en": "Clean orthogonal profile with square flush base for architectural purity."
+      "en": "Clean orthogonal profile with square flush base for architectural purity.",
+      "fr": "Clean orthogonal profile with square flush base for architectural purity.",
+      "de": "Clean orthogonal profile with square flush base for architectural purity."
     },
     "defaultVariant": "nichel",
     "variants": [
@@ -79,7 +109,9 @@
         "id": "nichel",
         "finishName": {
           "it": "Nichel satinato",
-          "en": "Satin Nickel"
+          "en": "Satin Nickel",
+          "fr": "Satin Nickel",
+          "de": "Satin Nickel"
         },
         "colorHex": "#B8B5B0",
         "image": "/images/vela/handles/concept/Minimalist satin nickel linear door lever-4.png",
@@ -89,18 +121,38 @@
     ],
     "indicativeDimensions": {
       "it": "Lunghezza ≈ 136 mm · Base 52 × 52 mm · Sporgenza ≈ 64 mm",
-      "en": "Length ≈ 136 mm · Base 52 × 52 mm · Projection ≈ 64 mm"
+      "en": "Length ≈ 136 mm · Base 52 × 52 mm · Projection ≈ 64 mm",
+      "fr": "Length ≈ 136 mm · Base 52 × 52 mm · Projection ≈ 64 mm",
+      "de": "Length ≈ 136 mm · Base 52 × 52 mm · Projection ≈ 64 mm"
     },
     "dimensionsSummary": [
-      { "label": "Lunghezza", "value": "≈ 136 mm" },
-      { "label": "Base", "value": "52 × 52 mm" },
-      { "label": "Sporgenza", "value": "≈ 64 mm" }
+      {
+        "label": "Lunghezza",
+        "value": "≈ 136 mm"
+      },
+      {
+        "label": "Base",
+        "value": "52 × 52 mm"
+      },
+      {
+        "label": "Sporgenza",
+        "value": "≈ 64 mm"
+      }
     ],
-    "compatibleOpeningTypes": ["swing", "pivot", "double"],
-    "compatibleFamilies": ["residential", "hotel"],
+    "compatibleOpeningTypes": [
+      "swing",
+      "pivot",
+      "double"
+    ],
+    "compatibleFamilies": [
+      "residential",
+      "hotel"
+    ],
     "compatibilityNote": {
       "it": "Compatibile con porte a battente e sistemi a bilico pivot",
-      "en": "Compatible with swing and pivot systems"
+      "en": "Compatible with swing and pivot systems",
+      "fr": "Compatible with swing and pivot systems",
+      "de": "Compatible with swing and pivot systems"
     }
   },
   {
@@ -117,7 +169,9 @@
     "type": "recessed",
     "description": {
       "it": "Elemento ad incasso totale a filo anta con profondità ergonomica calibrata.",
-      "en": "Fully recessed flush element with calibrated ergonomic finger depth."
+      "en": "Fully recessed flush element with calibrated ergonomic finger depth.",
+      "fr": "Fully recessed flush element with calibrated ergonomic finger depth.",
+      "de": "Fully recessed flush element with calibrated ergonomic finger depth."
     },
     "defaultVariant": "nichel",
     "variants": [
@@ -125,7 +179,9 @@
         "id": "nichel",
         "finishName": {
           "it": "Nichel satinato",
-          "en": "Satin Nickel"
+          "en": "Satin Nickel",
+          "fr": "Satin Nickel",
+          "de": "Satin Nickel"
         },
         "colorHex": "#B8B5B0",
         "image": "/images/vela/handles/concept/Satin Nickel Recessed Sliding Door Pull-5.png",
@@ -135,17 +191,32 @@
     ],
     "indicativeDimensions": {
       "it": "Ingombro ≈ 184 × 88 mm · Profondità d'incasso ≈ 14 mm",
-      "en": "Overall ≈ 184 × 88 mm · Recessed depth ≈ 14 mm"
+      "en": "Overall ≈ 184 × 88 mm · Recessed depth ≈ 14 mm",
+      "fr": "Overall ≈ 184 × 88 mm · Recessed depth ≈ 14 mm",
+      "de": "Overall ≈ 184 × 88 mm · Recessed depth ≈ 14 mm"
     },
     "dimensionsSummary": [
-      { "label": "Ingombro", "value": "≈ 184 × 88 mm" },
-      { "label": "Profondità incasso", "value": "≈ 14 mm" }
+      {
+        "label": "Ingombro",
+        "value": "≈ 184 × 88 mm"
+      },
+      {
+        "label": "Profondità incasso",
+        "value": "≈ 14 mm"
+      }
     ],
-    "compatibleOpeningTypes": ["sliding"],
-    "compatibleFamilies": ["residential", "hotel"],
+    "compatibleOpeningTypes": [
+      "sliding"
+    ],
+    "compatibleFamilies": [
+      "residential",
+      "hotel"
+    ],
     "compatibilityNote": {
       "it": "Specifico per porte scorrevoli a scomparsa e partizioni",
-      "en": "Specifically designed for pocket sliding doors and partitions"
+      "en": "Specifically designed for pocket sliding doors and partitions",
+      "fr": "Specifically designed for pocket sliding doors and partitions",
+      "de": "Specifically designed for pocket sliding doors and partitions"
     }
   },
   {
@@ -162,7 +233,9 @@
     "type": "knob",
     "description": {
       "it": "Geometria sferica pura per aperture controllate e dettagli di pregio.",
-      "en": "Pure spherical geometry for controlled openings and refined architectural details."
+      "en": "Pure spherical geometry for controlled openings and refined architectural details.",
+      "fr": "Pure spherical geometry for controlled openings and refined architectural details.",
+      "de": "Pure spherical geometry for controlled openings and refined architectural details."
     },
     "defaultVariant": "nichel",
     "variants": [
@@ -170,7 +243,9 @@
         "id": "nichel",
         "finishName": {
           "it": "Nichel satinato",
-          "en": "Satin Nickel"
+          "en": "Satin Nickel",
+          "fr": "Satin Nickel",
+          "de": "Satin Nickel"
         },
         "colorHex": "#B8B5B0",
         "image": "/images/vela/handles/concept/Satin nickel spherical door knob-3.png",
@@ -180,17 +255,34 @@
     ],
     "indicativeDimensions": {
       "it": "Diametro Ø ≈ 68 mm · Sporgenza ≈ 64 mm",
-      "en": "Diameter Ø ≈ 68 mm · Projection ≈ 64 mm"
+      "en": "Diameter Ø ≈ 68 mm · Projection ≈ 64 mm",
+      "fr": "Diameter Ø ≈ 68 mm · Projection ≈ 64 mm",
+      "de": "Diameter Ø ≈ 68 mm · Projection ≈ 64 mm"
     },
     "dimensionsSummary": [
-      { "label": "Diametro", "value": "Ø ≈ 68 mm" },
-      { "label": "Sporgenza", "value": "≈ 64 mm" }
+      {
+        "label": "Diametro",
+        "value": "Ø ≈ 68 mm"
+      },
+      {
+        "label": "Sporgenza",
+        "value": "≈ 64 mm"
+      }
     ],
-    "compatibleOpeningTypes": ["swing", "pivot", "double"],
-    "compatibleFamilies": ["residential", "hotel"],
+    "compatibleOpeningTypes": [
+      "swing",
+      "pivot",
+      "double"
+    ],
+    "compatibleFamilies": [
+      "residential",
+      "hotel"
+    ],
     "compatibilityNote": {
       "it": "Compatibile con porte a battente e bilico residenziali e suite hotel",
-      "en": "Compatible with residential and hotel suite swing and pivot doors"
+      "en": "Compatible with residential and hotel suite swing and pivot doors",
+      "fr": "Compatible with residential and hotel suite swing and pivot doors",
+      "de": "Compatible with residential and hotel suite swing and pivot doors"
     }
   },
   {
@@ -207,7 +299,9 @@
     "type": "pull",
     "description": {
       "it": "Profilo tubolare a sezione calibrata con fissaggi passanti per ante in cristallo.",
-      "en": "Calibrated section tubular pull with through-glass fixings for crystal doors."
+      "en": "Calibrated section tubular pull with through-glass fixings for crystal doors.",
+      "fr": "Calibrated section tubular pull with through-glass fixings for crystal doors.",
+      "de": "Calibrated section tubular pull with through-glass fixings for crystal doors."
     },
     "defaultVariant": "nichel",
     "variants": [
@@ -215,7 +309,9 @@
         "id": "nichel",
         "finishName": {
           "it": "Nichel satinato",
-          "en": "Satin Nickel"
+          "en": "Satin Nickel",
+          "fr": "Satin Nickel",
+          "de": "Satin Nickel"
         },
         "colorHex": "#B8B5B0",
         "image": "/images/vela/handles/concept/Satin Nickel Glass Door Pull Handle-2.png",
@@ -225,19 +321,44 @@
     ],
     "indicativeDimensions": {
       "it": "Altezza ≈ 290 mm · Interasse fissaggi ≈ 240 mm · Sporgenza ≈ 35 mm",
-      "en": "Height ≈ 290 mm · Fixing pitch ≈ 240 mm · Projection ≈ 35 mm"
+      "en": "Height ≈ 290 mm · Fixing pitch ≈ 240 mm · Projection ≈ 35 mm",
+      "fr": "Height ≈ 290 mm · Fixing pitch ≈ 240 mm · Projection ≈ 35 mm",
+      "de": "Height ≈ 290 mm · Fixing pitch ≈ 240 mm · Projection ≈ 35 mm"
     },
     "dimensionsSummary": [
-      { "label": "Altezza", "value": "≈ 290 mm" },
-      { "label": "Interasse", "value": "≈ 240 mm" },
-      { "label": "Sporgenza", "value": "≈ 35 mm" }
+      {
+        "label": "Altezza",
+        "value": "≈ 290 mm"
+      },
+      {
+        "label": "Interasse",
+        "value": "≈ 240 mm"
+      },
+      {
+        "label": "Sporgenza",
+        "value": "≈ 35 mm"
+      }
     ],
-    "compatibleOpeningTypes": ["swing", "sliding", "pivot"],
-    "compatibleCodes": ["IN-08", "box-doccia-01-p-g4", "box-doccia-02-nvp1", "box-doccia-09-stp1", "box-doccia-25-vpp2"],
-    "compatibleFamilies": ["shower"],
+    "compatibleOpeningTypes": [
+      "swing",
+      "sliding",
+      "pivot"
+    ],
+    "compatibleCodes": [
+      "IN-08",
+      "box-doccia-01-p-g4",
+      "box-doccia-02-nvp1",
+      "box-doccia-09-stp1",
+      "box-doccia-25-vpp2"
+    ],
+    "compatibleFamilies": [
+      "shower"
+    ],
     "compatibilityNote": {
       "it": "Specifico per ante in cristallo (es. IN-08 Cristallo) e cabine doccia",
-      "en": "Specifically engineered for glass doors (e.g. IN-08 Cristallo) and shower screens"
+      "en": "Specifically engineered for glass doors (e.g. IN-08 Cristallo) and shower screens",
+      "fr": "Specifically engineered for glass doors (e.g. IN-08 Cristallo) and shower screens",
+      "de": "Specifically engineered for glass doors (e.g. IN-08 Cristallo) and shower screens"
     }
   }
 ]

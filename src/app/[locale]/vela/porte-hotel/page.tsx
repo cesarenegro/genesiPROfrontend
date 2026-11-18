@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { getVelaHotelDoors, getVelaHotelDetails, Locale } from '@/lib/vela';
 import VelaCategoryNav from '@/components/vela/VelaCategoryNav';
 import type { Metadata } from 'next';
@@ -11,9 +11,10 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Vela' });
   return {
-    title: 'Porte per Camere di Hotel — VELA by Genesi',
-    description: 'Sistemi di porte per l\'hospitality di lusso: complanarità con boiserie di corridoio, abbattimento acustico e predisposizione controllo accessi RFID.',
+    title: t('hotelMetaTitle'),
+    description: t('hotelMetaDesc'),
   };
 }
 
@@ -26,23 +27,23 @@ export default async function PorteHotelPage({ params }: Props) {
 
   const pillars = [
     {
-      title: 'Isolamento Acustico e Privacy',
-      desc: 'Progettate per garantire il massimo riposo degli ospiti attraverso guarnizioni di battuta a tenuta acustica morbida e soglie mobili a ghigliottina a scomparsa.',
+      title: t('hotelPillar1Title'),
+      desc: t('hotelPillar1Desc'),
       icon: '01',
     },
     {
-      title: 'Predisposizione Controllo Accessi',
-      desc: 'Integrazione a scomparsa per serrature magnetiche ed elettroniche standard di settore per l\'hospitality (RFID / Smart Key), preservando la purezza estetica del fronte porta.',
+      title: t('hotelPillar2Title'),
+      desc: t('hotelPillar2Desc'),
       icon: '02',
     },
     {
-      title: 'Complanarità con Boiserie di Corridoio',
-      desc: 'Soluzioni coordinate a filo muro che si raccordano senza interruzioni con le pannellature lignee o laccate dei percorsi distributivi alberghieri.',
+      title: t('hotelPillar3Title'),
+      desc: t('hotelPillar3Desc'),
       icon: '03',
     },
     {
-      title: 'Finiture e Capitolati Contract',
-      desc: 'Ampia varietà di essenze certificate, laccature resistenti all\'uso intensivo e dettagli metallici coordinati per grandi commesse alberghiere internazionali.',
+      title: t('hotelPillar4Title'),
+      desc: t('hotelPillar4Desc'),
       icon: '04',
     },
   ];
@@ -55,7 +56,7 @@ export default async function PorteHotelPage({ params }: Props) {
       <section className="relative h-[65vh] min-h-[480px] max-h-[640px] flex items-center justify-center overflow-hidden bg-zinc-950 text-white">
         <Image
           src="/images/vela/hotel/arenaria-oak-hotel-door-diptych.webp"
-          alt="Porte per camere di hotel VELA by Genesi"
+          alt={t('hotelHeroTitle')}
           fill
           priority
           sizes="100vw"
@@ -65,13 +66,13 @@ export default async function PorteHotelPage({ params }: Props) {
 
         <div className="relative z-20 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
           <span className="text-xs uppercase tracking-widest text-zinc-300 mb-3 block font-medium">
-            VELA • Collezione Hospitality & Contract
+            {t('hotelHeroTag')}
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-white mb-4 leading-tight">
-            Porte per Camere di Hotel
+            {t('hotelHeroTitle')}
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-zinc-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Soluzioni coordinate per l’hospitality d’alta gamma, in grado di coniugare il rigore estetico del design italiano con le rigorose prestazioni del settore alberghiero internazionale.
+            {t('hotelHeroSubtitle')}
           </p>
         </div>
       </section>
@@ -80,26 +81,26 @@ export default async function PorteHotelPage({ params }: Props) {
       <section className="py-20 md:py-24 border-b border-zinc-200 dark:border-zinc-800">
         <div className="container mx-auto px-6 lg:px-12 max-w-4xl text-center">
           <span className="text-xs uppercase tracking-widest text-zinc-400 mb-4 block font-medium">
-            Hospitality & Contract
+            {t('hotelEditorialTag')}
           </span>
           <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-6 leading-tight">
-            Il varco d'ingresso alla suite: continuità architettonica e comfort totale.
+            {t('hotelEditorialTitle')}
           </h2>
           <p className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 font-light leading-relaxed mb-10">
-            Nel progetto alberghiero d'eccellenza, la porta della camera definisce la prima impressione dell'ospite e custodisce la sua privacy. VELA progetta sistemi d'apertura perfettamente coordinati con le forniture FF&E e le boiserie GENESI, garantendo una fornitura contract integrata dal concept all'installazione in cantiere.
+            {t('hotelEditorialDesc')}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/contact?inquiry=contract&category=porte-hotel"
               className="px-8 py-4 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-opacity"
             >
-              Richiedi Consulenza Contract Hotel
+              {t('hotelConsultCta')}
             </Link>
             <Link
               href="/vela/maniglie"
               className="px-8 py-4 border border-zinc-300 dark:border-zinc-700 text-xs uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:border-zinc-100 transition-colors"
             >
-              Sistemi di Chiusura & Maniglie →
+              {t('hotelHardwareCta')}
             </Link>
           </div>
         </div>
@@ -111,14 +112,14 @@ export default async function PorteHotelPage({ params }: Props) {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-6 border-b border-zinc-200 dark:border-zinc-800">
             <div>
               <span className="text-xs uppercase tracking-widest text-zinc-400 mb-2 block font-medium">
-                Catalogo Architetturale
+                {t('hotelCatalogTag')}
               </span>
               <h2 className="text-3xl md:text-4xl font-light tracking-tight">
-                Sistemi d'Ingresso Camera & Suite
+                {t('hotelCatalogTitle')}
               </h2>
             </div>
             <p className="text-xs uppercase tracking-widest text-zinc-500 mt-4 md:mt-0 font-medium">
-              {hotelDoors.length} Soluzioni Contract Certificate
+              {t('hotelSolutionsCount', { count: hotelDoors.length })}
             </p>
           </div>
 
@@ -165,7 +166,7 @@ export default async function PorteHotelPage({ params }: Props) {
 
                     <div className="pt-4 border-t border-zinc-100 dark:border-zinc-800/80">
                       <span className="text-[10px] uppercase tracking-widest text-zinc-400 block mb-3 font-semibold">
-                        Specifiche Tecniche Contract
+                        {t('hotelSpecsTitle')}
                       </span>
                       <ul className="space-y-1.5 text-xs text-zinc-600 dark:text-zinc-400">
                         {door.features.map((feature, idx) => (
@@ -182,11 +183,11 @@ export default async function PorteHotelPage({ params }: Props) {
                         href={`/vela/${door.slug}`}
                         className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-zinc-900 dark:text-zinc-100 hover:opacity-70 transition-opacity"
                       >
-                        <span>Scheda & Dimensioni</span>
+                        <span>{t('hotelSheetDimensions')}</span>
                         <span>→</span>
                       </Link>
                       <span className="text-[11px] text-zinc-400 font-mono">
-                        Quote: 800 × 2100 × 60 mm
+                        {t('hotelDimensionsLabel')}
                       </span>
                     </div>
                   </div>
@@ -202,10 +203,10 @@ export default async function PorteHotelPage({ params }: Props) {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="mb-16 max-w-2xl">
             <span className="text-xs uppercase tracking-widest text-zinc-400 mb-2 block font-medium">
-              Specifiche Progettuali
+              {t('hotelPillarsTag')}
             </span>
             <h2 className="text-2xl md:text-3xl font-light tracking-tight">
-              I cardini tecnici della linea hospitality VELA
+              {t('hotelPillarsTitle')}
             </h2>
           </div>
 
@@ -237,13 +238,13 @@ export default async function PorteHotelPage({ params }: Props) {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="mb-16 max-w-3xl">
             <span className="text-xs uppercase tracking-widest text-zinc-400 mb-2 block font-medium">
-              Dettagli Costruttivi
+              {t('hotelDetailsTag')}
             </span>
             <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-4">
-              L'eccellenza nei particolari: serrature RFID, cerniere e accoppiamenti
+              {t('hotelDetailsTitle')}
             </h2>
             <p className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 font-light leading-relaxed">
-              Nei progetti alberghieri il dettaglio tecnico non è mai secondario: ogni battuta, riscontro magnetico e componente elettronico è studiato per la massima longevità e silenziosità operativa.
+              {t('hotelDetailsDesc')}
             </p>
           </div>
 
@@ -287,13 +288,13 @@ export default async function PorteHotelPage({ params }: Props) {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-xl space-y-3">
               <span className="text-xs uppercase tracking-widest text-zinc-400 font-medium">
-                Hardware & Tatto
+                {t('hotelHardwareBannerTag')}
               </span>
               <h2 className="text-2xl md:text-3xl font-light tracking-tight text-white">
-                Collezione Maniglie, Prese & Serrature Elettroniche VELA
+                {t('hotelHardwareBannerTitle')}
               </h2>
               <p className="text-xs sm:text-sm text-zinc-400 font-light leading-relaxed">
-                Scopri l'intera gamma di maniglie forgiate, maniglioni per cristalli, impugnature a gola e sistemi di chiusura magnetica coordinati con le nostre porte hotel.
+                {t('hotelHardwareBannerDesc')}
               </p>
             </div>
             <div className="shrink-0">
@@ -301,7 +302,7 @@ export default async function PorteHotelPage({ params }: Props) {
                 href="/vela/maniglie"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-zinc-950 text-xs uppercase tracking-widest font-semibold hover:bg-zinc-200 transition-colors"
               >
-                <span>Esplora Maniglie & Dettagli</span>
+                <span>{t('hotelExploreHardwareCta')}</span>
                 <span>→</span>
               </Link>
             </div>

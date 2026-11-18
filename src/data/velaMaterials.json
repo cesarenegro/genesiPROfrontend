@@ -1,182 +1,482 @@
 [
   {
     "code": "IN-01",
-    "name": "Rovere Fumé",
+    "name": {
+      "it": "Rovere Fumé",
+      "en": "Smoked Oak",
+      "fr": "Chêne Fumé",
+      "de": "Räuchereiche"
+    },
     "model": "Selva",
-    "desc": "Rovere con tonalità fumé.",
+    "desc": {
+      "it": "Rovere termotrattato con tonalità fumé scura.",
+      "en": "Thermally treated oak with dark smoked hue.",
+      "fr": "Chêne thermo-traité aux teintes fumées profondes.",
+      "de": "Thermobehandelte Eiche mit dunklem Rauchton."
+    },
     "category": "interior",
-    "type": "Legno Naturale",
+    "type": {
+      "it": "Legno Naturale",
+      "en": "Natural Wood",
+      "fr": "Bois Naturel",
+      "de": "Naturholz"
+    },
     "image": "/images/vela/materials/IN-01_rovere_fume.jpg"
   },
   {
     "code": "IN-02",
-    "name": "Laccato Avorio",
+    "name": {
+      "it": "Laccato Avorio",
+      "en": "Ivory Lacquer",
+      "fr": "Laque Ivoire",
+      "de": "Elfenbeinlack"
+    },
     "model": "Alba",
-    "desc": "Superficie laccata color avorio.",
+    "desc": {
+      "it": "Laccatura opaca satinata vellutata al tatto.",
+      "en": "Velvety touch satin matte lacquer.",
+      "fr": "Laquage mat satiné au toucher velours soyeux.",
+      "de": "Seidenmatter Lack mit samtiger Haptik."
+    },
     "category": "interior",
-    "type": "Laccato Architetturale",
+    "type": {
+      "it": "Laccatura Opaca",
+      "en": "Matte Lacquer",
+      "fr": "Laque Mate",
+      "de": "Mattlack"
+    },
     "image": "/images/vela/materials/IN-02_laccato_avorio.jpg"
   },
   {
     "code": "IN-03",
-    "name": "Rovere Naturale",
+    "name": {
+      "it": "Rovere Naturale Righe",
+      "en": "Natural Fluted Oak",
+      "fr": "Chêne Naturel Cannelé",
+      "de": "Natureiche Gerillt"
+    },
     "model": "Righe",
-    "desc": "Rovere dal tono naturale con doghe verticali.",
+    "desc": {
+      "it": "Fresatura ritmica a doghe verticali nel massello.",
+      "en": "Rhythmic vertical fluted milling in solid oak.",
+      "fr": "Rainurage vertical rythmé dans le chêne massif.",
+      "de": "Rhythmische vertikale Nutenfräsung im Massivholz."
+    },
     "category": "interior",
-    "type": "Legno Dogato",
+    "type": {
+      "it": "Legno Cannettato",
+      "en": "Fluted Wood",
+      "fr": "Bois Cannelé",
+      "de": "Rillenholz"
+    },
     "image": "/images/vela/materials/IN-03_rovere_naturale.jpg"
   },
   {
     "code": "IN-04",
-    "name": "Terracotta",
+    "name": {
+      "it": "Terracotta Bassorilievo",
+      "en": "Terracotta Relief",
+      "fr": "Terre Cuite Bas-Relief",
+      "de": "Terrakotta Flachrelief"
+    },
     "model": "Terra",
-    "desc": "Finitura laccata color terracotta.",
+    "desc": {
+      "it": "Finitura calda a effetto terracotta naturale.",
+      "en": "Warm natural terracotta tactile finish.",
+      "fr": "Finition minérale chaude effet terre cuite artisanale.",
+      "de": "Warme mineralische Terrakotta-Oberfläche."
+    },
     "category": "interior",
-    "type": "Laccato Opaco",
+    "type": {
+      "it": "Superficie Materica",
+      "en": "Textured Surface",
+      "fr": "Surface Texturée",
+      "de": "Strukturoberfläche"
+    },
     "image": "/images/vela/materials/IN-04_terracotta.jpg"
   },
   {
     "code": "IN-05",
-    "name": "Rovere Scuro",
+    "name": {
+      "it": "Rovere Scuro & Bronzo",
+      "en": "Dark Oak & Bronze",
+      "fr": "Chêne Sombre & Bronze",
+      "de": "Dunkeleiche & Bronze"
+    },
     "model": "Ombra",
-    "desc": "Rovere in tonalità scura scanalato.",
+    "desc": {
+      "it": "Rovere scanalato con intarsi metallici complanari.",
+      "en": "Fluted oak with flush metallic bronze inlays.",
+      "fr": "Chêne rainuré avec incrustations bronze affleurantes.",
+      "de": "Genutete Eiche mit bündigen Bronzeelegern."
+    },
     "category": "interior",
-    "type": "Legno Scanalato",
+    "type": {
+      "it": "Legno & Metallo",
+      "en": "Wood & Metal",
+      "fr": "Bois & Métal",
+      "de": "Holz & Metall"
+    },
     "image": "/images/vela/materials/IN-05_rovere_scuro.jpg"
   },
   {
     "code": "IN-06",
-    "name": "Rovere Chiaro",
+    "name": {
+      "it": "Rovere Chiaro Biondo",
+      "en": "Light Blonde Oak",
+      "fr": "Chêne Clair Blond",
+      "de": "Helle Blonderiche"
+    },
     "model": "Quadro",
-    "desc": "Rovere in tonalità chiara con riquadratura geometrica.",
+    "desc": {
+      "it": "Rovere naturale a poro aperto protetto.",
+      "en": "Open-pore protected natural blonde oak.",
+      "fr": "Chêne blond naturel à pores ouverts protégés.",
+      "de": "Offenporig geschützte blonde Natureiche."
+    },
     "category": "interior",
-    "type": "Legno Riquadrato",
+    "type": {
+      "it": "Legno Naturale",
+      "en": "Natural Wood",
+      "fr": "Bois Naturel",
+      "de": "Naturholz"
+    },
     "image": "/images/vela/materials/IN-06_rovere_chiaro.jpg"
   },
   {
     "code": "IN-07",
-    "name": "Bronzo Satinato",
+    "name": {
+      "it": "Bronzo Satinato a Mano",
+      "en": "Hand-Satin Bronze",
+      "fr": "Bronze Satiné Main",
+      "de": "Handsatinierte Bronze"
+    },
     "model": "Metallo",
-    "desc": "Superficie metallica satinata color bronzo.",
+    "desc": {
+      "it": "Metallo nobile forgiato con spazzolatura artigianale.",
+      "en": "Noble metal sheet with hand-brushed patina.",
+      "fr": "Métal noble forgé avec brossage artisanal et vernis.",
+      "de": "Edelmetall mit handgebürsteter Patina."
+    },
     "category": "interior",
-    "type": "Metallo Architetturale",
+    "type": {
+      "it": "Metallo Architetturale",
+      "en": "Architectural Metal",
+      "fr": "Métal Architectural",
+      "de": "Architekturmetall"
+    },
     "image": "/images/vela/materials/IN-07_bronzo_satinato.jpg"
   },
   {
     "code": "IN-08",
-    "name": "Vetro Cannettato",
+    "name": {
+      "it": "Cristallo Cannettato Fluted",
+      "en": "Fluted Ribbed Glass",
+      "fr": "Verre Cannelé Flûte",
+      "de": "Rillenglas Fluted"
+    },
     "model": "Cristallo",
-    "desc": "Vetro con texture cannettata e telaio bronzo.",
+    "desc": {
+      "it": "Verre cannelé translucide pour intimité et diffusion lumineuse.",
+      "en": "Translucent ribbed safety glass diffusing soft light.",
+      "fr": "Verre de sécurité texturé diffusant une lumière douce.",
+      "de": "Transluzentes Rillenglas für sanfte Lichtstreuung."
+    },
     "category": "interior",
-    "type": "Cristallo Strutturato",
+    "type": {
+      "it": "Cristallo di Sicurezza",
+      "en": "Safety Glass",
+      "fr": "Verre de Sécurité",
+      "de": "Sicherheitsglas"
+    },
     "image": "/images/vela/materials/IN-08_vetro_cannettato.jpg"
   },
   {
     "code": "IN-09",
-    "name": "Laccato Bianco",
+    "name": {
+      "it": "Laccato Bianco Neve",
+      "en": "Snow White Lacquer",
+      "fr": "Laque Blanc Pur",
+      "de": "Schneeweißer Lack"
+    },
     "model": "Seta",
-    "desc": "Superficie laccata bianca vellutata.",
+    "desc": {
+      "it": "Laque ultra-mate soyeuse anti-traces et anti-reflets.",
+      "en": "Ultra-matte anti-glare scratch-resistant lacquer.",
+      "fr": "Laquage haute résistance mat et velouté.",
+      "de": "Hochkratzfester, samtig matter Reinweißlack."
+    },
     "category": "interior",
-    "type": "Laccato Architetturale",
+    "type": {
+      "it": "Laccatura Opaca",
+      "en": "Matte Lacquer",
+      "fr": "Laque Mate",
+      "de": "Mattlack"
+    },
     "image": "/images/vela/materials/IN-09_laccato_bianco.jpg"
   },
   {
     "code": "IN-10",
-    "name": "Greige",
+    "name": {
+      "it": "Laccato Grège Caldo",
+      "en": "Warm Greige Lacquer",
+      "fr": "Laque Grège Chaleureux",
+      "de": "Warmer Greigelack"
+    },
     "model": "Bruma",
-    "desc": "Finitura laccata in tonalità greige calda.",
+    "desc": {
+      "it": "Nuance neutra contemporanea ad altissima versatilità.",
+      "en": "Warm neutral contemporary hue for luxury interiors.",
+      "fr": "Teinte neutre chaude pour agencements contemporains.",
+      "de": "Warme neutrale Nuance für zeitlose Architektur."
+    },
     "category": "interior",
-    "type": "Laccato Opaco",
+    "type": {
+      "it": "Laccatura Opaca",
+      "en": "Matte Lacquer",
+      "fr": "Laque Mate",
+      "de": "Mattlack"
+    },
     "image": "/images/vela/materials/IN-10_greige.jpg"
   },
   {
     "code": "HT-01",
-    "name": "Noce",
+    "name": {
+      "it": "Noce Canaletto Scuro",
+      "en": "Dark Canaletto Walnut",
+      "fr": "Noyer Canaletto Foncé",
+      "de": "Dunkler Canaletto-Nussbaum"
+    },
     "model": "Senso",
-    "desc": "Finitura effetto noce canaletto.",
+    "desc": {
+      "it": "Vena noce americano selezionata per suite alberghiere.",
+      "en": "Selected American walnut grain for luxury suites.",
+      "fr": "Veinage sélectionné de noyer pour suites de luxe.",
+      "de": "Ausgesuchtes Nussbaum-Maserbild für Luxussuiten."
+    },
     "category": "hotel",
-    "type": "Legno Noce",
+    "type": {
+      "it": "Legno Pregiato",
+      "en": "Precious Wood",
+      "fr": "Bois Précieux",
+      "de": "Edelholz"
+    },
     "image": "/images/vela/materials/HT-01_noce.jpg"
   },
   {
     "code": "HT-02",
-    "name": "Verde Oliva",
+    "name": {
+      "it": "Verde Salvia Hospitality",
+      "en": "Hospitality Sage Green",
+      "fr": "Vert Sauge Hôtellerie",
+      "de": "Salbeigrün Hospitality"
+    },
     "model": "Oliva",
-    "desc": "Finitura laccata verde oliva desaturata.",
+    "desc": {
+      "it": "Laccatura rinforzata anti-urto formulata per hotel.",
+      "en": "Heavy-duty impact-resistant lacquer for hotels.",
+      "fr": "Laquage renforcé anti-chocs pour couloirs d'hôtel.",
+      "de": "Stoßfester Speziallack für Hotelhochfrequenz."
+    },
     "category": "hotel",
-    "type": "Laccato Opaco",
+    "type": {
+      "it": "Laccatura Contract",
+      "en": "Contract Lacquer",
+      "fr": "Laque Contract",
+      "de": "Contract-Lack"
+    },
     "image": "/images/vela/materials/HT-02_verde_oliva.jpg"
   },
   {
     "code": "HT-03",
-    "name": "Rovere Chiaro",
+    "name": {
+      "it": "Rovere Miele Arenaria",
+      "en": "Arenaria Honey Oak",
+      "fr": "Chêne Miel Arenaria",
+      "de": "Honigeiche Arenaria"
+    },
     "model": "Arenaria",
-    "desc": "Rovere in tonalità chiara sabbiata.",
+    "desc": {
+      "it": "Tonalità miele dorata coordinata con boiserie continue.",
+      "en": "Golden honey oak grain aligned with wall paneling.",
+      "fr": "Teinte miel chaleureuse coordonnée aux boiseries.",
+      "de": "Warmer Gold-Honigton abgestimmt auf Wandvertäfelungen."
+    },
     "category": "hotel",
-    "type": "Legno Rovere",
+    "type": {
+      "it": "Legno Naturale",
+      "en": "Natural Wood",
+      "fr": "Bois Naturel",
+      "de": "Naturholz"
+    },
     "image": "/images/vela/materials/HT-03_rovere_chiaro.jpg"
   },
   {
     "code": "HT-04",
-    "name": "Rovere Espresso",
+    "name": {
+      "it": "Rovere Espresso & Bronzo",
+      "en": "Espresso Oak & Bronze",
+      "fr": "Chêne Espresso & Bronze",
+      "de": "Espresso-Eiche & Bronze"
+    },
     "model": "Bronzo",
-    "desc": "Rovere in tonalità espresso con inserto bronzeo.",
+    "desc": {
+      "it": "Tinta espresso profonda con profilo perimetrale metallico.",
+      "en": "Deep espresso stain with architectural bronze framing.",
+      "fr": "Chêne espresso avec encadrement métallique bronze.",
+      "de": "Dunkle Espresso-Beize mit bronzefarbenem Metallprofil."
+    },
     "category": "hotel",
-    "type": "Legno Termocotto",
+    "type": {
+      "it": "Legno & Metallo",
+      "en": "Wood & Metal",
+      "fr": "Bois & Métal",
+      "de": "Holz & Metall"
+    },
     "image": "/images/vela/materials/HT-04_rovere_espresso.jpg"
   },
   {
     "code": "HT-05",
-    "name": "Avorio",
+    "name": {
+      "it": "Laccato Avena Contract",
+      "en": "Contract Oat Lacquer",
+      "fr": "Laque Avoine Contract",
+      "de": "Haferlack Contract"
+    },
     "model": "Avena",
-    "desc": "Finitura laccata color avorio con inserto sottile.",
+    "desc": {
+      "it": "Tonalità avena calda con elevata resistenza al graffio.",
+      "en": "Warm oat lacquer engineered for high hotel durability.",
+      "fr": "Nuance avoine chaude à haute durabilité hôtelière.",
+      "de": "Warmer Haferton, extrem langlebig und pflegeleicht."
+    },
     "category": "hotel",
-    "type": "Laccato Inserto",
+    "type": {
+      "it": "Laccatura Contract",
+      "en": "Contract Lacquer",
+      "fr": "Laque Contract",
+      "de": "Contract-Lack"
+    },
     "image": "/images/vela/materials/HT-05_avorio.jpg"
   },
   {
     "code": "HT-06",
-    "name": "Rovere Tinto",
+    "name": {
+      "it": "Rovere Moka Spazzolato",
+      "en": "Brushed Moka Oak",
+      "fr": "Chêne Moka Brossé",
+      "de": "Mokka-Eiche Gebürstet"
+    },
     "model": "Rovere",
-    "desc": "Rovere tinto con scansione dogata verticale.",
+    "desc": {
+      "it": "Spazzolatura profonda con pigmenti moka scuri.",
+      "en": "Deeply brushed texture with dark moka pigments.",
+      "fr": "Texture brossée profonde aux pigments moka sombres.",
+      "de": "Tief gebürstete Textur mit dunklen Mokka-Pigmenten."
+    },
     "category": "hotel",
-    "type": "Legno Dogato",
+    "type": {
+      "it": "Legno Pregiato",
+      "en": "Precious Wood",
+      "fr": "Bois Précieux",
+      "de": "Edelholz"
+    },
     "image": "/images/vela/materials/HT-06_rovere_tinto.jpg"
   },
   {
     "code": "HT-07",
-    "name": "Frassino Chiaro",
+    "name": {
+      "it": "Frassino Biondo Nordico",
+      "en": "Nordic Blonde Ash",
+      "fr": "Frêne Blond Nordique",
+      "de": "Nordische Esche Hell"
+    },
     "model": "Essenza",
-    "desc": "Frassino in tonalità chiara con venatura naturale.",
+    "desc": {
+      "it": "Frassino chiaro a fibra tesa per resort e wellness.",
+      "en": "Straight-grain blonde ash for resort and wellness suites.",
+      "fr": "Frêne clair au fil droit pour hôtels de bord de mer et spas.",
+      "de": "Geradlinige helle Esche für Wellness- und Resorthotels."
+    },
     "category": "hotel",
-    "type": "Legno Frassino",
+    "type": {
+      "it": "Legno Naturale",
+      "en": "Natural Wood",
+      "fr": "Bois Naturel",
+      "de": "Naturholz"
+    },
     "image": "/images/vela/materials/HT-07_frassino_chiaro.jpg"
   },
   {
     "code": "HT-08",
-    "name": "Verde Profondo",
+    "name": {
+      "it": "Verde Smeraldo Opaco",
+      "en": "Matte Emerald Green",
+      "fr": "Vert Émeraude Mat",
+      "de": "Smaragdgrün Matt"
+    },
     "model": "Verde",
-    "desc": "Finitura laccata verde foresta profondo.",
+    "desc": {
+      "it": "Verde profondo raffinato per ingressi suite di prestigio.",
+      "en": "Deep jewel-toned green for statement luxury entrances.",
+      "fr": "Vert profond feutré pour entrées de suites présidentielles.",
+      "de": "Tiefes Juwelengrün für repräsentative Suitenportale."
+    },
     "category": "hotel",
-    "type": "Laccato Opaco",
+    "type": {
+      "it": "Laccatura Sartoriale",
+      "en": "Bespoke Lacquer",
+      "fr": "Laque Couture",
+      "de": "Maßlackierung"
+    },
     "image": "/images/vela/materials/HT-08_verde_profondo.jpg"
   },
   {
     "code": "HT-09",
-    "name": "Laccato Effetto Pietra",
+    "name": {
+      "it": "Texturizzato Pietra Limestone",
+      "en": "Limestone Stone Texture",
+      "fr": "Texture Pierre Limestone",
+      "de": "Kalkstein-Struktur"
+    },
     "model": "Pietra",
-    "desc": "Finitura laccata texturizzata effetto pietra naturale.",
+    "desc": {
+      "it": "Superficie materica minerale ad altissima resistenza.",
+      "en": "Tactile limestone mineral surface with high scratch resistance.",
+      "fr": "Surface minérale texturée ultra-résistante à l'abrasion.",
+      "de": "Mineralische Haptik mit maximaler Abriebfestigkeit."
+    },
     "category": "hotel",
-    "type": "Materico Pietra",
+    "type": {
+      "it": "Superficie Minerale",
+      "en": "Mineral Surface",
+      "fr": "Surface Minérale",
+      "de": "Mineralische Fläche"
+    },
     "image": "/images/vela/materials/HT-09_laccato_effetto_pietra.jpg"
   },
   {
     "code": "HT-10",
-    "name": "Noce",
+    "name": {
+      "it": "Noce Scanalato Riga",
+      "en": "Fluted Riga Walnut",
+      "fr": "Noyer Cannelé Riga",
+      "de": "Rillennussbaum Riga"
+    },
     "model": "Riga",
-    "desc": "Finitura effetto noce con inserto orizzontale bronzeo.",
+    "desc": {
+      "it": "Noce canaletto lavorato a bassorilievo con filetto in metallo.",
+      "en": "Canaletto walnut architectural relief with metal detail.",
+      "fr": "Noyer canaletto usiné en bas-relief avec détail métallique.",
+      "de": "Canaletto-Nussbaum im Flachrelief mit Metallakzent."
+    },
     "category": "hotel",
-    "type": "Legno Noce Inserto",
+    "type": {
+      "it": "Legno Pregiato",
+      "en": "Precious Wood",
+      "fr": "Bois Précieux",
+      "de": "Edelholz"
+    },
     "image": "/images/vela/materials/HT-10_noce.jpg"
   }
 ]

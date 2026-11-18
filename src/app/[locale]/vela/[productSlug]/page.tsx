@@ -1,13 +1,15 @@
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import {
   getVelaProductBySlug,
   getVelaProducts,
   getCompatibleHandlesForProduct,
   getVelaConceptHandles,
   Locale,
+  LocalizedText,
+  resolveLocalizedText,
 } from '@/lib/vela';
 import VelaGallery from '@/components/vela/VelaGallery';
 import VelaHandlesSection from '@/components/vela/VelaHandlesSection';
@@ -20,16 +22,17 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale: rawLocale, productSlug } = await params;
   const locale = rawLocale as Locale;
+  const t = await getTranslations({ locale, namespace: 'Vela' });
   const product = await getVelaProductBySlug(productSlug);
 
   if (!product) {
     return {
-      title: 'Modello non trovato — VELA by Genesi',
+      title: t('slugProductNotFound'),
     };
   }
 
-  const name = product.name[locale] || product.name.en;
-  const summary = product.summary[locale] || product.summary.en;
+  const name = resolveLocalizedText(product.name, locale);
+  const summary = resolveLocalizedText(product.summary, locale);
 
   return {
     title: `${name} — VELA by Genesi`,
@@ -52,8 +55,8 @@ export default async function VelaProductDetailPage({ params }: Props) {
   const allConceptHandles = await getVelaConceptHandles();
   const t = await getTranslations('Vela');
 
-  const productName = product.name[locale] || product.name.en;
-  const productSummary = product.summary[locale] || product.summary.en;
+  const productName = resolveLocalizedText(product.name, locale);
+  const productSummary = resolveLocalizedText(product.summary, locale);
 
   return (
     <div className="min-h-screen bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
@@ -108,7 +111,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                   {product.openingType === 'pivot' && t('filterPivot')}
                   {product.openingType === 'sliding' && t('filterSliding')}
                   {product.openingType === 'swing' && t('filterSwing')}
-                  {product.openingType === 'double' && 'A Doppia Anta Battente'}
+                  {product.openingType === 'double' && t('slugDoubleSwing')}
                 </div>
               </div>
 
@@ -117,7 +120,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                 <div className="p-4 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
                   <div className="flex items-center justify-between mb-3">
                     <h2 className="text-xs uppercase tracking-widest font-semibold text-zinc-900 dark:text-zinc-100">
-                      Dimensioni Nominali
+                      {t('slugNominalDimensions')}
                     </h2>
                     <div className="flex items-center gap-2.5">
                       {product.technicalDrawing && (
@@ -125,7 +128,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                           href="#disegno-dimensionale"
                           className="text-[11px] uppercase tracking-widest text-zinc-500 hover:text-zinc-950 dark:hover:text-white transition-colors flex items-center gap-1 font-medium"
                         >
-                          <span>Quote</span>
+                          <span>{t('slugDimensionsQuote')}</span>
                           <span>↓</span>
                         </a>
                       )}
@@ -134,7 +137,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                           href="#maniglie-disponibili"
                           className="text-[11px] uppercase tracking-widest text-zinc-500 hover:text-zinc-950 dark:hover:text-white transition-colors flex items-center gap-1 font-medium"
                         >
-                          <span>Maniglie</span>
+                          <span>{t('slugDimensionsHandles')}</span>
                           <span>↓</span>
                         </a>
                       )}
@@ -142,19 +145,25 @@ export default async function VelaProductDetailPage({ params }: Props) {
                   </div>
                   <div className="grid grid-cols-3 gap-2 font-mono text-xs">
                     <div className="p-2 bg-white dark:bg-zinc-950 border border-zinc-200/60 dark:border-zinc-800/60">
-                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">Larghezza</span>
+                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">
+                        {t('slugWidth')}
+                      </span>
                       <span className="text-zinc-900 dark:text-zinc-100 font-semibold">
                         {product.nominalDimensions.widthMm} <span className="text-[10px] font-normal text-zinc-500">mm</span>
                       </span>
                     </div>
                     <div className="p-2 bg-white dark:bg-zinc-950 border border-zinc-200/60 dark:border-zinc-800/60">
-                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">Altezza</span>
+                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">
+                        {t('slugHeight')}
+                      </span>
                       <span className="text-zinc-900 dark:text-zinc-100 font-semibold">
                         {product.nominalDimensions.heightMm} <span className="text-[10px] font-normal text-zinc-500">mm</span>
                       </span>
                     </div>
                     <div className="p-2 bg-white dark:bg-zinc-950 border border-zinc-200/60 dark:border-zinc-800/60">
-                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">Spessore</span>
+                      <span className="text-[10px] text-zinc-400 uppercase tracking-wider block font-sans mb-0.5">
+                        {t('slugThickness')}
+                      </span>
                       <span className="text-zinc-900 dark:text-zinc-100 font-semibold">
                         {product.nominalDimensions.thicknessMm} <span className="text-[10px] font-normal text-zinc-500">mm</span>
                       </span>
@@ -162,7 +171,9 @@ export default async function VelaProductDetailPage({ params }: Props) {
                   </div>
                   {product.nominalDimensions.note && (
                     <p className="mt-2 text-[11px] text-zinc-500 font-light">
-                      • {product.nominalDimensions.note}
+                      • {typeof product.nominalDimensions.note === 'object'
+                        ? resolveLocalizedText(product.nominalDimensions.note as unknown as LocalizedText, locale)
+                        : product.nominalDimensions.note}
                     </p>
                   )}
                 </div>
@@ -176,7 +187,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                   </h2>
                   <ul className="space-y-2.5">
                     {product.verifiedFeatures.map((feat, i) => {
-                      const featText = feat[locale] || feat.en;
+                      const featText = resolveLocalizedText(feat, locale);
                       return (
                         <li
                           key={i}
@@ -211,10 +222,12 @@ export default async function VelaProductDetailPage({ params }: Props) {
                 {t('inquireProduct')}
               </Link>
               <a
-                href={`mailto:info@genesi-italia.com?subject=${encodeURIComponent(`Richiesta Preventivo VELA — ${product.code}`)}`}
-                className="w-full inline-flex justify-center items-center py-3.5 px-6 border border-zinc-300 dark:border-zinc-700 text-xs uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:border-white transition-colors text-zinc-700 dark:text-zinc-300"
+                href={`mailto:info@genesi-italia.com?subject=${encodeURIComponent(
+                  t('slugEmailSubject', { code: product.code })
+                )}`}
+                className="w-full inline-flex justify-center items-center py-3.5 px-6 border border-zinc-300 dark:border-zinc-700 text-xs uppercase tracking-widest font-medium hover:border-zinc-900 dark:hover:white transition-colors text-zinc-700 dark:text-zinc-300"
               >
-                Invia Richiesta Email Rapida
+                {t('slugEmailQuickCta')}
               </a>
             </div>
           </div>
@@ -231,27 +244,27 @@ export default async function VelaProductDetailPage({ params }: Props) {
               <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10 pb-6 border-b border-zinc-200 dark:border-zinc-800">
                 <div>
                   <span className="text-xs uppercase tracking-widest text-zinc-400 font-medium block mb-2">
-                    Tavola Grafica Dimensionale • {product.code}
+                    {t('slugDrawingTag', { code: product.code })}
                   </span>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-light tracking-tight text-zinc-900 dark:text-zinc-100">
-                    Disegno Dimensionale & Quote Nominali
+                    {t('slugDrawingTitle')}
                   </h2>
                 </div>
                 <div className="flex items-center gap-3 text-xs uppercase tracking-widest text-zinc-500">
                   <span className="font-mono bg-zinc-100 dark:bg-zinc-900 px-3 py-1 border border-zinc-200 dark:border-zinc-800">
-                    Proporzione 4:3
+                    {t('slugRatio')}
                   </span>
                   <span className="font-mono bg-zinc-100 dark:bg-zinc-900 px-3 py-1 border border-zinc-200 dark:border-zinc-800">
-                    2400 × 1800 px
+                    {t('slugResolution')}
                   </span>
                 </div>
               </div>
 
-              {/* Main Technical Sheet Canvas (Pure 4:3 Black and White, clean frame, untouched) */}
+              {/* Main Technical Sheet Canvas */}
               <div className="relative w-full aspect-[4/3] bg-white border border-zinc-200 dark:border-zinc-800 overflow-hidden shadow-xs">
                 <Image
                   src={product.technicalDrawing.image}
-                  alt={`Tavola dimensionale ${product.code} ${product.technicalDrawing.modelName} — prospetto frontale e profilo laterale`}
+                  alt={`${t('slugDrawingTitle')} — ${product.code} ${product.technicalDrawing.modelName}`}
                   fill
                   sizes="(max-width: 1200px) 100vw, 1152px"
                   className="object-contain"
@@ -268,7 +281,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                 <div className="lg:col-span-7 bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 p-6 sm:p-8 space-y-6">
                   <div className="flex items-center justify-between pb-3 border-b border-zinc-200 dark:border-zinc-800">
                     <span className="text-xs uppercase tracking-widest font-semibold text-zinc-900 dark:text-zinc-100">
-                      Riepilogo Parametri Nominali
+                      {t('slugSummaryParams')}
                     </span>
                     <span className="text-xs font-mono text-zinc-500">
                       {product.code}
@@ -277,39 +290,52 @@ export default async function VelaProductDetailPage({ params }: Props) {
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-xs">
                     <div>
-                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">Larghezza Nominale (L)</span>
+                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">
+                        {t('slugNominalWidth')}
+                      </span>
                       <span className="font-mono text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                        {product.technicalDrawing.nominalDimensions?.widthMm || '800'} <span className="text-xs font-normal text-zinc-500">mm</span>
+                        {product.technicalDrawing.nominalDimensions?.widthMm || '800'}{' '}
+                        <span className="text-xs font-normal text-zinc-500">mm</span>
                       </span>
                       {product.code === 'IN-04' && (
                         <span className="text-[11px] text-zinc-500 block mt-1">
-                          Configurazione doppia anta (2 × 800 mm)
+                          {t('slugDoubleConfigNote')}
                         </span>
                       )}
                     </div>
                     <div>
-                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">Altezza Nominale (H)</span>
+                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">
+                        {t('slugNominalHeight')}
+                      </span>
                       <span className="font-mono text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                        {product.technicalDrawing.nominalDimensions?.heightMm || 2100} <span className="text-xs font-normal text-zinc-500">mm</span>
+                        {product.technicalDrawing.nominalDimensions?.heightMm || 2100}{' '}
+                        <span className="text-xs font-normal text-zinc-500">mm</span>
                       </span>
                       <span className="text-[11px] text-zinc-500 block mt-1">
-                        Luce passaggio standard
+                        {t('slugStandardClearance')}
                       </span>
                     </div>
                     <div>
-                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">Spessore Anta (S)</span>
+                      <span className="text-zinc-400 block mb-1 text-[11px] uppercase tracking-wider">
+                        {t('slugNominalThickness')}
+                      </span>
                       <span className="font-mono text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                        {product.technicalDrawing.nominalDimensions?.thicknessMm || (product.familyId === 'hotel' ? 60 : 41)} <span className="text-xs font-normal text-zinc-500">mm</span>
+                        {product.technicalDrawing.nominalDimensions?.thicknessMm ||
+                          (product.familyId === 'hotel' ? 60 : 41)}{' '}
+                        <span className="text-xs font-normal text-zinc-500">mm</span>
                       </span>
                       <span className="text-[11px] text-zinc-500 block mt-1">
-                        Pannello tamburato ad alte prestazioni
+                        {t('slugHoneycombPanel')}
                       </span>
                     </div>
                   </div>
 
                   <div className="pt-4 border-t border-zinc-200 dark:border-zinc-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-zinc-600 dark:text-zinc-400">
                     <div>
-                      Vista prospettica: <span className="font-medium text-zinc-900 dark:text-zinc-100">Prospetto frontale e profilo laterale ingrandito</span>
+                      {t('slugPerspectiveView')}{' '}
+                      <span className="font-medium text-zinc-900 dark:text-zinc-100">
+                        {t('slugFrontProfileView')}
+                      </span>
                     </div>
                     <a
                       href={product.technicalDrawing.image}
@@ -317,7 +343,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-zinc-900 dark:text-zinc-100 font-semibold hover:underline cursor-pointer"
                     >
-                      <span>Visualizza a piena risoluzione (2400 × 1800)</span>
+                      <span>{t('slugViewFullRes')}</span>
                       <span>↗</span>
                     </a>
                   </div>
@@ -327,17 +353,17 @@ export default async function VelaProductDetailPage({ params }: Props) {
                 <div className="lg:col-span-5 p-6 sm:p-8 border border-zinc-200 dark:border-zinc-800 text-xs text-zinc-600 dark:text-zinc-400 space-y-4 bg-white dark:bg-zinc-950">
                   <div className="flex items-center gap-2 text-zinc-900 dark:text-zinc-100 font-semibold uppercase tracking-wider text-[11px]">
                     <span className="w-2 h-2 rounded-full bg-zinc-900 dark:bg-zinc-100 inline-block" />
-                    <span>Informativa sui Disegni di Concept</span>
+                    <span>{t('slugConceptDrawingInfoTitle')}</span>
                   </div>
                   <p className="leading-relaxed font-light text-zinc-600 dark:text-zinc-400">
-                    {product.technicalDrawing.disclaimer[locale] || product.technicalDrawing.disclaimer.it}
+                    {resolveLocalizedText(product.technicalDrawing.disclaimer, locale)}
                   </p>
                   <div className="pt-3 border-t border-zinc-100 dark:border-zinc-900">
                     <Link
                       href={`/contact?inquiry=technical&model=${encodeURIComponent(product.code)}`}
                       className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-zinc-900 dark:text-zinc-100 hover:opacity-70 transition-opacity"
                     >
-                      <span>Richiedi esecutivi DWG / BIM di cantiere</span>
+                      <span>{t('slugRequestDwgBim')}</span>
                       <span>→</span>
                     </Link>
                   </div>
@@ -347,7 +373,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
           </section>
         )}
 
-        {/* Dedicated Available Handles Section (Lualdi-style clean presentation) */}
+        {/* Dedicated Available Handles Section */}
         <VelaHandlesSection
           handles={compatibleHandles}
           allHandles={allConceptHandles}
@@ -362,7 +388,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
             <div className="flex justify-between items-end mb-10">
               <div>
                 <span className="text-xs uppercase tracking-widest text-zinc-400 mb-1 block">
-                  Collezione VELA
+                  {t('slugVelaCollectionTag')}
                 </span>
                 <h2 className="text-2xl font-light tracking-tight text-zinc-900 dark:text-zinc-100">
                   {t('relatedProducts')}
@@ -378,7 +404,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {relatedProducts.map((rel) => {
-                const relName = rel.name[locale] || rel.name.en;
+                const relName = resolveLocalizedText(rel.name, locale);
                 return (
                   <Link
                     key={rel.id}

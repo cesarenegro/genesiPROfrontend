@@ -111,12 +111,16 @@
       "model": "SELVA",
       "name": {
         "it": "Porta a Bilico SELVA — Rovere Fumé",
-        "en": "SELVA Pivot Door — Smoked Oak"
+        "en": "SELVA Pivot Door — Smoked Oak",
+        "fr": "Porte Pivot SELVA — Chêne Fumé",
+        "de": "Pivot-Tür SELVA — Räuchereiche"
       },
       "openingType": "pivot",
       "summary": {
         "it": "Apertura pivot a bilico scultorea in rovere termotrattato affumicato a forte spessore. Rotazione fluida con perno a scomparsa.",
-        "en": "Sculptural pivot door in thermal-treated smoked oak. Smooth rotation with concealed pivot mechanism."
+        "en": "Sculptural pivot door in thermal-treated smoked oak. Smooth rotation with concealed pivot mechanism.",
+        "fr": "Ouverture pivotante sculpturale en chêne thermo-traité fumé de forte épaisseur. Rotation fluide par pivot invisible encastré.",
+        "de": "Skulpturale Pivot-Tür aus thermobehandelter Räuchereiche in starker Materialstärke. Fließende Drehung durch verdeckten Drehzapfen."
       },
       "mainImage": "/images/vela/residential/quiet-luxury--smoked-oak-pivot-door.webp",
       "images": [
@@ -159,15 +163,21 @@
       "verifiedFeatures": [
         {
           "it": "Apertura a bilico pivot senza cerniere visibili",
-          "en": "Pivot rotation without visible hinges"
+          "en": "Pivot rotation without visible hinges",
+          "fr": "Ouverture pivotante sans paumelles apparentes",
+          "de": "Pivot-Drehmechanismus ohne sichtbare Bänder"
         },
         {
           "it": "Finitura rovere termotrattato fumé a poro aperto",
-          "en": "Smoked open-pore thermal oak finish"
+          "en": "Smoked open-pore thermal oak finish",
+          "fr": "Finition chêne fumé thermo-traité à pores ouverts",
+          "de": "Offenporig thermobehandelte Räuchereiche"
         },
         {
           "it": "Complanarità totale con la muratura",
-          "en": "Total flush alignment with wall"
+          "en": "Total flush alignment with wall",
+          "fr": "Affleurement mural absolu",
+          "de": "Vollkommene Wandbündigkeit"
         }
       ],
       "technicalDrawing": {
@@ -208,12 +218,16 @@
       "model": "ALBA",
       "name": {
         "it": "Porta Battente Rasomuro ALBA — Laccato Avorio",
-        "en": "ALBA Flush Door — Ivory Lacquer"
+        "en": "ALBA Flush Door — Ivory Lacquer",
+        "fr": "Porte Battante Affleurante ALBA — Laque Ivoire",
+        "de": "Wandbündige Drehtür ALBA — Elfenbeinlack"
       },
       "openingType": "swing",
       "summary": {
         "it": "Porta battente a filo muro in laccatura avorio caldo. Il pannello si fonde con la muratura creando continuità architettonica.",
-        "en": "Flush-to-wall swing door in warm ivory lacquer. The leaf blends seamlessly into surrounding walls."
+        "en": "Flush-to-wall swing door in warm ivory lacquer. The leaf blends seamlessly into surrounding walls.",
+        "fr": "Porte battante affleurante en laque ivoire chaleureuse. Le vantail s'intègre harmonieusement à la cloison pour une continuité architecturale parfaite.",
+        "de": "Wandbündige Drehtür in warmem Elfenbeinlack. Das Türblatt verschmilzt nahtlos mit der Wand für vollkommene architektonische Kontinuität."
       },
       "mainImage": "/images/vela/residential/alba-ivory-door-detail-diptych.webp",
       "images": [
@@ -256,15 +270,21 @@
       "verifiedFeatures": [
         {
           "it": "Telaio a scomparsa per intonaco o cartongesso",
-          "en": "Concealed frame for plaster or drywall"
+          "en": "Concealed frame for plaster or drywall",
+          "fr": "Bâti invisible pour cloison plâtre ou plaques de plâtre",
+          "de": "Verdeckte Zarge für Massiv- oder Trockenbauwände"
         },
         {
           "it": "Laccatura opaca satinata vellutata al tatto",
-          "en": "Velvety touch satin matte lacquer"
+          "en": "Velvety touch satin matte lacquer",
+          "fr": "Laquage mat satiné au toucher velouté",
+          "de": "Seidenmatte Lackierung mit samtiger Haptik"
         },
         {
           "it": "Serratura magnetica a scatto silenzioso",
-          "en": "Silent magnetic latch mechanism"
+          "en": "Silent magnetic latch mechanism",
+          "fr": "Serrure magnétique à fermeture ultra-silencieuse",
+          "de": "Flüsterleises Magnetschloss"
         }
       ],
       "technicalDrawing": {
@@ -305,12 +325,16 @@
       "model": "RIGHE",
       "name": {
         "it": "Porta Cannettata RIGHE — Rovere Naturale",
-        "en": "RIGHE Fluted Door — Natural Oak"
+        "en": "RIGHE Fluted Door — Natural Oak",
+        "fr": "Porte Cannelée RIGHE — Chêne Naturel",
+        "de": "Rillentür RIGHE — Natureiche"
       },
       "openingType": "swing",
       "summary": {
         "it": "Superficie a doghe verticali fresate con precisione nel massello di rovere. Crea un raffinato ritmo di luci e ombre.",
-        "en": "Vertical slats milled in solid natural oak creating an elegant rhythm of light and shadow."
+        "en": "Vertical slats milled in solid natural oak creating an elegant rhythm of light and shadow.",
+        "fr": "Surface à tasseaux verticaux usinés avec précision dans le chêne massif. Crée un jeu d'ombre et de lumière raffiné.",
+        "de": "Vertikale Leistenpräzisionsfräsung im massiven Eichenholz. Erzeugt ein elegantes Spiel aus Licht und Schatten."
       },
       "mainImage": "/images/vela/residential/fluted-oak-door-serene-passage.webp",
       "images": [
@@ -343,15 +367,21 @@
       "verifiedFeatures": [
         {
           "it": "Fresatura tridimensionale su rovere naturale",
-          "en": "3D precision fluting on natural oak"
+          "en": "3D precision fluting on natural oak",
+          "fr": "Usinage 3D haute précision sur chêne naturel",
+          "de": "3D-Präzisionsfräsung auf Natureiche"
         },
         {
           "it": "Presa a gola integrata nella cannettatura",
-          "en": "Finger groove aligned with fluting"
+          "en": "Finger groove aligned with fluting",
+          "fr": "Prise de doigt intégrée dans les cannelures",
+          "de": "Integrierte Griffmulde im Rillenmuster"
         },
         {
           "it": "Cerniere a scomparsa registrabili 3D",
-          "en": "3D adjustable concealed hinges"
+          "en": "3D adjustable concealed hinges",
+          "fr": "Charnières invisibles réglables sur 3 axes",
+          "de": "Verdeckte 3D-justierbare Bänder"
         }
       ],
       "technicalDrawing": {
@@ -393,12 +423,16 @@
       "model": "TERRA",
       "name": {
         "it": "Doppia Porta TERRA — Terracotta & Bassorilievo",
-        "en": "TERRA Double Door — Terracotta Relief"
+        "en": "TERRA Double Door — Terracotta Relief",
+        "fr": "Double Porte TERRA — Terre Cuite & Bas-Relief",
+        "de": "Zweiflügeltür TERRA — Terrakotta & Flachrelief"
       },
       "openingType": "swing",
       "summary": {
         "it": "Configurazione monumentale a doppia anta battente (2 × 800 mm) con finitura terracotta e maniglia in ottone ricavata dal pieno.",
-        "en": "Stately double door configuration (2 × 800 mm) in terracotta finish with solid brass bar handle."
+        "en": "Stately double door configuration (2 × 800 mm) in terracotta finish with solid brass bar handle.",
+        "fr": "Configuration monumentale à double vantail battant (2 × 800 mm) en finition terre cuite avec poignée en laiton massif.",
+        "de": "Monumentale zweiflügelige Drehtür (2 × 800 mm) in Terrakotta-Ausführung mit massivem Messing-Stangengriff."
       },
       "mainImage": "/images/vela/residential/burnt-sienna-double-doors-in-travertine.webp",
       "images": [
@@ -441,15 +475,21 @@
       "verifiedFeatures": [
         {
           "it": "Doppia anta battente simmetrica (2 × 800 mm)",
-          "en": "Symmetrical double swing leaves (2 × 800 mm)"
+          "en": "Symmetrical double swing leaves (2 × 800 mm)",
+          "fr": "Double vantail battant symétrique (2 × 800 mm)",
+          "de": "Symmetrische Doppelflügel (2 × 800 mm)"
         },
         {
           "it": "Incisione geometrica a bassorilievo",
-          "en": "Geometric architectural relief engraving"
+          "en": "Geometric architectural relief engraving",
+          "fr": "Gravure géométrique en bas-relief",
+          "de": "Geometrische Flachrelief-Gravur"
         },
         {
           "it": "Battuta centrale ermetica con guarnizione acustica",
-          "en": "Airtight central meeting stile with seal"
+          "en": "Airtight central meeting stile with seal",
+          "fr": "Battue centrale hermétique avec joint acoustique",
+          "de": "Luftdichte Mittelfalz mit Akustikdichtung"
         }
       ],
       "technicalDrawing": {
@@ -490,12 +530,16 @@
       "model": "OMBRA",
       "name": {
         "it": "Porta Scanalata OMBRA — Rovere Scuro & Bronzo",
-        "en": "OMBRA Fluted Door — Dark Oak & Bronze"
+        "en": "OMBRA Fluted Door — Dark Oak & Bronze",
+        "fr": "Porte Rainurée OMBRA — Chêne Sombre & Bronze",
+        "de": "Rillentür OMBRA — Dunkeleiche & Bronze"
       },
       "openingType": "swing",
       "summary": {
         "it": "Ebanisteria sartoriale in rovere scuro scanalato con intarsi metallici in bronzo spazzolato complanari.",
-        "en": "Artisanal fluted dark oak woodwork with flush brushed bronze metallic inlays."
+        "en": "Artisanal fluted dark oak woodwork with flush brushed bronze metallic inlays.",
+        "fr": "Ébénisterie sur mesure en chêne sombre rainuré avec incrustations métalliques affleurantes en bronze brossé.",
+        "de": "Schreinerhandwerk aus dunkel genuteter Eiche mit flächenbündigen Metalleinlegern aus gebürsteter Bronze."
       },
       "mainImage": "/images/vela/residential/luxury-reeded-oak-door-with-bronze-inlay.webp",
       "images": [
@@ -538,15 +582,21 @@
       "verifiedFeatures": [
         {
           "it": "Rovere tinto scuro con scanalature ritmate",
-          "en": "Dark stained oak with rhythmic grooves"
+          "en": "Dark stained oak with rhythmic grooves",
+          "fr": "Chêne teinté sombre avec rainurage rythmé",
+          "de": "Dunkel gebeizte Eiche mit rhythmischen Nuten"
         },
         {
           "it": "Filettatura metallica incassata centesimale",
-          "en": "Centisimal flush embedded metal inlay"
+          "en": "Centisimal flush embedded metal inlay",
+          "fr": "Incrustation métallique affleurante au centième",
+          "de": "Präzise eingearbeitete flächenbündige Metalleinlage"
         },
         {
           "it": "Serratura silenziosa con chiave magnetica",
-          "en": "Silent magnetic keylock"
+          "en": "Silent magnetic keylock",
+          "fr": "Serrure silencieuse à clé magnétique",
+          "de": "Leises Magnetschloss mit Magnetschlüssel"
         }
       ],
       "technicalDrawing": {
@@ -587,12 +637,16 @@
       "model": "QUADRO",
       "name": {
         "it": "Porta Battente QUADRO — Rovere Chiaro",
-        "en": "QUADRO Interior Door — Light Oak"
+        "en": "QUADRO Interior Door — Light Oak",
+        "fr": "Porte Battante QUADRO — Chêne Clair",
+        "de": "Innentür QUADRO — Helleiche"
       },
       "openingType": "swing",
       "summary": {
         "it": "Rovere chiaro biondo a poro aperto con riquadratura geometrica. Armonia discreta per ambienti living sereni.",
-        "en": "Light open-pore blonde oak with geometric proportion. Understated harmony for living interiors."
+        "en": "Light open-pore blonde oak with geometric proportion. Understated harmony for living interiors.",
+        "fr": "Chêne blond clair à pores ouverts avec encadrement géométrique. Une harmonie sereine pour les espaces de vie contemporains.",
+        "de": "Helle, offenporige Eiche mit geometrischer Rahmung. Dezente Harmonie für ruhige Wohnbereiche."
       },
       "mainImage": "/images/vela/residential/vela-door-in-a-calm-italian-interior.webp",
       "images": [
@@ -625,15 +679,21 @@
       "verifiedFeatures": [
         {
           "it": "Spessore anta 41 mm con nucleo acustico",
-          "en": "41 mm thick leaf with acoustic core"
+          "en": "41 mm thick leaf with acoustic core",
+          "fr": "Épaisseur de vantail 41 mm avec âme acoustique",
+          "de": "41 mm Türblattstärke mit Akustikkern"
         },
         {
           "it": "Rovere naturale trattato ad acqua opaco",
-          "en": "Water-based matte natural oak"
+          "en": "Water-based matte natural oak",
+          "fr": "Chêne naturel brossé mat protecteur",
+          "de": "Matt geschützte, gebürstete Natureiche"
         },
         {
           "it": "Cerniere a scomparsa registrabili su 3 assi",
-          "en": "Concealed 3D adjustable hinges"
+          "en": "Concealed 3D adjustable hinges",
+          "fr": "Bâti affleurant réversible gauche/droite",
+          "de": "Wandbündige Zarge, DIN links/rechts wendbar"
         }
       ],
       "technicalDrawing": {
@@ -675,12 +735,16 @@
       "model": "METALLO",
       "name": {
         "it": "Porta a Bilico METALLO — Bronzo Satinato",
-        "en": "METALLO Pivot Door — Satin Bronze"
+        "en": "METALLO Pivot Door — Satin Bronze",
+        "fr": "Porte Pivot METALLO — Bronze Satiné",
+        "de": "Pivot-Tür METALLO — Satinierte Bronze"
       },
       "openingType": "pivot",
       "summary": {
         "it": "Apertura a bilico pivot con finitura metallica cangiante a effetto bronzo liquido. Riflessi preziosi e rotazione perfetta.",
-        "en": "Pivot rotation with hand-applied liquid bronze metallic surface. Subtle shifting light reflections."
+        "en": "Pivot rotation with hand-applied liquid bronze metallic surface. Subtle shifting light reflections.",
+        "fr": "Revêtement sculptural en tôle de bronze chaud satiné à la main. Présence minérale et contemporaine pour les entrées de caractère.",
+        "de": "Skulpturale Oberfläche aus handpatiniertem, satiniertem Bronzeblech. Mineralisch-warme Ausstrahlung für markante Eingänge."
       },
       "mainImage": "/images/vela/residential/warm-bronze-door-modern-elegance.webp",
       "images": [
@@ -723,15 +787,21 @@
       "verifiedFeatures": [
         {
           "it": "Finitura artigianale a polvere di bronzo",
-          "en": "Real bronze powder hand-finished coat"
+          "en": "Real bronze powder hand-finished coat",
+          "fr": "Revêtement métallique en bronze noble 1,5 mm",
+          "de": "1,5 mm starke Edelbronzeverkleidung"
         },
         {
           "it": "Perno a bilico incassato a filo pavimento",
-          "en": "Floor-flush concealed pivot bearing"
+          "en": "Floor-flush concealed pivot bearing",
+          "fr": "Rotation pivotante fluide avec arrêt à 90°",
+          "de": "Sanfte Pivot-Drehung mit 90°-Feststellung"
         },
         {
           "it": "Complanarità assoluta push-pull",
-          "en": "Complete push-pull flush closure"
+          "en": "Complete push-pull flush closure",
+          "fr": "Protection nano-céramique anti-traces de doigts",
+          "de": "Anti-Fingerprint Nano-Keramikversiegelung"
         }
       ],
       "technicalDrawing": {
@@ -772,12 +842,16 @@
       "model": "CRISTALLO",
       "name": {
         "it": "Porta Vetro CRISTALLO — Cannettato & Bronzo",
-        "en": "CRISTALLO Glass Door — Reeded & Bronze"
+        "en": "CRISTALLO Glass Door — Reeded & Bronze",
+        "fr": "Porte Vitrée CRISTALLO — Cannelé & Cadre Bronze",
+        "de": "Glastür CRISTALLO — Rillenglas & Bronzerahmen"
       },
       "openingType": "sliding",
       "summary": {
         "it": "Vetro cannettato extrachiaro con telaio strutturale sottile in alluminio finitura bronzo satinato. Diffonde la luce naturale.",
-        "en": "Extra-clear reeded fluted glass with slender satin bronze aluminum frame. Diffuses daylight while preserving privacy."
+        "en": "Extra-clear reeded fluted glass with slender satin bronze aluminum frame. Diffuses daylight while preserving privacy.",
+        "fr": "Verre trempé cannelé translucide serti dans un cadre périmétrique ultra-fin en aluminium anodisé bronze. Préserve l'intimité tout en diffusant la lumière.",
+        "de": "Transluzentes Rillenglas in ultra-schlankem bronzefarbenem Aluminiumrahmen. Schützt die Privatsphäre und lässt Licht fließen."
       },
       "mainImage": "/images/vela/residential/satin-bronze-reeded-glass-door.webp",
       "images": [
@@ -810,15 +884,21 @@
       "verifiedFeatures": [
         {
           "it": "Vetro stratificato di sicurezza cannettato",
-          "en": "Laminated reeded safety glass"
+          "en": "Laminated reeded safety glass",
+          "fr": "Verre trempé de sécurité cannelé 8 mm",
+          "de": "8 mm Einscheiben-Sicherheitsrillenglas"
         },
         {
           "it": "Profilo perimetrale minimale in alluminio",
-          "en": "Ultra-slim perimeter aluminum profile"
+          "en": "Ultra-slim perimeter aluminum profile",
+          "fr": "Cadre minimal en aluminium à profil affleurant",
+          "de": "Minimaler wandbündiger Aluminiumrahmen"
         },
         {
           "it": "Maniglione a tutta altezza integrato",
-          "en": "Full-height integrated pull handle"
+          "en": "Full-height integrated pull handle",
+          "fr": "Tirant vertical pleine hauteur intégré",
+          "de": "Integrierter raumhoher Stoßgriff"
         }
       ],
       "technicalDrawing": {
@@ -859,12 +939,16 @@
       "model": "SETA",
       "name": {
         "it": "Porta Scorrevole SETA — Laccato Bianco",
-        "en": "SETA Pocket Sliding Door — White Lacquer"
+        "en": "SETA Pocket Sliding Door — White Lacquer",
+        "fr": "Porte Coulissante SETA — Laque Blanche Pure",
+        "de": "Schiebetür SETA — Reinweiß Lackiert"
       },
       "openingType": "sliding",
       "summary": {
         "it": "Sistema scorrevole a scomparsa nel controtelaio. L'anta laccata bianco seta svanisce completamente all'interno della muratura.",
-        "en": "Concealed pocket sliding door. The silk white lacquered leaf vanishes completely into the wall."
+        "en": "Concealed pocket sliding door. The silk white lacquered leaf vanishes completely into the wall.",
+        "fr": "Système coulissant escamotable en laque blanche douce. Rail suspendu amorti pour un effacement complet dans la cloison.",
+        "de": "In der Wand laufende Schiebetür in seidenmattem Weißlack. Gedämpftes Schienensystem für vollkommenes Verschwinden in der Wand."
       },
       "mainImage": "/images/vela/residential/elegant-warm-white-pocket-door.webp",
       "images": [
@@ -897,15 +981,21 @@
       "verifiedFeatures": [
         {
           "it": "Scorrimento ammortizzato soft-close silenzioso",
-          "en": "Silent soft-close dampened sliding track"
+          "en": "Silent soft-close dampened sliding track",
+          "fr": "Coulissement suspendu amorti soft-close",
+          "de": "Gedämpfter Soft-Close Deckenlauf"
         },
         {
           "it": "Assenza totale di binario o inciampi a terra",
-          "en": "No floor rail for continuous flooring"
+          "en": "No floor rail for continuous flooring",
+          "fr": "Aucun rail au sol pour une continuité des sols",
+          "de": "Schwellenlos ohne Bodenschiene"
         },
         {
           "it": "Vaschetta di trascinamento a filo pannello",
-          "en": "Flush recessed edge pull"
+          "en": "Flush recessed edge pull",
+          "fr": "Prise de main encastrée usinée dans la tranche",
+          "de": "Bündige Stirnseiten-Griffmuschel"
         }
       ],
       "technicalDrawing": {
@@ -946,12 +1036,16 @@
       "model": "BRUMA",
       "name": {
         "it": "Porta a Bilico BRUMA — Greige con Presa Integrata",
-        "en": "BRUMA Pivot Door — Greige with Integrated Grip"
+        "en": "BRUMA Pivot Door — Greige with Integrated Grip",
+        "fr": "Porte Pivot BRUMA — Grège avec Poignée Fraisée",
+        "de": "Pivot-Tür BRUMA — Greige mit Integrierter Mulde"
       },
       "openingType": "pivot",
       "summary": {
         "it": "Apertura pivot fluida in laccatura satinata greige con presa a gola ergonomica scavata a filo. Proporzioni ampie e silenziose.",
-        "en": "Smooth pivot opening in satin greige lacquer with flush integrated grip. Stately proportions."
+        "en": "Smooth pivot opening in satin greige lacquer with flush integrated grip. Stately proportions.",
+        "fr": "Teinte grège chaleureuse avec prise de main verticale usinée dans la masse. Grand pivot architectural pour pièces de réception.",
+        "de": "Warmer Greige-Farbton mit durchgehender Griffmulde im Massivholz. Großes architektonisches Pivot-Portal für repräsentative Räume."
       },
       "mainImage": "/images/vela/residential/bruma-greige-pivot-door-detail-diptych.webp",
       "images": [
@@ -994,15 +1088,21 @@
       "verifiedFeatures": [
         {
           "it": "Rotazione pivot bidirezionale con arresto a 90°",
-          "en": "Bidirectional pivot with 90° soft stop"
+          "en": "Bidirectional pivot with 90° soft stop",
+          "fr": "Pivot excentré réglable à fermeture assistée",
+          "de": "Exzentrischer Pivot mit Schließdämpfung"
         },
         {
           "it": "Laccatura satinata anti-impronta greige",
-          "en": "Anti-fingerprint satin greige lacquer"
+          "en": "Anti-fingerprint satin greige lacquer",
+          "fr": "Gorge verticale intégrée sur toute la hauteur",
+          "de": "Durchgehende vertikale Grifffräsung"
         },
         {
           "it": "Presa ergonomica a gola incassata nel pannello",
-          "en": "Ergonomic flush recessed finger pull"
+          "en": "Ergonomic flush recessed finger pull",
+          "fr": "Finition laquée ultra-mate anti-reflets",
+          "de": "Ultra-matte reflexionsarme Lackierung"
         }
       ],
       "technicalDrawing": {
@@ -1043,12 +1143,16 @@
       "model": "SENSO",
       "name": {
         "it": "Porta Suite SENSO — Noce con RFID",
-        "en": "SENSO Suite Door — Walnut & RFID"
+        "en": "SENSO Suite Door — Walnut & RFID",
+        "fr": "Porte Suite SENSO — Noyer avec Serrure RFID",
+        "de": "Suiten-Tür SENSO — Nussbaum mit RFID"
       },
       "openingType": "swing",
       "summary": {
         "it": "Porta d'ingresso suite in noce canaletto fiammato con intarsio in bronzo e predisposizione per lettore hotel RFID a scomparsa.",
-        "en": "Suite entrance door in Canaletto walnut with bronze inlay and RFID transponder integration."
+        "en": "Suite entrance door in Canaletto walnut with bronze inlay and RFID transponder integration.",
+        "fr": "Porte de suite hôtelière en noyer américain foncé avec lecteur de carte RFID encastré à fleur de boiserie et isolation acoustique certifiée.",
+        "de": "Hotelsuiten-Eingangstür aus amerikanischem Nussbaum mit flächenbündigem RFID-Kartenleser und geprüfter Schalldämmung."
       },
       "mainImage": "/images/vela/hotel/italian-walnut-hotel-door-with-bronze-inlay.webp",
       "images": [
@@ -1091,15 +1195,21 @@
       "verifiedFeatures": [
         {
           "it": "Predisposizione serratura elettronica RFID a filo",
-          "en": "Flush RFID electronic lock preparation"
+          "en": "Flush RFID electronic lock preparation",
+          "fr": "Lecteur de carte RFID transpondeur encastré affleurant",
+          "de": "Flächenbündig eingelassener RFID-Kartenleser"
         },
         {
           "it": "Abbattimento acustico con soglia a ghigliottina",
-          "en": "Acoustic drop seal with threshold drop"
+          "en": "Acoustic drop seal with threshold drop",
+          "fr": "Affaiblissement acoustique certifié 38–42 dB",
+          "de": "Zertifizierter Schallschutz 38–42 dB"
         },
         {
           "it": "Spessore maggiorato 60 mm per privacy ospite",
-          "en": "60 mm increased thickness for guest privacy"
+          "en": "60 mm increased thickness for guest privacy",
+          "fr": "Plinthe automatique à guillotine invisible",
+          "de": "Verdeckte automatische Absenkdichtung"
         }
       ],
       "technicalDrawing": {
@@ -1140,12 +1250,16 @@
       "model": "OLIVA",
       "name": {
         "it": "Porta Camera OLIVA — Verde Oliva & Controllo Accessi",
-        "en": "OLIVA Hotel Door — Olive Green & Access Control"
+        "en": "OLIVA Hotel Door — Olive Green & Access Control",
+        "fr": "Porte de Chambre OLIVA — Vert Olive & Contrôle d'Accès",
+        "de": "Zimmertür OLIVA — Olivgrün & Zutrittskontrolle"
       },
       "openingType": "swing",
       "summary": {
         "it": "Tonalità verde oliva contemporanea con imbotte complanare e predisposizione integrata per tessera di sicurezza hotel.",
-        "en": "Contemporary olive tone with flush casing and seamless hotel keycard integration."
+        "en": "Contemporary olive tone with flush casing and seamless hotel keycard integration.",
+        "fr": "Laque vert olive satinée avec insert en laiton bruni et réservation technique pour serrures électroniques sans contact.",
+        "de": "Seidenmatter Olivgrün-Lack mit brüniertem Messingeinleger und technischer Vorbereitung für elektronische Hotelschlösser."
       },
       "mainImage": "/images/vela/hotel/olive-grey-hotel-door-italian-design.webp",
       "images": [
@@ -1188,15 +1302,21 @@
       "verifiedFeatures": [
         {
           "it": "Complanarità totale con le pareti di corridoio",
-          "en": "Total coplanarity with corridor walls"
+          "en": "Total coplanarity with corridor walls",
+          "fr": "Laquage haute résistance aux chocs et valises",
+          "de": "Stoßfester, kofferbeständiger Speziallack"
         },
         {
           "it": "Laccatura opaca ad altissima resistenza antiurto",
-          "en": "High-durability impact resistant matte lacquer"
+          "en": "High-durability impact resistant matte lacquer",
+          "fr": "Serrure magnétique compatible systèmes VingCard / Salto",
+          "de": "Magnetschloss kompatibel mit VingCard / Salto"
         },
         {
           "it": "Guarnizioni perimetrali silenziose di battuta",
-          "en": "Continuous silent acoustic buffer seals"
+          "en": "Continuous silent acoustic buffer seals",
+          "fr": "Affleurement aux lambris de couloir",
+          "de": "Flächenbündig mit Flurvertäfelungen"
         }
       ],
       "technicalDrawing": {
@@ -1237,12 +1357,16 @@
       "model": "ARENARIA",
       "name": {
         "it": "Porta Suite ARENARIA — Rovere Chiaro & Boiserie",
-        "en": "ARENARIA Suite Door — Natural Oak & Panelling"
+        "en": "ARENARIA Suite Door — Natural Oak & Panelling",
+        "fr": "Porte Suite ARENARIA — Chêne Clair & Boiserie",
+        "de": "Suiten-Tür ARENARIA — Helleiche & Wandverkleidung"
       },
       "openingType": "swing",
       "summary": {
         "it": "Ingresso suite coordinato con boiserie e numero di camera complanare. Rovere biondo spazzolato per resort di lusso.",
-        "en": "Suite entrance coordinated with continuous wall panelling and flush room signage in natural oak."
+        "en": "Suite entrance coordinated with continuous wall panelling and flush room signage in natural oak.",
+        "fr": "Ensemble architectural coordonné porte et boiserie en chêne blond. Solution clé en main pour hôtels 5 étoiles et résidences de luxe.",
+        "de": "Koordinierte Einheit aus Tür und Wandverkleidung in blonder Eiche. Turnkey-Lösung für 5-Sterne-Hotels und Luxusresidenzen."
       },
       "mainImage": "/images/vela/hotel/arenaria-oak-hotel-door-diptych.webp",
       "images": [
@@ -1275,15 +1399,21 @@
       "verifiedFeatures": [
         {
           "it": "Integrazione continua con boiserie VELA",
-          "en": "Seamless integration with VELA wall panelling"
+          "en": "Seamless integration with VELA wall panelling",
+          "fr": "Continuité absolue de veinage entre porte et boiserie",
+          "de": "Nahtloses Furnierbild zwischen Tür und Wand"
         },
         {
           "it": "Isolamento acustico hotel di alta fascia",
-          "en": "High-grade hospitality acoustic core"
+          "en": "High-grade hospitality acoustic core",
+          "fr": "Certification coupe-feu EI30 / EI60 sur demande",
+          "de": "Brandschutzzertifizierung EI30 / EI60 auf Anfrage"
         },
         {
           "it": "Cerniere a scomparsa registrabili su 3 assi",
-          "en": "Concealed 3D adjustable heavy-duty hinges"
+          "en": "Concealed 3D adjustable heavy-duty hinges",
+          "fr": "Poignée et garniture en bronze sur mesure",
+          "de": "Maßgefertigte Drückergarnitur aus Bronze"
         }
       ],
       "technicalDrawing": {
@@ -1324,12 +1454,16 @@
       "model": "BRONZO",
       "name": {
         "it": "Porta Suite BRONZO — Rovere Espresso con Telaio Bronzo",
-        "en": "BRONZO Suite Door — Espresso Oak with Bronze Frame"
+        "en": "BRONZO Suite Door — Espresso Oak with Bronze Frame",
+        "fr": "Porte Suite BRONZO — Chêne Espresso avec Bâti Bronze",
+        "de": "Suiten-Tür BRONZO — Espresso-Eiche & Bronzerahmen"
       },
       "openingType": "swing",
       "summary": {
         "it": "Telaio perimetrale metallico a vista in bronzo satinato e pannello in rovere tinto espresso con inserto orizzontale.",
-        "en": "Exposed perimeter frame in satin bronze paired with dark espresso stained oak panel."
+        "en": "Exposed perimeter frame in satin bronze paired with dark espresso stained oak panel.",
+        "fr": "Chêne teinté espresso foncé serti d'un chambranle métallique en bronze architectural. Confort acoustique et raffinement intemporel.",
+        "de": "Espresso-dunkel gebeizte Eiche mit bronzefarbenem Metallrahmen. Akustischer Komfort und zeitlose Eleganz."
       },
       "mainImage": "/images/vela/hotel/bronze-framed-espresso-hotel-door.webp",
       "images": [
@@ -1372,15 +1506,21 @@
       "verifiedFeatures": [
         {
           "it": "Telaio strutturale in alluminio finitura bronzo",
-          "en": "Structural aluminum frame in bronze finish"
+          "en": "Structural aluminum frame in bronze finish",
+          "fr": "Bâti métallique bronze ultra-résistant",
+          "de": "Extrem robuster Bronze-Metallrahmen"
         },
         {
           "it": "Serratura magnetica a scatto silenzioso",
-          "en": "Silent magnetic latch mechanism"
+          "en": "Silent magnetic latch mechanism",
+          "fr": "Joint d'étanchéité acoustique à 4 côtés",
+          "de": "4-seitig umlaufende Schalldichtung"
         },
         {
           "it": "Spessore 60 mm ad elevata tenuta termo-acustica",
-          "en": "60 mm thickness for thermo-acoustic insulation"
+          "en": "60 mm thickness for thermo-acoustic insulation",
+          "fr": "Compatible contrôle d'accès domotique d'hôtel",
+          "de": "Kompatibel mit Hotel-Gebäudeleittechnik"
         }
       ],
       "technicalDrawing": {
@@ -1421,12 +1561,16 @@
       "model": "AVENA",
       "name": {
         "it": "Porta Camera AVENA — Avorio con Inserto Sottile",
-        "en": "AVENA Guestroom Door — Ivory with Subtle Inlay"
+        "en": "AVENA Guestroom Door — Ivory with Subtle Inlay",
+        "fr": "Porte Chambre AVENA — Ivoire avec Filet Métallique",
+        "de": "Zimmertür AVENA — Elfenbein mit Metallfaden"
       },
       "openingType": "swing",
       "summary": {
         "it": "Raffinata laccatura bianco avorio con profilo metallico sottile. Ideale per boutique hotel, grand hotel e resort sul mare.",
-        "en": "Refined warm ivory lacquer with slender metallic profile for boutique hotels and seaside luxury resorts."
+        "en": "Refined warm ivory lacquer with slender metallic profile for boutique hotels and seaside luxury resorts.",
+        "fr": "Porte de chambre d'hôtel en laque ivoire clair avec insert métallique vertical affleurant. Élégance sobre pour établissements de charme.",
+        "de": "Hotelzimmertür in hellem Elfenbeinlack mit vertikalem bündigem Metallstreifen. Schlichte Eleganz für Boutique-Hotels."
       },
       "mainImage": "/images/vela/hotel/ivory-hotel-door-with-brass-details.webp",
       "images": [
@@ -1469,15 +1613,21 @@
       "verifiedFeatures": [
         {
           "it": "Laccatura a poro chiuso ad alta manutenibilità",
-          "en": "Easy-to-clean closed-pore hospitality lacquer"
+          "en": "Easy-to-clean closed-pore hospitality lacquer",
+          "fr": "Finition laquée mate satinée anti-rayures",
+          "de": "Kratzfeste, seidenmatte Lackoberfläche"
         },
         {
           "it": "Profilo sottile d'accento metallico",
-          "en": "Slender metallic decorative profile"
+          "en": "Slender metallic decorative profile",
+          "fr": "Affaiblissement acoustique 35 dB certifié",
+          "de": "Zertifizierte Schalldämmung 35 dB"
         },
         {
           "it": "Guarnizioni perimetrali di tenuta acustica",
-          "en": "Perimeter acoustic buffer seals"
+          "en": "Perimeter acoustic buffer seals",
+          "fr": "Ferme-porte invisible encastré dans la traverse",
+          "de": "Verdeckter Obentürschließer im Rahmen"
         }
       ],
       "technicalDrawing": {
@@ -1518,12 +1668,16 @@
       "model": "ROVERE",
       "name": {
         "it": "Portale Suite ROVERE — Rovere Tinto & Lettore RFID",
-        "en": "ROVERE Suite Entrance — Stained Oak & RFID"
+        "en": "ROVERE Suite Entrance — Stained Oak & RFID",
+        "fr": "Portail Suite ROVERE — Chêne Teinté & Lecteur RFID",
+        "de": "Suiten-Portal ROVERE — Gebeizte Eiche & RFID"
       },
       "openingType": "swing",
       "summary": {
         "it": "Portale architettonico profondo per ingresso suite con rovere tinto caldo e lettore smart key hotel a filo.",
-        "en": "Deep architectural portal for suite arrival with warm stained oak and integrated hotel smart lock."
+        "en": "Deep architectural portal for suite arrival with warm stained oak and integrated hotel smart lock.",
+        "fr": "Portail d'entrée monumental pour suite de luxe en chêne brossé foncé avec serrure électronique motorisée intégrée.",
+        "de": "Repräsentatives Eingangsportal für Luxussuiten aus dunkler Eiche mit vollintegriertem Motorschloss."
       },
       "mainImage": "/images/vela/hotel/warm-oak-luxury-hotel-entrance.webp",
       "images": [
@@ -1566,15 +1720,21 @@
       "verifiedFeatures": [
         {
           "it": "Sguancio sagomato con predisposizione LED",
-          "en": "Flared portal with indirect LED preparation"
+          "en": "Flared portal with indirect LED preparation",
+          "fr": "Vantail lourd renforcé pour une acoustique optimale",
+          "de": "Verstärktes Schwerblatt für optimale Akustik"
         },
         {
           "it": "Integrazione sistema transponder hotel",
-          "en": "Hospitality transponder credential integration"
+          "en": "Hospitality transponder credential integration",
+          "fr": "Réservation technique invisible pour module RFID",
+          "de": "Unsichtbare Fräsung für RFID-Modul"
         },
         {
           "it": "Spessore 60 mm per totale isolamento acustico",
-          "en": "60 mm thickness for maximum acoustic comfort"
+          "en": "60 mm thickness for maximum acoustic comfort",
+          "fr": "Charnières invisibles grand format à forte charge",
+          "de": "Schwerlastbänder verdeckt eingebaut"
         }
       ],
       "technicalDrawing": {
@@ -1615,12 +1775,16 @@
       "model": "ESSENZA",
       "name": {
         "it": "Porta Camera ESSENZA — Frassino Chiaro con Gola",
-        "en": "ESSENZA Hotel Door — Light Ash with Vertical Grip"
+        "en": "ESSENZA Hotel Door — Light Ash with Vertical Grip",
+        "fr": "Porte Chambre ESSENZA — Frêne Clair avec Gorge",
+        "de": "Zimmertür ESSENZA — Helle Esche mit Fräsung"
       },
       "openingType": "swing",
       "summary": {
         "it": "Frassino naturale desaturato a poro aperto con gola verticale e fascia inferiore paracolpi in metallo.",
-        "en": "Open-grain natural ashwood with vertical finger groove and protective bottom kickplate."
+        "en": "Open-grain natural ashwood with vertical finger groove and protective bottom kickplate.",
+        "fr": "Frêne scandinave clair brossé avec gorge de préhension architecturale. Clarté et luminosité pour suites de villégiature et resorts.",
+        "de": "Helle, gebürstete Esche mit architektonischer Griffmulde. Lichtdurchflutete Klarheit für Resort- und Wellnesshotels."
       },
       "mainImage": "/images/vela/hotel/essenza-hotel-door-in-ash-and-bronze.webp",
       "images": [
@@ -1663,15 +1827,21 @@
       "verifiedFeatures": [
         {
           "it": "Gola verticale d'apertura ergonomica",
-          "en": "Ergonomic vertical opening groove"
+          "en": "Ergonomic vertical opening groove",
+          "fr": "Frêne naturel verni à l'eau écologique",
+          "de": "Naturesche mit umweltfreundlichem Wasserlack"
         },
         {
           "it": "Protezione paracolpi per carrelli di servizio",
-          "en": "Built-in luggage kickplate protection"
+          "en": "Built-in luggage kickplate protection",
+          "fr": "Gorge ergonomique affleurante",
+          "de": "Flächenbündig gefräste Ergonomiemulde"
         },
         {
           "it": "Trattamento protettivo all'acqua opaco naturale",
-          "en": "Natural matte protective water finish"
+          "en": "Natural matte protective water finish",
+          "fr": "Joint acoustique de seuil rétractable",
+          "de": "Absenkbare Bodendichtung mit Schalldämpfung"
         }
       ],
       "technicalDrawing": {
@@ -1712,12 +1882,16 @@
       "model": "VERDE",
       "name": {
         "it": "Porta Suite VERDE — Verde Profondo con Ferramenta Scura",
-        "en": "VERDE Suite Door — Deep Green & Dark Hardware"
+        "en": "VERDE Suite Door — Deep Green & Dark Hardware",
+        "fr": "Porte Suite VERDE — Vert Profond & Quincaillerie Noire",
+        "de": "Suiten-Tür VERDE — Tiefgrün & Schwarze Beschläge"
       },
       "openingType": "swing",
       "summary": {
         "it": "Tonalità forest green profonda e vellutata al tatto con ferramenta in ottone brunito scuro. Atmosfera esclusiva e contemporanea.",
-        "en": "Deep velvet forest green lacquer with dark burnished brass hardware for exclusive suites."
+        "en": "Deep velvet forest green lacquer with dark burnished brass hardware for exclusive suites.",
+        "fr": "Teinte vert forêt sombre associée à une ferrure noire mate soft-touch. Ambiance feutrée et intime pour suites d'exception.",
+        "de": "Tiefes Waldgrün kombiniert mit mattschwarzen Soft-Touch-Beschlägen. Elegante Intimität für exklusive Suiten."
       },
       "mainImage": "/images/vela/hotel/elegant-green-hotel-door.webp",
       "images": [
@@ -1760,15 +1934,21 @@
       "verifiedFeatures": [
         {
           "it": "Laccatura opaca anti-impronta soft-touch",
-          "en": "Soft-touch anti-fingerprint matte lacquer"
+          "en": "Soft-touch anti-fingerprint matte lacquer",
+          "fr": "Laquage haute résistance formulé pour l'hôtellerie",
+          "de": "Hochbeständige Hotel-Speziallackierung"
         },
         {
           "it": "Ferramenta e maniglieria brunita a filo",
-          "en": "Dark burnished flush hardware"
+          "en": "Dark burnished flush hardware",
+          "fr": "Accessoires et garnitures noir mat anti-traces",
+          "de": "Mattschwarze Anti-Fingerprint-Beschläge"
         },
         {
           "it": "Soglia mobile paraspifferi e antirumore",
-          "en": "Automatic acoustic guillotine bottom drop seal"
+          "en": "Automatic acoustic guillotine bottom drop seal",
+          "fr": "Isolation phonique de haut niveau pour suite présidentielle",
+          "de": "Höchste Schalldämmung für Suitenbereiche"
         }
       ],
       "technicalDrawing": {
@@ -1809,12 +1989,16 @@
       "model": "PIETRA",
       "name": {
         "it": "Porta Camera PIETRA — Effetto Pietra & Reader RFID",
-        "en": "PIETRA Guestroom Door — Stone Texture & RFID"
+        "en": "PIETRA Guestroom Door — Stone Texture & RFID",
+        "fr": "Porte Chambre PIETRA — Effet Calcaire & Lecteur RFID",
+        "de": "Zimmertür PIETRA — Kalkstein-Optik & RFID-Reader"
       },
       "openingType": "swing",
       "summary": {
         "it": "Superficie minerale a effetto pietra calcarea limestone. Elevata resistenza all'usura da valigie e perfetta complanarità con la parete.",
-        "en": "Mineral limestone tactile texture with high wear resistance and flush corridor casing."
+        "en": "Mineral limestone tactile texture with high wear resistance and flush corridor casing.",
+        "fr": "Surface minérale texturée effet pierre calcaire limestone. Haute résistance à l'usure des valises et continuité parfaite avec la cloison.",
+        "de": "Mineralische Kalkstein-Struktur mit höchster Kofferabriebfestigkeit und vollkommener Wandbündigkeit."
       },
       "mainImage": "/images/vela/hotel/limestone-guestroom-door-in-a-sunlit-corridor.webp",
       "images": [
@@ -1857,15 +2041,21 @@
       "verifiedFeatures": [
         {
           "it": "Finitura minerale ad altissima resistenza superficiale",
-          "en": "Ultra-durable mineral tactile surface"
+          "en": "Ultra-durable mineral tactile surface",
+          "fr": "Revêtement minéral à très haute résistance aux chocs",
+          "de": "Extrem widerstandsfähige mineralische Oberfläche"
         },
         {
           "it": "Integrazione discreta di card reader hotel",
-          "en": "Discreet hotel keycard reader integration"
+          "en": "Discreet hotel keycard reader integration",
+          "fr": "Intégration discrète du badge RFID hôtelier",
+          "de": "Diskrete Integration des RFID-Kartenlesers"
         },
         {
           "it": "Battuta fonoassorbente a quattro lati",
-          "en": "Four-sided continuous acoustic dampening"
+          "en": "Four-sided continuous acoustic dampening",
+          "fr": "Isolation acoustique périphérique sur 4 côtés",
+          "de": "Umlaufende 4-seitige Schalldämpfung"
         }
       ],
       "technicalDrawing": {
@@ -1906,12 +2096,16 @@
       "model": "RIGA",
       "name": {
         "it": "Porta Grande Suite RIGA — Noce & Inserto Orizzontale",
-        "en": "RIGA Presidential Suite Door — Walnut & Horizontal Inlay"
+        "en": "RIGA Presidential Suite Door — Walnut & Horizontal Inlay",
+        "fr": "Grande Porte Suite RIGA — Noyer & Filet Horizontal",
+        "de": "Präsidenten-Tür RIGA — Nussbaum & Horizontal-Inlay"
       },
       "openingType": "swing",
       "summary": {
         "it": "Porta d'accesso maestosa per presidential suite in noce canaletto con maniglione verticale in bronzo e inserto orizzontale.",
-        "en": "Monumental presidential suite entrance in Canaletto walnut with vertical bronze pull."
+        "en": "Monumental presidential suite entrance in Canaletto walnut with vertical bronze pull.",
+        "fr": "Porte d'entrée magistrale pour suite présidentielle en noyer canaletto avec tirant vertical en bronze et filet horizontal affleurant.",
+        "de": "Monumentale Eingangstür für Präsidentensuiten aus Canaletto-Nussbaum mit vertikalem Bronzegriff und Quer-Inlay."
       },
       "mainImage": "/images/vela/hotel/luxurious-walnut-and-bronze-hotel-door.webp",
       "images": [
@@ -1954,15 +2148,21 @@
       "verifiedFeatures": [
         {
           "it": "Altezza fino a 300 cm a filo soffitto",
-          "en": "Full height up to 300 cm flush to ceiling"
+          "en": "Full height up to 300 cm flush to ceiling",
+          "fr": "Hauteur sous plafond jusqu'à 300 cm sans traverse",
+          "de": "Raumhoch bis 300 cm ohne Quersturz"
         },
         {
           "it": "Maniglione verticale ergonomico fonoassorbente",
-          "en": "Integrated vertical acoustic pull handle"
+          "en": "Integrated vertical acoustic pull handle",
+          "fr": "Tirant vertical ergonomique à amortissement acoustique",
+          "de": "Ergonomischer Stoßgriff mit Akustikdämpfung"
         },
         {
           "it": "Isolamento termo-acustico di massimo grado",
-          "en": "Top-tier acoustic and thermal core"
+          "en": "Top-tier acoustic and thermal core",
+          "fr": "Âme thermo-acustique d'isolation maximale",
+          "de": "Thermo-akustischer Hochleistungskern"
         }
       ],
       "technicalDrawing": {
@@ -1998,12 +2198,16 @@
       "code": "VELA · SHOWER 01",
       "name": {
         "it": "Cabina Doccia Angolare Cristallo & Marmo Verde",
-        "en": "Corner Shower Enclosure in Clear Glass & Green Marble"
+        "en": "Corner Shower Enclosure in Clear Glass & Green Marble",
+        "fr": "Paroi de Douche d'Angle en Verre & Marbre Vert",
+        "de": "Eck-Duschkabine aus Klarglas & Grünem Marmor"
       },
       "openingType": "swing",
       "summary": {
         "it": "Sistema box doccia ad angolo in cristallo temperato extrachiaro con perno pivot e guarnizioni di tenuta invisibili.",
-        "en": "Corner shower enclosure with extra-clear tempered glass, pivot hinges, and invisible water seals."
+        "en": "Corner shower enclosure with extra-clear tempered glass, pivot hinges, and invisible water seals.",
+        "fr": "Système de douche d'angle en verre trempé extra-clair avec pivot affleurant et joints d'étanchéité invisibles.",
+        "de": "Eck-Duschkabinensystem aus extra-klarem Sicherheitsglas mit wandbündigem Pivot und verdeckten Dichtungen."
       },
       "mainImage": "/images/vela/doors/01_P+G4.webp",
       "elevationImage": "/images/vela/doors/01_P+G4_2AV.webp",
@@ -2042,15 +2246,21 @@
       "verifiedFeatures": [
         {
           "it": "Cristallo temperato di sicurezza 8 mm",
-          "en": "8 mm tempered safety glass"
+          "en": "8 mm tempered safety glass",
+          "fr": "Verre trempé de sécurité extra-clair 8 mm",
+          "de": "8 mm extra-klares Einscheiben-Sicherheitsglas"
         },
         {
           "it": "Trattamento idrofobico anticalcare",
-          "en": "Long-lasting hydrophobic anti-limescale seal"
+          "en": "Long-lasting hydrophobic anti-limescale seal",
+          "fr": "Traitement hydrophobe anticalcaire permanent",
+          "de": "Permanente wasserabweisende Antikalk-Beschichtung"
         },
         {
           "it": "Cerniera a perno con arresto controllato",
-          "en": "Pivot hinge with controlled stop position"
+          "en": "Pivot hinge with controlled stop position",
+          "fr": "Charnière pivot à fermeture douce amortie",
+          "de": "Pivot-Scharnier mit gedämpftem Endanschlag"
         }
       ]
     },
@@ -2061,12 +2271,16 @@
       "code": "VELA · SHOWER 02",
       "name": {
         "it": "Porta Doccia Scorrevole a Binario Superiore Minimo",
-        "en": "Sliding Shower Door with Minimal Upper Track"
+        "en": "Sliding Shower Door with Minimal Upper Track",
+        "fr": "Porte de Douche Coulissante à Rail Haut Minimal",
+        "de": "Schiebe-Duschtür mit Minimaler oberer Laufschiene"
       },
       "openingType": "sliding",
       "summary": {
         "it": "Scorrimento fluido su cuscinetti in acciaio inox schermati dall'acqua. Profilo a pavimento azzerato.",
-        "en": "Smooth sliding on stainless steel bearings protected from water splash. Zero floor threshold."
+        "en": "Smooth sliding on stainless steel bearings protected from water splash. Zero floor threshold.",
+        "fr": "Coulissement fluide sur roulements inox blindés contre l'eau. Seuil au sol entièrement nivelé sans barrière.",
+        "de": "Sanfter Schiebelauf auf wassergeschützten Edelstahl-Kugellagern. Schwellenloser, barrierefreier Bodenübergang."
       },
       "mainImage": "/images/vela/doors/02_NVP1.webp",
       "elevationImage": "/images/vela/doors/02_NVP1_2AV.webp",
@@ -2105,15 +2319,21 @@
       "verifiedFeatures": [
         {
           "it": "Binario superiore di guida a sezione ridotta",
-          "en": "Slim upper guide rail"
+          "en": "Slim upper guide rail",
+          "fr": "Rail supérieur suspendu à section ultra-réduite",
+          "de": "Schlanke obere Führungsschiene"
         },
         {
           "it": "Assenza di barriere a filo pavimento",
-          "en": "Barrier-free walk-in floor threshold"
+          "en": "Barrier-free walk-in floor threshold",
+          "fr": "Accès de plain-pied sans ressaut de seuil",
+          "de": "Barrierefreier, stufenloser Einstieg"
         },
         {
           "it": "Guarnizioni magnetiche a tenuta stagna",
-          "en": "Airtight magnetic door closure seals"
+          "en": "Airtight magnetic door closure seals",
+          "fr": "Joints magnétiques étanches à fermeture douce",
+          "de": "Wasserdichte Magnet-Schließdichtungen"
         }
       ]
     },
@@ -2124,12 +2344,16 @@
       "code": "VELA · SHOWER 03",
       "name": {
         "it": "Cabina Doccia Walk-In con Mensola Portaoggetti Integrata",
-        "en": "Walk-In Shower Enclosure with Integrated Glass Shelf"
+        "en": "Walk-In Shower Enclosure with Integrated Glass Shelf",
+        "fr": "Paroi de Douche Walk-In avec Tablette en Verre Intégrée",
+        "de": "Walk-In Duschwand mit Integrierter Glasablage"
       },
       "openingType": "swing",
       "summary": {
         "it": "Soluzione integrata con mensola sagomata in cristallo e profilo a parete a scomparsa.",
-        "en": "Integrated system with shaped glass shelf and recessed wall profile."
+        "en": "Integrated system with shaped glass shelf and recessed wall profile.",
+        "fr": "Solution verrière épurée avec tablette porte-flacons intégrée et profil mural encastré dans la faïence.",
+        "de": "Integrierte Duschwandlösung mit formgefräster Glasablage und verdeckt in die Wand eingelassenem Profil."
       },
       "mainImage": "/images/vela/doors/09_STP1.webp",
       "elevationImage": "/images/vela/doors/09_STP1_2AV.webp",
@@ -2168,15 +2392,21 @@
       "verifiedFeatures": [
         {
           "it": "Cristallo di sicurezza 8 mm extrachiaro",
-          "en": "8 mm extra-clear safety glass"
+          "en": "8 mm extra-clear safety glass",
+          "fr": "Verre de sécurité extra-clair 8 mm",
+          "de": "8 mm extra-klares Sicherheitsglas"
         },
         {
           "it": "Mensola strutturale complanare",
-          "en": "Flush structural glass accessory shelf"
+          "en": "Flush structural glass accessory shelf",
+          "fr": "Tablette porte-objets structurelle affleurante",
+          "de": "Bündige strukturelle Glasablage"
         },
         {
           "it": "Tenuta ermetica con gocciolatoio morbido",
-          "en": "Hermetic seal with soft drip rail"
+          "en": "Hermetic seal with soft drip rail",
+          "fr": "Étanchéité optimale avec lèvre déflectrice souple",
+          "de": "Dichte Wasserführung mit weicher Abtropflippe"
         }
       ]
     },
@@ -2187,12 +2417,16 @@
       "code": "VELA · SHOWER 04",
       "name": {
         "it": "Box Doccia Walk-In Industriale con Profili Neri",
-        "en": "Industrial Walk-In Shower Enclosure with Black Profiles"
+        "en": "Industrial Walk-In Shower Enclosure with Black Profiles",
+        "fr": "Paroi de Douche Industrielle avec Cadre Noir Mat",
+        "de": "Industrie-Duschkabine mit Mattschwarzem Rahmen"
       },
       "openingType": "swing",
       "summary": {
         "it": "Design contemporaneo di forte carattere, con telaio perimetrale in alluminio anodizzato nero opaco e cerniere a 180°.",
-        "en": "Strong contemporary character with matte black anodized framing and 180° hinges."
+        "en": "Strong contemporary character with matte black anodized framing and 180° hinges.",
+        "fr": "Design contemporain affirmé avec profilage en aluminium anodisé noir mat et charnières pivotantes à 180°.",
+        "de": "Ausdrucksstarkes Design mit mattschwarz eloxiertem Aluminiumrahmen und 180°-Drehbeschlägen."
       },
       "mainImage": "/images/vela/doors/25_VPP2.webp",
       "elevationImage": "/images/vela/doors/25_VPP2_2V.webp",
@@ -2231,15 +2465,21 @@
       "verifiedFeatures": [
         {
           "it": "Profilo perimetrale nero opaco ultra-resistente",
-          "en": "Ultra-durable matte black perimeter frame"
+          "en": "Ultra-durable matte black perimeter frame",
+          "fr": "Cadre périmétrique noir mat ultra-résistant",
+          "de": "Widerstandsfähiger mattschwarzer Rahmen"
         },
         {
           "it": "Apertura a doppio battente a 180°",
-          "en": "Double swing 180° opening"
+          "en": "Double swing 180° opening",
+          "fr": "Ouverture à 180° intérieure et extérieure",
+          "de": "180°-Drehöffnung nach innen und außen"
         },
         {
           "it": "Massima facilità di pulizia con filo vetro interno",
-          "en": "Internal flush glass for effortless cleaning"
+          "en": "Internal flush glass for effortless cleaning",
+          "fr": "Face intérieure parfaitement lisse pour un nettoyage facile",
+          "de": "Innen glasbündig für müheloses Abziehen"
         }
       ]
     }

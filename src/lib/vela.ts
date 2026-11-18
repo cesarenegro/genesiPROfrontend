@@ -1,7 +1,7 @@
 import velaData from '@/data/vela.json';
 import extensionsData from '@/data/vela-extensions.json';
 
-export type Locale = 'it' | 'en' | 'de' | 'fr' | 'ru' | 'zh' | 'id';
+export type Locale = 'it' | 'en' | 'fr' | 'de';
 
 export interface LocalizedText {
   it: string;

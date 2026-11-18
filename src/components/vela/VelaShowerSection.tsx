@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { VelaShowerEnclosure, Locale } from '@/lib/vela';
+import { useTranslations } from 'next-intl';
 import VelaShowerCard from './VelaShowerCard';
 import VelaShowerModal from './VelaShowerModal';
 import VelaShowerTechnicalGuide from './VelaShowerTechnicalGuide';
@@ -12,20 +13,20 @@ interface Props {
 }
 
 export default function VelaShowerSection({ items, locale }: Props) {
-  const isIt = locale === 'it';
+  const t = useTranslations('Vela');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedThickness, setSelectedThickness] = useState<string>('all');
   const [selectedItem, setSelectedItem] = useState<VelaShowerEnclosure | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   const categories = [
-    { id: 'all', label: isIt ? 'Tutte le Serie (23)' : 'All Series (23)' },
-    { id: 'pivot', label: isIt ? 'Bilico Pivot (7)' : 'Pivot Enclosures (7)' },
-    { id: 'sliding', label: isIt ? 'Scorrevoli Soft-Close (5)' : 'Sliding Systems (5)' },
-    { id: 'walk-in', label: isIt ? 'Walk-In & Pareti Fisse (4)' : 'Walk-In Partitions (4)' },
-    { id: 'folding', label: isIt ? 'A Soffietto / Salvaspazio (3)' : 'Bi-Fold Systems (3)' },
-    { id: 'niche', label: isIt ? 'Porta per Nicchia (2)' : 'Niche Doors (2)' },
-    { id: 'island', label: isIt ? 'Isola & Angolari (2)' : 'Island & Corner (2)' },
+    { id: 'all', label: t('showerFilterAll') },
+    { id: 'pivot', label: t('showerFilterPivot') },
+    { id: 'sliding', label: t('showerFilterSliding') },
+    { id: 'walk-in', label: t('showerFilterWalkIn') },
+    { id: 'folding', label: t('showerFilterFolding') },
+    { id: 'niche', label: t('showerFilterNiche') },
+    { id: 'island', label: t('showerFilterIsland') },
   ];
 
   const filteredItems = useMemo(() => {
@@ -59,22 +60,20 @@ export default function VelaShowerSection({ items, locale }: Props) {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 pb-8 border-b border-zinc-200 dark:border-zinc-800">
         <div>
           <span className="text-xs font-mono font-bold text-amber-600 dark:text-amber-400 tracking-widest uppercase">
-            {isIt ? 'Collezione Box Doccia & Cristalli' : 'Shower Enclosures & Glass Architecture'}
+            {t('showerSectionTag')}
           </span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-zinc-900 dark:text-zinc-100 mt-2">
-            {isIt ? 'Pareti Cristallo & Box Doccia VELA' : 'VELA Glass Partitions & Shower Enclosures'}
+            {t('showerSectionTitle')}
           </h1>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-2xl mt-3 leading-relaxed">
-            {isIt
-              ? '23 serie modulari per l’architettura del benessere. Sistemi pivot complanari, scorrimenti magnetici e pareti walk-in realizzate in cristallo temperato 8 e 10 mm con trattamento CleanGlass permanente.'
-              : '23 modular series for luxury wellness spaces. Flush pivot mechanisms, magnetic sliding kinematics, and walk-in screens crafted in 8 and 10 mm tempered glass with permanent CleanGlass treatment.'}
+            {t('showerSectionDesc')}
           </p>
         </div>
 
         {/* Search Input */}
         <div className="w-full md:w-72">
           <label htmlFor="shower-search" className="sr-only">
-            {isIt ? 'Cerca serie o codice' : 'Search series or code'}
+            {t('showerSearchAria')}
           </label>
           <div className="relative">
             <input
@@ -82,7 +81,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder={isIt ? 'Cerca codice o modello (es. P+G4, SC8)...' : 'Search code or model...'}
+              placeholder={t('showerSearchPlaceholder')}
               className="w-full bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 px-3.5 py-2 pl-9 text-xs font-mono text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 focus:outline-hidden focus:border-amber-500 transition-colors"
             />
             <svg
@@ -128,7 +127,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
 
         {/* Thickness Quick Filter */}
         <div className="flex items-center gap-2 text-xs font-mono">
-          <span className="text-zinc-500">{isIt ? 'Spessore Vetro:' : 'Glass:'}</span>
+          <span className="text-zinc-500">{t('showerGlassThickness')}</span>
           <button
             type="button"
             onClick={() => setSelectedThickness('all')}
@@ -138,7 +137,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
                 : 'bg-zinc-100 dark:bg-zinc-800/60 text-zinc-700 dark:text-zinc-300 border-zinc-200 dark:border-zinc-700'
             }`}
           >
-            All
+            {t('showerAllThickness')}
           </button>
           <button
             type="button"
@@ -180,7 +179,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
       ) : (
         <div className="text-center py-20 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 mb-16">
           <p className="text-zinc-500 font-mono text-sm mb-3">
-            {isIt ? 'Nessun modello trovato per i filtri selezionati.' : 'No shower enclosures matched your criteria.'}
+            {t('showerNoResults')}
           </p>
           <button
             type="button"
@@ -191,7 +190,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
             }}
             className="text-xs font-mono text-amber-600 dark:text-amber-400 underline uppercase tracking-wider"
           >
-            {isIt ? 'Azzera Filtri' : 'Reset Filters'}
+            {t('showerResetFilters')}
           </button>
         </div>
       )}

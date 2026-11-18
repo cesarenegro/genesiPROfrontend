@@ -7,15 +7,21 @@
     "country": "Italia",
     "name": {
       "it": "AGB Polaris 2XT — Serratura Magnetica a Filo",
-      "en": "AGB Polaris 2XT — Flush Magnetic Lock"
+      "en": "AGB Polaris 2XT — Flush Magnetic Lock",
+      "fr": "AGB Polaris 2XT — Flush Magnetic Lock",
+      "de": "AGB Polaris 2XT — Flush Magnetic Lock"
     },
     "subtitle": {
       "it": "Lo standard per porte rasomuro e battenti di prestigio",
-      "en": "The benchmark for luxury flush-to-wall and rebated doors"
+      "en": "The benchmark for luxury flush-to-wall and rebated doors",
+      "fr": "The benchmark for luxury flush-to-wall and rebated doors",
+      "de": "The benchmark for luxury flush-to-wall and rebated doors"
     },
     "description": {
       "it": "Serratura magnetica da incasso con scrocco in poliammide auto-allineante a totale scomparsa nel corpo anta a porta aperta. Garantisce silenziosità assoluta alla chiusura ed elimina ogni sporgenza metallica sul bordo dell'anta.",
-      "en": "Mortise magnetic lock with self-aligning polyamide latch completely retracted inside the door body when open. Delivers whisper-quiet closing and zeroes protruding metal on the door edge."
+      "en": "Mortise magnetic lock with self-aligning polyamide latch completely retracted inside the door body when open. Delivers whisper-quiet closing and zeroes protruding metal on the door edge.",
+      "fr": "Mortise magnetic lock with self-aligning polyamide latch completely retracted inside the door body when open. Delivers whisper-quiet closing and zeroes protruding metal on the door edge.",
+      "de": "Mortise magnetic lock with self-aligning polyamide latch completely retracted inside the door body when open. Delivers whisper-quiet closing and zeroes protruding metal on the door edge."
     },
     "images": {
       "product": "/images/vela/hardware/AGB_Polaris_2XT_Yale_Cromo_Opaco.jpg",
@@ -42,7 +48,9 @@
     },
     "recommendedFor": {
       "it": "Porte per interni rasomuro, filo boiserie e suite residenziali",
-      "en": "Flush-to-wall interior doors, wall panelling and residential suites"
+      "en": "Flush-to-wall interior doors, wall panelling and residential suites",
+      "fr": "Flush-to-wall interior doors, wall panelling and residential suites",
+      "de": "Flush-to-wall interior doors, wall panelling and residential suites"
     }
   },
   {
@@ -53,15 +61,21 @@
     "country": "Italia",
     "name": {
       "it": "AGB Touch — Ritenuta Magnetica a Scomparsa",
-      "en": "AGB Touch — Concealed Magnetic Catch"
+      "en": "AGB Touch — Concealed Magnetic Catch",
+      "fr": "AGB Touch — Concealed Magnetic Catch",
+      "de": "AGB Touch — Concealed Magnetic Catch"
     },
     "subtitle": {
       "it": "Per porte complanari senza maniglia o con maniglione fisso",
-      "en": "For handleless flush doors and architectural fixed pull bars"
+      "en": "For handleless flush doors and architectural fixed pull bars",
+      "fr": "For handleless flush doors and architectural fixed pull bars",
+      "de": "For handleless flush doors and architectural fixed pull bars"
     },
     "description": {
       "it": "Innovativo sistema brevettato di ritenuta magnetica regolabile. Mantiene l'anta perfettamente complanare al telaio senza bisogno di scrocco o rotazione di maniglia: l'apertura avviene tramite leggera spinta o trazione.",
-      "en": "Patented adjustable magnetic door catch. Holds the door leaf perfectly flush without traditional mechanical latching, allowing push-or-pull opening via integrated architectural grips."
+      "en": "Patented adjustable magnetic door catch. Holds the door leaf perfectly flush without traditional mechanical latching, allowing push-or-pull opening via integrated architectural grips.",
+      "fr": "Patented adjustable magnetic door catch. Holds the door leaf perfectly flush without traditional mechanical latching, allowing push-or-pull opening via integrated architectural grips.",
+      "de": "Patented adjustable magnetic door catch. Holds the door leaf perfectly flush without traditional mechanical latching, allowing push-or-pull opening via integrated architectural grips."
     },
     "images": {
       "product": "/images/vela/hardware/AGB_Touch_Ritenuta_Magnetica.jpg",
@@ -80,7 +94,9 @@
     },
     "recommendedFor": {
       "it": "Porte minimaliste senza maniglia, ante pivotanti e passaggi continui",
-      "en": "Minimalist handleless doors, pivot panels, and continuous passageways"
+      "en": "Minimalist handleless doors, pivot panels, and continuous passageways",
+      "fr": "Minimalist handleless doors, pivot panels, and continuous passageways",
+      "de": "Minimalist handleless doors, pivot panels, and continuous passageways"
     }
   },
   {
@@ -91,15 +107,21 @@
     "country": "Germania",
     "name": {
       "it": "Simonswerk TECTUS TE 340 3D — Cerniera a Scomparsa",
-      "en": "Simonswerk TECTUS TE 340 3D — Concealed Hinge"
+      "en": "Simonswerk TECTUS TE 340 3D — Concealed Hinge",
+      "fr": "Simonswerk TECTUS TE 340 3D — Concealed Hinge",
+      "de": "Simonswerk TECTUS TE 340 3D — Concealed Hinge"
     },
     "subtitle": {
       "it": "Cerniera invisibile regolabile 3D per porte complanari fino a 80 kg",
-      "en": "3D adjustable concealed hinge for flush doors up to 80 kg"
+      "en": "3D adjustable concealed hinge for flush doors up to 80 kg",
+      "fr": "3D adjustable concealed hinge for flush doors up to 80 kg",
+      "de": "3D adjustable concealed hinge for flush doors up to 80 kg"
     },
     "description": {
       "it": "Punto di riferimento mondiale per porte a filo muro. Sistema a 5 fulcri esente da manutenzione con boccole di scorrimento ad alta tecnologia. Regolazione millimetrica tridimensionale continua e indipendente.",
-      "en": "The global benchmark for flush doors. Maintenance-free 5-pivot sliding bearing mechanism with independent 3D continuous millimeter adjustments (side, height, compression)."
+      "en": "The global benchmark for flush doors. Maintenance-free 5-pivot sliding bearing mechanism with independent 3D continuous millimeter adjustments (side, height, compression).",
+      "fr": "The global benchmark for flush doors. Maintenance-free 5-pivot sliding bearing mechanism with independent 3D continuous millimeter adjustments (side, height, compression).",
+      "de": "The global benchmark for flush doors. Maintenance-free 5-pivot sliding bearing mechanism with independent 3D continuous millimeter adjustments (side, height, compression)."
     },
     "images": {
       "product": "/images/vela/hardware/Simonswerk_TECTUS_TE_340_3D.jpg",
@@ -126,7 +148,9 @@
     },
     "recommendedFor": {
       "it": "Porte rasomuro battenti, telai in alluminio a scomparsa, porte legno massello",
-      "en": "Flush-to-wall swing doors, concealed aluminum subframes, solid wood doors"
+      "en": "Flush-to-wall swing doors, concealed aluminum subframes, solid wood doors",
+      "fr": "Flush-to-wall swing doors, concealed aluminum subframes, solid wood doors",
+      "de": "Flush-to-wall swing doors, concealed aluminum subframes, solid wood doors"
     }
   },
   {
@@ -137,15 +161,21 @@
     "country": "Germania",
     "name": {
       "it": "Simonswerk TECTUS TE 540 3D — Cerniera Pesante Heavy-Duty",
-      "en": "Simonswerk TECTUS TE 540 3D — Heavy-Duty Concealed Hinge"
+      "en": "Simonswerk TECTUS TE 540 3D — Heavy-Duty Concealed Hinge",
+      "fr": "Simonswerk TECTUS TE 540 3D — Heavy-Duty Concealed Hinge",
+      "de": "Simonswerk TECTUS TE 540 3D — Heavy-Duty Concealed Hinge"
     },
     "subtitle": {
       "it": "Per porte fonoassorbenti, tagliafuoco e grandi altezze fino a 120-200 kg",
-      "en": "For heavy acoustic, fire-rated and floor-to-ceiling doors up to 120-200 kg"
+      "en": "For heavy acoustic, fire-rated and floor-to-ceiling doors up to 120-200 kg",
+      "fr": "For heavy acoustic, fire-rated and floor-to-ceiling doors up to 120-200 kg",
+      "de": "For heavy acoustic, fire-rated and floor-to-ceiling doors up to 120-200 kg"
     },
     "description": {
       "it": "Cerniera invisibile rinforzata progettata per sopportare carichi elevati di pannelli acustici multistrato per hotel e ante rasomuro a tutta altezza (fino a 3 metri). Certificata per porte tagliafuoco e tenuta fumi.",
-      "en": "Heavy-duty concealed hinge engineered for heavy acoustic multilayer hospitality panels and oversized floor-to-ceiling doors. Certified for fire resistance and smoke control."
+      "en": "Heavy-duty concealed hinge engineered for heavy acoustic multilayer hospitality panels and oversized floor-to-ceiling doors. Certified for fire resistance and smoke control.",
+      "fr": "Heavy-duty concealed hinge engineered for heavy acoustic multilayer hospitality panels and oversized floor-to-ceiling doors. Certified for fire resistance and smoke control.",
+      "de": "Heavy-duty concealed hinge engineered for heavy acoustic multilayer hospitality panels and oversized floor-to-ceiling doors. Certified for fire resistance and smoke control."
     },
     "images": {
       "product": "/images/vela/hardware/Simonswerk_TECTUS_TE_540_3D.jpg",
@@ -171,7 +201,9 @@
     },
     "recommendedFor": {
       "it": "Porte camere hotel fonoisolanti, porte d'ingresso suite, ante rasomuro 300 cm",
-      "en": "Acoustic hotel room doors, suite entrance doors, 300 cm ceiling-height doors"
+      "en": "Acoustic hotel room doors, suite entrance doors, 300 cm ceiling-height doors",
+      "fr": "Acoustic hotel room doors, suite entrance doors, 300 cm ceiling-height doors",
+      "de": "Acoustic hotel room doors, suite entrance doors, 300 cm ceiling-height doors"
     }
   },
   {
@@ -182,15 +214,21 @@
     "country": "Italia",
     "name": {
       "it": "AGB Eclipse 3.0 — Cerniera Complanare Compatta",
-      "en": "AGB Eclipse 3.0 — Compact Concealed Hinge"
+      "en": "AGB Eclipse 3.0 — Compact Concealed Hinge",
+      "fr": "AGB Eclipse 3.0 — Compact Concealed Hinge",
+      "de": "AGB Eclipse 3.0 — Compact Concealed Hinge"
     },
     "subtitle": {
       "it": "Ideale per profili in alluminio con ingombro telaio di soli 20,5 mm",
-      "en": "Optimized for aluminum profiles with slim 20.5 mm frame depth"
+      "en": "Optimized for aluminum profiles with slim 20.5 mm frame depth",
+      "fr": "Optimized for aluminum profiles with slim 20.5 mm frame depth",
+      "de": "Optimized for aluminum profiles with slim 20.5 mm frame depth"
     },
     "description": {
       "it": "Cerniera a scomparsa reversibile con cover magnetiche coordinate per nascondere integralmente le viti di regolazione. Regolazione 3D con un'unica chiave a brugola da 4 mm.",
-      "en": "Reversible concealed hinge with matching snap-on cover plates concealing adjustment screws. 3D adjustment achieved with a single 4 mm hex key."
+      "en": "Reversible concealed hinge with matching snap-on cover plates concealing adjustment screws. 3D adjustment achieved with a single 4 mm hex key.",
+      "fr": "Reversible concealed hinge with matching snap-on cover plates concealing adjustment screws. 3D adjustment achieved with a single 4 mm hex key.",
+      "de": "Reversible concealed hinge with matching snap-on cover plates concealing adjustment screws. 3D adjustment achieved with a single 4 mm hex key."
     },
     "images": {
       "product": "/images/vela/hardware/AGB_Eclipse_3.0_Cromo_Opaco.jpg",
@@ -217,7 +255,9 @@
     },
     "recommendedFor": {
       "it": "Porte complanari da interni con telai minimali in alluminio",
-      "en": "Interior flush doors with slim concealed aluminum casings"
+      "en": "Interior flush doors with slim concealed aluminum casings",
+      "fr": "Interior flush doors with slim concealed aluminum casings",
+      "de": "Interior flush doors with slim concealed aluminum casings"
     }
   },
   {
@@ -228,15 +268,21 @@
     "country": "Austria",
     "name": {
       "it": "ekey dLine — Scanner Biometrico Integrato nell'Anta e Maniglione",
-      "en": "ekey dLine — Flush Biometric Fingerprint System"
+      "en": "ekey dLine — Flush Biometric Fingerprint System",
+      "fr": "ekey dLine — Flush Biometric Fingerprint System",
+      "de": "ekey dLine — Flush Biometric Fingerprint System"
     },
     "subtitle": {
       "it": "L'eccellenza biometrica integrata nel design del serramento",
-      "en": "Architectural biometric excellence built directly into the door structure"
+      "en": "Architectural biometric excellence built directly into the door structure",
+      "fr": "Architectural biometric excellence built directly into the door structure",
+      "de": "Architectural biometric excellence built directly into the door structure"
     },
     "description": {
       "it": "Sensore biometrico capacitivo di precisione in cristallo e metallo, incassato a filo nel bordo dell'anta o direttamente nei maniglioni a barra VELA. Dialoga via Wi-Fi e BLE con l'App ekey bionyx e si integra con i sistemi domotici di lusso (KNX, Crestron, Control4, Apple HomeKit).",
-      "en": "Miniaturized capacitive biometric glass sensor flush-mounted into the door edge or vertical pull bars. Integrates via Wi-Fi & BLE with ekey bionyx app and luxury home automation (KNX, Crestron, Control4, Apple HomeKit)."
+      "en": "Miniaturized capacitive biometric glass sensor flush-mounted into the door edge or vertical pull bars. Integrates via Wi-Fi & BLE with ekey bionyx app and luxury home automation (KNX, Crestron, Control4, Apple HomeKit).",
+      "fr": "Miniaturized capacitive biometric glass sensor flush-mounted into the door edge or vertical pull bars. Integrates via Wi-Fi & BLE with ekey bionyx app and luxury home automation (KNX, Crestron, Control4, Apple HomeKit).",
+      "de": "Miniaturized capacitive biometric glass sensor flush-mounted into the door edge or vertical pull bars. Integrates via Wi-Fi & BLE with ekey bionyx app and luxury home automation (KNX, Crestron, Control4, Apple HomeKit)."
     },
     "images": {
       "product": "/images/vela/hardware/ekey_dLine_Scanner_Unit.png",
@@ -266,7 +312,9 @@
     },
     "recommendedFor": {
       "it": "Ingressi principali ville, attici, porte blindate rasomuro, maniglioni a barra",
-      "en": "Villa main entrances, penthouses, high-security flush doors, vertical pull bars"
+      "en": "Villa main entrances, penthouses, high-security flush doors, vertical pull bars",
+      "fr": "Villa main entrances, penthouses, high-security flush doors, vertical pull bars",
+      "de": "Villa main entrances, penthouses, high-security flush doors, vertical pull bars"
     }
   },
   {
@@ -277,15 +325,21 @@
     "country": "Germania",
     "name": {
       "it": "SimonsVoss Digital Cylinder AX — Cilindro Digitale in Acciaio Inox",
-      "en": "SimonsVoss Digital Cylinder AX — Stainless Steel Digital Cylinder"
+      "en": "SimonsVoss Digital Cylinder AX — Stainless Steel Digital Cylinder",
+      "fr": "SimonsVoss Digital Cylinder AX — Stainless Steel Digital Cylinder",
+      "de": "SimonsVoss Digital Cylinder AX — Stainless Steel Digital Cylinder"
     },
     "subtitle": {
       "it": "Il vertice tedesco dei cilindri elettronici con autonomia fino a 12 anni",
-      "en": "German engineering pinnacle featuring up to 12 years battery life"
+      "en": "German engineering pinnacle featuring up to 12 years battery life",
+      "fr": "German engineering pinnacle featuring up to 12 years battery life",
+      "de": "German engineering pinnacle featuring up to 12 years battery life"
     },
     "description": {
       "it": "Cilindro elettronico a profilo europeo ricavato da acciaio inox massiccio. Dotato di secure element crittografico, supporta transponder dedicati, badge MIFARE DESFire e apertura tramite smartphone BLE.",
-      "en": "European profile digital cylinder crafted from solid stainless steel. Features onboard cryptographic secure element, supporting dedicated transponders, MIFARE DESFire credentials, and BLE smartphone keys."
+      "en": "European profile digital cylinder crafted from solid stainless steel. Features onboard cryptographic secure element, supporting dedicated transponders, MIFARE DESFire credentials, and BLE smartphone keys.",
+      "fr": "European profile digital cylinder crafted from solid stainless steel. Features onboard cryptographic secure element, supporting dedicated transponders, MIFARE DESFire credentials, and BLE smartphone keys.",
+      "de": "European profile digital cylinder crafted from solid stainless steel. Features onboard cryptographic secure element, supporting dedicated transponders, MIFARE DESFire credentials, and BLE smartphone keys."
     },
     "images": {
       "product": "/images/vela/hardware/SimonsVoss_Digital_Cylinder_AX_Inox.png",
@@ -315,7 +369,9 @@
     },
     "recommendedFor": {
       "it": "Residenze di lusso, porte blindate complanari, uffici di alta direzione",
-      "en": "Luxury residences, armored flush doors, executive boardrooms"
+      "en": "Luxury residences, armored flush doors, executive boardrooms",
+      "fr": "Luxury residences, armored flush doors, executive boardrooms",
+      "de": "Luxury residences, armored flush doors, executive boardrooms"
     }
   },
   {
@@ -326,15 +382,21 @@
     "country": "Italia",
     "name": {
       "it": "ISEO Multiblindo eMotion — Serratura Motorizzata Multipunto",
-      "en": "ISEO Multiblindo eMotion — Motorized Multipoint Lock"
+      "en": "ISEO Multiblindo eMotion — Motorized Multipoint Lock",
+      "fr": "ISEO Multiblindo eMotion — Motorized Multipoint Lock",
+      "de": "ISEO Multiblindo eMotion — Motorized Multipoint Lock"
     },
     "subtitle": {
       "it": "Chiusura automatica a ganci rotanti con sblocco meccatronico silenzioso",
-      "en": "Automatic rotating hook deadbolts with silent mechatronic unlocking"
+      "en": "Automatic rotating hook deadbolts with silent mechatronic unlocking",
+      "fr": "Automatic rotating hook deadbolts with silent mechatronic unlocking",
+      "de": "Automatic rotating hook deadbolts with silent mechatronic unlocking"
     },
     "description": {
       "it": "Serratura blindata multipunto per porte d'ingresso. All'accostamento dell'anta i catenacci a gancio in acciaio temprato si serrano automaticamente. Lo sblocco avviene in frazioni di secondo tramite motore interno collegabile a domotica, citofono o lettore biometrico.",
-      "en": "High-security motorized multipoint lock for entrance doors. Closing triggers hardened steel rotating hooks automatically. Instant silent unlocking via internal motor connected to home automation or biometric scanners."
+      "en": "High-security motorized multipoint lock for entrance doors. Closing triggers hardened steel rotating hooks automatically. Instant silent unlocking via internal motor connected to home automation or biometric scanners.",
+      "fr": "High-security motorized multipoint lock for entrance doors. Closing triggers hardened steel rotating hooks automatically. Instant silent unlocking via internal motor connected to home automation or biometric scanners.",
+      "de": "High-security motorized multipoint lock for entrance doors. Closing triggers hardened steel rotating hooks automatically. Instant silent unlocking via internal motor connected to home automation or biometric scanners."
     },
     "images": {
       "product": "/images/vela/hardware/ISEO_Multiblindo_eMotion_Motorizzata.png",
@@ -350,7 +412,9 @@
     },
     "recommendedFor": {
       "it": "Porte blindate rasomuro, ingressi principali di ville, accessi di sicurezza",
-      "en": "Armored flush doors, main villa entrances, high-security access doors"
+      "en": "Armored flush doors, main villa entrances, high-security access doors",
+      "fr": "Armored flush doors, main villa entrances, high-security access doors",
+      "de": "Armored flush doors, main villa entrances, high-security access doors"
     }
   },
   {
@@ -361,15 +425,21 @@
     "country": "Polonia / Germania",
     "name": {
       "it": "tedee PRO — Smart Lock in Alluminio Aeronautico CNC",
-      "en": "tedee PRO — CNC Aerospace Aluminum Smart Lock"
+      "en": "tedee PRO — CNC Aerospace Aluminum Smart Lock",
+      "fr": "tedee PRO — CNC Aerospace Aluminum Smart Lock",
+      "de": "tedee PRO — CNC Aerospace Aluminum Smart Lock"
     },
     "subtitle": {
       "it": "Lo smart lock più compatto al mondo (ø 45 mm) compatibile Apple HomeKit",
-      "en": "World's most compact smart lock (ø 45 mm) with Apple HomeKit & Matter"
+      "en": "World's most compact smart lock (ø 45 mm) with Apple HomeKit & Matter",
+      "fr": "World's most compact smart lock (ø 45 mm) with Apple HomeKit & Matter",
+      "de": "World's most compact smart lock (ø 45 mm) with Apple HomeKit & Matter"
     },
     "description": {
       "it": "Capolavoro di micromeccanica: corpo cilindrico tornito dal pieno in alluminio aeronautico anodizzato. Riduttore epicicloidale silenzioso, ricarica magnetica integrata e compatibilità con Apple HomeKit, Google Home, Matter e Thread.",
-      "en": "Micromechanical masterpiece: cylindrical body machined from aerospace-grade anodized aluminum. Quiet planetary gear, magnetic recharge port, compatible with Apple HomeKit, Matter and Thread."
+      "en": "Micromechanical masterpiece: cylindrical body machined from aerospace-grade anodized aluminum. Quiet planetary gear, magnetic recharge port, compatible with Apple HomeKit, Matter and Thread.",
+      "fr": "Micromechanical masterpiece: cylindrical body machined from aerospace-grade anodized aluminum. Quiet planetary gear, magnetic recharge port, compatible with Apple HomeKit, Matter and Thread.",
+      "de": "Micromechanical masterpiece: cylindrical body machined from aerospace-grade anodized aluminum. Quiet planetary gear, magnetic recharge port, compatible with Apple HomeKit, Matter and Thread."
     },
     "images": {
       "product": "/images/vela/hardware/tedee_PRO_Alluminio_Aeronautico.png",
@@ -398,7 +468,9 @@
     },
     "recommendedFor": {
       "it": "Penthouse, appartamenti di design, porte interne con cilindro europeo",
-      "en": "Penthouses, design apartments, interior doors with European cylinders"
+      "en": "Penthouses, design apartments, interior doors with European cylinders",
+      "fr": "Penthouses, design apartments, interior doors with European cylinders",
+      "de": "Penthouses, design apartments, interior doors with European cylinders"
     }
   },
   {
@@ -409,15 +481,21 @@
     "country": "Svizzera",
     "name": {
       "it": "dormakaba c-lever air — Placca Elettronica Ultra-Slim 10.5 mm",
-      "en": "dormakaba c-lever air — 10.5 mm Ultra-Slim Electronic Fitting"
+      "en": "dormakaba c-lever air — 10.5 mm Ultra-Slim Electronic Fitting",
+      "fr": "dormakaba c-lever air — 10.5 mm Ultra-Slim Electronic Fitting",
+      "de": "dormakaba c-lever air — 10.5 mm Ultra-Slim Electronic Fitting"
     },
     "subtitle": {
       "it": "La placca con lettore RFID integrato più sottile al mondo",
-      "en": "The slimmest RFID smart door fitting in the world"
+      "en": "The slimmest RFID smart door fitting in the world",
+      "fr": "The slimmest RFID smart door fitting in the world",
+      "de": "The slimmest RFID smart door fitting in the world"
     },
     "description": {
       "it": "Spessore di appena 10,5 mm, identico a quello di una normale maniglia di design. Il lettore RFID contactless è integrato nell'impugnatura, lasciando il pannello porta intatto ed elegante.",
-      "en": "Slim 10.5 mm profile matching traditional mechanical designer handles. Contactless RFID reader is housed directly within the lever handle."
+      "en": "Slim 10.5 mm profile matching traditional mechanical designer handles. Contactless RFID reader is housed directly within the lever handle.",
+      "fr": "Slim 10.5 mm profile matching traditional mechanical designer handles. Contactless RFID reader is housed directly within the lever handle.",
+      "de": "Slim 10.5 mm profile matching traditional mechanical designer handles. Contactless RFID reader is housed directly within the lever handle."
     },
     "images": {
       "product": "/images/vela/hardware/dormakaba_c_lever_air_UltraSlim.jpg",
@@ -440,7 +518,9 @@
     },
     "recommendedFor": {
       "it": "Uffici direzionali, studi professionali, suite interne di prestigio",
-      "en": "Executive offices, legal & medical suites, luxury private offices"
+      "en": "Executive offices, legal & medical suites, luxury private offices",
+      "fr": "Executive offices, legal & medical suites, luxury private offices",
+      "de": "Executive offices, legal & medical suites, luxury private offices"
     }
   },
   {
@@ -451,15 +531,21 @@
     "country": "Svezia",
     "name": {
       "it": "VingCard Essence — Serratura Hotel RFID True Invisible",
-      "en": "VingCard Essence — True Invisible Hotel RFID Lock"
+      "en": "VingCard Essence — True Invisible Hotel RFID Lock",
+      "fr": "VingCard Essence — True Invisible Hotel RFID Lock",
+      "de": "VingCard Essence — True Invisible Hotel RFID Lock"
     },
     "subtitle": {
       "it": "L'icona delle suite 5 stelle: elettronica totalmente invisibile nell'anta",
-      "en": "The 5-star suite icon: electronic components concealed inside the door"
+      "en": "The 5-star suite icon: electronic components concealed inside the door",
+      "fr": "The 5-star suite icon: electronic components concealed inside the door",
+      "de": "The 5-star suite icon: electronic components concealed inside the door"
     },
     "description": {
       "it": "Tutta l'elettronica RFID, la scheda BLE e il pacco batterie sono incassati all'interno del pannello porta. A vista rimane solo una sottilissima ghiera circolare con fascio luminoso a LED e la maniglia d'autore. Piena compatibilità con chiavi digitali Apple Wallet e Google Wallet.",
-      "en": "All RFID mechanics, BLE boards and battery pack are housed inside the door leaf. Only a slim circular bezel reader and a designer handle remain visible. Native support for Apple Wallet and Google Wallet digital room keys."
+      "en": "All RFID mechanics, BLE boards and battery pack are housed inside the door leaf. Only a slim circular bezel reader and a designer handle remain visible. Native support for Apple Wallet and Google Wallet digital room keys.",
+      "fr": "All RFID mechanics, BLE boards and battery pack are housed inside the door leaf. Only a slim circular bezel reader and a designer handle remain visible. Native support for Apple Wallet and Google Wallet digital room keys.",
+      "de": "All RFID mechanics, BLE boards and battery pack are housed inside the door leaf. Only a slim circular bezel reader and a designer handle remain visible. Native support for Apple Wallet and Google Wallet digital room keys."
     },
     "images": {
       "product": "/images/vela/hardware/VingCard_Essence_RFID_Satin_Chrome.png",
@@ -491,7 +577,9 @@
     },
     "recommendedFor": {
       "it": "Hotel 5 stelle lusso, boutique hotel di design, resort internazionali",
-      "en": "5-star luxury hotels, high-end boutique properties, international resorts"
+      "en": "5-star luxury hotels, high-end boutique properties, international resorts",
+      "fr": "5-star luxury hotels, high-end boutique properties, international resorts",
+      "de": "5-star luxury hotels, high-end boutique properties, international resorts"
     }
   },
   {
@@ -502,15 +590,21 @@
     "country": "Spagna",
     "name": {
       "it": "SALTO Ælement Fusion — Serratura Elettronica con Light Ring LED",
-      "en": "SALTO Ælement Fusion — Electronic Lock with Interactive Light Ring"
+      "en": "SALTO Ælement Fusion — Electronic Lock with Interactive Light Ring",
+      "fr": "SALTO Ælement Fusion — Electronic Lock with Interactive Light Ring",
+      "de": "SALTO Ælement Fusion — Electronic Lock with Interactive Light Ring"
     },
     "subtitle": {
       "it": "Lettore tondo da 45 mm con anello luminoso interattivo a scomparsa",
-      "en": "45 mm round reader with interactive status LED light ring"
+      "en": "45 mm round reader with interactive status LED light ring",
+      "fr": "45 mm round reader with interactive status LED light ring",
+      "de": "45 mm round reader with interactive status LED light ring"
     },
     "description": {
       "it": "Serratura a scomparsa dal design minimalista. L'anello circolare luminoso a LED informa l'ospite sullo stato della camera (accesso consentito, non disturbare, batteria). Tecnologia SALTO Virtual Network (SVN) per gestione tessere senza cablaggi.",
-      "en": "Minimalist concealed lock. The interactive circular LED light ring signals room status to guests (authorized, DND, low battery). SALTO Virtual Network (SVN) data-on-card architecture eliminates in-door wiring."
+      "en": "Minimalist concealed lock. The interactive circular LED light ring signals room status to guests (authorized, DND, low battery). SALTO Virtual Network (SVN) data-on-card architecture eliminates in-door wiring.",
+      "fr": "Minimalist concealed lock. The interactive circular LED light ring signals room status to guests (authorized, DND, low battery). SALTO Virtual Network (SVN) data-on-card architecture eliminates in-door wiring.",
+      "de": "Minimalist concealed lock. The interactive circular LED light ring signals room status to guests (authorized, DND, low battery). SALTO Virtual Network (SVN) data-on-card architecture eliminates in-door wiring."
     },
     "images": {
       "product": "/images/vela/hardware/SALTO_Aelement_Fusion.jpg",
@@ -540,7 +634,9 @@
     },
     "recommendedFor": {
       "it": "Boutique hotel, design hotel, strutture alberghiere contemporanee",
-      "en": "Boutique hotels, modern design hotels, contemporary hospitality venues"
+      "en": "Boutique hotels, modern design hotels, contemporary hospitality venues",
+      "fr": "Boutique hotels, modern design hotels, contemporary hospitality venues",
+      "de": "Boutique hotels, modern design hotels, contemporary hospitality venues"
     }
   },
   {
@@ -551,15 +647,21 @@
     "country": "Svizzera / USA",
     "name": {
       "it": "dormakaba Saflok Quantum Pixel — Serratura Invisibile per Hotel",
-      "en": "dormakaba Saflok Quantum Pixel — Concealed Architectural Lock"
+      "en": "dormakaba Saflok Quantum Pixel — Concealed Architectural Lock",
+      "fr": "dormakaba Saflok Quantum Pixel — Concealed Architectural Lock",
+      "de": "dormakaba Saflok Quantum Pixel — Concealed Architectural Lock"
     },
     "subtitle": {
       "it": "Serratura mortasa pesante Grado 1 con micro-lettore circolare a filo",
-      "en": "Grade 1 heavy-duty mortise lock with discrete flush circular reader"
+      "en": "Grade 1 heavy-duty mortise lock with discrete flush circular reader",
+      "fr": "Grade 1 heavy-duty mortise lock with discrete flush circular reader",
+      "de": "Grade 1 heavy-duty mortise lock with discrete flush circular reader"
     },
     "description": {
       "it": "Costruita con una cassa da mortasa pesante di massima sicurezza Grado 1. L'elettronica è nascosta nell'anta; all'esterno emergono solo due piccoli cerchi coordinati: il microlettore RFID/BLE e la bocchetta maniglia.",
-      "en": "Built with heavy-duty ANSI Grade 1 mortise chassis. Electronics are hidden within the door; only two discrete circular elements appear outside: the micro RFID/BLE reader and the lever escutcheon."
+      "en": "Built with heavy-duty ANSI Grade 1 mortise chassis. Electronics are hidden within the door; only two discrete circular elements appear outside: the micro RFID/BLE reader and the lever escutcheon.",
+      "fr": "Built with heavy-duty ANSI Grade 1 mortise chassis. Electronics are hidden within the door; only two discrete circular elements appear outside: the micro RFID/BLE reader and the lever escutcheon.",
+      "de": "Built with heavy-duty ANSI Grade 1 mortise chassis. Electronics are hidden within the door; only two discrete circular elements appear outside: the micro RFID/BLE reader and the lever escutcheon."
     },
     "images": {
       "product": "/images/vela/hardware/Dormakaba_Saflok_Quantum_Pixel.jpg",
@@ -591,7 +693,9 @@
     },
     "recommendedFor": {
       "it": "Grandi catene alberghiere di lusso, progetti contract ad alto flusso",
-      "en": "Luxury hotel chains, high-traffic contract hospitality developments"
+      "en": "Luxury hotel chains, high-traffic contract hospitality developments",
+      "fr": "Luxury hotel chains, high-traffic contract hospitality developments",
+      "de": "Luxury hotel chains, high-traffic contract hospitality developments"
     }
   },
   {
@@ -602,15 +706,21 @@
     "country": "Italia",
     "name": {
       "it": "CISA eSIGNO — Serratura Elettronica Contactless Made in Italy",
-      "en": "CISA eSIGNO — Made in Italy Contactless Electronic Hotel Lock"
+      "en": "CISA eSIGNO — Made in Italy Contactless Electronic Hotel Lock",
+      "fr": "CISA eSIGNO — Made in Italy Contactless Electronic Hotel Lock",
+      "de": "CISA eSIGNO — Made in Italy Contactless Electronic Hotel Lock"
     },
     "subtitle": {
       "it": "Design compatto italiano con gestione wireless Zigbee in tempo reale",
-      "en": "Slim Italian styling with real-time Zigbee wireless management"
+      "en": "Slim Italian styling with real-time Zigbee wireless management",
+      "fr": "Slim Italian styling with real-time Zigbee wireless management",
+      "de": "Slim Italian styling with real-time Zigbee wireless management"
     },
     "description": {
       "it": "La serratura elettronica hospitality Made in Italy di riferimento. Design snello ed elegante che si installa con sole due viti senza cablare la porta. Compatibile con tessere RFID Mifare e chiavi digitali smartphone.",
-      "en": "The benchmark Italian hospitality electronic lock. Slim, elegant escutcheon installed with just two screws without door wiring. Supports Mifare RFID keycards and smartphone digital credentials."
+      "en": "The benchmark Italian hospitality electronic lock. Slim, elegant escutcheon installed with just two screws without door wiring. Supports Mifare RFID keycards and smartphone digital credentials.",
+      "fr": "The benchmark Italian hospitality electronic lock. Slim, elegant escutcheon installed with just two screws without door wiring. Supports Mifare RFID keycards and smartphone digital credentials.",
+      "de": "The benchmark Italian hospitality electronic lock. Slim, elegant escutcheon installed with just two screws without door wiring. Supports Mifare RFID keycards and smartphone digital credentials."
     },
     "images": {
       "product": "/images/vela/hardware/CISA_eSIGNO_Contactless_Lock.jpg",
@@ -642,7 +752,9 @@
     },
     "recommendedFor": {
       "it": "Hotel business, ristrutturazioni alberghiere, strutture contract",
-      "en": "Business hotels, hotel refurbishment projects, contract developments"
+      "en": "Business hotels, hotel refurbishment projects, contract developments",
+      "fr": "Business hotels, hotel refurbishment projects, contract developments",
+      "de": "Business hotels, hotel refurbishment projects, contract developments"
     }
   },
   {
@@ -653,15 +765,21 @@
     "country": "Italia",
     "name": {
       "it": "Olivari Chevron — Design Zaha Hadid",
-      "en": "Olivari Chevron — Design by Zaha Hadid"
+      "en": "Olivari Chevron — Design by Zaha Hadid",
+      "fr": "Olivari Chevron — Design by Zaha Hadid",
+      "de": "Olivari Chevron — Design by Zaha Hadid"
     },
     "subtitle": {
       "it": "Scultura architettonica dinamica con trattamento SuperAntracite",
-      "en": "Dynamic architectural sculpture with SuperAnthracite PVD finish"
+      "en": "Dynamic architectural sculpture with SuperAnthracite PVD finish",
+      "fr": "Dynamic architectural sculpture with SuperAnthracite PVD finish",
+      "de": "Dynamic architectural sculpture with SuperAnthracite PVD finish"
     },
     "description": {
       "it": "M248B Chevron traduce il linguaggio architettonico sperimentale di Zaha Hadid in una forma fluida e scultorea. Il corpo ricurvo è tagliato da una linea longitudinale ergonomica. Finitura PVD SuperAntracite con garanzia 30 anni.",
-      "en": "M248B Chevron translates Zaha Hadid's experimental fluid architecture into a sculptural handle cut by an ergonomic crease. SuperAnthracite PVD finish backed by a 30-year warranty."
+      "en": "M248B Chevron translates Zaha Hadid's experimental fluid architecture into a sculptural handle cut by an ergonomic crease. SuperAnthracite PVD finish backed by a 30-year warranty.",
+      "fr": "M248B Chevron translates Zaha Hadid's experimental fluid architecture into a sculptural handle cut by an ergonomic crease. SuperAnthracite PVD finish backed by a 30-year warranty.",
+      "de": "M248B Chevron translates Zaha Hadid's experimental fluid architecture into a sculptural handle cut by an ergonomic crease. SuperAnthracite PVD finish backed by a 30-year warranty."
     },
     "images": {
       "product": "/images/vela/hardware/Olivari_Chevron_Zaha_Hadid_SuperAntracite.jpg",
@@ -680,7 +798,9 @@
     },
     "recommendedFor": {
       "it": "Porte rasomuro monumentali, suite di rappresentanza, design residenziale",
-      "en": "Monumental flush doors, executive suites, contemporary master bedrooms"
+      "en": "Monumental flush doors, executive suites, contemporary master bedrooms",
+      "fr": "Monumental flush doors, executive suites, contemporary master bedrooms",
+      "de": "Monumental flush doors, executive suites, contemporary master bedrooms"
     }
   },
   {
@@ -691,15 +811,21 @@
     "country": "Italia",
     "name": {
       "it": "Olivari Lama — Design Gio Ponti",
-      "en": "Olivari Lama — Design by Gio Ponti"
+      "en": "Olivari Lama — Design by Gio Ponti",
+      "fr": "Olivari Lama — Design by Gio Ponti",
+      "de": "Olivari Lama — Design by Gio Ponti"
     },
     "subtitle": {
       "it": "L'icona del razionalismo moderno italiano per porte a filo",
-      "en": "The timeless icon of Italian modern rationalism for flush doors"
+      "en": "The timeless icon of Italian modern rationalism for flush doors",
+      "fr": "The timeless icon of Italian modern rationalism for flush doors",
+      "de": "The timeless icon of Italian modern rationalism for flush doors"
     },
     "description": {
       "it": "Creata dal maestro Gio Ponti nel 1956 per il Grattacielo Pirelli a Milano. La sezione affusolata a lama d'acciaio è una pietra miliare del design industriale italiano, perfetta per porte complanari e rasomuro.",
-      "en": "Designed by master Gio Ponti in 1956 for the Pirelli Tower in Milan. Its razor-thin tapered cross-section is an iconic milestone of Italian design, ideal for flush architectural doors."
+      "en": "Designed by master Gio Ponti in 1956 for the Pirelli Tower in Milan. Its razor-thin tapered cross-section is an iconic milestone of Italian design, ideal for flush architectural doors.",
+      "fr": "Designed by master Gio Ponti in 1956 for the Pirelli Tower in Milan. Its razor-thin tapered cross-section is an iconic milestone of Italian design, ideal for flush architectural doors.",
+      "de": "Designed by master Gio Ponti in 1956 for the Pirelli Tower in Milan. Its razor-thin tapered cross-section is an iconic milestone of Italian design, ideal for flush architectural doors."
     },
     "images": {
       "product": "/images/vela/hardware/Olivari_Lama_Gio_Ponti_SuperAntracite.jpg",
@@ -719,7 +845,9 @@
     },
     "recommendedFor": {
       "it": "Porte filo muro, ville moderne, progetti di architettura d'autore",
-      "en": "Concealed flush doors, modernist villas, signature architectural projects"
+      "en": "Concealed flush doors, modernist villas, signature architectural projects",
+      "fr": "Concealed flush doors, modernist villas, signature architectural projects",
+      "de": "Concealed flush doors, modernist villas, signature architectural projects"
     }
   },
   {
@@ -730,15 +858,21 @@
     "country": "Olanda",
     "name": {
       "it": "Formani ONE — Design Piet Boon",
-      "en": "Formani ONE — Design by Piet Boon"
+      "en": "Formani ONE — Design by Piet Boon",
+      "fr": "Formani ONE — Design by Piet Boon",
+      "de": "Formani ONE — Design by Piet Boon"
     },
     "subtitle": {
       "it": "Rigore geometrico cilindrico in finitura PVD Satin Black",
-      "en": "Geometric cylindrical minimalism in PVD Satin Black"
+      "en": "Geometric cylindrical minimalism in PVD Satin Black",
+      "fr": "Geometric cylindrical minimalism in PVD Satin Black",
+      "de": "Geometric cylindrical minimalism in PVD Satin Black"
     },
     "description": {
       "it": "La celebre impugnatura a T e a L creata dallo studio olandese Piet Boon. Proporzioni sobrie, sezione cilindrica calibrata e finitura PVD nera ultra-resistente ad usura e impronte.",
-      "en": "The iconic cylindrical handle designed by Studio Piet Boon. Balanced proportions, understated geometry, and ultra-durable PVD satin black finish resistant to wear and fingerprints."
+      "en": "The iconic cylindrical handle designed by Studio Piet Boon. Balanced proportions, understated geometry, and ultra-durable PVD satin black finish resistant to wear and fingerprints.",
+      "fr": "The iconic cylindrical handle designed by Studio Piet Boon. Balanced proportions, understated geometry, and ultra-durable PVD satin black finish resistant to wear and fingerprints.",
+      "de": "The iconic cylindrical handle designed by Studio Piet Boon. Balanced proportions, understated geometry, and ultra-durable PVD satin black finish resistant to wear and fingerprints."
     },
     "images": {
       "product": "/images/vela/hardware/Formani_ONE_Piet_Boon_Satin_Black.jpg",
@@ -756,7 +890,9 @@
     },
     "recommendedFor": {
       "it": "Boutique hotel, loft contemporanei, porte filo muro in legno smoked",
-      "en": "Boutique hotels, contemporary lofts, smoked oak flush doors"
+      "en": "Boutique hotels, contemporary lofts, smoked oak flush doors",
+      "fr": "Boutique hotels, contemporary lofts, smoked oak flush doors",
+      "de": "Boutique hotels, contemporary lofts, smoked oak flush doors"
     }
   }
 ]

@@ -44,7 +44,7 @@ export default function VelaShowerCard({ item, locale, onOpenModal }: Props) {
   const elevationLabel = locale === 'it' ? 'Prospetto Tecnico' : locale === 'fr' ? 'Plan Technique' : locale === 'de' ? 'Maßzeichnung' : '2D CAD';
 
   return (
-    <div className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-xs hover:shadow-lg">
+    <div className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors duration-200 ease-[var(--ease-out)] flex flex-col justify-between overflow-hidden">
       {/* Top Image Canvas */}
       <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
         <Image
@@ -52,7 +52,7 @@ export default function VelaShowerCard({ item, locale, onOpenModal }: Props) {
           alt={`${name} — ${viewMode === 'elevation' ? elevationLabel : ambientLabel}`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-102"
+          className="object-cover transition-transform duration-500 ease-[var(--ease-out)] group-hover:scale-[1.03]"
         />
 
         {/* Code & Category Badges (Top-Left) */}
@@ -87,7 +87,7 @@ export default function VelaShowerCard({ item, locale, onOpenModal }: Props) {
         )}
 
         {/* Glass Thickness Indicator (Bottom-Right) */}
-        <div className="absolute bottom-3 right-3 bg-black/75 backdrop-blur-xs text-zinc-200 text-[10px] font-mono px-2 py-0.5 border border-white/10 z-10">
+        <div className="absolute bottom-3 right-3 bg-black/75 backdrop-blur-xs text-zinc-200 text-[10px] font-mono tabular-nums px-2 py-0.5 border border-white/10 z-10">
           {glassLabel} {item.specs.glassThicknessMm.join(' / ')} mm
         </div>
       </div>

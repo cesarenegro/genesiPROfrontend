@@ -24,7 +24,7 @@ export default async function CategoryPage({ params }: Props) {
   const galleryT = await getTranslations('Gallery');
   
   return (
-    <div className="container mx-auto px-4 py-16 min-h-screen">
+    <div className="container mx-auto px-4 py-16 min-h-[100dvh]">
       <div className="mb-12">
         <Link href="/catalogue" className="text-sm text-muted-foreground hover:text-primary transition-colors mb-4 inline-block">
           {t('backToCollections')}
@@ -42,7 +42,7 @@ export default async function CategoryPage({ params }: Props) {
             <Link 
               href={`/catalogue/${category.slug}/${prod.slug}`} 
               key={prod.id}
-              className="group block bg-white dark:bg-zinc-900 border border-border hover:border-primary transition-all duration-300"
+              className="group block bg-white dark:bg-zinc-900 border border-border hover:border-primary transition-colors duration-200 ease-[var(--ease-out)]"
             >
               <div className="aspect-square relative overflow-hidden bg-zinc-50 dark:bg-zinc-800 p-8 flex items-center justify-center">
                 {frontImg ? (
@@ -51,7 +51,7 @@ export default async function CategoryPage({ params }: Props) {
                       src={frontImg.url}
                       alt={prodTitle}
                       fill
-                      className="object-contain group-hover:scale-105 transition-transform duration-700 ease-out mix-blend-multiply dark:mix-blend-normal"
+                      className="object-contain group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)] mix-blend-multiply dark:mix-blend-normal"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>

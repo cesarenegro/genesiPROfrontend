@@ -37,7 +37,7 @@ export default async function GenesiMaterials() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-[100dvh]">
       {/* Header */}
       <section className="bg-zinc-50 dark:bg-zinc-900 py-32 border-b border-border text-center px-4">
         <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6">

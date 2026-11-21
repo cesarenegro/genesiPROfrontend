@@ -29,15 +29,20 @@ export default function SmoothScroll() {
     let raf = 0;
     let running = false;
     let paused = false;
-    const ease = 0.09;
+    let lastTime = 0;
+    const damping = 8.5;
 
     const max = () => document.documentElement.scrollHeight - window.innerHeight;
 
-    const tick = () => {
-      current += (target - current) * ease;
+    const tick = (now: number) => {
+      const dt = lastTime ? Math.min((now - lastTime) / 1000, 0.05) : 1 / 60;
+      lastTime = now;
+      const alpha = 1 - Math.exp(-damping * dt);
+      current += (target - current) * alpha;
       if (Math.abs(target - current) < 0.5) {
         current = target;
         running = false;
+        lastTime = 0;
       }
       window.scrollTo(0, current);
       if (running) raf = requestAnimationFrame(tick);
@@ -48,8 +53,10 @@ export default function SmoothScroll() {
       // Let scrollable inner elements (menus, modals) handle their own wheel.
       let el = e.target as HTMLElement | null;
       while (el && el !== document.body) {
-        const s = getComputedStyle(el);
-        if (/(auto|scroll)/.test(s.overflowY) && el.scrollHeight > el.clientHeight) return;
+        if (el.scrollHeight > el.clientHeight) {
+          const oy = getComputedStyle(el).overflowY;
+          if (oy === 'auto' || oy === 'scroll') return;
+        }
         el = el.parentElement;
       }
       e.preventDefault();
@@ -58,6 +65,7 @@ export default function SmoothScroll() {
       target = Math.max(0, Math.min(max(), target + delta));
       if (!running) {
         running = true;
+        lastTime = 0;
         raf = requestAnimationFrame(tick);
       }
     };
@@ -71,15 +79,18 @@ export default function SmoothScroll() {
       stop: () => {
         paused = true;
         running = false;
+        lastTime = 0;
         cancelAnimationFrame(raf);
       },
       start: () => {
         paused = false;
+        lastTime = 0;
         target = current = window.scrollY;
       },
       to: (y: number) => {
         cancelAnimationFrame(raf);
         running = false;
+        lastTime = 0;
         target = current = y;
         window.scrollTo(0, y);
       },

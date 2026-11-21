@@ -32,7 +32,7 @@ export default async function VelaBrandPage({ params }: Props) {
   const brandDescription = brand.description[locale] || brand.description.en;
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="flex flex-col min-h-[100dvh] bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <VelaCategoryNav activeCategory="all" />
       {/* ============================================================ */}
       {/* A. APERTURA FOTOGRAFICA (HERO)                                */}
@@ -123,7 +123,7 @@ export default async function VelaBrandPage({ params }: Props) {
               return (
                 <div
                   key={family.id}
-                  className="flex flex-col bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-300 hover:border-zinc-400 dark:hover:border-zinc-600"
+                  className="flex flex-col bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-colors duration-200 ease-[var(--ease-out)] hover:border-zinc-400 dark:hover:border-zinc-600"
                 >
                   <div className="relative aspect-[3/4] w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
                     <Image
@@ -131,7 +131,7 @@ export default async function VelaBrandPage({ params }: Props) {
                       alt={title}
                       fill
                       sizes="(max-width: 1024px) 100vw, 33vw"
-                      className="object-cover transition-transform duration-700 ease-out hover:scale-105"
+                      className="object-cover transition-transform duration-500 ease-[var(--ease-out)] hover:scale-[1.03]"
                     />
                     <div className="absolute top-4 right-4">
                       {isAvailable ? (
@@ -277,7 +277,7 @@ export default async function VelaBrandPage({ params }: Props) {
                   alt={t('altDetailPivot')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  className="object-cover hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                 />
               </div>
               <h3 className="text-lg font-light text-white">{t('detailPivots')}</h3>
@@ -294,7 +294,7 @@ export default async function VelaBrandPage({ params }: Props) {
                   alt={t('altDetailGola')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  className="object-cover hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                 />
               </div>
               <h3 className="text-lg font-light text-white">{t('detailTracks')}</h3>
@@ -311,7 +311,7 @@ export default async function VelaBrandPage({ params }: Props) {
                   alt={t('altDetailIncontro')}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  className="object-cover hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                 />
               </div>
               <h3 className="text-lg font-light text-white">{t('detailFlush')}</h3>

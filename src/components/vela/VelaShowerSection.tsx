@@ -82,10 +82,11 @@ export default function VelaShowerSection({ items, locale }: Props) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t('showerSearchPlaceholder')}
-              className="w-full bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 px-3.5 py-2 pl-9 text-xs font-mono text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 focus:outline-hidden focus:border-amber-500 transition-colors"
+              enterKeyHint="search"
+              className="w-full bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 px-3.5 py-2 pl-9 pr-10 text-base md:text-xs font-mono text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 focus:outline-hidden focus:border-amber-500 transition-colors"
             />
             <svg
-              className="w-4 h-4 text-zinc-400 absolute left-3 top-2.5 pointer-events-none"
+              className="w-4 h-4 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -96,7 +97,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
               <button
                 type="button"
                 onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-2.5 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-xs"
+                className="absolute right-1 top-1/2 -translate-y-1/2 inline-flex items-center justify-center min-w-[36px] min-h-[36px] text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-xs"
               >
                 ✕
               </button>
@@ -114,7 +115,7 @@ export default function VelaShowerSection({ items, locale }: Props) {
               key={c.id}
               type="button"
               onClick={() => setSelectedCategory(c.id)}
-              className={`px-3 py-1.5 text-xs font-mono transition-all border ${
+              className={`px-3 py-1.5 text-xs font-mono tabular-nums transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] border ${
                 selectedCategory === c.id
                   ? 'bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 border-zinc-900 dark:border-zinc-100 font-semibold shadow-xs'
                   : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600'

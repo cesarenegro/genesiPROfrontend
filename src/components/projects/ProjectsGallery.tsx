@@ -1,7 +1,8 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
+import { Dialog } from '@base-ui/react/dialog';
 import type { GalleryCategory, GalleryItem } from '@/lib/projects';
 
 interface Props {
@@ -15,35 +16,49 @@ interface Props {
 export default function ProjectsGallery({ items, categories, labels, allLabel, closeLabel }: Props) {
   const [filter, setFilter] = useState<GalleryCategory | 'all'>('all');
   const [open, setOpen] = useState<number | null>(null);
+  const [renderedIndex, setRenderedIndex] = useState<number | null>(null);
+  const swipeStartRef = useRef<{ x: number; y: number; time: number } | null>(null);
 
   const visible = useMemo(
     () => (filter === 'all' ? items : items.filter((i) => i.category === filter)),
     [items, filter]
   );
 
+  const isOpen = open !== null;
+  const activeIdx = open ?? renderedIndex;
+  const current = activeIdx !== null ? visible[activeIdx] ?? null : null;
+
+  const openAt = useCallback((idx: number) => {
+    setRenderedIndex(idx);
+    setOpen(idx);
+  }, []);
+
   const close = useCallback(() => setOpen(null), []);
   const step = useCallback(
-    (d: number) => setOpen((o) => (o === null ? o : (o + d + visible.length) % visible.length)),
+    (d: number) => {
+      setOpen((o) => {
+        if (o === null) return o;
+        const next = (o + d + visible.length) % visible.length;
+        setRenderedIndex(next);
+        return next;
+      });
+    },
     [visible.length]
   );
 
   useEffect(() => {
-    if (open === null) return;
+    if (!isOpen) return;
+    window.__genesiScroll?.stop();
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') close();
       if (e.key === 'ArrowRight') step(1);
       if (e.key === 'ArrowLeft') step(-1);
     };
     window.addEventListener('keydown', onKey);
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
     return () => {
+      window.__genesiScroll?.start();
       window.removeEventListener('keydown', onKey);
-      document.body.style.overflow = prev;
     };
-  }, [open, close, step]);
-
-  const current = open !== null ? visible[open] : null;
+  }, [isOpen, step]);
 
   return (
     <div>
@@ -58,7 +73,7 @@ export default function ProjectsGallery({ items, categories, labels, allLabel, c
               key={c}
               type="button"
               onClick={() => setFilter(c)}
-              className={`px-4 py-2 text-xs uppercase tracking-widest border transition-colors ${
+              className={`px-4 py-2 text-xs uppercase tracking-widest border tabular-nums active:scale-[0.97] transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] ${
                 active
                   ? 'bg-foreground text-background border-foreground'
                   : 'border-border text-muted-foreground hover:text-foreground hover:border-foreground'
@@ -76,7 +91,7 @@ export default function ProjectsGallery({ items, categories, labels, allLabel, c
           <button
             key={item.src}
             type="button"
-            onClick={() => setOpen(idx)}
+            onClick={() => openAt(idx)}
             className="group relative block w-full overflow-hidden bg-zinc-100 dark:bg-zinc-900 break-inside-avoid"
             aria-label={labels[item.category]}
           >
@@ -86,9 +101,9 @@ export default function ProjectsGallery({ items, categories, labels, allLabel, c
               width={item.w}
               height={item.h}
               sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="w-full h-auto group-hover:scale-105 transition-transform duration-700 ease-out"
+              className="w-full h-auto group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
             />
-            <span className="absolute bottom-0 left-0 right-0 p-3 text-left text-[10px] uppercase tracking-widest text-white bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <span className="absolute bottom-0 left-0 right-0 p-3 text-left text-[10px] uppercase tracking-widest text-white bg-gradient-to-t from-black/70 to-transparent opacity-100 [@media(hover:hover)_and_(pointer:fine)]:opacity-0 [@media(hover:hover)_and_(pointer:fine)]:group-hover:opacity-100 transition-opacity duration-200">
               {labels[item.category]}
             </span>
           </button>
@@ -96,57 +111,96 @@ export default function ProjectsGallery({ items, categories, labels, allLabel, c
       </div>
 
       {/* Lightbox */}
-      {current && (
-        <div
-          className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 md:p-12"
-          role="dialog"
-          aria-modal="true"
-          onClick={close}
-        >
-          <button
-            type="button"
-            onClick={close}
-            className="absolute top-4 right-4 text-white/80 hover:text-white text-xs uppercase tracking-widest px-3 py-2 border border-white/30"
-          >
-            {closeLabel} ✕
-          </button>
-          <button
-            type="button"
-            onClick={(e) => {
-              e.stopPropagation();
-              step(-1);
-            }}
-            className="absolute left-2 md:left-6 text-white/70 hover:text-white text-4xl px-3 py-6"
-            aria-label="Previous"
-          >
-            ‹
-          </button>
-          <div className="relative w-full h-full max-w-6xl" onClick={(e) => e.stopPropagation()}>
-            <Image
-              key={current.src}
-              src={current.src}
-              alt={`GENESI — ${labels[current.category]}`}
-              fill
-              sizes="100vw"
-              className="object-contain"
-            />
-          </div>
-          <button
-            type="button"
-            onClick={(e) => {
-              e.stopPropagation();
-              step(1);
-            }}
-            className="absolute right-2 md:right-6 text-white/70 hover:text-white text-4xl px-3 py-6"
-            aria-label="Next"
-          >
-            ›
-          </button>
-          <div className="absolute bottom-4 left-0 right-0 text-center text-[11px] uppercase tracking-widest text-white/70">
-            {labels[current.category]} · {(open ?? 0) + 1} / {visible.length}
-          </div>
-        </div>
-      )}
+      <Dialog.Root
+        open={isOpen}
+        onOpenChange={(next) => {
+          if (!next) close();
+        }}
+        onOpenChangeComplete={(next) => {
+          if (!next) setRenderedIndex(null);
+        }}
+      >
+        <Dialog.Portal>
+          <Dialog.Backdrop className="dialog-backdrop fixed inset-0 z-[100] bg-black/95" />
+          <Dialog.Viewport className="fixed inset-0 z-[101] flex items-center justify-center p-4 md:p-12 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))]">
+            <Dialog.Popup
+              className="dialog-popup relative w-full h-full flex items-center justify-center outline-none"
+              aria-label={current ? labels[current.category] : closeLabel}
+              onClick={close}
+            >
+              {current && (
+                <>
+                  <Dialog.Close
+                    type="button"
+                    onClick={close}
+                    className="absolute top-0 right-0 z-10 inline-flex items-center justify-center min-w-[44px] min-h-[44px] text-white/80 hover:text-white text-xs uppercase tracking-widest px-3 py-2 border border-white/30 active:scale-[0.95] transition-[color,border-color,transform] duration-150 ease-[var(--ease-out)]"
+                  >
+                    {closeLabel} ✕
+                  </Dialog.Close>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      step(-1);
+                    }}
+                    className="absolute left-0 md:left-2 z-10 inline-flex items-center justify-center min-w-[44px] min-h-[44px] text-white/70 hover:text-white text-4xl px-3 py-6 active:scale-[0.95] transition-[color,transform] duration-150 ease-[var(--ease-out)]"
+                    aria-label="Previous"
+                  >
+                    ‹
+                  </button>
+                  <div
+                    className="relative w-full h-full max-w-6xl touch-pan-y"
+                    onClick={(e) => e.stopPropagation()}
+                    onPointerDown={(e) => {
+                      if (e.pointerType !== 'touch' && e.pointerType !== 'pen') return;
+                      swipeStartRef.current = { x: e.clientX, y: e.clientY, time: performance.now() };
+                    }}
+                    onPointerUp={(e) => {
+                      const start = swipeStartRef.current;
+                      swipeStartRef.current = null;
+                      if (!start) return;
+                      const dx = e.clientX - start.x;
+                      const dy = e.clientY - start.y;
+                      if (Math.abs(dx) < Math.abs(dy)) return;
+                      const dt = Math.max(performance.now() - start.time, 1);
+                      const velocity = Math.abs(dx) / dt;
+                      if (Math.abs(dx) > 50 || velocity > 0.11) {
+                        step(dx < 0 ? 1 : -1);
+                      }
+                    }}
+                    onPointerCancel={() => {
+                      swipeStartRef.current = null;
+                    }}
+                  >
+                    <Image
+                      key={current.src}
+                      src={current.src}
+                      alt={`GENESI — ${labels[current.category]}`}
+                      fill
+                      sizes="100vw"
+                      className="object-contain"
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      step(1);
+                    }}
+                    className="absolute right-0 md:right-2 z-10 inline-flex items-center justify-center min-w-[44px] min-h-[44px] text-white/70 hover:text-white text-4xl px-3 py-6 active:scale-[0.95] transition-[color,transform] duration-150 ease-[var(--ease-out)]"
+                    aria-label="Next"
+                  >
+                    ›
+                  </button>
+                  <div className="absolute bottom-0 left-0 right-0 text-center text-[11px] uppercase tracking-widest text-white/70 tabular-nums pointer-events-none">
+                    {labels[current.category]} · {(activeIdx ?? 0) + 1} / {visible.length}
+                  </div>
+                </>
+              )}
+            </Dialog.Popup>
+          </Dialog.Viewport>
+        </Dialog.Portal>
+      </Dialog.Root>
     </div>
   );
 }

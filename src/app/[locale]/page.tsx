@@ -32,7 +32,7 @@ export default async function Home() {
           <div className="max-w-5xl mx-auto text-center reveal">
             <Eyebrow>{o('homeIntroEyebrow')}</Eyebrow>
             <h2 className="text-3xl sm:text-4xl lg:text-6xl font-extralight leading-[1.1] tracking-tight">{o('homeIntroTitle')}</h2>
-            <p className="mt-10 text-base lg:text-xl text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto">{o('homeIntroText')}</p>
+            <p className="mt-10 text-base lg:text-xl text-muted-foreground font-light leading-relaxed max-w-[65ch] mx-auto">{o('homeIntroText')}</p>
           </div>
         </section>
       </Cover>
@@ -123,7 +123,7 @@ export default async function Home() {
                       alt={pick(p.title, locale)}
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.04]"
+                      className="object-cover transition-transform duration-500 ease-[var(--ease-out)] group-hover:scale-[1.03]"
                     />
                   </div>
                   <h3 className="mt-5 text-lg lg:text-xl font-light">{pick(p.title, locale)}</h3>

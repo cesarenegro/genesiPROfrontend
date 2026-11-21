@@ -37,7 +37,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
         <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setSelectedFilter('all')}
-            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-all ${
+            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] ${
               selectedFilter === 'all'
                 ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-medium'
                 : 'text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white border border-transparent hover:border-zinc-200 dark:hover:border-zinc-800'
@@ -47,7 +47,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
           </button>
           <button
             onClick={() => setSelectedFilter('pivot')}
-            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-all ${
+            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] ${
               selectedFilter === 'pivot'
                 ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-medium'
                 : 'text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white border border-transparent hover:border-zinc-200 dark:hover:border-zinc-800'
@@ -57,7 +57,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
           </button>
           <button
             onClick={() => setSelectedFilter('sliding')}
-            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-all ${
+            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] ${
               selectedFilter === 'sliding'
                 ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-medium'
                 : 'text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white border border-transparent hover:border-zinc-200 dark:hover:border-zinc-800'
@@ -67,7 +67,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
           </button>
           <button
             onClick={() => setSelectedFilter('swing')}
-            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-all ${
+            className={`text-xs uppercase tracking-widest px-4 py-2.5 transition-[background-color,border-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] ${
               selectedFilter === 'swing'
                 ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-medium'
                 : 'text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white border border-transparent hover:border-zinc-200 dark:hover:border-zinc-800'
@@ -79,7 +79,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
       </div>
 
       {/* Counter bar */}
-      <div className="flex justify-between items-center text-xs text-zinc-400 uppercase tracking-widest mb-8">
+      <div className="flex justify-between items-center text-xs text-zinc-400 uppercase tracking-widest mb-8 tabular-nums">
         <span>{t('filterCount', { count: filteredProducts.length })}</span>
         {selectedFilter !== 'all' && (
           <button
@@ -111,7 +111,7 @@ export default function VelaProductGrid({ products, locale }: Props) {
                     alt={productName}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 ease-[var(--ease-out)] group-hover:scale-[1.03]"
                   />
                   {/* Subtle technical pill */}
                   <div className="absolute top-4 left-4 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-3 py-1.5 text-[11px] uppercase tracking-widest text-zinc-700 dark:text-zinc-300 font-medium">
@@ -136,12 +136,12 @@ export default function VelaProductGrid({ products, locale }: Props) {
                     {productSummary}
                   </p>
                   <div className="pt-2 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-zinc-900 dark:text-zinc-100 font-medium group-hover:gap-2.5 transition-all">
+                    <span className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-zinc-900 dark:text-zinc-100 font-medium">
                       <span>{t('viewFamily')}</span>
-                      <span>→</span>
+                      <span className="inline-block transition-transform duration-200 ease-[var(--ease-out)] group-hover:translate-x-1">→</span>
                     </span>
                     {product.nominalDimensions && (
-                      <span className="text-[11px] text-zinc-400 font-mono">
+                      <span className="text-[11px] text-zinc-400 font-mono tabular-nums">
                         {t('slugDimensionsQuote')}: {product.nominalDimensions.widthMm} × {product.nominalDimensions.heightMm} mm
                       </span>
                     )}

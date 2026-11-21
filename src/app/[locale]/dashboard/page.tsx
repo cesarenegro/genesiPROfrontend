@@ -8,7 +8,7 @@ export default async function DashboardPage() {
   const t = await getTranslations('Dashboard');
 
   return (
-    <div className="flex flex-col min-h-screen bg-zinc-50 dark:bg-zinc-950">
+    <div className="flex flex-col min-h-[100dvh] bg-zinc-50 dark:bg-zinc-950">
       {/* Header */}
       <section className="bg-background py-16 border-b border-border">
         <div className="container mx-auto px-4">

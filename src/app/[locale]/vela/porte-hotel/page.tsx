@@ -49,7 +49,7 @@ export default async function PorteHotelPage({ params }: Props) {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="flex flex-col min-h-[100dvh] bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <VelaCategoryNav activeCategory="porte-hotel" />
 
       {/* Hero Category Banner */}
@@ -132,7 +132,7 @@ export default async function PorteHotelPage({ params }: Props) {
               return (
                 <div
                   key={door.id}
-                  className="group flex flex-col bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800 transition-all duration-300 hover:border-zinc-400 dark:hover:border-zinc-600"
+                  className="group flex flex-col bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800 transition-colors duration-200 ease-[var(--ease-out)] hover:border-zinc-400 dark:hover:border-zinc-600"
                 >
                   {/* Photo canvas */}
                   <div className="relative aspect-[4/5] w-full bg-zinc-100 dark:bg-zinc-900 overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
@@ -141,7 +141,7 @@ export default async function PorteHotelPage({ params }: Props) {
                       alt={name}
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                     />
                     {door.tag && (
                       <div className="absolute top-4 left-4 bg-white/95 dark:bg-black/90 backdrop-blur-xs px-3 py-1.5 text-[10px] uppercase tracking-widest text-zinc-800 dark:text-zinc-200 font-semibold border border-zinc-200/60 dark:border-zinc-800/60">

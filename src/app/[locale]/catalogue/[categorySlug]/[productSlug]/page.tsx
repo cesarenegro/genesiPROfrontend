@@ -32,7 +32,7 @@ export default async function ProductDetailPage({ params }: Props) {
   const dimensions = product.dimensions?.[locale] || product.dimensions?.en || '';
 
   return (
-    <div className="container mx-auto px-4 py-16 min-h-screen">
+    <div className="container mx-auto px-4 py-16 min-h-[100dvh]">
       <div className="mb-8">
         <Link href={`/catalogue/${categorySlug}`} className="text-sm text-muted-foreground hover:text-primary transition-colors inline-block uppercase tracking-wider">
           {t('backToCategory', { category: categoryTitle })}

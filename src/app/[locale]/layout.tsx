@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Raleway, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import {NextIntlClientProvider} from 'next-intl';
@@ -23,6 +23,17 @@ const geistMono = Geist_Mono({
 });
 
 import {getTranslations} from 'next-intl/server';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  interactiveWidget: 'resizes-content',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#1e1e1e' },
+    { media: '(prefers-color-scheme: dark)', color: '#141414' },
+  ],
+};
 
 export async function generateMetadata({
   params

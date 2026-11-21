@@ -9,7 +9,7 @@ export default async function CatalogueIndexPage() {
   const t = await getTranslations('Catalogue');
   
   return (
-    <div className="container mx-auto px-4 py-24 min-h-screen">
+    <div className="container mx-auto px-4 py-24 min-h-[100dvh]">
       <h1 className="text-4xl md:text-5xl font-light mb-4">{t('title')}</h1>
       <p className="text-lg text-muted-foreground max-w-3xl mb-16">
         {t('subtitle')}
@@ -23,14 +23,14 @@ export default async function CatalogueIndexPage() {
             <Link 
               href={`/catalogue/${cat.slug}`} 
               key={cat.id}
-              className="group block overflow-hidden bg-white dark:bg-zinc-900 border border-border hover:border-primary transition-all duration-300 shadow-sm hover:shadow-md"
+              className="group block overflow-hidden bg-white dark:bg-zinc-900 border border-border hover:border-primary transition-colors duration-200 ease-[var(--ease-out)]"
             >
               <div className="aspect-[4/3] relative overflow-hidden bg-zinc-100 dark:bg-zinc-800">
                 <Image 
                   src={`/images/categories/${cat.slug}.png`}
                   alt={title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>

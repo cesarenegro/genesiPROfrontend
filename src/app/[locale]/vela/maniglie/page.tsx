@@ -244,7 +244,7 @@ export default async function ManigliePage({ params }: Props) {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="flex flex-col min-h-[100dvh] bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <VelaCategoryNav activeCategory="maniglie" />
 
       {/* Hero Category Banner */}
@@ -360,7 +360,7 @@ export default async function ManigliePage({ params }: Props) {
               return (
                 <div
                   key={item.id}
-                  className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-8 flex flex-col justify-between transition-all duration-300 hover:border-zinc-400 dark:hover:border-zinc-600"
+                  className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-8 flex flex-col justify-between transition-colors duration-200 ease-[var(--ease-out)] hover:border-zinc-400 dark:hover:border-zinc-600"
                 >
                   {/* Photo canvas */}
                   <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-800 overflow-hidden mb-6 border border-zinc-200/60 dark:border-zinc-800/60">
@@ -369,7 +369,7 @@ export default async function ManigliePage({ params }: Props) {
                       alt={name}
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-cover hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                     />
                     <div className="absolute top-3 left-3 bg-white/90 dark:bg-black/85 backdrop-blur-xs px-2.5 py-1 text-[10px] uppercase tracking-widest text-zinc-700 dark:text-zinc-300 font-semibold border border-zinc-200/50 dark:border-zinc-800/50">
                       {item.type === 'lever' && t('handlesTypeLever')}
@@ -457,7 +457,7 @@ export default async function ManigliePage({ params }: Props) {
               return (
                 <div
                   key={f.code}
-                  className="group bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all duration-300 flex flex-col overflow-hidden shadow-sm"
+                  className="group bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-colors duration-200 ease-[var(--ease-out)] flex flex-col overflow-hidden"
                 >
                   {/* 4:3 Aspect Ratio Image Canvas */}
                   <div className="relative aspect-[4/3] w-full bg-zinc-950 overflow-hidden border-b border-zinc-800">
@@ -466,7 +466,7 @@ export default async function ManigliePage({ params }: Props) {
                       alt={`${fName} — ${fTag}`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                     />
                     {/* Code Tag Top-Left */}
                     <div className="absolute top-3 left-3 bg-black/85 backdrop-blur-xs text-white text-[11px] font-mono px-2.5 py-1 border border-white/15">

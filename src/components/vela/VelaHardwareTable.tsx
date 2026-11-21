@@ -220,7 +220,7 @@ export default function VelaHardwareTable({ locale }: Props) {
 
                   {/* Serratura */}
                   <td className="py-5 px-6 align-top">
-                    <p className="text-xs text-zinc-800 dark:text-zinc-200 font-mono">
+                    <p className="text-xs text-zinc-800 dark:text-zinc-200 font-mono tabular-nums break-words [overflow-wrap:anywhere]">
                       {c.lock}
                     </p>
                     {c.lockPdf && (
@@ -237,7 +237,7 @@ export default function VelaHardwareTable({ locale }: Props) {
 
                   {/* Cerniere */}
                   <td className="py-5 px-6 align-top">
-                    <p className="text-xs text-zinc-800 dark:text-zinc-200 font-mono">
+                    <p className="text-xs text-zinc-800 dark:text-zinc-200 font-mono tabular-nums break-words [overflow-wrap:anywhere]">
                       {c.hinges}
                     </p>
                     {c.hingesPdf && (

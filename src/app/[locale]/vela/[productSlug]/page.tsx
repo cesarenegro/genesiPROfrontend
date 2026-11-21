@@ -59,7 +59,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
   const productSummary = resolveLocalizedText(product.summary, locale);
 
   return (
-    <div className="min-h-screen bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="min-h-[100dvh] bg-[#FDFDFD] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="container mx-auto px-6 lg:px-12 py-12 md:py-16">
         {/* Navigation Breadcrumb */}
         <div className="mb-10">
@@ -417,7 +417,7 @@ export default async function VelaProductDetailPage({ params }: Props) {
                         alt={relName}
                         fill
                         sizes="(max-width: 768px) 100vw, 33vw"
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                       />
                     </div>
                     <div className="text-xs uppercase tracking-widest text-zinc-400 mb-1">

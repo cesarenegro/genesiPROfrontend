@@ -14,6 +14,7 @@ interface Props {
 export default function VelaGallery({ images, locale, productName }: Props) {
   const t = useTranslations('Vela');
   const [activeImage, setActiveImage] = useState<VelaImage>(images[0] || null);
+  const [prevImage, setPrevImage] = useState<VelaImage | null>(null);
 
   if (!images.length) {
     return (
@@ -26,6 +27,12 @@ export default function VelaGallery({ images, locale, productName }: Props) {
   const activeLabel = resolveLocalizedText(activeImage.label, locale);
   const isDrawing = activeImage.type === 'drawing';
 
+  const selectImage = (img: VelaImage) => {
+    if (img.url === activeImage.url) return;
+    setPrevImage(activeImage);
+    setActiveImage(img);
+  };
+
   return (
     <div className="flex flex-col gap-6">
       {/* Large Featured Canvas */}
@@ -34,6 +41,16 @@ export default function VelaGallery({ images, locale, productName }: Props) {
           isDrawing ? 'bg-white dark:bg-zinc-900' : 'bg-zinc-100 dark:bg-zinc-900'
         }`}
       >
+        {prevImage && prevImage.url !== activeImage.url && (
+          <Image
+            src={prevImage.url}
+            alt=""
+            aria-hidden="true"
+            fill
+            sizes="(max-width: 1024px) 100vw, 55vw"
+            className={prevImage.type === 'drawing' ? 'object-contain p-2 sm:p-4' : 'object-cover'}
+          />
+        )}
         <Image
           key={activeImage.url}
           src={activeImage.url}
@@ -41,7 +58,7 @@ export default function VelaGallery({ images, locale, productName }: Props) {
           fill
           priority
           sizes="(max-width: 1024px) 100vw, 55vw"
-          className={`animate-in fade-in duration-500 ${
+          className={`${prevImage ? 'gallery-swap ' : ''}${
             isDrawing ? 'object-contain p-2 sm:p-4' : 'object-cover'
           }`}
         />
@@ -67,8 +84,8 @@ export default function VelaGallery({ images, locale, productName }: Props) {
               <button
                 key={idx}
                 type="button"
-                onClick={() => setActiveImage(img)}
-                className={`group relative aspect-square w-full overflow-hidden border transition-all cursor-pointer ${
+                onClick={() => selectImage(img)}
+                className={`group relative aspect-square w-full overflow-hidden border transition-[border-color,opacity,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                   thumbIsDrawing ? 'bg-white dark:bg-zinc-900' : 'bg-zinc-100 dark:bg-zinc-900'
                 } ${
                   isSelected
@@ -84,7 +101,7 @@ export default function VelaGallery({ images, locale, productName }: Props) {
                   sizes="120px"
                   className={thumbIsDrawing ? 'object-contain p-1.5' : 'object-cover'}
                 />
-                <span className="absolute bottom-1 left-1 right-1 text-[9px] uppercase tracking-tighter truncate bg-black/75 text-white px-1 py-0.5 text-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <span className="absolute bottom-1 left-1 right-1 text-[9px] uppercase tracking-tighter truncate bg-black/75 text-white px-1 py-0.5 text-center opacity-90 [@media(hover:hover)_and_(pointer:fine)]:opacity-0 [@media(hover:hover)_and_(pointer:fine)]:group-hover:opacity-100 transition-opacity duration-200">
                   {thumbLabel}
                 </span>
                 {thumbIsDrawing && (

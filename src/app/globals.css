@@ -133,20 +133,37 @@
   --header-h: 4rem;      /* main bar */
   --topbar-h: 0rem;      /* utility bar (desktop only) */
   --ink: #1e1e1e;        /* charcoal used for header, menu, footer */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 }
 @media (min-width: 1024px) {
   :root { --header-h: 4.5rem; --topbar-h: 2rem; }
 }
 
-html { scroll-behavior: auto; }
+html {
+  scroll-behavior: auto;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
 body { font-weight: 300; letter-spacing: 0.01em; }
 
-/* Page transition: fade + slight rise on every navigation */
+button, a, [role="button"] {
+  touch-action: manipulation;
+}
+
+button, [role="button"] {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Page transition: snappy fade + subtle rise on navigation */
 @keyframes page-enter {
-  from { opacity: 0; transform: translateY(14px); }
+  from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: none; }
 }
-.page-enter { animation: page-enter 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.page-enter { animation: page-enter 0.24s var(--ease-out) both; }
 
 /* Header offset for pages without a full-screen hero */
 .below-header { padding-top: calc(var(--header-h) + var(--topbar-h)); }
@@ -173,31 +190,52 @@ body { font-weight: 300; letter-spacing: 0.01em; }
 .stack-panel + .stack-panel { box-shadow: 0 -30px 60px -30px rgb(0 0 0 / 0.45); }
 .stack { timeline-scope: var(--scope, none); }
 
-/* While a panel is being covered, its photo gently zooms and darkens (scroll-driven, progressive). */
+/* Eased multi-stop scrim over hero photography */
+.hero-scrim {
+  background: linear-gradient(
+    to top,
+    rgb(0 0 0 / 0.74) 0%,
+    rgb(0 0 0 / 0.58) 14%,
+    rgb(0 0 0 / 0.38) 30%,
+    rgb(0 0 0 / 0.18) 50%,
+    rgb(0 0 0 / 0.12) 72%,
+    rgb(0 0 0 / 0.34) 100%
+  );
+}
+
+/* While a panel is being covered, its photo gently zooms and a black dim overlay fades in (compositor-only). */
 @supports (animation-timeline: view()) {
   .stack-panel .stack-media {
-    animation: stack-exit linear both;
+    animation: stack-exit-scale linear both;
     animation-timeline: var(--by, none);
     animation-range: entry 0% entry 100%;
   }
-  @keyframes stack-exit {
-    to { transform: scale(1.06); filter: brightness(0.45); }
+  .stack-panel .stack-dim {
+    animation: stack-exit-dim linear both;
+    animation-timeline: var(--by, none);
+    animation-range: entry 0% entry 100%;
+  }
+  @keyframes stack-exit-scale {
+    to { transform: scale(1.05); }
+  }
+  @keyframes stack-exit-dim {
+    to { opacity: 0.55; }
   }
 }
 
-/* Slow settle of hero photos on load */
+/* Gentle settle of hero photos on load */
 @keyframes hero-settle {
-  from { transform: scale(1.08); }
+  from { transform: scale(1.04); }
   to   { transform: scale(1); }
 }
-.hero-settle { animation: hero-settle 2.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.hero-settle { animation: hero-settle 1.2s var(--ease-out) both; }
 
-/* Hero copy rises in after the photo settles */
+/* Hero copy rises in promptly after initial paint */
 @keyframes rise-in {
-  from { opacity: 0; transform: translateY(24px); }
+  from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: none; }
 }
-.rise-in { animation: rise-in 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both; }
+.rise-in { animation: rise-in 0.65s var(--ease-out) 0.06s both; }
 
 /* Scroll cue line */
 @keyframes cue {
@@ -216,12 +254,46 @@ body { font-weight: 300; letter-spacing: 0.01em; }
   .reveal {
     animation: reveal linear both;
     animation-timeline: view();
-    animation-range: entry 0% entry 60%;
+    animation-range: entry 0% entry 35%;
   }
   @keyframes reveal {
-    from { opacity: 0; transform: translateY(32px); }
+    from { opacity: 0; transform: translateY(18px); }
     to   { opacity: 1; transform: none; }
   }
+}
+
+/* Base UI Dialog enter/exit transitions */
+.dialog-backdrop {
+  transition: opacity 200ms var(--ease-out);
+}
+.dialog-backdrop[data-starting-style],
+.dialog-backdrop[data-ending-style] {
+  opacity: 0;
+}
+.dialog-backdrop[data-ending-style] {
+  transition-duration: 150ms;
+}
+
+.dialog-popup {
+  transform-origin: center;
+  transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+}
+.dialog-popup[data-starting-style],
+.dialog-popup[data-ending-style] {
+  opacity: 0;
+  transform: scale(0.96);
+}
+.dialog-popup[data-ending-style] {
+  transition-duration: 150ms;
+}
+
+/* Gallery image swap crossfade masked with subtle blur */
+@keyframes gallery-swap {
+  from { opacity: 0; filter: blur(2px); }
+  to   { opacity: 1; filter: blur(0px); }
+}
+.gallery-swap {
+  animation: gallery-swap 200ms var(--ease-out) both;
 }
 
 /* Minotti-like sub-navigation: ITEM —— ITEM */
@@ -236,5 +308,27 @@ body { font-weight: 300; letter-spacing: 0.01em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-enter, .reveal, .stack-panel .stack-media, .hero-settle, .scroll-cue, .rise-in { animation: none !important; }
+  .stack-panel .stack-media,
+  .stack-panel .stack-dim,
+  .hero-settle,
+  .scroll-cue {
+    animation: none !important;
+  }
+  .page-enter,
+  .rise-in,
+  .reveal,
+  .gallery-swap {
+    animation: reduced-fade 180ms ease both !important;
+  }
+  .dialog-popup {
+    transform: none !important;
+    transition: opacity 150ms ease !important;
+  }
+  .dialog-backdrop {
+    transition: opacity 150ms ease !important;
+  }
+  @keyframes reduced-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 }

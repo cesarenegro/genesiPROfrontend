@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { createPortal } from 'react-dom';
 import Image from 'next/image';
+import { Dialog } from '@base-ui/react/dialog';
 import { Link } from '@/i18n/routing';
 import { VelaHardwareItem, Locale, resolveLocalizedText } from '@/lib/vela';
 import VelaHardwareCard from './VelaHardwareCard';
@@ -15,33 +15,21 @@ interface Props {
 type CategoryFilter = 'all' | 'smart-residential' | 'hospitality' | 'magnetic' | 'hinges' | 'handles';
 
 export default function VelaHardwareSection({ hardware, locale }: Props) {
-  const [mounted, setMounted] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeModalItem, setActiveModalItem] = useState<VelaHardwareItem | null>(null);
+  const [cachedModalItem, setCachedModalItem] = useState<VelaHardwareItem | null>(null);
+
+  const isModalOpen = Boolean(activeModalItem);
+  const modalItem = activeModalItem ?? cachedModalItem;
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  // Close modal on Escape key and prevent background scroll
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        setActiveModalItem(null);
-      }
-    };
-    if (activeModalItem) {
-      document.body.style.overflow = 'hidden';
-      window.addEventListener('keydown', handleKeyDown);
-    } else {
-      document.body.style.overflow = '';
-    }
+    if (!isModalOpen) return;
+    window.__genesiScroll?.stop();
     return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', handleKeyDown);
+      window.__genesiScroll?.start();
     };
-  }, [activeModalItem]);
+  }, [isModalOpen]);
 
   const categories: { id: CategoryFilter; label: Record<string, string>; count: number }[] = [
     {
@@ -180,6 +168,7 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
   ];
 
   const handleOpenModal = (item: VelaHardwareItem) => {
+    setCachedModalItem(item);
     setActiveModalItem(item);
   };
 
@@ -412,14 +401,14 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
                       handleOpenModal(matched);
                     }
                   }}
-                  className="group relative aspect-[16/10] overflow-hidden cursor-pointer border border-zinc-200 dark:border-zinc-800 hover:border-zinc-500 transition-all"
+                  className="group relative aspect-[16/10] overflow-hidden cursor-pointer border border-zinc-200 dark:border-zinc-800 hover:border-zinc-500 transition-colors duration-200 ease-[var(--ease-out)]"
                 >
                   <Image
                     src={spot.image}
                     alt={spotTitle}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
                   <div className="absolute top-2 left-2 bg-black/75 backdrop-blur-xs text-[10px] text-zinc-300 font-mono px-2 py-0.5 border border-white/10">
@@ -452,7 +441,7 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
                   key={cat.id}
                   type="button"
                   onClick={() => setSelectedCategory(cat.id)}
-                  className={`px-4 py-2 text-xs uppercase tracking-wider font-medium whitespace-nowrap transition-all flex items-center gap-2 ${
+                  className={`px-4 py-2 text-xs uppercase tracking-wider font-medium whitespace-nowrap transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] flex items-center gap-2 ${
                     isActive
                       ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-xs'
                       : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white'
@@ -460,7 +449,7 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
                 >
                   <span>{label}</span>
                   <span
-                    className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                    className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono tabular-nums ${
                       isActive
                         ? 'bg-zinc-700 text-zinc-200 dark:bg-zinc-200 dark:text-zinc-800'
                         : 'bg-zinc-200 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-300'
@@ -480,7 +469,8 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={getT('searchPlaceholder')}
-              className="w-full px-3.5 py-2 pl-9 bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 text-xs text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-hidden focus:border-zinc-900 dark:focus:border-zinc-100 transition-colors"
+              enterKeyHint="search"
+              className="w-full px-3.5 py-2 pl-9 pr-10 bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 text-base md:text-xs text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-hidden focus:border-zinc-900 dark:focus:border-zinc-100 transition-colors"
             />
             <svg
               className="w-4 h-4 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2"
@@ -499,7 +489,7 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
               <button
                 type="button"
                 onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-xs"
+                className="absolute right-1 top-1/2 -translate-y-1/2 inline-flex items-center justify-center min-w-[36px] min-h-[36px] text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-xs"
               >
                 ✕
               </button>
@@ -537,219 +527,226 @@ export default function VelaHardwareSection({ hardware, locale }: Props) {
       </div>
 
       {/* Detail & Tolerances Modal */}
-      {mounted &&
-        activeModalItem &&
-        createPortal(
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
-            <div
-              className="relative w-full max-w-4xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-2xl overflow-hidden max-h-[90vh] flex flex-col"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* Modal Top Header */}
-              <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950">
-                <div className="flex items-center gap-3">
-                  <span className="text-xs uppercase tracking-widest font-mono text-zinc-500">
-                    {activeModalItem.brand} • {activeModalItem.country}
-                  </span>
-                  <span className="text-zinc-300 dark:text-zinc-700">/</span>
-                  <span className="text-xs uppercase tracking-wider font-semibold text-zinc-900 dark:text-zinc-100">
-                    {getT('dossierLabel')}
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setActiveModalItem(null)}
-                  className="p-1.5 text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
-                  aria-label={getT('closeLabel')}
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-
-              {/* Modal Scrollable Body */}
-              <div className="overflow-y-auto p-6 md:p-8 space-y-8 flex-1">
-                {/* Dual Image Header */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Left: Product View */}
-                  <div className="space-y-2">
-                    <div className="flex items-center justify-between text-xs uppercase tracking-wider text-zinc-400 font-mono">
-                      <span>{getT('viewProduct')}</span>
-                      <span className="text-zinc-500">{getT('viewIsolated')}</span>
-                    </div>
-                    <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 overflow-hidden">
-                      <Image
-                        src={activeModalItem.images.product}
-                        alt={resolveLocalizedText(activeModalItem.name, locale)}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Right: In-Situ View (or fallback) */}
-                  <div className="space-y-2">
-                    <div className="flex items-center justify-between text-xs uppercase tracking-wider text-zinc-400 font-mono">
-                      <span>{getT('viewInSitu')}</span>
-                      <span className="text-amber-500">In-Situ Render</span>
-                    </div>
-                    <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 overflow-hidden">
-                      {activeModalItem.images.inSitu ? (
-                        <Image
-                          src={activeModalItem.images.inSitu}
-                          alt="In-situ rendering"
-                          fill
-                          className="object-cover"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center text-zinc-400 bg-zinc-50 dark:bg-zinc-950">
-                          <svg className="w-8 h-8 mb-2 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                          </svg>
-                          <p className="text-xs">Installation complanare</p>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Title & Description */}
-                <div className="space-y-3">
-                  <h3 className="text-2xl font-light text-zinc-900 dark:text-zinc-100">
-                    {resolveLocalizedText(activeModalItem.name, locale)}
-                  </h3>
-                  <p className="text-xs uppercase tracking-widest text-zinc-500 font-medium">
-                    {resolveLocalizedText(activeModalItem.subtitle, locale)}
-                  </p>
-                  <p className="text-sm text-zinc-600 dark:text-zinc-300 font-light leading-relaxed">
-                    {resolveLocalizedText(activeModalItem.description, locale)}
-                  </p>
-                </div>
-
-                {/* Detailed Specifications Table */}
-                <div className="space-y-4">
-                  <h4 className="text-xs uppercase tracking-widest font-mono text-zinc-400">
-                    {getT('specsHeading')}
-                  </h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-                    {activeModalItem.specs.loadCapacityKg && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('loadCapLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">
-                          {activeModalItem.specs.loadCapacityKg} kg
-                        </span>
-                      </div>
-                    )}
-                    {activeModalItem.specs.backsetMm && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('backsetLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">
-                          {activeModalItem.specs.backsetMm}
-                        </span>
-                      </div>
-                    )}
-                    {activeModalItem.specs.doorThicknessMinMm && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('thicknessLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">
-                          ≥ {activeModalItem.specs.doorThicknessMinMm} mm
-                        </span>
-                      </div>
-                    )}
-                    {activeModalItem.specs.batteryLife && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('batteryLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">
-                          {activeModalItem.specs.batteryLife}
-                        </span>
-                      </div>
-                    )}
-                    {activeModalItem.specs.powerSupply && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('powerLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">
-                          {activeModalItem.specs.powerSupply}
-                        </span>
-                      </div>
-                    )}
-                    {activeModalItem.specs.wirelessProtocols && (
-                      <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
-                        <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('wirelessLabel')}</span>
-                        <span className="font-semibold text-zinc-900 dark:text-zinc-100 text-right">
-                          {activeModalItem.specs.wirelessProtocols.join(', ')}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-
-                {/* Available Finishes */}
-                <div className="space-y-3">
-                  <h4 className="text-xs uppercase tracking-widest font-mono text-zinc-400">
-                    {getT('finishesHeading')}
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {activeModalItem.specs.finishes.map((f, i) => (
-                      <span
-                        key={i}
-                        className="px-3 py-1 bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-xs text-zinc-800 dark:text-zinc-200"
-                      >
-                        {f}
+      <Dialog.Root
+        open={isModalOpen}
+        onOpenChange={(next) => {
+          if (!next) setActiveModalItem(null);
+        }}
+        onOpenChangeComplete={(next) => {
+          if (!next) setCachedModalItem(null);
+        }}
+      >
+        <Dialog.Portal>
+          <Dialog.Backdrop className="dialog-backdrop fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm" />
+          <Dialog.Viewport className="fixed inset-0 z-[101] flex items-center justify-center p-4 sm:p-6 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]">
+            <Dialog.Popup className="dialog-popup relative w-full max-w-4xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-2xl overflow-hidden max-h-[90dvh] flex flex-col outline-none">
+              {modalItem && (
+                <>
+                  {/* Modal Top Header */}
+                  <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950">
+                    <div className="flex items-center gap-3">
+                      <span className="text-xs uppercase tracking-widest font-mono text-zinc-500">
+                        {modalItem.brand} • {modalItem.country}
                       </span>
-                    ))}
+                      <span className="text-zinc-300 dark:text-zinc-700">/</span>
+                      <span className="text-xs uppercase tracking-wider font-semibold text-zinc-900 dark:text-zinc-100">
+                        {getT('dossierLabel')}
+                      </span>
+                    </div>
+                    <Dialog.Close
+                      type="button"
+                      className="inline-flex items-center justify-center min-w-[44px] min-h-[44px] p-1.5 text-zinc-400 hover:text-zinc-900 dark:hover:text-white active:scale-[0.95] transition-[color,transform] duration-150 ease-[var(--ease-out)]"
+                      aria-label={getT('closeLabel')}
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </Dialog.Close>
                   </div>
-                </div>
 
-                {/* Recommended Door Typologies */}
-                <div className="p-4 bg-zinc-50 dark:bg-zinc-950 border-l-2 border-zinc-900 dark:border-white space-y-1">
-                  <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-mono">
-                    {getT('adviceHeading')}
-                  </span>
-                  <p className="text-xs text-zinc-700 dark:text-zinc-300">
-                    {resolveLocalizedText(activeModalItem.recommendedFor, locale)}
-                  </p>
-                </div>
-              </div>
+                  {/* Modal Scrollable Body */}
+                  <div className="overflow-y-auto overscroll-contain p-6 md:p-8 space-y-8 flex-1">
+                    {/* Dual Image Header */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      {/* Left: Product View */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between text-xs uppercase tracking-wider text-zinc-400 font-mono">
+                          <span>{getT('viewProduct')}</span>
+                          <span className="text-zinc-500">{getT('viewIsolated')}</span>
+                        </div>
+                        <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+                          <Image
+                            src={modalItem.images.product}
+                            alt={resolveLocalizedText(modalItem.name, locale)}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      </div>
 
-              {/* Modal Footer Actions */}
-              <div className="px-6 py-4 border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 flex flex-col sm:flex-row items-center justify-between gap-4">
-                {activeModalItem.datasheetPdf ? (
-                  <a
-                    href={activeModalItem.datasheetPdf.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-white text-xs uppercase tracking-widest font-medium transition-colors"
-                  >
-                    <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V7.414A2 2 0 0017.414 6L14 2.586A2 2 0 0012.586 2H4zm8 1.414L15.586 8H12V4.414zM4 5h6v4a1 1 0 001 1h4v6H4V5z" />
-                    </svg>
-                    <span>{getT('downloadDatasheet')} ({activeModalItem.datasheetPdf.sizeLabel})</span>
-                  </a>
-                ) : (
-                  <div />
-                )}
+                      {/* Right: In-Situ View (or fallback) */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between text-xs uppercase tracking-wider text-zinc-400 font-mono">
+                          <span>{getT('viewInSitu')}</span>
+                          <span className="text-amber-500">In-Situ Render</span>
+                        </div>
+                        <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+                          {modalItem.images.inSitu ? (
+                            <Image
+                              src={modalItem.images.inSitu}
+                              alt="In-situ rendering"
+                              fill
+                              className="object-cover"
+                            />
+                          ) : (
+                            <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center text-zinc-400 bg-zinc-50 dark:bg-zinc-950">
+                              <svg className="w-8 h-8 mb-2 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                              </svg>
+                              <p className="text-xs">Installation complanare</p>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
 
-                <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
-                  <button
-                    type="button"
-                    onClick={() => setActiveModalItem(null)}
-                    className="px-4 py-2.5 border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-xs uppercase tracking-wider font-medium hover:border-zinc-900 dark:hover:border-zinc-100"
-                  >
-                    {getT('closeLabel')}
-                  </button>
-                  <Link
-                    href={`/contact?inquiry=hardware&model=${encodeURIComponent(activeModalItem.slug)}`}
-                    className="px-5 py-2.5 bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 text-xs uppercase tracking-widest font-medium hover:opacity-90"
-                  >
-                    {getT('includeInTender')}
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>,
-          document.body
-        )}
+                    {/* Title & Description */}
+                    <div className="space-y-3">
+                      <Dialog.Title className="text-2xl font-light text-zinc-900 dark:text-zinc-100">
+                        {resolveLocalizedText(modalItem.name, locale)}
+                      </Dialog.Title>
+                      <p className="text-xs uppercase tracking-widest text-zinc-500 font-medium">
+                        {resolveLocalizedText(modalItem.subtitle, locale)}
+                      </p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-300 font-light leading-relaxed">
+                        {resolveLocalizedText(modalItem.description, locale)}
+                      </p>
+                    </div>
+
+                    {/* Detailed Specifications Table */}
+                    <div className="space-y-4">
+                      <h4 className="text-xs uppercase tracking-widest font-mono text-zinc-400">
+                        {getT('specsHeading')}
+                      </h4>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs tabular-nums">
+                        {modalItem.specs.loadCapacityKg && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('loadCapLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100">
+                              {modalItem.specs.loadCapacityKg} kg
+                            </span>
+                          </div>
+                        )}
+                        {modalItem.specs.backsetMm && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('backsetLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100">
+                              {modalItem.specs.backsetMm}
+                            </span>
+                          </div>
+                        )}
+                        {modalItem.specs.doorThicknessMinMm && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('thicknessLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100">
+                              ≥ {modalItem.specs.doorThicknessMinMm} mm
+                            </span>
+                          </div>
+                        )}
+                        {modalItem.specs.batteryLife && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('batteryLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100">
+                              {modalItem.specs.batteryLife}
+                            </span>
+                          </div>
+                        )}
+                        {modalItem.specs.powerSupply && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('powerLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100">
+                              {modalItem.specs.powerSupply}
+                            </span>
+                          </div>
+                        )}
+                        {modalItem.specs.wirelessProtocols && (
+                          <div className="p-3 bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-200 dark:border-zinc-800 flex justify-between items-center">
+                            <span className="text-zinc-500 uppercase font-mono text-[10px]">{getT('wirelessLabel')}</span>
+                            <span className="font-semibold text-zinc-900 dark:text-zinc-100 text-right">
+                              {modalItem.specs.wirelessProtocols.join(', ')}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Available Finishes */}
+                    <div className="space-y-3">
+                      <h4 className="text-xs uppercase tracking-widest font-mono text-zinc-400">
+                        {getT('finishesHeading')}
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {modalItem.specs.finishes.map((f, i) => (
+                          <span
+                            key={i}
+                            className="px-3 py-1 bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-xs text-zinc-800 dark:text-zinc-200"
+                          >
+                            {f}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Recommended Door Typologies */}
+                    <div className="p-4 bg-zinc-50 dark:bg-zinc-950 border-l-2 border-zinc-900 dark:border-white space-y-1">
+                      <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-mono">
+                        {getT('adviceHeading')}
+                      </span>
+                      <p className="text-xs text-zinc-700 dark:text-zinc-300">
+                        {resolveLocalizedText(modalItem.recommendedFor, locale)}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Modal Footer Actions */}
+                  <div className="px-6 py-4 border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    {modalItem.datasheetPdf ? (
+                      <a
+                        href={modalItem.datasheetPdf.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-white text-xs uppercase tracking-widest font-medium active:scale-[0.97] transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)]"
+                      >
+                        <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V7.414A2 2 0 0017.414 6L14 2.586A2 2 0 0012.586 2H4zm8 1.414L15.586 8H12V4.414zM4 5h6v4a1 1 0 001 1h4v6H4V5z" />
+                        </svg>
+                        <span>{getT('downloadDatasheet')} ({modalItem.datasheetPdf.sizeLabel})</span>
+                      </a>
+                    ) : (
+                      <div />
+                    )}
+
+                    <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
+                      <Dialog.Close
+                        type="button"
+                        className="px-4 py-2.5 border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-xs uppercase tracking-wider font-medium hover:border-zinc-900 dark:hover:border-zinc-100 active:scale-[0.97] transition-[border-color,color,transform] duration-150 ease-[var(--ease-out)]"
+                      >
+                        {getT('closeLabel')}
+                      </Dialog.Close>
+                      <Link
+                        href={`/contact?inquiry=hardware&model=${encodeURIComponent(modalItem.slug)}`}
+                        className="px-5 py-2.5 bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 text-xs uppercase tracking-widest font-medium hover:opacity-90 active:scale-[0.97] transition-[opacity,transform] duration-150 ease-[var(--ease-out)]"
+                      >
+                        {getT('includeInTender')}
+                      </Link>
+                    </div>
+                  </div>
+                </>
+              )}
+            </Dialog.Popup>
+          </Dialog.Viewport>
+        </Dialog.Portal>
+      </Dialog.Root>
     </section>
   );
 }

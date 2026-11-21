@@ -9,6 +9,7 @@ export default function ProductGallery({ images }: { images: ProductImage[] }) {
   const [activeImg, setActiveImg] = useState<ProductImage>(
     images.find(img => img.isPrimary) || images[0]
   );
+  const [prevImg, setPrevImg] = useState<ProductImage | null>(null);
 
   const getViewLabel = (viewType: string) => {
     if (viewType === 'front') return t('frontView');
@@ -24,16 +25,32 @@ export default function ProductGallery({ images }: { images: ProductImage[] }) {
     );
   }
 
+  const selectImg = (img: ProductImage) => {
+    if (img.url === activeImg.url) return;
+    setPrevImg(activeImg);
+    setActiveImg(img);
+  };
+
   return (
     <div className="flex flex-col gap-4">
       {/* Main Image View */}
       <div className="aspect-square relative bg-zinc-50 border border-border p-8 flex items-center justify-center overflow-hidden">
+        {prevImg && prevImg.url !== activeImg.url && (
+          <Image
+            src={prevImg.url}
+            alt=""
+            aria-hidden="true"
+            fill
+            className="object-contain mix-blend-multiply dark:mix-blend-normal"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+          />
+        )}
         <Image 
-          key={activeImg.url} // Forces re-render for smooth transition (optional)
+          key={activeImg.url}
           src={activeImg.url} 
           alt="Product View" 
           fill 
-          className="object-contain mix-blend-multiply dark:mix-blend-normal animate-in fade-in duration-500" 
+          className={`object-contain mix-blend-multiply dark:mix-blend-normal ${prevImg ? 'gallery-swap' : ''}`} 
           priority
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
@@ -48,8 +65,9 @@ export default function ProductGallery({ images }: { images: ProductImage[] }) {
           {images.map((img, idx) => (
             <button
               key={idx}
-              onClick={() => setActiveImg(img)}
-              className={`relative h-20 w-20 flex-shrink-0 border transition-all ${
+              type="button"
+              onClick={() => selectImg(img)}
+              className={`relative h-20 w-20 flex-shrink-0 border transition-[border-color,opacity,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] ${
                 activeImg.url === img.url 
                   ? 'border-primary ring-1 ring-primary' 
                   : 'border-border hover:border-primary/50'

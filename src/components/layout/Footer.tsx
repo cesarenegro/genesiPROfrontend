@@ -16,7 +16,7 @@ export default async function Footer() {
 
   return (
     <footer className="relative z-[2] w-full bg-[#141414] text-white">
-      <div className="px-6 lg:px-16 pt-20 lg:pt-28 pb-10">
+      <div className="px-6 lg:px-16 pt-20 lg:pt-28 pb-[calc(2.5rem+env(safe-area-inset-bottom,0px))]">
         <div className="grid grid-cols-2 lg:grid-cols-12 gap-x-8 gap-y-14">
           <div className="col-span-2 lg:col-span-4">
             <Image src="/images/logo.png" alt="GENESI" width={140} height={74} className="h-12 w-auto brightness-0 invert" />

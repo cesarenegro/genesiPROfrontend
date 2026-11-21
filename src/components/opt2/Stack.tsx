@@ -57,7 +57,8 @@ export function Panel({ i, image, alt, eyebrow, title, text, cta, hero, scrollLa
           style={{ objectPosition: position }}
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-black/35" />
+      <div className="stack-dim pointer-events-none absolute inset-0 bg-black opacity-0" aria-hidden="true" />
+      <div className="hero-scrim pointer-events-none absolute inset-0" aria-hidden="true" />
 
       <div
         className={`relative h-full flex flex-col px-6 lg:px-16 pb-20 lg:pb-24 ${
@@ -71,10 +72,10 @@ export function Panel({ i, image, alt, eyebrow, title, text, cta, hero, scrollLa
           {cta && (
             <Link
               href={cta.href}
-              className="group mt-10 inline-flex items-center gap-4 text-[11px] uppercase tracking-[0.3em] border-b border-white/60 pb-2 hover:border-white transition-colors"
+              className="group mt-10 inline-flex items-center gap-4 text-[11px] uppercase tracking-[0.3em] border-b border-white/60 pb-2 hover:border-white active:scale-[0.98] transition-[color,border-color,transform] duration-150 ease-[var(--ease-out)]"
             >
               {cta.label}
-              <span className="inline-block transition-transform duration-500 group-hover:translate-x-1.5">→</span>
+              <span className="inline-block transition-transform duration-200 ease-[var(--ease-out)] group-hover:translate-x-1.5">→</span>
             </Link>
           )}
           {children}
@@ -109,12 +110,12 @@ export function ArrowLink({ href, children, light = false }: { href: string; chi
   return (
     <Link
       href={href}
-      className={`group inline-flex items-center gap-4 text-[11px] uppercase tracking-[0.3em] border-b pb-2 transition-colors ${
+      className={`group inline-flex items-center gap-4 text-[11px] uppercase tracking-[0.3em] border-b pb-2 active:scale-[0.98] transition-[color,border-color,transform] duration-150 ease-[var(--ease-out)] ${
         light ? 'border-white/60 hover:border-white' : 'border-foreground/40 hover:border-foreground'
       }`}
     >
       {children}
-      <span className="inline-block transition-transform duration-500 group-hover:translate-x-1.5">→</span>
+      <span className="inline-block transition-transform duration-200 ease-[var(--ease-out)] group-hover:translate-x-1.5">→</span>
     </Link>
   );
 }

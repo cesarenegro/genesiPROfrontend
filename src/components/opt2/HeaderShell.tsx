@@ -28,7 +28,7 @@ export default function HeaderShell({ children }: { children: ReactNode }) {
   return (
     <header
       data-solid={solid}
-      className={`fixed inset-x-0 top-0 z-50 text-white transition-[background-color,box-shadow] duration-500 ${
+      className={`fixed inset-x-0 top-0 z-50 pt-[env(safe-area-inset-top,0px)] text-white transition-[background-color,box-shadow] duration-200 ease-[var(--ease-out)] ${
         solid
           ? 'bg-[#1e1e1e]/92 backdrop-blur-md shadow-[0_1px_0_rgb(255_255_255/0.06)]'
           : 'bg-gradient-to-b from-black/55 via-black/20 to-transparent'

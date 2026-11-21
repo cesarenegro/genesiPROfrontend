@@ -48,9 +48,9 @@ export default async function ProjectsPage() {
                       alt={title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                     />
-                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-[var(--ease-out)] flex items-center justify-center">
                       <span className="px-6 py-3 bg-white/95 text-black text-xs uppercase tracking-widest font-medium">
                         {t('viewProject')}
                       </span>

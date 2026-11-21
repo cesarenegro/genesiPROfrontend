@@ -120,7 +120,7 @@ export default async function Header() {
             alt="GENESI"
             width={120}
             height={64}
-            className="h-8 lg:h-10 w-auto brightness-0 invert"
+            className="h-7 sm:h-8 lg:h-10 w-auto brightness-0 invert"
             priority
           />
         </Link>
@@ -128,7 +128,7 @@ export default async function Header() {
         <nav className="flex items-center gap-6 lg:gap-8 text-[11px] uppercase tracking-[0.25em]">
           <Link href="/projects" className="hidden md:inline hover:text-white/70 transition-colors">{t('projects')}</Link>
           {FEATURE_VELA_ENABLED && (
-            <Link href="/vela" className="font-semibold hover:text-white/70 transition-colors">VELA</Link>
+            <Link href="/vela" className="inline-flex items-center min-h-[44px] lg:min-h-0 px-1 -mr-1 lg:px-0 lg:mr-0 font-semibold hover:text-white/70 active:scale-[0.97] transition-[color,transform] duration-150 ease-[var(--ease-out)]">VELA</Link>
           )}
         </nav>
       </div>

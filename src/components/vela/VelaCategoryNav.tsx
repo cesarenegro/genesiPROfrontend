@@ -20,9 +20,9 @@ export default function VelaCategoryNav({ activeCategory = 'all' }: Props) {
   ];
 
   return (
-    <div className="w-full border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md sticky top-16 z-40">
+    <div className="w-full border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md sticky top-[calc(var(--header-h)+var(--topbar-h)+env(safe-area-inset-top,0px))] z-40">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="flex items-center justify-between overflow-x-auto py-2.5 no-scrollbar gap-6 text-xs uppercase tracking-widest font-medium">
+        <div className="flex items-center justify-between overflow-x-auto py-1 lg:py-2.5 no-scrollbar gap-6 text-xs uppercase tracking-widest font-medium">
           <div className="flex items-center gap-2 text-zinc-400 shrink-0">
             <span className="font-semibold text-zinc-900 dark:text-zinc-100">VELA</span>
             <span>/</span>
@@ -35,7 +35,7 @@ export default function VelaCategoryNav({ activeCategory = 'all' }: Props) {
                 <Link
                   key={link.id}
                   href={link.href}
-                  className={`py-1 transition-colors whitespace-nowrap ${
+                  className={`inline-flex items-center min-h-[44px] lg:min-h-0 py-1 transition-colors whitespace-nowrap ${
                     isActive
                       ? 'text-zinc-950 dark:text-white font-semibold border-b-2 border-zinc-950 dark:border-white'
                       : 'text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white border-b-2 border-transparent'

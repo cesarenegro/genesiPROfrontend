@@ -76,7 +76,7 @@ export default async function ProjectDetailPage({
                   width={img.w}
                   height={img.h}
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="w-full h-auto hover:scale-105 transition-transform duration-700"
+                  className="w-full h-auto hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                 />
               </div>
             ))}
@@ -97,7 +97,7 @@ export default async function ProjectDetailPage({
                     alt={pick(p.title, locale)}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                   />
                 </div>
                 <h3 className="font-light text-lg group-hover:text-primary transition-colors">{pick(p.title, locale)}</h3>

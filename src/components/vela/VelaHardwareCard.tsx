@@ -34,7 +34,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
   const catLabel = categoryLabels[item.category] || item.category;
 
   return (
-    <div className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-xs hover:shadow-lg">
+    <div className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors duration-200 ease-[var(--ease-out)] flex flex-col justify-between overflow-hidden">
       {/* Top Image Canvas */}
       <div className="relative aspect-[4/3] w-full bg-zinc-100 dark:bg-zinc-950 overflow-hidden border-b border-zinc-200 dark:border-zinc-800">
         <Image
@@ -42,7 +42,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
           alt={`${name} — ${viewMode === 'inSitu' ? t('hardwareAltInSitu') : t('hardwareAltProduct')}`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-102"
+          className="object-cover transition-transform duration-500 ease-[var(--ease-out)] group-hover:scale-[1.03]"
         />
 
         {/* Brand & Country Badge (Top-Left) */}
@@ -78,7 +78,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
               title={t('hardwareTitleViewInSitu')}
             >
               <span>{t('hardwareViewInSitu')}</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
             </button>
           </div>
         )}
@@ -110,7 +110,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
               <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
                 {t('hardwareLoadCapacity')}
               </span>
-              <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+              <span className="font-semibold text-zinc-900 dark:text-zinc-200 tabular-nums">
                 {item.specs.loadCapacityKg} {t('hardwareLoadCapacityUnit')}
               </span>
             </div>
@@ -121,7 +121,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
               <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
                 {t('hardwareBackset')}
               </span>
-              <span className="text-zinc-900 dark:text-zinc-200">{item.specs.backsetMm}</span>
+              <span className="text-zinc-900 dark:text-zinc-200 tabular-nums">{item.specs.backsetMm}</span>
             </div>
           )}
 
@@ -130,7 +130,7 @@ export default function VelaHardwareCard({ item, locale, onOpenModal }: Props) {
               <span className="font-sans text-[10px] uppercase tracking-wider text-zinc-400">
                 {t('hardwareDoorThicknessMin')}
               </span>
-              <span className="text-zinc-900 dark:text-zinc-200">≥ {item.specs.doorThicknessMinMm} mm</span>
+              <span className="text-zinc-900 dark:text-zinc-200 tabular-nums">≥ {item.specs.doorThicknessMinMm} mm</span>
             </div>
           )}
 

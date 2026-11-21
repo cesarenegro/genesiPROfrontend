@@ -30,7 +30,7 @@ export default function SocialLinks({
   labels?: boolean;
   vertical?: boolean;
 }) {
-  const link = 'inline-flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity';
+  const link = 'inline-flex items-center gap-3 min-h-[44px] min-w-[44px] lg:min-h-0 lg:min-w-0 opacity-80 hover:opacity-100 active:scale-[0.95] transition-[opacity,transform] duration-150 ease-[var(--ease-out)]';
   return (
     <span className={`${vertical ? 'flex flex-col items-start gap-3' : 'inline-flex items-center gap-5'} ${className}`}>
       <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={link}>

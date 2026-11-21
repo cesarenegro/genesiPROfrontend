@@ -43,7 +43,7 @@ export default function VelaMaterialsPage() {
   });
 
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="min-h-[100dvh] bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       {/* Category Navigation Bar */}
       <VelaCategoryNav activeCategory="materiali" />
 
@@ -80,7 +80,7 @@ export default function VelaMaterialsPage() {
           <div className="flex flex-wrap items-center gap-2 mb-12 border-b border-zinc-200 dark:border-zinc-800 pb-4 text-xs uppercase tracking-widest">
             <button
               onClick={() => setActiveFilter('all')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'all'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -90,7 +90,7 @@ export default function VelaMaterialsPage() {
             </button>
             <button
               onClick={() => setActiveFilter('interior')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'interior'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -100,7 +100,7 @@ export default function VelaMaterialsPage() {
             </button>
             <button
               onClick={() => setActiveFilter('hotel')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'hotel'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -110,7 +110,7 @@ export default function VelaMaterialsPage() {
             </button>
             <button
               onClick={() => setActiveFilter('wood')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'wood'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -120,7 +120,7 @@ export default function VelaMaterialsPage() {
             </button>
             <button
               onClick={() => setActiveFilter('lacquer')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'lacquer'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -130,7 +130,7 @@ export default function VelaMaterialsPage() {
             </button>
             <button
               onClick={() => setActiveFilter('special')}
-              className={`px-4 py-2 transition-all cursor-pointer ${
+              className={`px-4 py-2 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-[0.97] cursor-pointer ${
                 activeFilter === 'special'
                   ? 'bg-zinc-950 text-white dark:bg-white dark:text-zinc-950 font-semibold'
                   : 'text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white'
@@ -155,7 +155,7 @@ export default function VelaMaterialsPage() {
               return (
                 <div
                   key={item.code}
-                  className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 flex flex-col justify-between transition-all duration-300 hover:border-zinc-500 dark:hover:border-zinc-500 shadow-sm"
+                  className="group bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 flex flex-col justify-between transition-colors duration-200 ease-[var(--ease-out)] hover:border-zinc-500 dark:hover:border-zinc-500"
                 >
                   {/* Swatch Canvas */}
                   <div
@@ -168,7 +168,7 @@ export default function VelaMaterialsPage() {
                       alt={`${item.code} — ${matName}`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-[var(--ease-out)]"
                     />
 
                     {/* Code Badge */}

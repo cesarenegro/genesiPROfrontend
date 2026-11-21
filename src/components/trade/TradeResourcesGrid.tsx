@@ -252,7 +252,7 @@ export default function TradeResourcesGrid() {
           return (
             <div
               key={item.id}
-              className={`flex flex-col justify-between border p-7 transition-all duration-200 ${theme.cardBg}`}
+              className={`flex flex-col justify-between border p-7 transition-colors duration-200 ease-[var(--ease-out)] ${theme.cardBg}`}
             >
               <div>
                 {/* Top Row: Badge + Format / Coming Soon pill */}
@@ -299,7 +299,7 @@ export default function TradeResourcesGrid() {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 text-xs uppercase tracking-widest font-semibold transition-colors shrink-0 ${theme.btnStyle}`}
+                    className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 text-xs uppercase tracking-widest font-semibold active:scale-[0.97] transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] shrink-0 ${theme.btnStyle}`}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
